@@ -4,7 +4,7 @@ subtitle: "Test"
 date:   2016-02-17 18:30:00
 categories: [jekyll]
 tags: [jekyll]
-location: "SouthwesternEnergy"
+location: "Southwestern Energy - Spring, Tx"
 ---
 
 Test

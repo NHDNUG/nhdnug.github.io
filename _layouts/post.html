@@ -15,7 +15,7 @@ layout: default
 
   <section class="post">
     {{ content }}
-    {% if page.location != "" %}  {% include {{page.location}}.html %} {% endif %}
+    {% if page.location != "" %}  {% include map.html %} {% endif %}
     {% if page.comments != false and site.disqus_shortname %}<section id="disqus_thread"></section><!-- /#disqus_thread -->{% endif %}
   </section>
 </article>
