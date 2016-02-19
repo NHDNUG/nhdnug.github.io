@@ -1,10 +1,14 @@
 ---
-title: "C# Expression Trees"
-subtitle: "Test"
-date:   2016-02-17 18:30:00
-categories: [jekyll]
-tags: [jekyll]
-location: "Southwestern Energy - Spring, Tx"
+date:               2016-03-17 18:30:00
+speaker:            Devlin Liles
+title:              "C# Expression Trees"
+subtitle:           "And other mindblowing tricks!"
+location:           "Southwestern Energy - Spring, Tx"
+sponsor:            "Improving"
+description:        "These tricks will blow your mind"
+speaker-twitter:    "devlinliles"
+speaker-github:     "devlinliles"
+categories:         [jekyll]
+tags:               [jekyll]
 ---
-
-Test
+{{page.description}}
