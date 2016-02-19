@@ -12,7 +12,7 @@ There's a couple things you should probably read though - especially if you're d
 
 If you at least skim the cheat sheet - and follow along with what's going on in the rest of the source - you should be good to go. If you have any big changes you want to make, just make a pull request. Chances are, it'll be fine!
 
-
+If you just want to give clone and run it, give it a try! That first site will get all the pre-reqs moving, all you have to do is hit the "servesite.bat" file, and you can see your changes as you make them. Have fun!
 
 ## Thanks
 
