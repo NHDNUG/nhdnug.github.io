@@ -4,7 +4,7 @@ description: 'A programmers meetup'
 url: 'http://nhdnug.github.io'
 baseurl: '/'
 # google_analytics: ''
-# disqus_shortname: ''
+disqus_shortname: 'nhdnug'
 
 
 
