@@ -45,7 +45,8 @@ exclude: ['README.md',
     'Gemfile.lock',
     'screenshot.png',
     'servesite.bat',
-    'LICENSE']
+    'LICENSE',
+    'OldSiteConversionScript']
 
 
 
