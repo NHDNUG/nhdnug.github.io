@@ -1,0 +1,1 @@
+---﻿date : 2015-05-21title : You still don't understand CSS positioning?description : location : Lone Star College - Montgomeryspeaker : Justin  Selfbio : speakerurl : email : twitter : sponsor : logo : ---

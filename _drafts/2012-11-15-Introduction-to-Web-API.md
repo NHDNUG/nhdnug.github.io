@@ -1,0 +1,1 @@
+---﻿date : 2012-11-15title : Introduction to Web APIdescription : location : Lone Star College - Montgomeryspeaker : Ryan Rileybio : Ryan Riley is a software developer for Catapult Systems in Houston, TX, a F# MVP, and has worked with the Web API project for over a year. speakerurl : email : twitter : sponsor : logo : ---

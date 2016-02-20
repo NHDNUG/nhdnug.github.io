@@ -1,0 +1,1 @@
+---﻿date : 2016-05-19title : Going Distributed with NServiceBusdescription : location : Lone Star College - Montgomeryspeaker : Justin  Selfbio : speakerurl : email : twitter : sponsor : logo : ---

@@ -1,0 +1,1 @@
+---﻿date : 2014-06-19title : Scaling Web Apps with Azuredescription : location : Lone Star College - Montgomeryspeaker : Justin  Selfbio : speakerurl : email : twitter : sponsor : logo : ---

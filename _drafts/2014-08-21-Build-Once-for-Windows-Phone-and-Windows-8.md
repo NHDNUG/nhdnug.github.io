@@ -1,0 +1,1 @@
+---﻿date : 2014-08-21title : Build Once for Windows Phone and Windows 8description : location : Lone Star College - Montgomeryspeaker : Paul DeCarlobio : speakerurl : email : twitter : sponsor : Paladinlogo : paladin.png---

@@ -1,10 +1,12 @@
 import csv
-outputPath = "C:\Development\InfoCraft\nhdnug.github.io\_drafts"
+outputPath = "C:\Development\InfoCraft\\nhdnug.github.io\\_drafts"
 print outputPath
 
 ifile  = open('nhmeetings.csv', "rb")
 reader = csv.reader(ifile)
 rownum = 0
+
+outputFile = None
 datePart = None
 titlePart = None
 date = None
@@ -30,8 +32,12 @@ for row in reader:
                 datePart = col
                 date =  ('{} : {}'.format(header[colnum], col))
             if colnum == 1:
-                titlePart = col
+                titlePart = col.replace(" ","-")
+                titlePart = titlePart.replace("-/-", "-")
+                titlePart = titlePart.replace(".", "-")
+                titlePart = titlePart.replace("?", "")
                 title = ('{} : {}'.format(header[colnum], col))
+                outputFile = '{}\\{}-{}.md'.format(outputPath, datePart, titlePart)
             if colnum == 2:
                 description = ('{} : {}'.format(header[colnum], col))
             if colnum == 3:
@@ -51,6 +57,31 @@ for row in reader:
             if colnum == 10:
                 logo = ('{} : {}'.format(header[colnum], col))
             colnum += 1
-        print title
+        print outputFile
+        target = open(outputFile, "w")
+        target.truncate()
+        target.write('---')
+        target.write(date)
+        target.write(title)
+        target.write(description)
+        target.write(location)
+        target.write(speaker)
+        target.write(bio)
+        target.write(speakerurl)
+        target.write(email)
+        target.write(twitter)
+        target.write(sponsor)
+        target.write(logo)
+        target.write('---')
+        target.close()
     rownum += 1
 ifile.close()
+
+
+# New format should be
+# ---
+# att: value
+# att: value
+# att: value
+# att: value
+# ---

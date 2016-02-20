@@ -1,0 +1,5 @@
+---﻿date : 2011-11-17title : Update from Microsoft BUILD Conferencedescription : Todd &amp; Tony will report back from Microsoft's BUILD Conference.&nbsp;
+Learn all about what's ahead for developers as Windows 8 and Metro get
+closer.
+location : Lone Star College - Montgomeryspeaker : Todd Anglinbio : Todd Anglin is an active .NET community member, President of the North Houston .NET User Group, an O’Reilly author, Microsoft MVP and Telerik's Chief Evangelist. At Telerik, Todd is responsible for educating Telerik's global community of developers and helping ensure Telerik's products serve the needs of .NET developers around the world. In the general .NET community, Todd is an active author and speaker, focusing primarily on ASP.NET and Silverlight. You can find him online at http://telerikwatch.com. 
+speakerurl : http://telerikwatch.comemail : anglin@telerik.comtwitter : toddanglinsponsor : logo : ---

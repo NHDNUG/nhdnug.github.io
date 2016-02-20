@@ -1,0 +1,1 @@
+---﻿date : 2015-10-15title : Lightning Talks!description : location : Lone Star College - Montgomeryspeaker : [Various ]bio : Multiple speakers will be presentingspeakerurl : email : twitter : sponsor : logo : ---

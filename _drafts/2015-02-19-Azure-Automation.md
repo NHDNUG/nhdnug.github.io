@@ -1,0 +1,1 @@
+---﻿date : 2015-02-19title : Azure Automationdescription : Meeting will be in the Conference Centerlocation : Southwestern Energyspeaker : Paul Drew bio : speakerurl : email : twitter : sponsor : logo : ---

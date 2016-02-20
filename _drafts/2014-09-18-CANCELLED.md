@@ -1,0 +1,1 @@
+---﻿date : 2014-09-18title : CANCELLEDdescription : Because of the rain and flooding in the area, September's NHDNUG meeting has been cancelled.location : Lone Star College - Montgomeryspeaker : Joe  Reynoldsbio : speakerurl : email : twitter : sponsor : logo : ---

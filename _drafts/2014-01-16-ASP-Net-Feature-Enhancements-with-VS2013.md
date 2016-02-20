@@ -1,0 +1,1 @@
+---﻿date : 2014-01-16title : ASP.Net Feature Enhancements with VS2013description : location : Lone Star College - Montgomeryspeaker : Brian Sullivanbio : speakerurl : email : twitter : sponsor : logo : ---

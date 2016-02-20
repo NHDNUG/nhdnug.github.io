@@ -1,0 +1,1 @@
+---﻿date : 2013-07-18title : 2013 Conferences - Open Discussiondescription : We'll review and discuss the most interesting news from the major 2013 Conferences - BUILD, Google.IO, WWDC, and TechEdlocation : Lone Star College - Montgomeryspeaker : [Open Forum]bio : speakerurl : email : twitter : sponsor : logo : ---

@@ -1,1 +1,1 @@
-python.exe C:\Development\InfoCraft\nhdnug.github.io\Stuff\convertCsvToMd.py
+python.exe C:\Development\InfoCraft\nhdnug.github.io\OldSiteConversionScript\convertCsvToMd.py
