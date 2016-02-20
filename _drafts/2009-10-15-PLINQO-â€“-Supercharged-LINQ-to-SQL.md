@@ -1,11 +1,17 @@
----﻿date : 2009-10-15title : PLINQO – Supercharged LINQ to SQLdescription : <span style="font-size: 9pt; color: #444444;">In the time
+---
+date : 2009-10-15
+title : PLINQO – Supercharged LINQ to SQL
+description : <span style="font-size: 9pt; color: #444444;">In the time
 that LINQ to SQL has been available, we have been identifying ways to
 make LINQ to SQL better. We have compiled all of those cool tips and
 tricks including new features into a set of CodeSmith templates. PLINQO
 opens the LINQ TO SQL black box giving you the ability to control your
 source code while adding many new features and enhancements. It's still
 LINQ to SQL, but better!</span>
-location : Lone Star College - Montgomeryspeaker : Shannon Davidson Tom Dupontbio : <p style="line-height: 15pt;"><strong><span style="font-size: 9pt; color: #444444;">Shannon Davidson</span></strong><span style="font-size: 9pt; color: #444444;">&nbsp;lives
+
+location : Lone Star College - Montgomery
+speaker : Shannon Davidson Tom Dupont
+bio : <p style="line-height: 15pt;"><strong><span style="font-size: 9pt; color: #444444;">Shannon Davidson</span></strong><span style="font-size: 9pt; color: #444444;">&nbsp;lives
 in Grapevine, TX and has a bachelor's degree in Math and Computer
 Science from East Central Oklahoma University. Shannon is currently the
 General Manager for CodeSmith Tools and has over ten years of
@@ -26,4 +32,10 @@ Engineering from the University of Texas at Dallas. While Tom doesn't
 mind long walks on the beach, he much prefers long rides across the
 country on his motorcycle.</span></p>
 <span style="font-size: 9pt; color: #444444;"></span></p>
-speakerurl : email : twitter : sponsor : logo : ---
+
+speakerurl : 
+email : 
+twitter : 
+sponsor : 
+logo : 
+---

@@ -1,3 +1,15 @@
----﻿date : 2015-01-15title : SaaS Productdescription : Adam Helms from Haliburton will discuss
+---
+date : 2015-01-15
+title : SaaS Product
+description : Adam Helms from Haliburton will discuss
 lessons learned in building a SAAS
-product using Azure PAASlocation : Lone Star College - Montgomeryspeaker : Adam Hemsbio : Cloud Strategist at Halliburtonspeakerurl : email : Adam.Hems@halliburton.comtwitter : sponsor : logo : ---
+product using Azure PAAS
+location : Lone Star College - Montgomery
+speaker : Adam Hems
+bio : Cloud Strategist at Halliburton
+speakerurl : 
+email : Adam.Hems@halliburton.com
+twitter : 
+sponsor : 
+logo : 
+---

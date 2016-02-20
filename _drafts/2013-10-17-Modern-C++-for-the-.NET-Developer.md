@@ -1,1 +1,0 @@
----﻿date : 2013-10-17title : Modern C++ for the .NET Developerdescription : location : Lone Star College - Montgomeryspeaker : David Craveybio : speakerurl : email : twitter : sponsor : logo : ---

@@ -1,4 +1,6 @@
 import csv
+import codecs
+
 outputPath = "C:\Development\InfoCraft\\nhdnug.github.io\\_drafts"
 print outputPath
 
@@ -31,6 +33,8 @@ for row in reader:
             if colnum == 0:
                 datePart = col
                 date =  ('{} : {}'.format(header[colnum], col))
+                date = date
+                print date
             if colnum == 1:
                 titlePart = col.replace(" ","-")
                 titlePart = titlePart.replace("-/-", "-")
@@ -58,21 +62,34 @@ for row in reader:
                 logo = ('{} : {}'.format(header[colnum], col))
             colnum += 1
         print outputFile
-        target = open(outputFile, "w")
+        target = open(outputFile, 'w')
         target.truncate()
         target.write('---')
+        target.write('\n')
         target.write(date)
+        target.write('\n')
         target.write(title)
+        target.write('\n')
         target.write(description)
+        target.write('\n')
         target.write(location)
+        target.write('\n')
         target.write(speaker)
+        target.write('\n')
         target.write(bio)
+        target.write('\n')
         target.write(speakerurl)
+        target.write('\n')
         target.write(email)
+        target.write('\n')
         target.write(twitter)
+        target.write('\n')
         target.write(sponsor)
+        target.write('\n')
         target.write(logo)
+        target.write('\n')
         target.write('---')
+        target.write('\n')
         target.close()
     rownum += 1
 ifile.close()

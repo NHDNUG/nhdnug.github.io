@@ -1,4 +1,16 @@
----﻿date : 2013-11-21title : Lightning Talks!description : Christy Piffat - WCF Authentication
+---
+date : 2013-11-21
+title : Lightning Talks!
+description : Christy Piffat - WCF Authentication
 Justin Self - Web Security
 Arunkumar Sajjan - HIPAA Compliance
-Don Waldo - CODE Framework in the real worldlocation : Lone Star College - Montgomeryspeaker : [Various ]bio : Multiple speakers will be presentingspeakerurl : email : twitter : sponsor : logo : ---
+Don Waldo - CODE Framework in the real world
+location : Lone Star College - Montgomery
+speaker : [Various ]
+bio : Multiple speakers will be presenting
+speakerurl : 
+email : 
+twitter : 
+sponsor : 
+logo : 
+---

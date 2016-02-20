@@ -1,4 +1,10 @@
----﻿date : 2015-12-17title : Windows Universal Appsdescription : location : Spring Creek BBQ - Woodlandsspeaker : Markus Eggerbio : Markus is an international speaker, having presented sessions at
+---
+date : 2015-12-17
+title : Windows Universal Apps
+description : 
+location : Spring Creek BBQ - Woodlands
+speaker : Markus Egger
+bio : Markus is an international speaker, having presented sessions at
 numerous conferences in North &amp; South America and Europe. Markus has
 written many articles for publications including CoDe Magazine, Visual
 Studio Magazine, MSDN Brazil, asp.net Pro, FoxPro Advisor, Fuchs,
@@ -17,4 +23,10 @@ Markus received the Microsoft MVP Award (1996-2006) for his
 contributions to the developer community. Visual LandPro, one of the
 applications Markus was responsible for, was nominated three times in
 the Microsoft Excellence Awards.
-speakerurl : http://eps-software.comemail : twitter : sponsor : logo : ---
+
+speakerurl : http://eps-software.com
+email : 
+twitter : 
+sponsor : 
+logo : 
+---
