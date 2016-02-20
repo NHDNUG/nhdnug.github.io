@@ -1,11 +1,11 @@
 import csv
-import codecs
+import cgi
 
 outputPath = "C:\Development\InfoCraft\\nhdnug.github.io\\_drafts"
 print outputPath
 
 ifile  = open('nhmeetings.csv', "rb")
-reader = csv.reader(ifile)
+reader = csv.reader(ifile, dialect='excel')
 rownum = 0
 
 outputFile = None
@@ -40,16 +40,24 @@ for row in reader:
                 titlePart = titlePart.replace("-/-", "-")
                 titlePart = titlePart.replace(".", "-")
                 titlePart = titlePart.replace("?", "")
+                titlePart = titlePart.replace(":", "")
+                titlePart = titlePart.replace("---", "-")
+                titlePart = titlePart.replace(",", "")
                 title = ('{} : {}'.format(header[colnum], col))
                 outputFile = '{}\\{}-{}.md'.format(outputPath, datePart, titlePart)
+                print title
             if colnum == 2:
                 description = ('{} : {}'.format(header[colnum], col))
+                description = cgi.escape(description)
+                print description
             if colnum == 3:
                 location = ('{} : {}'.format(header[colnum], col))
+                print location
             if colnum == 4:
                 speaker = ('{} : {}'.format(header[colnum], col))
             if colnum == 5:
                 bio = ('{} : {}'.format(header[colnum], col))
+                bio = cgi.escape(bio)
             if colnum == 6:
                 speakerurl = ('{} : {}'.format(header[colnum], col))
             if colnum == 7:

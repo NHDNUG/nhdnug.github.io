@@ -1,7 +1,7 @@
 ---
 date : 2009-12-17
 title : iPhone Apps using .NET and MonoTouch
-description : An introduction to using Novell's MonoTouch framework to write iPhone applications using .NET and C#.<br />
+description : An introduction to using Novell's MonoTouch framework to write iPhone applications using .NET and C#.&lt;br /&gt;
 
 location : Lone Star College - Montgomery
 speaker : Jason Awbrey

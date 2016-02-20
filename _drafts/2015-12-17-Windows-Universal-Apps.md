@@ -5,10 +5,10 @@ description :
 location : Spring Creek BBQ - Woodlands
 speaker : Markus Egger
 bio : Markus is an international speaker, having presented sessions at
-numerous conferences in North &amp; South America and Europe. Markus has
+numerous conferences in North &amp;amp; South America and Europe. Markus has
 written many articles for publications including CoDe Magazine, Visual
 Studio Magazine, MSDN Brazil, asp.net Pro, FoxPro Advisor, Fuchs,
-FoxTalk and Microsoft Office &amp; Database Journal. Markus is the
+FoxTalk and Microsoft Office &amp;amp; Database Journal. Markus is the
 publisher of CoDe Magazine.
 Markus is also the President and Chief Software Architect of
 EPS Software Corp., a custom software development and consulting firm

@@ -1,7 +1,7 @@
 ---
 date : 2010-05-20
 title : Refactoring, Patterns, new language features, code quality, and more!
-description : <span style="font-size: 10pt;">Command design pattern, Lambda Expressions, Extension Methods, fluent interfaces, refactoring, test-driven development, writing elegant code, and more. This session will cover a little bit of many things learned from projects I've been working on. We expect every attendee to learn a few tricks that can be applied immediately, and also to feel encouraged to go out and research more on whatever area appeals the most.&nbsp;</span>
+description : &lt;span style="font-size: 10pt;"&gt;Command design pattern, Lambda Expressions, Extension Methods, fluent interfaces, refactoring, test-driven development, writing elegant code, and more. This session will cover a little bit of many things learned from projects I've been working on. We expect every attendee to learn a few tricks that can be applied immediately, and also to feel encouraged to go out and research more on whatever area appeals the most.&amp;nbsp;&lt;/span&gt;
 
 location : Lone Star College - Montgomery
 speaker : Claudio Lassala
