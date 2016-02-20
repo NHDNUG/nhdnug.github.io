@@ -1,5 +1,5 @@
 - title: All Events
-  url: Index.html
+  url: '#events'
 
 - title: Upcoming Events
-  url: Events/#upcoming
+  url: upcoming/#events
