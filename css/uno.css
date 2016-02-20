@@ -37,6 +37,22 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0; }
 
+.wrapper {
+    display: table;
+    border-width:1px;
+    border-style: groove;
+    border-color: #333333;
+}
+.cell {
+    display: table-cell;
+    padding: 5px;
+}
+.row {
+    display: table-row;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
 body {
 	width: 100%;
 	*zoom: 1; }

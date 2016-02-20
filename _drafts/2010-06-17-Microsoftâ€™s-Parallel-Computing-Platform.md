@@ -1,10 +1,7 @@
 ---
 date : 2010-06-17
 title : Microsoft’s Parallel Computing Platform
-description : &lt;span style="font-size: 10pt;"&gt;
-&lt;p&gt;&lt;span style="font-size: 10pt; color: #000000;"&gt;We start with an introduction to new operating system technologies for many-core scale computing and proceed with illustrative examples of parallel work-item partitioning, scheduling, and collation.  Featured technologies and tools include Windows 7 (x64), Visual Studio 2010, the Microsoft .NET Framework 4 Parallel Extensions, the C++ Concurrency Runtime, the Parallel Debugger, and the Concurrency Analyzer.&lt;/span&gt;&lt;/p&gt;
-&lt;/span&gt;
-
+description : &lt;span style="font-size: 10pt;"&gt
 location : Lone Star College - Montgomery
 speaker : Phil Pennington
 bio : &lt;span style="font-size: 12pt;"&gt;
@@ -19,3 +16,7 @@ twitter :
 sponsor : 
 logo : 
 ---
+&lt;span style="font-size: 10pt;"&gt;
+&lt;p&gt;&lt;span style="font-size: 10pt; color: #000000;"&gt;We start with an introduction to new operating system technologies for many-core scale computing and proceed with illustrative examples of parallel work-item partitioning, scheduling, and collation.  Featured technologies and tools include Windows 7 (x64), Visual Studio 2010, the Microsoft .NET Framework 4 Parallel Extensions, the C++ Concurrency Runtime, the Parallel Debugger, and the Concurrency Analyzer.&lt;/span&gt;&lt;/p&gt;
+&lt;/span&gt;
+

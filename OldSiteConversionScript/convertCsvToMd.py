@@ -22,6 +22,7 @@ email = None
 twitter = None
 sponsor = None
 logo = None
+pagecontent = None
 
 for row in reader:
     # Save header row.
@@ -49,6 +50,9 @@ for row in reader:
             if colnum == 2:
                 description = ('{} : {}'.format(header[colnum], col))
                 description = cgi.escape(description)
+                description = description[:50]
+                pagecontent = col
+                pagecontent = cgi.escape(pagecontent)
                 print description
             if colnum == 3:
                 location = ('{} : {}'.format(header[colnum], col))
@@ -97,6 +101,8 @@ for row in reader:
         target.write(logo)
         target.write('\n')
         target.write('---')
+        target.write('\n')
+        target.write(pagecontent)
         target.write('\n')
         target.close()
     rownum += 1

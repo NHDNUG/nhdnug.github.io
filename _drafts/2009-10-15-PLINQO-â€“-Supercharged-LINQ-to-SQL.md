@@ -1,14 +1,7 @@
 ---
 date : 2009-10-15
 title : PLINQO – Supercharged LINQ to SQL
-description : &lt;span style="font-size: 9pt; color: #444444;"&gt;In the time
-that LINQ to SQL has been available, we have been identifying ways to
-make LINQ to SQL better. We have compiled all of those cool tips and
-tricks including new features into a set of CodeSmith templates. PLINQO
-opens the LINQ TO SQL black box giving you the ability to control your
-source code while adding many new features and enhancements. It's still
-LINQ to SQL, but better!&lt;/span&gt;
-
+description : &lt;span style="font-size: 9pt; colo
 location : Lone Star College - Montgomery
 speaker : Shannon Davidson Tom Dupont
 bio : &lt;p style="line-height: 15pt;"&gt;&lt;strong&gt;&lt;span style="font-size: 9pt; color: #444444;"&gt;Shannon Davidson&lt;/span&gt;&lt;/strong&gt;&lt;span style="font-size: 9pt; color: #444444;"&gt;&amp;nbsp;lives
@@ -39,3 +32,11 @@ twitter :
 sponsor : 
 logo : 
 ---
+&lt;span style="font-size: 9pt; color: #444444;"&gt;In the time
+that LINQ to SQL has been available, we have been identifying ways to
+make LINQ to SQL better. We have compiled all of those cool tips and
+tricks including new features into a set of CodeSmith templates. PLINQO
+opens the LINQ TO SQL black box giving you the ability to control your
+source code while adding many new features and enhancements. It's still
+LINQ to SQL, but better!&lt;/span&gt;
+

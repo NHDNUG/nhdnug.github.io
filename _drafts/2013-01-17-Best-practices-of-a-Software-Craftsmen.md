@@ -1,7 +1,7 @@
 ---
 date : 2013-01-17
 title : Best practices of a Software Craftsmen
-description : Best practices of a Software Craftsmen – Skills that took years to learn
+description : Best practices of a Software Craftsm
 location : Lone Star College - Montgomery
 speaker : Devlin Liles
 bio : Devlin Liles is a Principal Consultant at Improving Enterprises and a passionate technologist. Devlin prides himself on staying a generalist, but his passion in development is data and its interactions. These passions gained him the recognition of Microsoft as an MVP of Data Platform Development awardee.
@@ -15,3 +15,4 @@ twitter :
 sponsor : SunGard
 logo : sungard.jpg
 ---
+Best practices of a Software Craftsmen – Skills that took years to learn

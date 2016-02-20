@@ -2,6 +2,17 @@
 date : 2013-08-15
 title : Message Passing in C# will change your life
 description : &lt;p&gt;
+Heard of Erlang? Me neith
+location : Lone Star College - Montgomery
+speaker : Peter Seale
+bio : 
+speakerurl : 
+email : 
+twitter : 
+sponsor : 
+logo : 
+---
+&lt;p&gt;
 Heard of Erlang? Me neither. In this presentation, we will discover what message passing means for .NET developers, through interactive demos with the audience. Think Gallagher comedy shows.
 &lt;/p&gt;
 &lt;p&gt;
@@ -20,12 +31,3 @@ Curious? In this talk we'll discuss:
 &lt;p&gt;
 Slides, "notes" and demos are at &lt;a href="http://github.com/pseale/message-passing-presentation" target="_blank"&gt;http://github.com/pseale/message-passing-presentation&lt;/a&gt;
 &lt;/p&gt;
-location : Lone Star College - Montgomery
-speaker : Peter Seale
-bio : 
-speakerurl : 
-email : 
-twitter : 
-sponsor : 
-logo : 
----

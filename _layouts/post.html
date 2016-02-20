@@ -14,7 +14,48 @@ layout: default
   </header>
 
   <section class="post">
-    {{ content }}
+    <div class="wrapper">
+        <div class="row">
+            <div class="cell">
+                Date:
+            </div>
+            <div class="cell">
+                {{ page.date | date: "%-m/%-d/%Y" }} from 6:30 pm to 8:30 pm
+            </div>
+        </div>
+        <div class="row">
+            <div class="cell">
+                Location:
+            </div>
+            <div class="cell">
+                {{page.location}}, room: {{page.room}}
+            </div>
+        </div>
+        <div class="row">
+            <div class="cell">
+                Description:
+            </div>
+            <div class="cell">
+                {{content}}
+            </div>
+        </div>
+        <div class="row">
+            <div class="cell">
+                Bio:
+            </div>
+            <div class="cell">
+                {{page.bio}}
+            </div>
+        </div>
+        <div class="row">
+            <div class="cell">
+                Sponsor:
+            </div>
+            <div class="cell">
+                {{page.sponsor}}
+            </div>
+        </div>
+    </div>
     {% if page.location != "" %}  {% include map.html %} {% endif %}
     {% if page.comments != false and site.disqus_shortname %}<section id="disqus_thread"></section><!-- /#disqus_thread -->{% endif %}
   </section>

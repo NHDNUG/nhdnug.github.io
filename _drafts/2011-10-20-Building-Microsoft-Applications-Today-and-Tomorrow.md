@@ -1,10 +1,7 @@
 ---
 date : 2011-10-20
 title : Building Microsoft Applications Today and Tomorrow
-description : It is a time of uncertainty for software developers. While in the past, a developer’s choices were down to which language and IDE to choose to develop on Windows or the Web, options have now exploded. The proliferation of various devices and their move into mainstream use has created change at a pace orders of magnitude faster than before. Do you develop a Windows app? A Web app? A mobile device app? Slates? You are faced with a plethora or options, platforms, IDEs, and development languages. How do you choose which to use? And most importantly, how do you protect your current investment both in terms of the applications you use as well as your personal knowledge you have built app?
-&lt;br&gt;
-Our BUILD Conference Update is postponed until November.
-
+description : It is a time of uncertainty for soft
 location : Lone Star College - Montgomery
 speaker : Markus Egger
 bio : Markus is an international speaker, having presented sessions at
@@ -33,3 +30,7 @@ twitter :
 sponsor : 
 logo : 
 ---
+It is a time of uncertainty for software developers. While in the past, a developer’s choices were down to which language and IDE to choose to develop on Windows or the Web, options have now exploded. The proliferation of various devices and their move into mainstream use has created change at a pace orders of magnitude faster than before. Do you develop a Windows app? A Web app? A mobile device app? Slates? You are faced with a plethora or options, platforms, IDEs, and development languages. How do you choose which to use? And most importantly, how do you protect your current investment both in terms of the applications you use as well as your personal knowledge you have built app?
+&lt;br&gt;
+Our BUILD Conference Update is postponed until November.
+
