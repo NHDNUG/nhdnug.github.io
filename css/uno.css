@@ -37,7 +37,11 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0; }
 
-.wrapper {
+.event-wrapper {
+    display: table;
+    font-size: smaller;
+}
+.details-wrapper {
     display: table;
     border-width:1px;
     border-style: groove;
@@ -45,12 +49,12 @@ table {
 }
 .cell {
     display: table-cell;
-    padding: 5px;
+    padding: 1px;
 }
 .row {
     display: table-row;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    margin-bottom: 1px;
+    margin-top: 1spx;
 }
 
 body {

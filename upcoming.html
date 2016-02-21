@@ -7,13 +7,45 @@ permalink: /upcoming/
 <div class="main-post-list">
 
   <ol class="post-list">
+        <div class="event-wrapper">
+            <div class="row">
+                <div class="cell">
+                    <strong> Date </strong>
+                </div>
+                <div class="cell">
+                    <strong> Topic </strong>
+                </div>
+                <div class="cell">
+                    <strong> Speaker </strong>
+                </div>
+                <div class="cell">
+                    <strong> Location </strong>
+                </div>
+            </div> 
     {% assign curDate = site.time | date: '%s' %}
     {% for post in site.posts %}
     {% assign postStartDate = post.date | date: '%s' %}
     {% if postStartDate >= curDate %}
-        <h2> {{ post.speaker }} </h2>
+            <div class="row">
+                <div class="cell">
+                    {{ post.date | date: "%-m/%-d/%Y"  }}
+                </div>
+                <div class="cell">
+                    <a href="{{ site.baseurl }}{{ post.url | remove_first: '/' }}"
+                    title="{{ post.title }}">{{ post.title }}</a>
+                </div>
+                <div class="cell">
+                    {{ post.speaker }}
+                </div>
+                <div class="cell">
+                    {{ post.location }}
+                </div>
+            </div>
     {% endif %}
     {% endfor %}
+        </div>
+        
+
   </ol>
 
   <hr class="post-list__divider ">
