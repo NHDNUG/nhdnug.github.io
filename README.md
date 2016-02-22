@@ -16,6 +16,8 @@ If you just want to give clone and run it, give it a try! That first site will g
 
 ## Thanks
 
+[![Join the chat at https://gitter.im/NHDNUG/nhdnug.github.io](https://badges.gitter.im/NHDNUG/nhdnug.github.io.svg)](https://gitter.im/NHDNUG/nhdnug.github.io?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 This blog was forked from [jekyll-uno](https://github.com/joshgerdes/jekyll-uno), It is based on the [Uno](https://github.com/daleanthony/Uno) theme for Ghost
 
 
