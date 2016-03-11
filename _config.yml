@@ -1,6 +1,7 @@
 # Jekyll Settings
 paginate: 10
-permalink: /:year/:title/
+paginate_path: "/events/page:num"
+permalink: "/events/details/:year/:month/:day/:title"
 markdown: kramdown
 highlighter: rouge
 future: true
@@ -8,7 +9,7 @@ show_drafts: false
 
 kramdown:
     input: GFM          # use Github Flavored Markdown    
-    hard_wrap: false    # do not replace newlines by <br>s
+    #hard_wrap: false    # do not replace newlines by <br>s
 
 gems: ['jekyll-paginate', 'jekyll-sitemap']
 exclude: ['README.md',
@@ -43,3 +44,4 @@ defaults:
       type: posts   # limit to posts
     values:
       is_post: true # automatically set is_post=true for all posts
+      layout: post

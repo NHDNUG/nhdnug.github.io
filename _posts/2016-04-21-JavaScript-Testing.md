@@ -12,7 +12,7 @@ twitter : improvinghou
 sponsor : Improving Enterprises
 logo : improvinglogo.png
 ---
-Kevin is a Senior Consultant with Improving focusing on .NET and web development, with an academic background in user experience.  Over the last 10 years he’s worked in energy, healthcare, eCommerce, and anywhere challenges can be found.  He loves hosting and attending user groups and meetups.
+Kevin is a Senior Consultant with Improving focusing on .NET and web development, with an academic background in user experience.  Over the last 10 years he's worked in energy, healthcare, eCommerce, and anywhere challenges can be found.  He loves hosting and attending user groups and meetups.
 
 
 

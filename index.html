@@ -1,34 +1,58 @@
 ---
 layout: default
 ---
-
-<div class="main-post-list">
-
-  <ol class="post-list">
-    {% for post in paginator.posts %}
-      <li>
-        <h2 class="post-list__post-title post-title"><a href="{{ site.baseurl }}{{ post.url | remove_first: '/' }}"
-        title="{{ post.title }}">{{ post.title }}</a></h2>
-        <p class="excerpt">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}&hellip;</p>
-        <div class="post-list__meta">
-            <time datetime="{{ post.date | date: "%-d %b %Y" }}" class="post-list__meta--date date">
-                {{ post.date | date: "%-d %b %Y" }}
-            </time> &#8226;
-            <span class="post-meta__tags">on
-                {% for tag in post.tags %}
-                    <a href="{{ site.baseurl }}tags/#{{ tag }}">{{ tag }}</a>
-                {% endfor %}
-            </span>
+<div class="row">
+    <div class="col-sm-9">
+    <h3>Welcome to NHDNUG!</h3>
+    <p>The North Houston .NET Users Group meets the third Thursday of every month at 6:30 PM. 
+        There is free pizza and drinks before every meeting and a raffle for valuable prizes at the end.
+    </p>
+        {% for post in site.posts %}{% if forloop.first == true %}
+        <div class="panel panel-default" id="nextMeetingPanel">
+            <div class="panel-heading">
+                <h3 class="panel-title">Next Meeting - {{ post.date | date: "%A, %B %-d %Y"}}</h3>
+            </div>
+            <div class="panel-body">
+                <h4>{{ post.title }}</h4>
+                {% if post.subtitle %}
+                <h5 class="subtitle">{{ post.subtitle }}</h5>
+                {% endif %}
+                <div>
+                    Speaker: <span class="speaker-name">
+                        {% if post.speakerurl %}
+                            <a href="post.speakerurl">{{ post.speaker }}</a>
+                        {% else %}
+                            {{ post.speaker }}
+                        {% endif %}
+                    </span>
+                </div>
+                {% if post.description %}
+                    <p>{{ post.description }}</p>
+                {% endif %}
+                
+                <p>Location: {{ post.location }}
+                    {% if post.location_map_url %}
+                        (<a href="{{ post.location_map_url }}">MAP</a>)
+                    {% endif %}
+                </p>
+                
+                {% if post.location_map_embedurl %}
+                    <div class="embed-responsive embed-responsive-4by3">
+                        <iframe class="embed-responsive-item" src="{{ post.location_map_embedurl }}"></iframe>
+                    </div>
+                {% endif %}
+            </div>
+        </div>    
+        {% endif %}{% endfor %}
+    </div>
+    <div class="col-sm-3">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Meeting Sponsors</h3>
+            </div>
+            <div class="panel-body">
+                Sponsor data goes here
+            </div>
         </div>
-        <hr class="post-list__divider">
-      </li>
-    {% endfor %}
-  </ol>
-
-  <hr class="post-list__divider ">
-
-  {% if paginator.previous_page or paginator.next_page %}
-      {% include pagination.html %}
-  {% endif %}
-
+    </div>
 </div>
