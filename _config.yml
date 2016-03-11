@@ -1,30 +1,4 @@
-# Site settings
-title: North Houston .Net User Group
-description: 'A programmers meetup'
-url: 'http://nhdnug.github.io'
-baseurl: '/'
-# google_analytics: ''
-disqus_shortname: 'nhdnug'
-
-
-
-author:
-  name: 'North Houston .Net User Group'
-  email: info@nhdnug.org
-  twitter_username: nhdnug
-  facebook_username: nhdnug
-  github_username:  nhdnug
-  linkedin_username:
-
-defaults:
-  -
-    scope:
-      path: ''
-      type: 'posts'
-    values:
-        layout: 'post'
-
-# Build settings
+# Jekyll Settings
 destination: _site
 paginate: 10
 permalink: /:year/:title/
@@ -34,10 +8,8 @@ future: true
 show_drafts: false
 
 kramdown:
-    # use Github Flavored Markdown
-    input: GFM
-    # do not replace newlines by <br>s
-    hard_wrap: false
+    input: GFM          # use Github Flavored Markdown    
+    hard_wrap: false    # do not replace newlines by <br>s
 
 gems: ['jekyll-paginate', 'jekyll-sitemap']
 exclude: ['README.md',
@@ -48,7 +20,27 @@ exclude: ['README.md',
     'LICENSE',
     'OldSiteConversionScript']
 
+# Site Properties
+title: North Houston .Net User Group
+description: 'A programmers meetup'
+url: 'http://nhdnug.github.io'
+baseurl: ''
+# google_analytics: ''
+disqus_shortname: 'nhdnug'
 
+author:
+  name: 'North Houston .Net User Group'
+  email: info@nhdnug.org
+  twitter_username: nhdnug
+  facebook_username: nhdnug
+  github_username:  nhdnug
+  linkedin_username:
 
-
-
+# defaults
+defaults:
+  -
+    scope:
+      path: ""      # empty string for all files
+      type: posts   # limit to posts
+    values:
+      is_post: true # automatically set is_post=true for all posts
