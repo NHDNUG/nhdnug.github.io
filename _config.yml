@@ -19,6 +19,12 @@ exclude: ['README.md',
     'servesite.bat',
     'LICENSE',
     'OldSiteConversionScript']
+    
+# Collections
+collections:
+    sponsors:
+        output: true
+        permalink: /sponsors/:name/
 
 # Site Properties
 title: North Houston .Net User Group
@@ -38,10 +44,14 @@ author:
 
 # defaults
 defaults:
-  -
-    scope:
+  - scope:
       path: ""      # empty string for all files
       type: posts   # limit to posts
     values:
       is_post: true # automatically set is_post=true for all posts
       layout: post
+  - scope:
+      path: ""
+      type: sponsors
+    values:
+      layout: sponsor

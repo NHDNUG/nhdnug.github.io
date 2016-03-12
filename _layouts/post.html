@@ -1,5 +1,10 @@
 ---
 layout: default
 ---
+<ol class="breadcrumb">
+  <li><a href="/">Home</a></li>
+  <li><a href="{{ '/events' | prepend: site.base_url }}">Events</a></li>
+  <li class="active">{{ page.title }}</li>
+</ol>
 
 {{ content }}

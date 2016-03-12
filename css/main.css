@@ -1,9 +1,0 @@
-@import url(monokai.css);
-.navbar {
-    border-radius: 0;
-}
-.homeBanner {
-    background: linear-gradient(128deg, #004789, rgba(177, 246, 202, 0.1));
-    height: 10em;
-    margin-top: -21px;
-}

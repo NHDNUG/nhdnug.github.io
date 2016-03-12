@@ -1,0 +1,33 @@
+---
+layout: default
+---
+<div class="row">
+    <div class="col-sm-9">
+        <ol class="breadcrumb">
+        <li><a href="/">Home</a></li>
+        <li><a href="{{ '/sponsors' | prepend: site.base_url }}">Sponsors</a></li>
+        <li class="active">{{ page.title }}</li>
+        </ol>
+
+        <h2>{{ page.title }}</h2>
+
+        {{ content }}
+
+        {% if page.site_url %}
+        <p>
+            <a href="{{ page.site_url }}">More information about {{ page.title }}</a>.
+        </p>
+        {% endif %}
+    </div>
+    <div class="col-sm-3">
+         <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h3 class="panel-title">Events</h3>
+            </div>
+            <div class="panel-body">
+                {% include events-list.html ul-class="sponsor-events-list" where-key="sponsor" where-value=page.title %}
+            </div>  
+    </div>
+</div>
+
+

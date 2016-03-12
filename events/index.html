@@ -4,7 +4,12 @@ title: Events
 includeInQuickLaunch: true
 permalink: /events/
 ---
+<ol class="breadcrumb">
+  <li><a href="/">Home</a></li>
+  <li class="active">{{ page.title }}</li>
+</ol>
 
+<h2>Events</h2>
 {% for post in paginator.posts %}
     <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
     {% if post.subtitle %}

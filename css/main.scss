@@ -1,0 +1,26 @@
+---
+---
+@import url(monokai.css);
+.navbar {
+    border-radius: 0;
+}
+.homeBanner {
+    background: linear-gradient(128deg, #004789, rgba(177, 246, 202, 0.1));
+    height: 10em;
+    margin-top: -21px;
+}
+
+.sponsor-list {
+    text-align: center;
+}
+
+.sponsor-list, .sponsor-events-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+    li {
+        list-style-type: none;
+        margin: 0 0 2em 0;
+    }
+}

@@ -8,7 +8,7 @@ layout: default
         There is free pizza and drinks before every meeting and a raffle for valuable prizes at the end.
     </p>
         {% for post in site.posts %}{% if forloop.first == true %}
-        <div class="panel panel-default" id="nextMeetingPanel">
+        <div class="panel panel-info" id="nextMeetingPanel">
             <div class="panel-heading">
                 <h3 class="panel-title">Next Meeting - {{ post.date | date: "%A, %B %-d %Y"}}</h3>
             </div>
@@ -46,12 +46,12 @@ layout: default
         {% endif %}{% endfor %}
     </div>
     <div class="col-sm-3">
-        <div class="panel panel-default">
+        <div class="panel panel-primary">
             <div class="panel-heading">
                 <h3 class="panel-title">Meeting Sponsors</h3>
             </div>
             <div class="panel-body">
-                Sponsor data goes here
+                {% include sponsor-list.html ul-class="sponsor-list" where-key="display_home_page" where-value="true" sort-key="display_home_page_order" %}
             </div>
         </div>
     </div>

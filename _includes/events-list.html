@@ -1,0 +1,23 @@
+<ul class="{{ include.ul-class }}">
+    {% assign events = site.posts %}
+    {% if include.where-key %}
+        {% assign events = events | where:include.where-key, include.where-value %}
+    {% endif %}
+    
+    {% assign events = events | sort:date %}
+    
+    {% assign totEvents = 0 %}
+    {% for event in events reversed %}{% if totEvents < 11 %}
+        
+            <li>
+                <div class="event-title">
+                    <a href="{{ event.url | prepend: site.baseurl }}">{{ event.title }}</a>
+                </div>
+                <div class="event-meta">
+                    {{ event.date |  date: "%A, %B %-d %Y" }} - {{ event.speaker }}
+                </div>
+            </li>
+        {% assign totEvents = totEvents + 1 %}
+        {% endif %}
+    {% endfor %}
+</ul>
