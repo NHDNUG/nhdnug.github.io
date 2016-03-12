@@ -14,7 +14,10 @@
                     <a href="{{ event.url | prepend: site.baseurl }}">{{ event.title }}</a>
                 </div>
                 <div class="event-meta">
-                    {{ event.date |  date: "%A, %B %-d %Y" }} - {{ event.speaker }}
+                    {{ event.date |  date: "%A, %B %-d %Y" }}
+                    {% if include.show-speaker %}
+                     - {% include speaker-name.html speaker-title=event.speaker %}
+                    {% endif %}
                 </div>
             </li>
         {% assign totEvents = totEvents + 1 %}

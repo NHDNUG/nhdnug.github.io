@@ -1,0 +1,8 @@
+{% assign speakers = site.speakers | where:"title", include.speaker-title %}
+{% assign totFound = speakers | size %}
+{% if totFound == 0 %}
+    {{ include.speaker-title }}
+{% else %}
+    {% assign speaker = speakers | first %}
+    <a href={{ speaker.url }}>{{ speaker.title }}</a>
+{% endif %}

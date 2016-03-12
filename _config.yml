@@ -25,6 +25,9 @@ collections:
     sponsors:
         output: true
         permalink: /sponsors/:name/
+    speakers:
+        output: true
+        permalink: /speakers/:name/
 
 # Site Properties
 title: North Houston .Net User Group
@@ -55,3 +58,9 @@ defaults:
       type: sponsors
     values:
       layout: sponsor
+  - scope:
+      path: ""
+      type: speakers
+    values:
+      layout: "speaker"
+     

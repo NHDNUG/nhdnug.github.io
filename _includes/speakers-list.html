@@ -1,0 +1,16 @@
+<ul class="{{ include.ul-class }}">
+    {% assign speakers = site.speakers %}
+    {% if include.sort-key %}
+        {% assign speakers = speakers | sort:include.sort-key %}
+    {% else %}
+        {% assign speakers = speakers | sort:title %}
+    {% endif %}
+    
+    {% for speaker in speakers %}
+        
+            <li>
+                <a href="{{ speaker.url | prepend: site.baseurl }}">{{ speaker.title }}</a>
+            </li>
+        
+    {% endfor %}
+</ul>

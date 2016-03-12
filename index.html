@@ -19,11 +19,7 @@ layout: default
                 {% endif %}
                 <div>
                     Speaker: <span class="speaker-name">
-                        {% if post.speakerurl %}
-                            <a href="post.speakerurl">{{ post.speaker }}</a>
-                        {% else %}
-                            {{ post.speaker }}
-                        {% endif %}
+                        {% include speaker-name.html speaker-title=post.speaker %}
                     </span>
                 </div>
                 {% if post.description %}
