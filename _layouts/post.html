@@ -4,7 +4,24 @@ layout: default
 <ol class="breadcrumb">
   <li><a href="/">Home</a></li>
   <li><a href="{{ '/events' | prepend: site.base_url }}">Events</a></li>
-  <li class="active">{{ page.title }}</li>
+  <li class="active">{{ page.title }} ({{ page.date | date: "%B %-d %Y"}})</li>
 </ol>
 
-{{ content }}
+<div class="row">
+    <div class="col-sm-9">
+        <h2>{{ page.title }}</h2>
+
+        {{ content }}        
+    </div>
+    <div class="col-sm-3">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h3 class="panel-title">Other Events By This Speaker</h3>
+            </div>
+            <div class="panel-body">
+                {% include events-list.html ul-class="events-events-list" where-key="speaker" where-value=page.speaker exclude-url=page.url %}
+            </div> 
+        </div>
+    </div>
+</div>
+

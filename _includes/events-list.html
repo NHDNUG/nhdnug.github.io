@@ -7,8 +7,12 @@
     {% assign events = events | sort:date %}
     
     {% assign totEvents = 0 %}
-    {% for event in events reversed %}{% if totEvents < 11 %}
-        
+    {% for event in events reversed %}
+        {% assign includeEvent = true %}
+        {% if include.exclude-url == event.url %}
+            {% assign includeEvent = false %}
+        {% endif %}
+        {% if includeEvent == true %}
             <li>
                 <div class="event-title">
                     <a href="{{ event.url | prepend: site.baseurl }}">{{ event.title }}</a>
@@ -20,7 +24,7 @@
                     {% endif %}
                 </div>
             </li>
-        {% assign totEvents = totEvents + 1 %}
-        {% endif %}
+        {% endif %}    
+        
     {% endfor %}
 </ul>
