@@ -30,7 +30,7 @@ collections:
         permalink: /speakers/:name/
 
 # Site Properties
-title: North Houston .Net User Group
+title: North Houston .Net Users Group
 description: 'A programmers meetup'
 url: 'http://nhdnug.github.io'
 baseurl: ''
@@ -38,7 +38,7 @@ baseurl: ''
 disqus_shortname: 'nhdnug'
 
 author:
-  name: 'North Houston .Net User Group'
+  name: 'North Houston .Net Users Group'
   email: info@nhdnug.org
   twitter_username: nhdnug
   facebook_username: nhdnug
