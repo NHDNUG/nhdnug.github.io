@@ -1,7 +1,7 @@
 ---
 title: Lonestar Montgomery College
 logo:
-    small: "/images/sponsors/lonestar-montgomery-sm.png"
+    small: "/images/sponsors/lonestar-montgomery-sm.jpg"
 site_url: "http://www.lonestar.edu/montgomery.htm"    
 display_home_page: true
 display_home_page_order: 10
