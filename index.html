@@ -7,7 +7,9 @@ layout: default
     <p>The North Houston .NET Users Group meets the third Thursday of every month at 6:30 PM. 
         There is free pizza and drinks before every meeting and a raffle for valuable prizes at the end.
     </p>
-        {% for post in site.posts %}{% if forloop.first == true %}
+        {% assign post = site.posts | first %}
+    
+        
         <div class="panel panel-info" id="nextMeetingPanel">
             <div class="panel-heading">
                 <h3 class="panel-title">Next Meeting - {{ post.date | date: "%A, %B %-d, %Y"}}</h3>
@@ -39,7 +41,7 @@ layout: default
                 {% endif %}
             </div>
         </div>    
-        {% endif %}{% endfor %}
+      
     </div>
     <div class="col-sm-3">
         <div class="panel panel-primary">
