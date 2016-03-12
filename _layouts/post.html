@@ -1,19 +1,49 @@
 ---
 layout: default
 ---
+
+{% assign sponsorCount = page.sponsors | size %}
+
 <ol class="breadcrumb">
   <li><a href="/">Home</a></li>
   <li><a href="{{ '/events' | prepend: site.base_url }}">Events</a></li>
-  <li class="active">{{ page.title }} ({{ page.date | date: "%B %-d %Y"}})</li>
+  <li class="active">{{ page.title }} ({{ page.date | date: "%B %-d, %Y"}})</li>
 </ol>
 
 <div class="row">
     <div class="col-sm-9">
         <h2>{{ page.title }}</h2>
-
+        {% if page.subtitle %}
+        <p class="subtitle">{{ page.subtitle }}</p>
+        {% endif %}
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>Date</dt>
+            <dd>{{ page.date | date: "%B %-d, %Y"}}</dd>
+            <dt>Speaker</dt>
+            <dd>{% include speaker-name.html speaker-title=page.speaker %}</dd>
+            <dt>Location</dt>
+            <dd>{{ page.location }}
+                 {% if page.location_map_url %}
+                    (<a href="{{ page.location_map_url }}">MAP</a>)
+                {% endif %}
+            </dd>
+        </dl>
+        <hr />
         {{ content }}        
     </div>
     <div class="col-sm-3">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h3 class="panel-title">
+                    Meeting Sponsor
+                </h3>
+            </div>
+            <div class="panel-body" style="text-align: center;">
+                {% include sponsor-display.html sponsor-title=page.sponsor %}
+            </div> 
+        </div>
+        
         <div class="panel panel-primary">
             <div class="panel-heading">
                 <h3 class="panel-title">Other Events By This Speaker</h3>

@@ -6,7 +6,7 @@ location : Lone Star College - Montgomery
 speaker : Devlin Liles
 email : 
 twitter : 
-sponsor : Improving Enterprises
+sponsor : "Improving Enterprises"
 logo : improvinglogo.png
 ---
 

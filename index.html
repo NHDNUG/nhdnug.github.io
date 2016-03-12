@@ -10,7 +10,7 @@ layout: default
         {% for post in site.posts %}{% if forloop.first == true %}
         <div class="panel panel-info" id="nextMeetingPanel">
             <div class="panel-heading">
-                <h3 class="panel-title">Next Meeting - {{ post.date | date: "%A, %B %-d %Y"}}</h3>
+                <h3 class="panel-title">Next Meeting - {{ post.date | date: "%A, %B %-d, %Y"}}</h3>
             </div>
             <div class="panel-body">
                 <h4><a href="{{ post.url | prepend: site.baseurl}}">{{ post.title }}</a></h4>
