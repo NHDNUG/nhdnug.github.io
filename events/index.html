@@ -15,11 +15,7 @@ permalink: /events/
     {% endif %}
     <div>{{ post.date | date: "%A, %B %-d %Y"}} - 
         <span class="speaker-name">
-            {% if post.speakerurl %}
-                <a href="{{ post.speakerurl }}">{{ post.speaker }}</a>
-            {% else %}
-                {{ post.speaker }}
-            {% endif %}
+            {% include speaker-name.html speaker-title=post.speaker %}            
         </span>
     </div>               
 {% endfor %} 
