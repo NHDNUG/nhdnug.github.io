@@ -8,10 +8,7 @@ permalink: /sponsors/
 
 <div class="row">
     <div class="col-sm-8 col-md-9">
-        <ol class="breadcrumb">
-            <li><a href="/">Home</a></li>
-            <li class="active">{{ page.title }}</li>
-        </ol>
+        {% include breadcrumb.html item1_url=page.url item1_title=page.title item1_last=true %}
         
         <h2>Sponsors</h2>
         <p>NHDNUG, a professional non-profit organization, has sponsorship opportunities available for our 

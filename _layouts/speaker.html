@@ -3,12 +3,8 @@ layout: default
 ---
 <div class="row">
     <div class="col-sm-8 col-md-9">
-        <ol class="breadcrumb">
-            <li><a href="/">Home</a></li>
-            <li><a href="{{ '/speakers' | prepend: site.base_url }}">Speakers</a></li>
-            <li class="active">{{ page.title }}</li>
-        </ol>
-        
+        {% include breadcrumb.html item1_url='/speakers' item1_title='Speakers' item2_url=page.url item2_title=page.title item2_last=true %}
+                
         <h2>{{ page.title }}</h2>
         
         {{ content }}

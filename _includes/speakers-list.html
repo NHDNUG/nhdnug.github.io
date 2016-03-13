@@ -9,7 +9,7 @@
     {% for speaker in speakers %}
         
             <li>
-                <a href="{{ speaker.url | prepend: site.baseurl }}">{{ speaker.title }}</a>
+                {% include speaker-name.html speaker=speaker %}                
             </li>
         
     {% endfor %}

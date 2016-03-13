@@ -1,0 +1,20 @@
+{% comment %}
+    This implements RDFa to aid search results.
+{% endcomment %}
+<ol vocab="http://schema.org/" typeof="BreadcrumbList" class="breadcrumb">
+<li property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" href="/"><span property="name">Home</span></a><meta property="position" content="1" /></li>
+    {% for i in (1..5) %}
+        {% assign urlvar = i | prepend: "item" | append: "_url" %}
+        {% assign titlevar = i | prepend: "item" | append: "_title" %}
+        {% assign lastvar = i | prepend: "item" | append: "_last" %}
+        {% if include[urlvar] %}
+            {% if include[lastvar] %}
+<li property="itemListElement" typeof="ListItem" class="active"><span property="item" typeof="WebPage"><span property="name">{{ include[titlevar] }}</span></span><meta property="position" content="{{ forloop.index | plus: 1 }}" /></li>
+            {% else %}
+<li property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" href="{{ include[urlvar] }}"><span property="name">{{ include[titlevar] }}</span></a><meta property="position" content="{{ forloop.index | plus: 1 }}" /></li>
+            {% endif %}
+        {% else %}
+            {% break %}
+        {% endif %}
+    {% endfor %}
+</ol>

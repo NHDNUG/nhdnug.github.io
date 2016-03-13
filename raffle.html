@@ -5,11 +5,7 @@ includeInQuickLaunch: true
 permalink: /raffle/
 js: ['/js/raffle.js']
 ---
-
-<ol class="breadcrumb">
-    <li><a href="/">Home</a></li>
-    <li class="active">{{ page.title }}</li>
-</ol>
+{% include breadcrumb.html item1_url=page.url item1_title=page.title item1_last=true %}
         
 <h2>Raffle</h2>
 
