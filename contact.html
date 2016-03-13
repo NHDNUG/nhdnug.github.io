@@ -26,7 +26,7 @@ permalink: /contact/
         <ul class="volunteer-list">
             {% for person in site.data.volunteers %}
             <li>
-                 <div vocab="http://schema.org/" typeof="Person">
+                 <div typeof="Person">
                     {% if person.title %}
                     <div class="jobtitle" property="jobtitle">{{ person.title }}</div>
                     {% endif %}    

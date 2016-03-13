@@ -1,7 +1,7 @@
 {% if include.speaker %}
     {% assign speaker = include.speaker %}
     <a href="{{ speaker.url | prepend: site.baseurl }}">
-        <span vocab="http://schema.org/" typeof="Person">
+        <span typeof="Person">
             <span property="name">
             {{ speaker.title }}
             </span>
@@ -11,7 +11,7 @@
     {% assign speakers = site.speakers | where:"title", include.speaker-title %}
     {% assign totFound = speakers | size %}
     {% if totFound == 0 %}
-        <span vocab="http://schema.org/" typeof="Person">
+        <span typeof="Person">
             <span property="name">
                 {{ include.speaker-title }}
             </span>
@@ -19,7 +19,7 @@
     {% else %}
         {% assign speaker = speakers | first %}
         <a href="{{ speaker.url | prepend: site.baseurl }}">
-            <span vocab="http://schema.org/" typeof="Person">
+            <span typeof="Person">
                 <span property="name">
                 {{ speaker.title }}
                 </span>
