@@ -4,11 +4,7 @@ layout: default
 
 {% assign sponsorCount = page.sponsors | size %}
 
-<ol class="breadcrumb">
-  <li><a href="/">Home</a></li>
-  <li><a href="{{ '/events' | prepend: site.base_url }}">Events</a></li>
-  <li class="active">{{ page.title }} ({{ page.date | date: "%B %-d, %Y"}})</li>
-</ol>
+{% include breadcrumb.html item1_url='/events' item1_title='Events' item2_url=page.url item2_title=page.title item2_last=true %}
 
 <div class="row">
     <div class="col-sm-8 col-md-9">
