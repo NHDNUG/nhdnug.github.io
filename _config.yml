@@ -6,6 +6,8 @@ markdown: kramdown
 highlighter: rouge
 future: true
 show_drafts: false
+time_zone: "US/Central"
+excerpt_separator: <!--more-->
 
 kramdown:
     input: GFM          # use Github Flavored Markdown    

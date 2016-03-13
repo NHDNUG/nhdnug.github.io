@@ -17,14 +17,18 @@ layout: default
         <hr />
         <dl class="dl-horizontal">
             <dt>Date</dt>
-            <dd>{{ page.date | date: "%B %-d, %Y"}}</dd>
+            <dd>{{ page.date | date: "%B %-d, %Y %I:%M %p"}}</dd>
             <dt>Speaker</dt>
             <dd>{% include speaker-name.html speaker-title=page.speaker %}</dd>
             <dt>Location</dt>
             <dd>{% include location-display.html location=page.location mode="title" %}</dd>
         </dl>
         <hr />
-        {{ content }}        
+        {{ content }}
+        <hr />
+        <div class="well">
+        {% include speaker-display.html speaker-title=page.speaker %}
+        </div>        
     </div>
     <div class="col-sm-4 col-md-3">
         <div class="panel panel-primary">

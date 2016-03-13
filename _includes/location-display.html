@@ -1,7 +1,4 @@
 {% assign location = site.locations | where:"title", include.location | first %}
-{% if location %}{% else %}
-    {% assign location = site.locations | where:"name", include.location | first %}
-{% endif %}
 
 {% if location %}
     {% if include.mode == "title" %}

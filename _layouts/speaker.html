@@ -1,15 +1,24 @@
 ---
 layout: default
 ---
+{% include breadcrumb.html item1_url='/speakers' item1_title='Speakers' item2_url=page.url item2_title=page.title item2_last=true %}
+
 <div class="row">
     <div class="col-sm-8 col-md-9">
-        {% include breadcrumb.html item1_url='/speakers' item1_title='Speakers' item2_url=page.url item2_title=page.title item2_last=true %}
+        
                 
-        <h2>{{ page.title }}</h2>
+        <h2>
+            {% include speaker-name.html speaker=page %}            
+        </h2>
         
         {{ content }}
     </div>
     <div class="col-sm-4 col-md-3">
+        {% if page.image-sm %}
+        <div style="text-align: center; margin-bottom: 1em;">
+            <img src="{{ page.image-sm }}" alt="{{ page.title }}" style="width: 200px;" />
+        </div>
+        {% endif %}
         <div class="panel panel-primary">
             <div class="panel-heading">
                 <h3 class="panel-title">Events By This Speaker</h3>
