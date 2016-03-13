@@ -14,19 +14,18 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-{% for my_page in site.pages %}{% if my_page.title and my_page.includeInQuickLaunch %}
-    {% if my_page.url == page.url %}
-    <li class="active">
-        <a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }} <span class="sr-only">(current)</span></a>
-    </li>
-    {% else %}
-    <li>
-        <a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-    </li>
-    {% endif %}
-    {% endif %}    
-{% endfor %}
-          
+    {% assign items = site.pages | where: "menu-top", true | sort: "menu-top-pos" %}
+    {% for item in items %}
+        {% if item.url == page.url %}
+        <li class="active">
+            <a href="{{ item.url | prepend: site.baseurl }}">{{ item.title }} <span class="sr-only">(current)</span></a>
+        </li>
+        {% else %}
+        <li>
+            <a href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a>
+        </li>
+        {% endif %}
+    {% endfor %}          
         </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
