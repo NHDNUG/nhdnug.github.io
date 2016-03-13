@@ -6,6 +6,8 @@ layout: default
 
 {% include breadcrumb.html item1_url='/events' item1_title='Events' item2_url=page.url item2_title=page.title item2_last=true %}
 
+{% include ld-json-event.html event=page %}
+
 <div class="row">
     <div class="col-sm-8 col-md-9">
         <h2>{{ page.title }}</h2>
@@ -19,11 +21,7 @@ layout: default
             <dt>Speaker</dt>
             <dd>{% include speaker-name.html speaker-title=page.speaker %}</dd>
             <dt>Location</dt>
-            <dd>{{ page.location }}
-                 {% if page.location_map_url %}
-                    (<a href="{{ page.location_map_url }}">MAP</a>)
-                {% endif %}
-            </dd>
+            <dd>{% include location-display.html location=page.location mode="title" %}</dd>
         </dl>
         <hr />
         {{ content }}        

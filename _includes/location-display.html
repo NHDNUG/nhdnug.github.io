@@ -1,0 +1,19 @@
+{% assign location = site.locations | where:"title", include.location | first %}
+{% if location %}{% else %}
+    {% assign location = site.locations | where:"name", include.location | first %}
+{% endif %}
+
+{% if location %}
+    {% if include.mode == "title" %}
+        {{ location.title }} (<a href="{{ location.map_url }}">MAP</a>)
+    {% else if include.mod == "map_embed" %}
+        <div class="embed-responsive embed-responsive-4by3">
+            <iframe class="embed-responsive-item" src="{{ location.map_embed_url }}"></iframe>
+        </div>
+    {% endif %}  
+{% else %}
+    {% if include.mode == "title" %}
+        {{ include.location }}
+    {% endif %}
+{% endif %}
+

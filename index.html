@@ -30,17 +30,11 @@ layout: default
                     <p>{{ post.description }}</p>
                 {% endif %}
                 
-                <p>Location: {{ post.location }}
-                    {% if post.location_map_url %}
-                        (<a href="{{ post.location_map_url }}">MAP</a>)
-                    {% endif %}
+                <p>Location: 
+                    {% include location-display.html location=post.location mode="title" %}
                 </p>
+                {% include location-display.html location=post.location mode="map_embed" %}                
                 
-                {% if post.location_map_embedurl %}
-                    <div class="embed-responsive embed-responsive-4by3">
-                        <iframe class="embed-responsive-item" src="{{ post.location_map_embedurl }}"></iframe>
-                    </div>
-                {% endif %}
             </div>
         </div>    
       

@@ -28,6 +28,8 @@ collections:
     speakers:
         output: true
         permalink: /speakers/:name/
+    locations:
+        output: false
 
 # Site Properties
 title: North Houston .Net Users Group
