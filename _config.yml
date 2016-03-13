@@ -62,9 +62,11 @@ defaults:
       type: sponsors
     values:
       layout: sponsor
+      title_pretext: "About "
   - scope:
       path: ""
       type: speakers
     values:
       layout: "speaker"
+      title_pretext: "About "
      

@@ -9,8 +9,6 @@ display_sponsors_page: true
 display_sponsors_page_order: 2
 ---
 
-### About Us
-
 * We're close to home.
 * We're affordable.
 * We want you to succeed.

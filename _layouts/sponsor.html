@@ -5,7 +5,7 @@ layout: default
     <div class="col-sm-8 col-md-9">
         {% include breadcrumb.html item1_url='/sponsors' item1_title='Sponsors' item2_url=page.url item2_title=page.title item2_last=true %}
 
-        <h2>{{ page.title }}</h2>
+        <h2>{% if page.title_pretext %}{{ page.title_pretext }}{% endif %}{{ page.title }}</h2>
 
         {{ content }}
 
@@ -15,6 +15,8 @@ layout: default
         </p>
         {% endif %}
     </div>
+    {% assign numEvents = site.posts | where:"sponsor", page.title | size %}
+    {% if numEvents > 0 %}
     <div class="col-sm-4 col-md-3">
          <div class="panel panel-primary">
             <div class="panel-heading">
@@ -25,6 +27,7 @@ layout: default
             </div> 
         </div>
     </div>
+    {% endif %}
 </div>
 
 
