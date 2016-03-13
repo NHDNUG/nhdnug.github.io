@@ -24,18 +24,16 @@ permalink: /contact/
     <div class="col-sm-4">
         <p>North Houston .Net Users Group is run by a team of volunteers:</p>
         <ul class="volunteer-list">
-            <li><b>President</b><br />
-                Jason Awbrey
+            {% for person in site.data.volunteers %}
+            <li>
+                 <div vocab="http://schema.org/" typeof="Person">
+                    {% if person.title %}
+                    <div class="jobtitle" property="jobtitle">{{ person.title }}</div>
+                    {% endif %}    
+                    <div property="name">{{ person.name }}</div>
+                </div>
             </li>
-            <li><b>Directory of Speakers</b><br />
-                Joe Reynolds
-            </li>
-            <li><b>Treasurer</b><br />
-                Jeff Etter
-            </li>
-            <li><b>Member</b><br />
-                Don Waldo
-            </li>
+            {% endfor %}
         </ul>
     </div>
 </div>
