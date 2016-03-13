@@ -41,7 +41,7 @@ layout: default
                 {% include sponsor-display.html sponsor-title=page.sponsor %}
             </div> 
         </div>
-        {% assign numEvents = site.posts | where:"speaker", page.title | size %}
+        {% assign numEvents = site.posts | where:"speaker", page.speaker | size %}
         {% if numEvents > 1 %}
         <div class="panel panel-primary">
             <div class="panel-heading">
