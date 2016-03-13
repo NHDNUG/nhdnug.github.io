@@ -41,7 +41,8 @@ layout: default
                 {% include sponsor-display.html sponsor-title=page.sponsor %}
             </div> 
         </div>
-        
+        {% assign numEvents = site.posts | where:"speaker", page.title | size %}
+        {% if numEvents > 1 %}
         <div class="panel panel-primary">
             <div class="panel-heading">
                 <h3 class="panel-title">Other Events By This Speaker</h3>
@@ -50,6 +51,7 @@ layout: default
                 {% include events-list.html ul-class="events-events-list" where-key="speaker" where-value=page.speaker exclude-url=page.url %}
             </div> 
         </div>
+        {% endif %}
     </div>
 </div>
 
