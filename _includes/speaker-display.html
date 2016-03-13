@@ -1,10 +1,10 @@
 {% if include.speaker %}
     {% assign speaker = include.speaker %}
     <div class="row">
-        <div class="col-sm-3">
+        <div class="col-sm-5 col-md-3">
             <img src="{{ speaker.image-sm }}" alt="{{ speaker.title }}" />
         </div>
-        <div class="col-sm-9">
+        <div class="col-sm-7 col-md-9">
             <h4>
             <a href="{{ speaker.url | prepend: site.baseurl }}">
                 <span typeof="Person">
@@ -30,10 +30,10 @@
     {% else %}
         {% assign speaker = speakers | first %}
         <div class="row">
-        <div class="col-sm-3">
-            <img src="{{ speaker.image-sm }}" alt="{{ speaker.title }}" style="width: 200px;" />
+        <div class="col-sm-5 col-md-3">
+            <img src="{{ speaker.image-sm }}" alt="{{ speaker.title }}" />
         </div>
-        <div class="col-sm-9">
+        <div class="col-sm-7 col-md-9">
             <h4>
             <a href="{{ speaker.url | prepend: site.baseurl }}">
                 <span typeof="Person">
