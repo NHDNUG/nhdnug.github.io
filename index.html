@@ -5,39 +5,26 @@ layout: default
     <div class="col-sm-8 col-md-9">
     {% include jumbotron.html %}
         
-    <h3>Welcome to NHDNUG!</h3>
-    <p>The North Houston .NET Users Group meets the third Thursday of every month at 6:30 PM. 
-        There is free pizza and drinks before every meeting and a raffle for valuable prizes at the end.
-    </p>
         {% assign post = site.posts | first %}
-    
-        
-        <div class="panel panel-info" id="nextMeetingPanel">
-            <div class="panel-heading">
-                <h3 class="panel-title">Next Meeting - {{ post.date | date: "%A, %B %-d, %Y"}}</h3>
-            </div>
-            <div class="panel-body">
-                <h4><a href="{{ post.url | prepend: site.baseurl}}">{{ post.title }}</a></h4>
+   
+        <div id="nextMeeting">
+                <h2 style="text-align: center;">{{ post.date | date: "%B" }} Meeting</h2>
+                <h3><a href="{{ post.url | prepend: site.baseurl}}">{{ post.title }}</a></h3>
                 {% if post.subtitle %}
                 <h5 class="subtitle">{{ post.subtitle }}</h5>
                 {% endif %}
-                <div>
-                    Speaker: <span class="speaker-name">
-                        {% include speaker-name.html speaker-title=post.speaker %}
-                    </span>
-                </div>
+                <p>
+                    <span style="white-space: nowrap;"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> {{ post.date | date: "%A, %B %-d, %Y"}}</span> |  
+                    <span style="white-space: nowrap;"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> {% include speaker-name.html speaker-title=post.speaker %}</span> | 
+                    <span style="white-space: nowrap;"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> {% include location-display.html location=post.location mode="title" %}</span>
+                </p>
                 {% if post.description %}
                     <p>{{ post.description }}</p>
                 {% endif %}
-                
-                <p>Location: 
-                    {% include location-display.html location=post.location mode="title" %}
+                <p>
+                {% include location-display.html location=post.location mode="map_embed" %}
                 </p>
-                {% include location-display.html location=post.location mode="map_embed" %}                
-                
-            </div>
-        </div>    
-      
+        </div>
     </div>
     <div class="col-sm-4 col-md-3">
         <div class="panel panel-primary">

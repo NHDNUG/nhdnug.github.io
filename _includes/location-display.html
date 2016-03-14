@@ -2,7 +2,7 @@
 
 {% if location %}
     {% if include.mode == "title" %}
-        {{ location.title }} (<a href="{{ location.map_url }}">MAP</a>)
+        <a href="{{ location.map_url }}">{{ location.title }}</a>
     {% else if include.mod == "map_embed" %}
         <div class="embed-responsive embed-responsive-4by3">
             <iframe class="embed-responsive-item" src="{{ location.map_embed_url }}"></iframe>
