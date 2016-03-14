@@ -1,7 +1,7 @@
 {% comment %}
     This implements RDFa to aid search results.
 {% endcomment %}
-<ol typeof="BreadcrumbList" class="breadcrumb">
+<ol typeof="BreadcrumbList" class="breadcrumb hidden-xs">
 <li property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" href="/"><span property="name">Home</span></a><meta property="position" content="1" /></li>
     {% for i in (1..5) %}
         {% assign urlvar = i | prepend: "item" | append: "_url" %}
