@@ -17,6 +17,7 @@
             <img src="{{ sponsor.logo.small | prepend: site.baseurl }}" alt="{{ sponsor.title }}" />
         </a>
     </div>
-    {% endif %}
+    {% else %}
     <a href="{{ sponsor.url | prepend: site.baseurl }}">{{ sponsor.title }}</a>
+    {% endif %}    
 {% endif %}

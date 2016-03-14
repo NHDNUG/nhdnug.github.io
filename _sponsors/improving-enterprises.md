@@ -1,7 +1,7 @@
 ---
 title: "Improving Enterprises"
 logo:
-    small: "/images/sponsors/improving-enterprises-sm.png"
+    small: "/images/sponsors/improving-sm.jpg"
 site_url: "http://improving.com"
 display_home_page: true
 display_home_page_order: 1
