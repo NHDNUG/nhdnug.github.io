@@ -28,14 +28,27 @@ home-page: true
         </div>
     </div>
     <div class="col-xs-12 col-sm-4 col-md-3">
+        {% if post.sponsor or post.sponsors %}
         <div class="panel panel-primary">
             <div class="panel-heading">
-                <h3 class="panel-title">Meeting Sponsors</h3>
+                <h3 class="panel-title">
+                    Meeting Sponsor{% if post.sponsors %}s{% endif %}
+                </h3>
             </div>
-            <div class="panel-body">
-                {% include sponsor-list.html ul-class="sponsor-list" where-key="display_home_page" where-value="true" sort-key="display_home_page_order" %}
-            </div>
+            <div class="panel-body" style="text-align: center;">
+                
+                {% if post.sponsor %}
+                    {% include sponsor-display.html sponsor-title=post.sponsor %}
+                {% else if post.sponsors %}
+                    <ul class="sponsor-list">
+                    {% for the_sponsor in post.sponsors %}
+                        <li>{% include sponsor-display.html sponsor-title=the_sponsor %}</li>
+                    {% endfor %}
+                    </ul>
+                {% endif %}
+            </div> 
         </div>
+        {% endif %}        
     </div>    
 </div>
 <div class="row">
