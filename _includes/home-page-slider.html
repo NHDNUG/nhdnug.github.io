@@ -1,0 +1,34 @@
+{% if page.home-page %}
+{% assign post = site.posts | first %}
+<section class="main-slider-bg">
+    <div class="flexslider top-flexslider">
+        <ul class="slides">
+            <li>
+                <h1>
+                    <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                </h1>
+                {% if post.subtitle %}
+                    <h5 class="subtitle">{{ post.subtitle }}</h5>
+                {% endif %}
+                <p>
+                    {{ post.date | date: "%B %-d, %Y"}} |
+                    {% include speaker-name.html speaker-title=post.speaker %}
+                </p>
+                <p>
+                    <a class="btn" href="{{ post.url | prepend: site.baseurl }}">More Information</a>
+                </p>
+            </li>
+            <li>
+                <h1>{{ site.data.organization.legalName }}</h1>
+                <h5 class="subtitle" style="margin-top: 1em;">
+                    Participation Welcome.<br />(no cost, FREE PIZZA!)
+                </h5>
+                <p>
+                    <a class="btn" href="{{ '/subscribe' | prepend: site.baseurl }}">Join Us</a>
+                </p>
+                
+            </li>    
+        </ul>
+    </div>
+</section>
+{% endif %}

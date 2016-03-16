@@ -1,10 +1,11 @@
 ---
 layout: default
+js: ['/js/jquery.flexslider-min.js']
+css: ['/css/flexslider.css']
+home-page: true
 ---
 <div class="row">
     <div class="col-xs-12 col-sm-8 col-md-9">
-    {% include jumbotron.html %}
-        
         {% assign post = site.posts | first %}
    
         <div id="nextMeeting">
@@ -35,5 +36,12 @@ layout: default
                 {% include sponsor-list.html ul-class="sponsor-list" where-key="display_home_page" where-value="true" sort-key="display_home_page_order" %}
             </div>
         </div>
+    </div>    
+</div>
+<div class="row">
+    <div class="col-xs-12" style="text-align: center; font-size: 80%">
+        <a href="https://www.flickr.com/photos/gruenewiese/11731796235/in/photolist-iSGwhT-pf9D6m-qZPxyv-iyCdHR-oVGYW6-oRS8HB-cHXjib-r8iPNY-dQuWK5-a1CMfn-gqT7QR-o1imyK-s48RZJ-fJfXRE-pfdf57-jJgvfJ-pFZ1UC-f4Cyqr-fd84Fs-8Qj6qE-8vkrx6-nXe4X6-5y3eLg-p9Hcno-nvqm9i-eqg8jS-eAU7jE-aghdSS-rBxaaC-ebsyGK-rhREEc-9VueaW-5LSkWo-qgcb7n-oauhZZ-iRcAB6-nS5Dss-qDVYr5-qV5hEJ-jJdCQt-7sTsXn-9fJW1G-huSgMS-pTaTBy-5ywKW3-a6uuot-o9M4tQ-rrx4ix-krRLnG-9kRihg">Starry Sky background image</a>, 
+        <a href="https://creativecommons.org/licenses/by-nd/2.0/">(CC BY-ND 2.0)</a>
+        <hr />         
     </div>
 </div>
