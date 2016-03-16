@@ -3,12 +3,7 @@
     {% if include.where-key %}
         {% assign events = events | where:include.where-key, include.where-value %}
     {% endif %}
-    {% if include.contains-key %}
-        {% for post in site.posts %}
-            {% if post[include.contains-key] contains include.contains-value %}
-                {% assign events = events | push: post %}
-            {% endif %}
-        {% endfor %}
+    {% if include.contains-key %}{% for post in site.posts %}{% if post[include.contains-key] contains include.contains-value %}]{% assign events = events | push: post %}]{% endif %}{% endfor %}
     {% endif %}
     
     {% assign events = events | sort:date %}
