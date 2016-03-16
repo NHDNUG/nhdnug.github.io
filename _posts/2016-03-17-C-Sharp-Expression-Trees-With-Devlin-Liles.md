@@ -4,7 +4,7 @@ speaker:            "Devlin Liles"
 title:              "C# Expression Trees"
 subtitle:           "And other mindblowing tricks!"
 location:           "Southwestern Energy"
-sponsor:            "Improving Enterprises"
+sponsors:            ["Improving Enterprises", "Southwestern Energy"]
 description:        "These tricks will blow your mind"
 speaker-twitter:    "devlinliles"
 speaker-github:     "devlinliles"

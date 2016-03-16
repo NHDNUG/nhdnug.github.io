@@ -6,6 +6,8 @@
         slideshowSpeed: 10000  
        });  
      } else { 
-        $('.flexslider').flexslider();
+         var fs = document.querySelector('.flexslider');
+         if (fs !== null)
+            $('.flexslider').flexslider();
      }
   });

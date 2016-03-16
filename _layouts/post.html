@@ -30,15 +30,26 @@ layout: default
         {% include speaker-display.html speaker-title=page.speaker %}
         </div>        
     </div>
+    {% if page.sponsor or page.sponsors %}
+    
     <div class="col-xs-12 col-sm-4 col-md-3">
         <div class="panel panel-primary">
             <div class="panel-heading">
                 <h3 class="panel-title">
-                    Meeting Sponsor
+                    Meeting Sponsor{% if page.sponsors %}s{% endif %}
                 </h3>
             </div>
             <div class="panel-body" style="text-align: center;">
-                {% include sponsor-display.html sponsor-title=page.sponsor %}
+                
+                {% if page.sponsor %}
+                    {% include sponsor-display.html sponsor-title=page.sponsor %}
+                {% else if page.sponsors %}
+                    <ul class="sponsor-list">
+                    {% for the_sponsor in page.sponsors %}
+                        <li>{% include sponsor-display.html sponsor-title=the_sponsor %}</li>
+                    {% endfor %}
+                    </ul>
+                {% endif %}
             </div> 
         </div>
         {% assign numEvents = site.posts | where:"speaker", page.speaker | size %}
@@ -53,5 +64,6 @@ layout: default
         </div>
         {% endif %}
     </div>
+    {% endif %}
 </div>
 
