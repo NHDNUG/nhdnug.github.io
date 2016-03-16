@@ -30,9 +30,10 @@ layout: default
         {% include speaker-display.html speaker-title=page.speaker %}
         </div>        
     </div>
-    {% if page.sponsor or page.sponsors %}
+    
     
     <div class="col-xs-12 col-sm-4 col-md-3">
+        {% if page.sponsor or page.sponsors %}
         <div class="panel panel-primary">
             <div class="panel-heading">
                 <h3 class="panel-title">
@@ -52,6 +53,7 @@ layout: default
                 {% endif %}
             </div> 
         </div>
+        {% endif %}
         {% assign numEvents = site.posts | where:"speaker", page.speaker | size %}
         {% if numEvents > 1 %}
         <div class="panel panel-primary">
@@ -63,7 +65,6 @@ layout: default
             </div> 
         </div>
         {% endif %}
-    </div>
-    {% endif %}
+    </div>    
 </div>
 
