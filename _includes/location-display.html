@@ -1,13 +1,22 @@
 {% assign location = site.locations | where:"title", include.location | first %}
-
 {% if location %}
+    {% assign map-url = location.map_url %}
+    {% assign map-embed-url = location.map_embed_url %}
+    {% if include.location-detail %}
+        {% assign detail = location.details | where:"title", include.location-detail | first %}
+        {% if detail %}
+            {% assign map-url = detail.map_url %}
+            {% assign map-embed-url = detail.map_embed_url %}
+        {% endif %}
+    {% endif %}
+
     {% if include.mode == "title" %}
-        <a href="{{ location.map_url }}">{{ location.title }}{% if include.location-detail %}
+        <a href="{{ map-url }}">{{ location.title }}{% if include.location-detail %}
             ({{ include.location-detail }})
         {% endif %}</a>
     {% else if include.mod == "map_embed" %}
         <div class="embed-responsive embed-responsive-4by3">
-            <iframe class="embed-responsive-item" src="{{ location.map_embed_url }}"></iframe>
+            <iframe class="embed-responsive-item" src="{{ map-embed-url }}"></iframe>
         </div>
     {% endif %}  
 {% else %}
