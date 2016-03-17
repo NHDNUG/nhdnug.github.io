@@ -4,7 +4,7 @@ layout: default
 
 {% assign sponsorCount = page.sponsors | size %}
 
-{% include breadcrumb.html item1_url='/events' item1_title='Events' item2_url=page.url item2_title=page.title item2_last=true %}
+{% include breadcrumb.html item1_url='/meetings' item1_title='Meetings' item2_url=page.url item2_title=page.title item2_last=true %}
 
 {% include ld-json-event.html event=page %}
 
@@ -60,7 +60,7 @@ layout: default
                 <h3 class="panel-title">Other Events By This Speaker</h3>
             </div>
             <div class="panel-body">
-                {% include events-list.html ul-class="events-events-list" where-key="speaker" where-value=page.speaker exclude-url=page.url %}
+                {% include meetings-list.html ul-class="events-events-list" where-key="speaker" where-value=page.speaker exclude-url=page.url %}
             </div> 
         </div>
         {% endif %}

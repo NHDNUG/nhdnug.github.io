@@ -1,7 +1,7 @@
 # Jekyll Settings
 paginate: 10
-paginate_path: "/events/page:num"
-permalink: "/events/details/:year/:month/:day/:title"
+paginate_path: "/meetings/page:num"
+permalink: "/meetings/details/:year/:month/:day/:title"
 markdown: kramdown
 highlighter: rouge
 future: true
