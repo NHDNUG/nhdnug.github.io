@@ -2,9 +2,9 @@
 title:              NHibernate
 subtitle:           Spreading the good word
 date:               2016-02-18 18:30
-
 speaker:            Greg Major
 location:           "Lone Star College - Montgomery"
+location-detail:    "MC-G G123"
 sponsor:            Blinds.com
 description:        Tonight's talk was on some cool stuff - Greg Major talked about NHibernate and his LeadPipe framework.
 speaker-twitter:    gregmajor

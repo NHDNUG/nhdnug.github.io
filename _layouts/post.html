@@ -21,7 +21,7 @@ layout: default
             <dt>Speaker</dt>
             <dd>{% include speaker-name.html speaker-title=page.speaker %}</dd>
             <dt>Location</dt>
-            <dd>{% include location-display.html location=page.location mode="title" %}</dd>
+            <dd>{% include location-display.html location=page.location mode="title" location-detail=page.location-detail %}</dd>
         </dl>
         <hr />
         {{ content }}

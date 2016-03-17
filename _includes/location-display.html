@@ -2,7 +2,9 @@
 
 {% if location %}
     {% if include.mode == "title" %}
-        <a href="{{ location.map_url }}">{{ location.title }}</a>
+        <a href="{{ location.map_url }}">{{ location.title }}{% if include.location-detail %}
+            ({{ include.location-detail }})
+        {% endif %}</a>
     {% else if include.mod == "map_embed" %}
         <div class="embed-responsive embed-responsive-4by3">
             <iframe class="embed-responsive-item" src="{{ location.map_embed_url }}"></iframe>
@@ -10,7 +12,7 @@
     {% endif %}  
 {% else %}
     {% if include.mode == "title" %}
-        {{ include.location }}
+        {{ include.location }}{% if include.location-detail %}({{ include.location-detail }}) {% endif %}
     {% endif %}
 {% endif %}
 
