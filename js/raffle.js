@@ -6,7 +6,8 @@
         $rangeStart = $("#rangeStart"),
         $rangeEnd = $("#rangeEnd"),
         $resetButton = $("#resetButton"),
-        $drawButton = $("#drawButton");
+        $drawButton = $("#drawButton"),
+        $formError = $("#formError");
         
     var choices = null,
         numChoices = 0,
@@ -27,19 +28,29 @@
           $rafflePicks.empty();
           numChoices = 0;
           numPicks = 0;
+          clearError();
       }
     };
     
     var checkInputCondition = function() {
-        // TODO: check conditions before doing raffle
+        var rangeStart = $rangeStart.val(),
+            rangeEnd = $rangeEnd.val();
+            
+        if (rangeStart === '' || rangeEnd === '') {
+            showError('Range Start and Range End are required.');
+            return false;
+        } else if (rangeStart < 1) {
+            showError('Range Start must be a positive number.');
+            return false;
+        } else if (rangeStart > rangeEnd || rangeStart == rangeEnd) {
+            showError('Range Start must be less than Range End');
+            return false;
+        }
+        clearError();
         return true;
     };
     
-    var showErrorMessage = function() {
-        // TODO: show helpful error message about pre-conditions
-    };
-    
-    var initRaffle = function() {
+        var initRaffle = function() {
         var rangeStart = $rangeStart.val(),
             rangeEnd = $rangeEnd.val();
             
@@ -80,15 +91,19 @@
         $rafflePicks.prepend("<li class='list-group-item'>" + choice + "</li>");
          
     };
+    var showError = function(msg) {
+        $formError.text(msg).show();
+    };
+    var clearError = function() {
+        $formError.hide();
+    };
     
     // attach events
     $drawButton.click(function(){
         if (checkInputCondition()) {
             toggleRaffleState(true);
             raffle();    
-        } else {
-            showErrorMessage();                  
-        }
+        } 
         return false;
     });
     $resetButton.click(function(){
