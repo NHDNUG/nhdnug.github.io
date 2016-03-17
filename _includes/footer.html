@@ -1,5 +1,8 @@
 <footer>
-  <span>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}. All rights reserved.</span>
+    <div class="container">
+        {% include socials.html %}
+        <span class="pull-right">&copy; {{ site.time | date: '%Y' }} {{ site.data.organization.legalName }}. All rights reserved.</span>
+    </div>
 </footer> 
 
 <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>

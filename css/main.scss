@@ -6,6 +6,34 @@ img { max-width: 100%; height: auto }
 .navbar {
     border-radius: 0;
 }
+
+footer {
+    background-color: rgb(51, 51, 51);
+    color: #b3b3b3;
+    padding: 1em 0 1em;
+    margin-top: 1em;
+    vertical-align: middle;
+    line-height: 20px;
+   
+    
+}
+.social {
+    white-space: nowrap;
+    margin-right: 1em;
+    vertical-align: middle;
+    img {
+        height: 20px;
+        margin-right: 4px;
+    }    
+    a {
+        color: #b3b3b3;
+        
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
 .sponsor-list {
     text-align: center;
 }
