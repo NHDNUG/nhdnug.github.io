@@ -13,6 +13,14 @@
         numChoices = 0,
         numPicks = 0;
     
+    // polyfill for Number.isInteger (IE needs this)    
+    Number.isInteger = Number.isInteger || function(value) {
+        return typeof value === "number" && 
+            isFinite(value) && 
+            Math.floor(value) === value;
+    };
+        
+    
     var toggleRaffleState = function(state) {
       if (state) {
           $raffleFillerMessage.hide();
@@ -33,10 +41,13 @@
     };
     
     var checkInputCondition = function() {
-        var rangeStart = $rangeStart.val(),
-            rangeEnd = $rangeEnd.val();
+        var rangeStart = +$rangeStart.val(),
+            rangeEnd = +$rangeEnd.val();
             
-        if (rangeStart === '' || rangeEnd === '') {
+        if (!Number.isInteger(rangeStart) || !Number.isInteger(rangeEnd)) {
+            showError('Range Start and Range End must be whole numbers.');
+            return false;
+        } else if (rangeStart === '' || rangeEnd === '') {
             showError('Range Start and Range End are required.');
             return false;
         } else if (rangeStart < 1) {
@@ -50,32 +61,34 @@
         return true;
     };
     
-        var initRaffle = function() {
-        var rangeStart = $rangeStart.val(),
-            rangeEnd = $rangeEnd.val();
+    var initRaffle = function() {
+        var rangeStart = parseInt($rangeStart.val()),
+            rangeEnd = parseInt($rangeEnd.val());
             
-        choices = {};
+        choices = [];
         
+        var numChoices = (rangeEnd - rangeStart + 1);
         for(var i = rangeStart; i < (rangeEnd+1); i++) {
-            choices[i] = false;
+            choices.push({pick: i, available: true});
         }
         
-        return (rangeEnd - rangeStart +1);
+        return numChoices;
     };
     
     var getChoice = function() {
         var gotChoice = false;
-        var rNum, choice;
+        var rNum, choice, pick;
         while(!gotChoice) {
-            rNum = Math.ceil(Math.random() * numChoices);
+            rNum = Math.floor(Math.random() * numChoices);
             choice = choices[rNum];
-            if (choice === false) {
+            if (choice.available) {     
+                pick = choice.pick;       
                 gotChoice = true;
-                choices[rNum] = true;
+                choice.available = false;
                 numPicks++;
             }
         }
-        return rNum;
+        return pick;
     };
     
     var raffle = function() {
