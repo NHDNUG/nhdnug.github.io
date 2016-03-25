@@ -15,7 +15,9 @@ home-page: true
                 <h5 class="subtitle">{{ post.subtitle }}</h5>
                 {% endif %}
                 <p>
-                    <span style="white-space: nowrap;"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> {{ post.date | date: "%A, %B %-d, %Y"}}</span> |  
+                    <span style="white-space: nowrap;"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
+                    {% include datetime.html date=post.date day=true time=true %}
+                    </span> |  
                     <span style="white-space: nowrap;"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> {% include speaker-name.html speaker-title=post.speaker %}</span> | 
                     <span style="white-space: nowrap;"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> {% include location-display.html location=post.location mode="title" %}</span>
                 </p>
