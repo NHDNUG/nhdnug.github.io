@@ -1,5 +1,5 @@
 ---
-title: Lonestar Montgomery College
+title: "Lonestar Montgomery College"
 logo:
     small: "/images/sponsors/lonestar-montgomery-sm.png"
 site_url: "http://www.lonestar.edu/montgomery.htm"    

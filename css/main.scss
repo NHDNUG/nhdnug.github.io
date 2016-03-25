@@ -48,6 +48,16 @@ footer {
         margin: 0 0 1.5em 0;
     }
 }
+.speaker-social-list {
+    list-style-type: none;
+    margin: 0 0 1em 0;
+    padding: 0;
+    li {
+        list-style-type: none;
+        display: inline;
+        margin-right: 1em;
+    }
+}
 
 .volunteer-list {
     .jobtitle {

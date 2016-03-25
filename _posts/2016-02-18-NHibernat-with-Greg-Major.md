@@ -7,8 +7,6 @@ location:           "Lone Star College - Montgomery"
 location-detail:    "MC-G G123"
 sponsor:            Blinds.com
 description:        Tonight's talk was on some cool stuff - Greg Major talked about NHibernate and his LeadPipe framework.
-speaker-twitter:    gregmajor
-speaker-github:     gregmajor
 categories:         [NHibernate, C#, ORM]
 tags:               [NHibernate, C#, ORM]
 sourcecode:         LeadPipe.Net.NHibernateExamples

@@ -1,3 +1,4 @@
+
 <ul class="{{ include.ul-class }}">
     {% assign events = site.posts %}
     {% if include.where-key %}
@@ -6,7 +7,7 @@
     {% if include.contains-key %}{% for post in site.posts %}{% if post[include.contains-key] contains include.contains-value %}{% assign events = events | push: post %}{% endif %}{% endfor %}
     {% endif %}
     
-    {% assign events = events | sort:date %}
+    {% assign events = events | sort: 'date' %}
     
     {% for event in events reversed %}
         {% assign includeEvent = true %}

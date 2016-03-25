@@ -1,6 +1,11 @@
 ---
 title: "Devlin Liles"
 image-sm: "/images/speakers/devlin-liles.jpg"
+social:
+    linkedin: "https://www.linkedin.com/in/devlin-liles-2a010526"
+    twitter: "https://twitter.com/DevlinLiles"
+    facebook: "https://www.facebook.com/devlin.liles"
+    github: "https://github.com/DevlinLiles"
 ---
 
 Devlin Liles is a Principal Consultant at Improving Enterprises and a passionate technologist. 
