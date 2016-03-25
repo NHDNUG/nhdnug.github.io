@@ -16,10 +16,10 @@
         {% endif %}
         {% if includeEvent == true %}
             <li>
-                <div class="event-title">
+                <div class="meeting-title">
                     <a href="{{ event.url | prepend: site.baseurl }}">{{ event.title }}</a>
                 </div>
-                <div class="event-meta">
+                <div class="meeting-meta">
                     {% include datetime.html date=event.date %}                    
                     {% if include.show-speaker %}
                      - {% include speaker-name.html speaker-title=event.speaker %}

@@ -9,7 +9,7 @@ home-page: true
         {% assign post = site.posts | first %}
    
         <div id="nextMeeting">
-                <h2 style="text-align: center;">{{ post.date | date: "%B" }} Meeting</h2>
+                <h1 style="text-align: center;">{{ post.date | date: "%B" }} Meeting</h1>
                 <h3><a href="{{ post.url | prepend: site.baseurl}}">{{ post.title }}</a></h3>
                 {% if post.subtitle %}
                 <h5 class="subtitle">{{ post.subtitle }}</h5>
