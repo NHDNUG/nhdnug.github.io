@@ -12,6 +12,9 @@ excerpt_separator: <!--more-->
 kramdown:
     input: GFM          # use Github Flavored Markdown    
     hard_wrap: false    # do not replace newlines by <br>s
+    
+sass:
+    sass_dir: _sass
 
 gems: ['jekyll-paginate', 'jekyll-sitemap']
 exclude: ['README.md',
