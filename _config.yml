@@ -43,7 +43,8 @@ defaults:
       path: ""      # empty string for all files
       type: posts   # limit to posts
     values:
-      is_post: true # automatically set is_post=true for all posts      
+      is_post: true # automatically set is_post=true for all posts
+      is_meeting: true # most posts are meetings. set this to false in post if non-meeting      
       layout: post     
   - scope:
       path: ""

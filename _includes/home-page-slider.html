@@ -1,5 +1,16 @@
 {% if page.home-page %}
-{% assign post = site.posts | first %}
+{% assign meetings = site.posts | where: "is_meeting", "true" | sort: "date" %}
+        {% assign post = '' %}
+        {% for meeting in meetings %}
+        {% if meeting.date > site.time %}
+            {% assign post = meeting %}
+            {% break %}
+        {% endif %}
+        {% endfor %}
+        {% if post == '' %}
+        {% assign post = meetings | last %}
+        {% endif %}
+
 <section class="main-slider-bg">
     <div class="flexslider top-flexslider">
         <ul class="slides">
