@@ -1,0 +1,43 @@
+body.dark {
+    background: #000;
+    color: #fff;
+    h1 {
+        color: coral;
+    }
+    a {
+        color: lighten(#008cba, 30);
+    }
+    hr {
+        border-color: #555;
+    }
+    .list-group-item {
+        background-color: #333;
+    }
+    .flexslider {
+        h1 {
+            color: #fff;
+        }
+        a {
+            color: #fff;
+        }
+    }
+    .breadcrumb {
+        background: #333;
+        border-color: #555;
+        & > .active {
+            color: #fff;
+        }
+    }
+    
+    .panel {
+        background: #222;
+        img {
+            background-color: #fff;
+            padding: 5px;
+        }
+    }
+    .well {
+        background: #555;
+        border: 2px #444;
+    }
+}

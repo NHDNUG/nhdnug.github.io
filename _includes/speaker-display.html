@@ -1,0 +1,54 @@
+{% if include.speaker %}
+    {% assign speaker = include.speaker %}
+    <div class="row">
+        <div class="col-sm-5 col-md-3">
+            <img src="{{ speaker.image-sm }}" alt="{{ speaker.title }}" />
+        </div>
+        <div class="col-sm-7 col-md-9">
+            <h4>
+            <a href="{{ speaker.url | prepend: site.baseurl }}">
+                <span typeof="Person">
+                    <span property="name">
+                    {{ speaker.title }}
+                    </span>
+                </span>
+            </a>
+            </h4>
+            {% if speaker.excerpt %}
+                {{ speaker.excerpt }}
+            {% else if speaker.description %}
+                {{ speaker.description }}
+            {% endif %}        
+        </div>
+    </div>
+    
+{% else %}
+    {% assign speakers = site.speakers | where:"title", include.speaker-title %}
+    {% assign totFound = speakers | size %}
+    {% if totFound == 0 %}
+        
+    {% else %}
+        {% assign speaker = speakers | first %}
+        <div class="row">
+        <div class="col-sm-5 col-md-3">
+            <img src="{{ speaker.image-sm }}" alt="{{ speaker.title }}" />
+        </div>
+        <div class="col-sm-7 col-md-9">
+            <h4>
+            <a href="{{ speaker.url | prepend: site.baseurl }}">
+                <span typeof="Person">
+                    <span property="name">
+                    {{ speaker.title }}
+                    </span>
+                </span>
+            </a>
+            </h4>        
+            {% if speaker.excerpt %}
+                {{ speaker.excerpt }}
+            {% else if speaker.description %}
+                {{ speaker.description }}
+            {% endif %}        
+        </div>
+    </div>
+    {% endif %}
+{% endif %}

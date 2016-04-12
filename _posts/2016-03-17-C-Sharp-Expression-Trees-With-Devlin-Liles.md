@@ -1,10 +1,10 @@
 ---
-date:               2016-03-17 18:30:00
-speaker:            Devlin Liles
+date:               2016-03-17 18:30:00 -05:00
+speaker:            "Devlin Liles"
 title:              "C# Expression Trees"
 subtitle:           "And other mindblowing tricks!"
-location:           "Southwestern Energy - Spring, Tx"
-sponsor:            "Improving"
+location:           "Southwestern Energy"
+sponsors:            ["Improving Enterprises", "Southwestern Energy"]
 description:        "These tricks will blow your mind"
 speaker-twitter:    "devlinliles"
 speaker-github:     "devlinliles"

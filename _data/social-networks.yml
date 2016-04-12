@@ -1,0 +1,13 @@
+---
+-   name: Facebook
+    icon: "/images/icons/facebook.png"
+    url: "https://www.facebook.com/nhdnug"
+
+-   name: Twitter
+    icon: "/images/icons/twitter.png"
+    url: "https://twitter.com/nhdnug"
+    
+-   name: Github
+    icon: "/images/icons/github.png"
+    url: "https://github.com/nhdnug"
+---

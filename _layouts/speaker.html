@@ -1,0 +1,56 @@
+---
+layout: default
+---
+{% include breadcrumb.html item1_url='/speakers' item1_title='Speakers' item2_url=page.url item2_title=page.title item2_last=true %}
+{% assign firstname = page.title | split:&nbsp; | first %}
+<div class="row">
+    <div class="col-xs-12 col-sm-8 col-md-9">
+        
+                
+        <h1>
+            {% include speaker-name.html speaker=page %}            
+        </h1>
+        
+        <div class="hidden-sm hidden-md hidden-lg" style="text-align: center; margin-bottom: 1em;">
+            <img src="{{ page.image-sm }}" alt="{{ page.title }}" />
+        </div>
+        {{ content }}
+        {% if page.social %}
+        <h4>Connect with {{ firstname }}:</h4>
+        <ul class="speaker-social-list">            
+            {% if page.social.facebook %}
+            <li><a href="{{ page.social.facebook }}"><img src="/images/icons/facebook.png" alt="Facebook" /></a></li>
+            {% endif %}
+            {% if page.social.twitter %}
+            <li><a href="{{ page.social.twitter }}"><img src="/images/icons/twitter.png" style="background-color: #55acee" alt="Twitter" /></a></li>
+            {% endif %}
+            {% if page.social.linkedin %}
+            <li><a href="{{ page.social.linkedin }}"><img src="/images/icons/linkedin.png" alt="Linked in" /></a></li>                            
+            {% endif %}
+            {% if page.social.www %}
+            <li><a href="{{ page.social.www }}">www</a></li>
+            {% endif %}
+            {% if page.social.github %}
+            <li><a href="{{ page.social.github }}"><img src="/images/icons/github_logo.png" alt="Github" /></a></li>
+            {% endif %}
+        </ul>
+        {% endif %}
+    </div>
+    <div class="col-xs-12 col-sm-4 col-md-3">
+        {% if page.image-sm %}
+        <div class="hidden-xs" style="text-align: center; margin-bottom: 1em;">
+            <img src="{{ page.image-sm }}" alt="{{ page.title }}" />
+        </div>
+        {% endif %}
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h3 class="panel-title">Meetings Presented</h3>
+            </div>
+            <div class="panel-body">
+                {% include meetings-list.html ul-class="speaker-events-list" where-key="speaker" where-value=page.title %}
+            </div> 
+        </div>
+    </div>
+</div>
+
+
