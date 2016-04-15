@@ -1,5 +1,5 @@
 ---
-date:               "2016-04-21 18:30:00 -05:00"
+date:               "2016-04-21 18:30:00"
 speaker:            "Kevin Cavnar-Johnson"
 title:              "Don’t Burn Yourself:  A Hot Take On Javascript Unit Testing"
 subtitle:           ""
