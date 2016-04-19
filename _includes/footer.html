@@ -1,0 +1,14 @@
+<footer>
+    <div class="container">
+        {% include socials.html %}
+        <span class="pull-right">&copy; {{ site.time | date: '%Y' }} {{ site.data.organization.legalName }}. All rights reserved.</span>
+    </div>
+</footer> 
+
+<script src="/js/jquery-2.2.2.min.js"></script>
+<script src="/js/bootstrap-3.3.6.min.js"></script>
+{% if page.js %}{% for js in page.js %}
+<script src="{{ js | prepend: site.baseurl }}"></script>
+{% endfor %}{% endif %}
+{% include google_analytics.html %}
+<script src="{{ '/js/main.js' | prepend: site.baseurl }}"></script>

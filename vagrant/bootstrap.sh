@@ -1,9 +1,8 @@
 #!/usr/bin/env bash
 
-# : ${1?"No repo. Set the REPO environment variable and try again!"}
-# clonerepo=${1}
 # We don't need to clone the directory - we already have it.
-# clonedir="/srv/www/$(basename $clonerepo)"
+clonedir="/srv/source"
+
 
 start_seconds="$(date +%s)"
 echo "Welcome to the initialization script."
@@ -60,13 +59,6 @@ if [[ ! -d '/srv/www' ]]; then
     sudo chown vagrant:vagrant '/srv/www'
 fi
 
-# Time to pull the repo. If the directory is there, we do nothing,
-# since git should be used to push/pull commits instead.
-# if [[ ! -d "$clonedir" ]]; then
-#     git clone "$clonerepo" "$clonedir"
-# fi
-
-
 # Now, for the Jekyll part. There are some issues you might hit:
 #
 # * Due to jekyll/jekyll#3030 we need to detach Jekyll from the shell manually,
@@ -81,12 +73,12 @@ fi
 jekyll=$(which jekyll)
 wrapper="${jekyll/bin/wrappers}"
 log="/home/vagrant/jekyll.log"
-run="start-stop-daemon --start --chuid vagrant:vagrant --exec $wrapper -- serve --host 0.0.0.0 --source $clonedir --destination /home/vagrant/_site --watch --force_polling >> $log 2>&1 &"
+run="start-stop-daemon --start --chuid vagrant:vagrant --exec $wrapper -- serve --host 0.0.0.0 --source $clonedir --destination /srv/www --watch --force_polling >> $log 2>&1 &"
 eval $run
 
 cat << UPSTART | sudo tee /etc/init/jekyll.conf > /dev/null
-description "Jekyll"
-author "kappataumu <hello@kappataumu.com>"
+description "North Houston .Net Users Group"
+author "North Houston .Net Users Group <info@nhdnug.org>"
 
 start on vagrant-mounted MOUNTPOINT=/srv/www
 

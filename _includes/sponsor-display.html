@@ -1,0 +1,23 @@
+{% if include.sponsor %}
+    {% assign totFound = 1 %}
+{% else if include.sponsor-title %}
+    {% assign sponsors = site.sponsors | where:"title", include.sponsor-title %}
+    {% assign totFound = sponsors | size %}
+        {% if totFound == 0 %}
+            {{ include.sponsor-title }}
+        {% else %}
+            {% assign sponsor = sponsors | first %}
+            {% assign totFound = 1 %}
+        {% endif %}
+{% endif %}
+{% if totFound == 1%}
+    {% if sponsor.logo.small %}
+    <div class="sponsor-logo">
+        <a href="{{ sponsor.url | prepend: site.baseurl }}">
+            <img src="{{ sponsor.logo.small | prepend: site.baseurl }}" alt="{{ sponsor.title }}" />
+        </a>
+    </div>
+    {% else %}
+    <a href="{{ sponsor.url | prepend: site.baseurl }}">{{ sponsor.title }}</a>
+    {% endif %}    
+{% endif %}

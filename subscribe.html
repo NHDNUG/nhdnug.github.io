@@ -1,0 +1,24 @@
+---
+layout: page
+title: Subscribe
+menu-top: true
+menu-top-pos: 3
+permalink: /subscribe/
+---
+
+{% include breadcrumb.html item1_url=page.url item1_title=page.title item1_last=true %}
+        
+<h1>Subscribe</h1>
+<div class="row">
+    <div class="col-xs-12 col-sm-8">
+        <p>Want to be reminded about our monthly meetings?</p>
+
+        <p>Enter your email and click the Subscribe button.
+           We promise no more than two emails per month.</p>
+        
+        <p>You can also follow us on Facebook and Twitter using the links below.</p>
+    </div>
+    <div class="col-xs-12 col-sm-4">
+        {% include mailchimp-signup.html %}
+    </div>
+</div>

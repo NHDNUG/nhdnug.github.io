@@ -1,0 +1,45 @@
+---
+layout: page
+title: Raffle
+menu-top: true
+menu-top-pos: 5
+permalink: /raffle/
+js: ['/js/raffle.js']
+---
+{% include breadcrumb.html item1_url=page.url item1_title=page.title item1_last=true %}
+        
+<h1>Raffle</h1>
+
+<div class="row">
+    <div class="col-xs-12 col-sm-8">
+        <div id="raffleFillerMessage">
+            <p>At the end of each meeting, there are prizes raffled off. 
+                This page helps us perform the raffle.</p>
+        </div>
+        <div id="raffleSpinner" style="display: none;"></div>
+        
+        
+    </div>
+    <div class="col-xs-12 col-sm-4">
+        <form>
+            <div id="formError" class="alert alert-danger" role="alert" style="display: none;"></div>
+            <div class="form-group">
+                <label for="rangeStart">Range Start</label>
+                <input type="number" class="form-control" id="rangeStart" />
+            </div>
+            <div class="form-group">
+                <label for="rangeEnd">Range End</label>
+                <input type="number" class="form-control" id="rangeEnd" />
+            </div>
+            <div class="form-group">
+                <button class="btn btn-default" id="resetButton">Reset</button>
+                <button class="btn btn-default" id="drawButton">Draw Number</button>
+            </div>
+        </form>        
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-8">
+        <ul id="rafflePicks" class="list-group"></ul>
+    </div>
+</div>

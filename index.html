@@ -1,0 +1,71 @@
+---
+layout: default
+js: ['/js/jquery.flexslider-min.js']
+css: ['/css/flexslider.css']
+home-page: true
+---
+<div class="row">
+    <div class="col-xs-12 col-sm-8 col-md-9">
+        {% assign meetings = site.posts | where: "is_meeting", "true" | sort: "date" %}
+        {% assign post = '' %}
+        {% for meeting in meetings %}
+        {% if meeting.date > site.time %}
+            {% assign post = meeting %}
+            {% break %}
+        {% endif %}
+        {% endfor %}
+        {% if post == '' %}
+        {% assign post = meetings | last %}
+        {% endif %}
+        
+        <div id="nextMeeting">
+                <h1 style="text-align: center;">{{ post.date | date: "%B" }} Meeting</h1>
+                <h3><a href="{{ post.url | prepend: site.baseurl}}">{{ post.title }}</a></h3>
+                {% if post.subtitle %}
+                <h5 class="subtitle">{{ post.subtitle }}</h5>
+                {% endif %}
+                <p>
+                    <span style="white-space: nowrap;"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
+                    {% include datetime.html date=post.date day=true time=true %}
+                    </span> |  
+                    <span style="white-space: nowrap;"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> {% include speaker-name.html speaker-title=post.speaker %}</span> | 
+                    <span style="white-space: nowrap;"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> {% include location-display.html location=post.location mode="title" %}</span>
+                </p>
+                {% if post.description %}
+                    <p>{{ post.description }}</p>
+                {% endif %}
+                <p>
+                {% include location-display.html location=post.location mode="map_embed" %}
+                </p>
+        </div>
+    </div>
+    <div class="col-xs-12 col-sm-4 col-md-3">
+        {% if post.sponsor or post.sponsors %}
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h3 class="panel-title">
+                    Meeting Sponsor{% if post.sponsors %}s{% endif %}
+                </h3>
+            </div>
+            <div class="panel-body" style="text-align: center;">
+                
+                {% if post.sponsor %}
+                    {% include sponsor-display.html sponsor-title=post.sponsor %}
+                {% else if post.sponsors %}
+                    <ul class="sponsor-list">
+                    {% for the_sponsor in post.sponsors %}
+                        <li>{% include sponsor-display.html sponsor-title=the_sponsor %}</li>
+                    {% endfor %}
+                    </ul>
+                {% endif %}
+            </div> 
+        </div>
+        {% endif %}        
+    </div>    
+</div>
+<div class="row">
+    <div class="col-xs-12" style="text-align: center; font-size: 80%">
+        <a href="https://www.flickr.com/photos/gruenewiese/11731796235/in/photolist-iSGwhT-pf9D6m-qZPxyv-iyCdHR-oVGYW6-oRS8HB-cHXjib-r8iPNY-dQuWK5-a1CMfn-gqT7QR-o1imyK-s48RZJ-fJfXRE-pfdf57-jJgvfJ-pFZ1UC-f4Cyqr-fd84Fs-8Qj6qE-8vkrx6-nXe4X6-5y3eLg-p9Hcno-nvqm9i-eqg8jS-eAU7jE-aghdSS-rBxaaC-ebsyGK-rhREEc-9VueaW-5LSkWo-qgcb7n-oauhZZ-iRcAB6-nS5Dss-qDVYr5-qV5hEJ-jJdCQt-7sTsXn-9fJW1G-huSgMS-pTaTBy-5ywKW3-a6uuot-o9M4tQ-rrx4ix-krRLnG-9kRihg">Starry Sky background image</a>, 
+        <a href="https://creativecommons.org/licenses/by-nd/2.0/">(CC BY-ND 2.0)</a>            
+    </div>
+</div>

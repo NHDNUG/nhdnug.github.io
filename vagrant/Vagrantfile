@@ -20,7 +20,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.network "private_network", ip: "192.168.3.33"
 
   # Create a shared folder between guest and host
-  config.vm.synced_folder "../source/", "/srv/www", create: true
+  config.vm.synced_folder "../", "/srv/source", create: true
+  config.vm.synced_folder "../_site", "/srv/www", create: true
 
   config.ssh.forward_agent = true
 
