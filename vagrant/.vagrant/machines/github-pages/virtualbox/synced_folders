@@ -1,0 +1,1 @@
+{"virtualbox":{"/srv/www":{"create":true,"guestpath":"/srv/www","hostpath":"C:/Development/nhdnug.github.io/source","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"C:/Development/nhdnug.github.io/vagrant","disabled":false,"__vagrantfile":true}}}
