@@ -1,13 +1,16 @@
 ---
     - title: President
-      name: Jason Awbrey
+      name: Joseph Reynolds
     
-    - title: Director of Speakers
-      name: Joe Reynolds
+    - title: Vice-President
+      name: Christine Piffat
       
-    - title: Treasurer
-      name: Jeff Etter
+    - title: Officer
+      name: Dev Talwalker
       
-    - title: Member
-      name: Don Waldo
+    - title: Officer
+      name: Tony Cardella
+    
+    - title: Member at Large
+      name: Jon Badgett
 ---
