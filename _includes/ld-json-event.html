@@ -9,7 +9,7 @@
   "@context": "http://schema.org",
   "@type": "Event",
   "name": "{{ event.title }}",
-  "startDate" : "{{ event.date | date_to_xmlschema }}",
+  "startDate" : "{{ event.date | date: "%Y-%m-%dT%H:%M" }}",
   "url" : "{{ event.url | prepend: site.baseurl | prepend: site.url }}",
   "location" : {
     "@type" : "Place",
