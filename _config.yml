@@ -23,7 +23,8 @@ exclude: ['README.md',
     'screenshot.png',
     'servesite.bat',
     'LICENSE',
-    'OldSiteConversionScript']
+    'OldSiteConversionScript',
+    'vagrant']
     
 # Collections
 collections:
@@ -65,4 +66,4 @@ description: 'A programmers meetup'
 url: 'http://nhdnug.github.io'
 baseurl: ''
 # google_analytics: ''
-# disqus_shortname: 'nhdnug'
+disqus_shortname: 'nhdnug'

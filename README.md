@@ -16,8 +16,6 @@ If you just want to give clone and run it, give it a try! That first site will g
 
 ## Thanks
 
-[![Join the chat at https://gitter.im/NHDNUG/nhdnug.github.io](https://badges.gitter.im/NHDNUG/nhdnug.github.io.svg)](https://gitter.im/NHDNUG/nhdnug.github.io?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
 ### Copyright and license
 
 This repo's source code is licensed under the [MIT license](/LICENSE).
