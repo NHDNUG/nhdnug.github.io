@@ -7,7 +7,7 @@ map_embed_url: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13791.63225
 details:
  -  title: "MC-G G123"
     map_url: "https://www.google.com/maps/place/Bldg+G+(General+Academic+Center),+G+College+Park+Dr,+Conroe,+TX+77384/@30.209914,-95.468997,16z/data=!4m2!3m1!1s0x86473748f6b497df:0xa6bd3dc3f7177305?hl=en-US"
-    map_embed_url: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6895.904238303482!2d-95.468997!3d30.209914!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86473748f6b497df%3A0xa6bd3dc3f7177305!2sBldg+G+(General+Academic+Center)%2C+G+College+Park+Dr%2C+Conroe%2C+TX+77384!5e0!3m2!1sen!2sus!4v1458232817323"
+    map_embed_url: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6895.904238303482!2d-95.468997!3d30.209914!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86473748f6b497df%3A0xa6bd3dc3f7177305!2sBldg+G+(General+Academic+Center)%2C+G+College+Park+Dr%2C+Conroe%2C+TX+77384!5e0!3m2!1sen!2sus!4v1461281914544"
 
 ---
 
