@@ -14,10 +14,6 @@ If you at least skim the cheat sheet - and follow along with what's going on in 
 
 If you just want to give clone and run it, give it a try! That first site will get all the pre-reqs moving, all you have to do is hit the "servesite.bat" file, and you can see your changes as you make them. Have fun!
 
-## Thanks
-
-[![Join the chat at https://gitter.im/NHDNUG/nhdnug.github.io](https://badges.gitter.im/NHDNUG/nhdnug.github.io.svg)](https://gitter.im/NHDNUG/nhdnug.github.io?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
 ### Copyright and license
 
 This repo's source code is licensed under the [MIT license](/LICENSE).
