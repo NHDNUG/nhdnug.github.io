@@ -63,7 +63,6 @@ defaults:
 # Site Properties
 title: North Houston .Net Users Group
 description: 'A programmers meetup'
-url: 'http://nhdnug.github.io'
+url: 'http://www.nhdnug.org'
 baseurl: ''
 # google_analytics: ''
-disqus_shortname: 'nhdnug'
