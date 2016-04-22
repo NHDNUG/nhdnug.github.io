@@ -23,7 +23,8 @@ exclude: ['README.md',
     'screenshot.png',
     'servesite.bat',
     'LICENSE',
-    'OldSiteConversionScript']
+    'OldSiteConversionScript',
+    'vagrant']
     
 # Collections
 collections:
