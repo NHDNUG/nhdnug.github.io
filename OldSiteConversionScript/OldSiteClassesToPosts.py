@@ -1,7 +1,7 @@
 import csv
 import cgi
 
-outputPath = "C:\Development\InfoCraft\\nhdnug.github.io\\_drafts"
+outputPath = "Z:\\_drafts"
 print outputPath
 
 ifile  = open('nhmeetings.csv', "rb")
