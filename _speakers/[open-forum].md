@@ -1,5 +1,5 @@
 ---
-title: [Open Forum]
+title: "[Open Forum]"
 social: 
 ---
 No bio provided.

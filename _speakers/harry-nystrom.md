@@ -1,5 +1,5 @@
 ---
-title: Harry Nystrom
+title: "Harry Nystrom"
 social: 
 ---
 <span style="color: #1f497d;">Harry Nystrom has held many

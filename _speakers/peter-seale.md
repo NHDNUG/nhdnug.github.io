@@ -1,5 +1,5 @@
 ---
-title: Peter Seale
+title: "Peter Seale"
 social: 
 ---
 No bio provided.

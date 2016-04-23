@@ -1,7 +1,7 @@
 ---
-title: Chris Koenig
+title: "Chris Koenig"
 social: 
-    www: http://chriskoenig.net/
+    www: "http://chriskoenig.net/"
 ---
 <a href="mailto:chris.koenig@microsoft.com" onclick="javascript:Track('ctl00_ctl01|ctl00_ctl09',this);">Chris Koenig</a>
 is a Senior Developer Evangelist with Microsoft, based in Dallas, TX.

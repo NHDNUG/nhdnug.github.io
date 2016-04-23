@@ -1,5 +1,5 @@
 ---
-title: Allen Hurst
+title: "Allen Hurst"
 social: 
 ---
 No bio provided.

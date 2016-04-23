@@ -1,5 +1,5 @@
 ---
-title: Joe Reynolds
+title: "Joe Reynolds"
 social: 
 ---
 No bio provided.

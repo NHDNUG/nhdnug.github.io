@@ -1,5 +1,5 @@
 ---
-title: Brian Kirkland
+title: "Brian Kirkland"
 social: 
 ---
 Brian Kirkland is a senior software consultant @ Infusion with

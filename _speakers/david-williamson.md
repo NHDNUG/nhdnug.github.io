@@ -1,5 +1,5 @@
 ---
-title: David Williamson
+title: "David Williamson"
 social: 
 ---
 <span style="font-size: 11pt; color: #1f497d;">David R.

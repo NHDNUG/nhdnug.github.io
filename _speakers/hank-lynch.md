@@ -1,5 +1,5 @@
 ---
-title: Hank Lynch
+title: "Hank Lynch"
 social: 
 ---
 <span style="color: #888888;"><span class="il">Hank</span> Lynch has been

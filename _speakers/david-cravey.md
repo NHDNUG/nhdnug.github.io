@@ -1,5 +1,5 @@
 ---
-title: David Cravey
+title: "David Cravey"
 social: 
 ---
 No bio provided.

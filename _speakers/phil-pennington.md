@@ -1,8 +1,8 @@
 ---
-title: Phil Pennington
+title: "Phil Pennington"
 social: 
-    www: http://blogs.technet.com/windowsserverexperts/archive/2010/01/08/about-phil-pennington.aspx
-    email: philpenn@microsoft.com
+    www: "http://blogs.technet.com/windowsserverexperts/archive/2010/01/08/about-phil-pennington.aspx"
+    email: "philpenn@microsoft.com"
 ---
 <span style="font-size: 12pt;">
 <p>Phil is a Developer Evangelist at Microsoft focusing on both Windows Server and Technical Computing technologies.   This user-group presentation is a preview of material Phil will present in July as a guest speaker at the University of Illinois Parallel Computing Research Center summer-school.</p>

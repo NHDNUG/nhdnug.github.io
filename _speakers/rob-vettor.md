@@ -1,5 +1,5 @@
 ---
-title: Rob Vettor
+title: "Rob Vettor"
 social: 
 ---
 No bio provided.

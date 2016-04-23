@@ -1,5 +1,5 @@
 ---
-title: Paul Drew
+title: "Paul Drew"
 social: 
 ---
 No bio provided.

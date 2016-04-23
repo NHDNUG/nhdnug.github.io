@@ -1,9 +1,9 @@
 ---
-title: Jeff Etter
+title: "Jeff Etter"
 social: 
-    twitter: TexasJetter
-    www: http://www.TexasJetter.com
-    email: Jeff@TheEtters.com
+    twitter: "https://twitter.com/TexasJetter"
+    www: "http://www.TexasJetter.com"
+    email: "Jeff@TheEtters.com"
 ---
 By day JEff is the IT Manager for a MEP consulting engineering firm located in Houston, Texas. CHP & Associates (CHPA) provides A/C, Power, Lighting, and Plumbing systems design services for the commercial industry. For those not familiar with the industry, we work with Architects to provide blue prints used in the construction of Office buildings, Museums, Schools, Convention Centers, Hotels, and other commercial buildings.
 

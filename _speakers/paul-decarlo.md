@@ -1,5 +1,5 @@
 ---
-title: Paul DeCarlo
+title: "Paul DeCarlo"
 social: 
 ---
 No bio provided.

@@ -1,7 +1,7 @@
 ---
-title: Markus Egger
+title: "Markus Egger"
 social: 
-    www: http://eps-software.com
+    www: "http://eps-software.com"
 ---
 Markus is an international speaker, having presented sessions at
 numerous conferences in North &amp; South America and Europe. Markus has
