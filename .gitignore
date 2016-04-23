@@ -6,7 +6,7 @@ _site
 .DS_Store
 Gemfile.lock
 .vscode
-
+.idea/
 
 # Created by https://www.gitignore.io/api/vagrant
 

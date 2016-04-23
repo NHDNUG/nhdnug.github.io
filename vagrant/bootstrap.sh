@@ -38,8 +38,8 @@ sudo apt-get clean
 gpg --keyserver hkp://keys.gnupg.net --recv-keys D39DC0E3
 curl -sSL https://get.rvm.io | bash -s stable --quiet-curl
 source ~/.rvm/scripts/rvm
-rvm install 2.1.7 --quiet-curl
-rvm use 2.1.7 --default
+rvm install 2.3.0 --quiet-curl
+rvm use 2.3.0 --default
 ruby --version
 
 # https://github.com/github/pages-gem
