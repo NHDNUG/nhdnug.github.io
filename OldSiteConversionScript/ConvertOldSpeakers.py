@@ -22,20 +22,20 @@ for speaker in root:
         if child.tag == 'filename':
             filename = child.text
         if child.tag == 'title':
-            title = child.tag + ': ' + child.text
+            title = child.tag + ': \"' + child.text + '\"'
         if child.tag == 'twitter':
             if child.text is not None:
-                twitter = child.tag + ': ' + child.text
+                twitter = child.tag + ': \"https://twitter.com/' + child.text + '\"'
             else:
                 twitter = None
         if child.tag == 'www':
             if child.text is not None:
-                www = child.tag + ': ' + child.text
+                www = child.tag + ': \"' + child.text + '\"'
             else:
                 www = None
         if child.tag == 'email':
             if child.text is not None:
-                email = child.tag + ': ' + child.text
+                email = child.tag + ': \"' + child.text + '\"'
             else:
                 email = None
         if child.tag == 'pagecontent':

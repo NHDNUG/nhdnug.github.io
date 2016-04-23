@@ -265,18 +265,6 @@ Jeff regularly attends the North Houston .Net Users Group and continue to learn 
     <email />
     <pagecontent />
   </speaker>
-  <speaker id="38">
-    <filename>devlin-liles.md</filename>
-    <title>Devlin Liles</title>
-    <twitter />
-    <www>https://mvp.support.microsoft.com/default.aspx/profile/devlin.liles</www>
-    <email />
-    <pagecontent>Devlin Liles is a Principal Consultant at Improving Enterprises and a passionate technologist. Devlin prides himself on staying a generalist, but his passion in development is data and its interactions. These passions gained him the recognition of Microsoft as an MVP of Data Platform Development awardee.
-
-Since 2007 he has been presenting and teaching classes on software development practices and tools to audiences around the nation. He is a regular national presenter at user groups, conferences, and community events. He founded an internal Corporate Software Craftsmanship conference in Northwest Arkansas as well as led the Tyson User group for a year and a half. He has been involved in many conferences and events (Dallas TechFest, Houston TechFest, Houston CodeCamp, Houston GiveCamp, AgileDotNet) as a coordinator; planner; or just a helping hand.
-
-Recently Devlin became published along with his good friend Tim Rayburn as authors of a book about Entity Framework and the expert’s approach to it.</pagecontent>
-  </speaker>
   <speaker id="40">
     <filename>ryan-riley.md</filename>
     <title>Ryan Riley</title>
@@ -376,7 +364,7 @@ Recently Devlin became published along with his good friend Tim Rayburn as autho
   <speaker id="53">
     <filename>david-neal.md</filename>
     <title>David Neal</title>
-    <twitter>@reverentgeek</twitter>
+    <twitter>reverentgeek</twitter>
     <www>http://reverentgeek.com</www>
     <email />
     <pagecontent>I am a father, geek, musician, and software developer living in North GA near Chattanooga, TN. I've spent the last several years building high-performance, scalable social media applications, and I currently work at LeanKit as a Developer Advocate. I served as president of the Nashville .NET User Group for 2012 and 2013. Among other things, I'm passionate about software craftsmanship, music, motorcycling, and bacon. You can find me on Twitter as @reverentgeek.</pagecontent>
@@ -428,5 +416,13 @@ Recently Devlin became published along with his good friend Tim Rayburn as autho
     <www>https://lostechies.com/gabrielschenker/author/gabrielschenker/</www>
     <email />
     <pagecontent>Gabriel Schenker has more than 20 years of experience as an independent consultant, architect, leader, trainer, mentor and developer.  His special focus is on practicing lean or friction-less software development and continuous deployment. He is constantly advocating, promoting and supporting a continuous improvement of individual developers or development teams </pagecontent>
+  </speaker>
+  <speaker id="60">
+    <filename>greg-major.md</filename>
+    <title>Greg Major</title>
+    <twitter>https://twitter.com/gregmajor</twitter>
+    <www>http://www.gregmajor.com/</www>
+    <email />
+    <pagecontent>I'm a polyglot software architect, husband, father, woodworker, homebrewer, amateur radio operator (KD0FEP), guitar player, runner, and cyclist. I've lived in Stillwater, OK, Corpus Christi, TX, Houston, TX, Caribou, ME, Minneapolis, MN, and now I call Houston home sweet home.</pagecontent>
   </speaker>
 </speakers>
