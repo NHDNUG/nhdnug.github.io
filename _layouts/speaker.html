@@ -27,14 +27,14 @@ layout: default
             {% if page.social.linkedin %}
             <li><a href="{{ page.social.linkedin }}"><img src="/images/icons/linkedin.png" alt="Linked in" /></a></li>                            
             {% endif %}
-            {% if page.social.www %}
-            <li><a href="{{ page.social.www }}"><img src="/images/icons/browser.png" alt="Website" /></a></li>
-            {% endif %}
             {% if page.social.github %}
             <li><a href="{{ page.social.github }}"><img src="/images/icons/github_logo.png" alt="Github" /></a></li>
             {% endif %}
+            {% if page.social.www %}
+            <li><a href="{{ page.social.www }}"><img src="/images/icons/browser.png" alt="Website" /></a></li>
+            {% endif %}
             {% if page.social.email %}
-            <li><a href="{{ page.social.email }}"><img src="/images/icons/email.png" alt="Email" /></a></li>
+            <li><a href="mailto:{{ page.social.email }}"><img src="/images/icons/email.png" alt="Email" /></a></li>
             {% endif %}
         </ul>
         {% endif %}
