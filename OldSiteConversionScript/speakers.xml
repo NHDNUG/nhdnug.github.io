@@ -1,0 +1,432 @@
+
+<speakers>
+  <speaker id="1">
+    <name>Todd Anglin</name>
+    <company>Telerik</company>
+    <bio>Todd Anglin is an active .NET community member, President of the North Houston .NET User Group, an O’Reilly author, Microsoft MVP and Telerik's Chief Evangelist. At Telerik, Todd is responsible for educating Telerik's global community of developers and helping ensure Telerik's products serve the needs of .NET developers around the world. In the general .NET community, Todd is an active author and speaker, focusing primarily on ASP.NET and Silverlight. You can find him online at http://telerikwatch.com. 
+</bio>
+    <url>http://telerikwatch.com</url>
+    <email>anglin@telerik.com</email>
+    <twitter>toddanglin</twitter>
+  </speaker>
+  <speaker id="2">
+    <name>J Sawyer</name>
+    <company>Hitachi Consulting</company>
+    <bio>J is a Senior Architect for Hitachi Consulting based in Houston, TX who absolutely loves to write code and build cool, innovative solutions to hard problems. Lately he's been deeply involved with Microsoft's Complex Event Processing platform - StreamInsight - and have been recognized by Microsoft as a Most Valuable Professional (MVP). He's also the President of the Houston .NET User's Group</bio>
+    <url>http://www.devbiker.net</url>
+    <email>j.sawyer@logica.com</email>
+    <twitter>jdotnet</twitter>
+  </speaker>
+  <speaker id="3">
+    <name>Rob Vettor</name>
+    <company>Jack Henry and Associates</company>
+    <bio>Rob Vettor is a Microsoft .NET Architect/Senior Solution Developer, currently with Jack Henry and Associates. Rob, a C# MVP, has built systems for a number of corporations, including Avanade, Raytheon and American Express. Rob, an avid Toastmaster  founded the Dallas .NET Architecture User Group (www.dotnetarch.com) and is a member of the Microsoft South Region Developer Guidance Council. Rob lives in Dallas, TX, with his wife, twin sons, three dogs and rooms full of NET computer books. You can contact Rob at robvettor@hotmail.com.</bio>
+    <url>www.dotnetarch.com</url>
+    <email>robvettor@hotmail.com</email>
+    <twitter />
+  </speaker>
+  <speaker id="4">
+    <name>Tony Champion</name>
+    <company>CDS</company>
+    <bio>Tony Champion is the principal solution consultant for CDS, a software solution company and member of the Microsoft Silverlight Partner Program.  Tony has been developing in Microsoft technologies since 1996 and has experience in web applications, desktop applications, graphics, and real-time software.  He is currently focused on providing professional solutions using the latest technologies, including Silverlight, WPF, SharePoint, AJAX, and WCF.</bio>
+    <url />
+    <email />
+    <twitter />
+  </speaker>
+  <speaker id="5">
+    <name>Jared Bienz</name>
+    <company>Microsoft</company>
+    <bio>Jared Bienz is an ISV Architect Advisor with Microsoft, which means he helps companies who write software understand and leverage Microsoft technologies. Jared has been a professional in the software industry since 1995. He’s worked on a wide range of technologies including IP Telephony, Mobile, Web, Composite and Rich Clients. He’s particularly interested in client and UX technologies like WCF, XNA, WPF and Silverlight.</bio>
+    <url>http://blogs.msdn.com/jbienz</url>
+    <email>jbienz@microsoft.com</email>
+    <twitter>jbienz</twitter>
+  </speaker>
+  <speaker id="7">
+    <name>Mohammad Azam</name>
+    <company>Sogeti</company>
+    <bio>Mohammad Azam works as a senior consultant at Sogeti. He is the founder of the knowledge based website, HighOnCoding. The website contains over 300 articles, 50+ videos and several podcasts. Few months ago Mohammad Azam also launched www.ScreenCastADay.com, a website which hosts screencasts related to the .NET technology.&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Mohammad Azam is also a Microsoft ASP.NET MVP.Mohammad Azam also contribute to the AspAlliance website. The contributions are in the form of videos and articles. &lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;You can check out all the videos at www.aspalliance.com/videos.Mohammad Azam blogs at www.azamsharp.com.&lt;/div&gt;</bio>
+    <url>www.azamsharp.com</url>
+    <email>azamsharp@gmail.com</email>
+    <twitter />
+  </speaker>
+  <speaker id="8">
+    <name>Claudio Lassala</name>
+    <company>EPS Software</company>
+    <bio>Claudio Lassala is a Senior Developer at EPS Software Corp. He haspresented several lectures at Microsoft events such as PDC Brazil andvarious other Microsoft seminars, as well as several conferences and usergroups across North America and Brazil. He is a multiple winner of theMicrosoft MVP Award since 2001 (for Visual FoxPro in 2001-2002, and for C#ever since), an INETA speaker, and also holds the MCSD for .NETcertification. He has articles published on several magazines, such as MSDNBrazil Magazine, CoDe Magazine, UTMag, Developers Magazine, and FoxProAdvisor.Claudio blogs at http://claudiolassala.spaces.live.com, and can befollowed on Twitter at http://twitter.com/ClaudioLassala. More detailedinformation regarding his presentations and articles can be found in his MVPhttps://mvp.support.microsoft.com/profile=EC6B1E0B-8EFC-4530-97B0-55BD924E26D0</bio>
+    <url>http://claudiolassala.spaces.live.com</url>
+    <email>classala@eps-software.com</email>
+    <twitter>ClaudioLassala</twitter>
+  </speaker>
+  <speaker id="10">
+    <name>Harry Nystrom</name>
+    <company />
+    <bio>&lt;span style="color: #1f497d;"&gt;Harry Nystrom has held many
+positions, both technical and managerial, over his 35-plus years in the
+IT industry.&amp;nbsp; In 1996 he began his own consulting/contracting business,
+and has been specializing in Microsoft .NET application design and
+development for the last seven years.&amp;nbsp; He holds the MCSD .NET
+certification, and is the leader of the Houston Advanced C# Special
+Interest Group, which meets monthly at the Houston Microsoft sales
+office.&lt;/span&gt;
+</bio>
+    <url />
+    <email />
+    <twitter />
+  </speaker>
+  <speaker id="11">
+    <name>Jason Awbrey</name>
+    <company>Improving Enterprises</company>
+    <bio>Jason is a Senior Consultant with Improving Enterprises and a long time member of the Houston Tech community.  He serves on the board of NHDNUG and was a founder of GiveCamp Houston.  He also serves on the board of Habitat for Humanity Northwest Harris County.</bio>
+    <url />
+    <email>jason@awbrey.net</email>
+    <twitter />
+  </speaker>
+  <speaker id="12">
+    <name>Zain Naboulsi</name>
+    <company>Microsoft</company>
+    <bio>For over 15 years Zain has been teaching and consulting on the latest Microsoft technologies.  He’s been a Consultant and Microsoft Certified Trainer since 1995. He is the current purveyor of Visual Studio Tips and Tricks as well as the creator of Online Community Evangelism; which is an effort to build communities in virtual places like LinkedIn, Facebook, and OpenSim.  He is not only a proponent of the community aspect of online environments but also is a supporter of the myriad business applications that these new mediums offer.&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Zain’s efforts have been featured by eWeek, Redmond Developer News, and many others.  He has been interviewed by Forrester Research, ThinkBalm, UgoTrade, Gartner, and the Science Channel for his work with online communities.  He is a frequent speaker at events in LinkedIn, Facebook, ReactionGrid, and other online venues. Zain also lectures world-wide on a variety of topics.&lt;/div&gt;</bio>
+    <url>http://blogs.msdn.com/zainnab</url>
+    <email />
+    <twitter />
+  </speaker>
+  <speaker id="13">
+    <name>Mark Gordon</name>
+    <company>HP</company>
+    <bio>Mark has been leading software teams at Hewlett-Packard for 15 years, using .NET for 7 years.&amp;nbsp; While at HP, he has primarily worked on customer support applications: client and server.&amp;nbsp; If you have ever used Windows Help and Support on a HP computer, you may have used one of his applications.
+</bio>
+    <url />
+    <email />
+    <twitter />
+  </speaker>
+  <speaker id="14">
+    <name>[Open Forum]</name>
+    <company />
+    <bio />
+    <url />
+    <email />
+    <twitter />
+  </speaker>
+  <speaker id="15">
+    <name>David Williamson</name>
+    <company>Microsoft</company>
+    <bio>&lt;span style="font-size: 11pt; color: #1f497d;"&gt;David R.
+Williamson is PM on the Microsoft Visual Studio Testing Team&lt;/span&gt;
+</bio>
+    <url />
+    <email />
+    <twitter />
+  </speaker>
+  <speaker id="16">
+    <name>Phil Pennington</name>
+    <company>Microsoft</company>
+    <bio>&lt;span style="font-size: 12pt;"&gt;
+&lt;p&gt;Phil is a Developer Evangelist at Microsoft focusing on both Windows Server and Technical Computing technologies.   This user-group presentation is a preview of material Phil will present in July as a guest speaker at the University of Illinois Parallel Computing Research Center summer-school.&lt;/p&gt;
+&lt;p" /&gt;More information about Phil can be found at the following link: &lt;a href="http://blogs.technet.com/windowsserverexperts/archive/2010/01/08/about-phil-pennington.aspx" target="_blank"&gt;http://blogs.technet.com/windowsserverexperts/archive/2010/01/08/about-phil-pennington.aspx&lt;/a&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/span&gt;
+</bio>
+    <url>http://blogs.technet.com/windowsserverexperts/archive/2010/01/08/about-phil-pennington.aspx</url>
+    <email>philpenn@microsoft.com</email>
+    <twitter />
+  </speaker>
+  <speaker id="17">
+    <name>Chris Koenig</name>
+    <company>Microsoft</company>
+    <bio>&lt;a href="mailto:chris.koenig@microsoft.com" onclick="javascript:Track('ctl00_ctl01|ctl00_ctl09',this);"&gt;Chris Koenig&lt;/a&gt;
+is a Senior Developer Evangelist with Microsoft, based in Dallas, TX.
+Prior to joining Microsoft in March of 2007, Chris worked as a Senior
+Architect for The Capital Group in San Antonio, and as an Architect for
+the global solution provider Avanade. As an Architect and &amp;nbsp;consultant,
+Chris worked with a variety of clients from many vertical markets, ISVs
+and other solution providers on enterprise-class Windows and web-based
+applications. Today, Chris focuses on building, growing, and enhancing
+the developer communities in Texas, Oklahoma, Arkansas and Louisiana
+while specializing in &lt;a href="http://developer.windowsphone.com/"&gt;Windows Phone 7&lt;/a&gt; and &lt;a onclick="javascript:_gaq.push(['_trackEvent','outbound-article','silverlight.net']);" href="http://silverlight.net/"&gt;Silverlight &lt;/a&gt;development.
+</bio>
+    <url>http://chriskoenig.net/</url>
+    <email />
+    <twitter />
+  </speaker>
+  <speaker id="18">
+    <name>Brian Kirkland</name>
+    <company>Infusion</company>
+    <bio>Brian Kirkland is a senior software consultant @ Infusion with
+experience in a wide array of technologies. He has developed software
+for high-end ultrasound systems, worked as a flight controller in NASA's
+Mission Control (where he also built trajectory software), and recently
+helped Infusion construct an iPhone application. Brian earned a
+software engineering masters degree from Seattle University and a
+bachelor's degree in computer science from the University of Texas @
+Austin.
+</bio>
+    <url />
+    <email />
+    <twitter />
+  </speaker>
+  <speaker id="19">
+    <name>Markus Egger</name>
+    <company>EPS Software</company>
+    <bio>Markus is an international speaker, having presented sessions at
+numerous conferences in North &amp;amp; South America and Europe. Markus has
+written many articles for publications including CoDe Magazine, Visual
+Studio Magazine, MSDN Brazil, asp.net Pro, FoxPro Advisor, Fuchs,
+FoxTalk and Microsoft Office &amp;amp; Database Journal. Markus is the
+publisher of CoDe Magazine.
+Markus is also the President and Chief Software Architect of
+EPS Software Corp., a custom software development and consulting firm
+located Houston, Texas. He specializes in consulting for object-oriented
+development, Internet development, B2B, and Web Services. EPS does most
+of development using Microsoft Visual Studio (.NET). EPS has worked on
+software projects for Fortune 500 companies including Philip Morris,
+Qualcomm, Shell, and Microsoft. Markus has also worked as a contractor
+on the Microsoft Visual Studio team, where he was mostly responsible for
+object modeling and other object- and component-related technologies.
+Markus received the Microsoft MVP Award (1996-2006) for his
+contributions to the developer community. Visual LandPro, one of the
+applications Markus was responsible for, was nominated three times in
+the Microsoft Excellence Awards.
+</bio>
+    <url>http://eps-software.com</url>
+    <email />
+    <twitter />
+  </speaker>
+  <speaker id="20">
+    <name>Thom  Chichester</name>
+    <company>EPS Software</company>
+    <bio>He has more than twenty years of experience in the design, development, implementation, documentation and maintenance of client-server and monolithic database applications using both procedural and object-oriented languages and design methodologies. He has independently designed, developed and implemented more than a dozen database applications. He has provided consulting services to clients in the areas of requirements analysis, system concept development, project planning and system design, development and implementation. Thom is proficient in user interface (UI) and user experience (UX) design. Thom is the leader of the Houston Designers and Developers Special Interest Group (D2SIG) and has given numerous presentations on software related graphic design.</bio>
+    <url>http://eps-software.com</url>
+    <email />
+    <twitter />
+  </speaker>
+  <speaker id="21">
+    <name>Ben Scheirman</name>
+    <company />
+    <bio>Ben Scheirman is a software developer, speaker, author, and blogger. He has extensive experience programming on a multitude of platforms, such as .NET, Ruby on Rails, and iOS.  He's written 2 books, a couple dozen iPhone apps, and worked on countless web applications.  He is the Director of Development for &lt;a href="http://chaione.com/" target="_blank"&gt;ChaiONE&lt;/a&gt; where he builds awesome Ruby and iPhone applications. You can catch him on Twitter at &lt;a href="http://twitter.com/subdigital" target="_blank"&gt;http://twitter.com/subdigital&lt;/a&gt; and on his blog  online at &lt;a href="http://flux88.com/" target="_blank"&gt;http://flux88.com&lt;/a&gt;.</bio>
+    <url />
+    <email />
+    <twitter />
+  </speaker>
+  <speaker id="22">
+    <name>Rob Vettor</name>
+    <company />
+    <bio />
+    <url />
+    <email />
+    <twitter />
+  </speaker>
+  <speaker id="23">
+    <name>Scott Peterson</name>
+    <company />
+    <bio>&lt;span style="border-collapse: collapse; font-family: arial, sans-serif; color: #000000; line-height: normal; "&gt;Scott J. Peterson is an Enterprise Solution Architect and Developer with Liquid Daffodil, and has been developing software with Microsoft tools and technologies since the late 1980s and has designed, developed and deployed solutions for clients across the globe. Scott was the architect and primary developer of the first MOSS 2007 deployment to go into production worldwide, and has developed solutions for organizations large and small, including Microsoft as part of their global&lt;em&gt;Partners in Learning&lt;/em&gt; initiative. Most recently Scott has been developing Windows Phone 7 mobile tools for SharePoint and is a profoundly happily married father of 10 and lives in Richmond, Texas.&lt;/span&gt;</bio>
+    <url />
+    <email />
+    <twitter />
+  </speaker>
+  <speaker id="24">
+    <name>Allen Hurst</name>
+    <company>Improving Enterprises</company>
+    <bio />
+    <url />
+    <email />
+    <twitter />
+  </speaker>
+  <speaker id="25">
+    <name>Hank Lynch</name>
+    <company />
+    <bio>&lt;span style="color: #888888;"&gt;&lt;span class="il"&gt;Hank&lt;/span&gt; Lynch has been
+developing commercial web applications since the mid 90's, and&amp;nbsp;is
+currently a managing consultant with Sogeti.&amp;nbsp; In his current assignment
+he is acting as Lead Technical Consultant on the replatforming of
+Dell.com from &lt;a target="_blank" href="http://asp.net/"&gt;asp.net&lt;/a&gt; WebForms to MVC3.&lt;/span&gt;
+</bio>
+    <url />
+    <email />
+    <twitter />
+  </speaker>
+  <speaker id="35">
+    <name>Jeff Etter</name>
+    <company>CHP and Associates</company>
+    <bio>By day JEff is the IT Manager for a MEP consulting engineering firm located in Houston, Texas. CHP &amp; Associates (CHPA) provides A/C, Power, Lighting, and Plumbing systems design services for the commercial industry. For those not familiar with the industry, we work with Architects to provide blue prints used in the construction of Office buildings, Museums, Schools, Convention Centers, Hotels, and other commercial buildings.
+
+Jeff started his career as an Electrical Designer, creating the Power and Lighting blueprints in CAD. Along the way CHPA decided that every desk needed a computer, and that someone was needed to manage them. By that time Jeff had already established his tech savvy by leading the CAD standardization and training charge, so he was offered the opportunity. As they say, they rest is history...
+
+Starting with VB3 and MS Access Jeff began writing simple utility applications, then Classics ASP pages. It has now blossomed into comprehensive corporate Intranet using C# ASP.NET with AJAX against a replicated MS SQL Server. Line of business engineering applications that he has created are used daily to stream line and standardize the production process.
+
+Jeff regularly attends the North Houston .Net Users Group and continue to learn new technologies.</bio>
+    <url>http://www.TexasJetter.com</url>
+    <email>Jeff@TheEtters.com</email>
+    <twitter>TexasJetter</twitter>
+  </speaker>
+  <speaker id="37">
+    <name>Joe  Reynolds</name>
+    <company>EPS Software</company>
+    <bio />
+    <url />
+    <email />
+    <twitter />
+  </speaker>
+  <speaker id="38">
+    <name>Devlin Liles</name>
+    <company>Improving Enterprises</company>
+    <bio>Devlin Liles is a Principal Consultant at Improving Enterprises and a passionate technologist. Devlin prides himself on staying a generalist, but his passion in development is data and its interactions. These passions gained him the recognition of Microsoft as an MVP of Data Platform Development awardee.
+
+Since 2007 he has been presenting and teaching classes on software development practices and tools to audiences around the nation. He is a regular national presenter at user groups, conferences, and community events. He founded an internal Corporate Software Craftsmanship conference in Northwest Arkansas as well as led the Tyson User group for a year and a half. He has been involved in many conferences and events (Dallas TechFest, Houston TechFest, Houston CodeCamp, Houston GiveCamp, AgileDotNet) as a coordinator; planner; or just a helping hand.
+
+Recently Devlin became published along with his good friend Tim Rayburn as authors of a book about Entity Framework and the expert’s approach to it.</bio>
+    <url>https://mvp.support.microsoft.com/default.aspx/profile/devlin.liles</url>
+    <email />
+    <twitter />
+  </speaker>
+  <speaker id="40">
+    <name>Ryan Riley</name>
+    <company />
+    <bio>Ryan Riley is a software developer for Catapult Systems in Houston, TX, a F# MVP, and has worked with the Web API project for over a year. </bio>
+    <url />
+    <email />
+    <twitter />
+  </speaker>
+  <speaker id="41">
+    <name>Johathon Birkholz</name>
+    <company />
+    <bio />
+    <url />
+    <email />
+    <twitter />
+  </speaker>
+  <speaker id="42">
+    <name>Michael Heydt</name>
+    <company>SunGard Global Service</company>
+    <bio>Michael Heydt is Principal Technologist with SunGard Global Service’s Advanced Technologies Group, where he builds energy and financial trading systems using Microsoft.NET and Cloud Services, utilizing rich and natural user interfaces.  He has just short of 30 years experience building Microsoft based software, and is frequently speaks at .NET user groups and conference on the latest and greatest features of .NET, C# and Azure.   In his spare time he works on his real passion, making the technology of Minority Report a reality with his array of Kinect’s</bio>
+    <url />
+    <email />
+    <twitter />
+  </speaker>
+  <speaker id="43">
+    <name>Michael Perry</name>
+    <company>Improving Enterprises</company>
+    <bio>Michael is a Principal Consultant with Improving Enterprises in Dallas.</bio>
+    <url />
+    <email />
+    <twitter />
+  </speaker>
+  <speaker id="44">
+    <name>Alonso Robles</name>
+    <company>Headspring</company>
+    <bio>Alonso Robles is a husband and a father and is currently a Principal Consultant at Headspring, a leading software development company. He has developed numerous .NET solutions over the last decade for companies in many industries including finance, insurance, biotech, entertainment, manufacturing, education, technology, and even local government. He has always been interested in machine learning and large data sets and has spent most of his time in the past few years working projects with NoSQL implementations.  </bio>
+    <url />
+    <email />
+    <twitter />
+  </speaker>
+  <speaker id="46">
+    <name>Wayne Denier</name>
+    <company>Headspring</company>
+    <bio>Wayne Denier is a Senior Consultant for Headspring. He develops across the application stack in .NET MVC and other C# stuff, with a focus on UI, usability and presentation technologies.</bio>
+    <url />
+    <email />
+    <twitter />
+  </speaker>
+  <speaker id="47">
+    <name>Peter Seale</name>
+    <company />
+    <bio />
+    <url />
+    <email />
+    <twitter />
+  </speaker>
+  <speaker id="48">
+    <name>Jeffery Palermo</name>
+    <company>Clear Measure</company>
+    <bio>Jeffrey Palermo is a Managing Partner &amp; CEO of Clear Measure, Inc., a custom software company in Austin, TX. At Clear Measure, Jeffrey manages the custom software practice which includes new system development, legacy system upgrades, audits, consulting, training, and professional services. Many businesses rely on custom software, and he helps it work better and deliver more value. Before that, Jeffrey was President/COO of a nationally-recognized software engineering firm. Jeffrey has been recognized by Microsoft as a “Microsoft Most Valuable Professional” (MVP) since 2006. He has spoken and facilitated at industry conferences such as VSLive, DevTeach, the Microsoft MVP Summit, various ALT.NET conferences, and Microsoft Tech Ed. He also speaks to user groups around the country as part of the INETA Speakers’ Bureau. A graduate of Texas A&amp;M University and the Jack Welch Management Institute, an Eagle Scout, and an Iraq war veteran, Jeffrey holds too many certifications to list, has published many magazine articles , and he has written three editions of his book.</bio>
+    <url />
+    <email />
+    <twitter />
+  </speaker>
+  <speaker id="49">
+    <name>David Cravey</name>
+    <company />
+    <bio />
+    <url />
+    <email />
+    <twitter />
+  </speaker>
+  <speaker id="50">
+    <name>David Cravey</name>
+    <company />
+    <bio />
+    <url />
+    <email />
+    <twitter />
+  </speaker>
+  <speaker id="51">
+    <name>Brian Sullivan</name>
+    <company />
+    <bio />
+    <url />
+    <email />
+    <twitter />
+  </speaker>
+  <speaker id="52">
+    <name>Paul DeCarlo</name>
+    <company>Microsoft</company>
+    <bio />
+    <url />
+    <email />
+    <twitter />
+  </speaker>
+  <speaker id="53">
+    <name>David Neal</name>
+    <company>LeanKit</company>
+    <bio>I am a father, geek, musician, and software developer living in North GA near Chattanooga, TN. I've spent the last several years building high-performance, scalable social media applications, and I currently work at LeanKit as a Developer Advocate. I served as president of the Nashville .NET User Group for 2012 and 2013. Among other things, I'm passionate about software craftsmanship, music, motorcycling, and bacon. You can find me on Twitter as @reverentgeek.</bio>
+    <url>http://reverentgeek.com</url>
+    <email />
+    <twitter>@reverentgeek</twitter>
+  </speaker>
+  <speaker id="54">
+    <name>Justin  Self</name>
+    <company>Clear Measure</company>
+    <bio />
+    <url />
+    <email />
+    <twitter />
+  </speaker>
+  <speaker id="55">
+    <name>Andrew Siemer</name>
+    <company>Volusion</company>
+    <bio>Farmer at Friendly Pastures. Software consultant at Siemer for Hire. Random dude at AndrewSiemer.com. Author of 3 books published by Packt Publishing. Self publishing author of two books in progress at LeanPub.</bio>
+    <url>http://siemerforhire.com</url>
+    <email />
+    <twitter />
+  </speaker>
+  <speaker id="56">
+    <name>Adam Hems</name>
+    <company>Halliburton</company>
+    <bio>Cloud Strategist at Halliburton</bio>
+    <url />
+    <email>Adam.Hems@halliburton.com</email>
+    <twitter />
+  </speaker>
+  <speaker id="57">
+    <name>Paul Drew </name>
+    <company>Clear Measure</company>
+    <bio />
+    <url />
+    <email />
+    <twitter />
+  </speaker>
+  <speaker id="58">
+    <name>Jake Stephenson</name>
+    <company>Improving Enterprises</company>
+    <bio />
+    <url />
+    <email />
+    <twitter />
+  </speaker>
+  <speaker id="59">
+    <name>Gabriel  Schenker </name>
+    <company>Clear Measure</company>
+    <bio>Gabriel Schenker has more than 20 years of experience as an independent consultant, architect, leader, trainer, mentor and developer.  His special focus is on practicing lean or friction-less software development and continuous deployment. He is constantly advocating, promoting and supporting a continuous improvement of individual developers or development teams </bio>
+    <url>https://lostechies.com/gabrielschenker/author/gabrielschenker/</url>
+    <email />
+    <twitter />
+  </speaker>
+</speakers>
