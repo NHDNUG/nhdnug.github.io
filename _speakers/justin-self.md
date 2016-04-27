@@ -14,5 +14,3 @@ I am not a rock star. I am not a mad scientist. I'm not a midnight coder and I'm
 
 ## I am a developer teammate.
 I live in the Austin area and currently work as a Principal Software Engineer for Clear Measure. I focus on sharing my knowledge with those around me and being able to learn from anyone willing to teach. I also do a lot of community speaking. If you are within driving distance of Austin and need a speaker, let me know!
-
-Want to get in touch? Feel free to E-Mail me at: <justinself@outlook.com> or reach out to me on twitter @thejustinself.
