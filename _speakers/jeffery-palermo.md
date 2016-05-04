@@ -7,6 +7,6 @@ Jeffrey Palermo is a Managing Partner & CEO of Clear Measure, Inc., a custom sof
 
 Before that, Jeffrey was President/COO of a nationally-recognized software engineering firm. Jeffrey has been recognized by Microsoft as a “Microsoft Most Valuable Professional” (MVP) since 2006. 
 
-He has spoken and facilitated at industry conferences such as VSLive, DevTeach, the Microsoft MVP Summit, various ALT.NET conferences, and Microsoft Tech Ed. He also speaks to user groups around the country as part of the INETA Speakers’ Bureau. A graduate of Texas A&M University and the Jack Welch Management Institute, an Eagle Scout, and an Iraq war veteran, Jeffrey holds too many certifications to list, has published many magazine articles , and he has written three editions of his book.
+He has spoken and facilitated at industry conferences such as VSLive, DevTeach, the Microsoft MVP Summit, various ALT.NET conferences, and Microsoft Tech Ed. He also speaks to user groups around the country as part of the INETA Speakers' Bureau. A graduate of Texas A&M University and the Jack Welch Management Institute, an Eagle Scout, and an Iraq war veteran, Jeffrey holds too many certifications to list, has published many magazine articles , and he has written three editions of his book.
 
 
