@@ -18,4 +18,4 @@ to audiences around the nation. He is a regular national presenter at user group
 as a coordinator; planner; or just a helping hand. 
 
 Recently Devlin became published along with his good friend Tim Rayburn as authors of a book about 
-Entity Framework and the expert’s approach to it.
+Entity Framework and the expert's approach to it.

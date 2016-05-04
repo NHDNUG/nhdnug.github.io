@@ -1,0 +1,742 @@
+
+<meetings>
+  <meeting id="30">
+    <date>2011-03-17T18:00:00</date>
+    <title>March Meeting is CANCELLED!!</title>
+    <pagecontent>&lt;div&gt;Since our first meeting over three years ago, we've had an unbroken streak of monthly meetings unrivaled by any of our peers in the Houston .NET Community.&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Through births, deaths, job changes, last minute speaker cancellations, oh-no-I-forgot-to-order-pizza escapades, and even in the face of HURRICANE IKE, we have never lapsed in our mission to bring you free pizza, swag, and great speakers.&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Until this month, when we've been hit by a cosmic triple whammy: Spring break for most area schools, St. Patrick's Day, and Lone Star College is completely shut down for Spring Break&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;We tried our best, but we can tell when the Universe is telling us to take a month off.&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;If you can't go a month without pizza and a .NET talk, please visit our brethren at HDNUG for their meeting THIS THURSDAY, March 10.&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;We look forward to seeing you next month on April 21, when the Universe will once again be nice to us.&lt;/div&gt;</pagecontent>
+    <location>Lone Star College - Montgomery</location>
+    <speaker>[Open Forum]</speaker>
+    <sponsor>[Open Forum]</sponsor>
+    <logo />
+    <filename>2011-03-17-march.md</filename>
+  </meeting>
+  <meeting id="31">
+    <date>2011-04-21T00:00:00</date>
+    <title>A Tale of Three Transitions</title>
+    <pagecontent>&lt;span style="border-collapse: collapse; font-family: consolas, monospace; font-size: small; color: #000000; line-height: normal; "&gt;Agile transformation doesn't look the same in all circumstances. Plus, it's not the planned hurdles that tend to be the most challenging or require the most skill to overcome. Each organization is different and has unique roadblocks standing between software teams and agile adoption. In this presentation we'll study the path, hurdles, and successes faced by three distinct organizations and how they overcame, or compromised during their journey.&lt;/span&gt;</pagecontent>
+    <location>Lone Star College - Montgomery</location>
+    <speaker>Allen Hurst</speaker>
+    <sponsor>Allen Hurst</sponsor>
+    <logo />
+    <filename>2011-04-21-a.md</filename>
+  </meeting>
+  <meeting id="32">
+    <date>2011-05-19T18:00:00</date>
+    <title>Introduction to Rails</title>
+    <pagecontent>&lt;span style="border-collapse: collapse; line-height: normal; font-family: arial, sans-serif; color: #000000; "&gt;Why is Rails so popular?  If you haven't ever used Ruby on Rails, you're in for a treat.   We'll start with a primer on the Ruby language.  Then we'll go over how to build a site using Ruby on Rails.  We'll talk about how you to leverage Ruby Gems to add functionality to your application.  And we'll do it from a .NET developer's point of view.  Come, learn about the most productive language &amp;amp; web framework available.  If you've ever been interested in learning Rails, this presentation is for you.  &lt;em&gt;Disclaimer:  Learning Rails May In Fact Make You Yearn For Better Tools&lt;/em&gt;.&lt;/span&gt;</pagecontent>
+    <location>Lone Star College - Montgomery</location>
+    <speaker>Ben Scheirman</speaker>
+    <sponsor>Ben Scheirman</sponsor>
+    <logo />
+    <filename>2011-05-19-introduction.md</filename>
+  </meeting>
+  <meeting id="33">
+    <date>2011-06-16T18:00:00</date>
+    <title>Visual Studio Tips and Tricks - Greatest Hits</title>
+    <pagecontent>&lt;span style="border-collapse: collapse; font-family: arial, sans-serif; color: #000000; line-height: normal; "&gt;&lt;p class="MsoNormal" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; "&gt;Thousands of people have attended the many Tips and Tricks sessions from Zain Naboulsi.  This session highlights the “greatest hits” from all prior sessions.    Tips for this session include the great new features from Visual Studio 2010 as well as tried and true tips for previous versions of Visual Studio.  Don’t miss this look at the tips that can absolutely save you a great deal of time in your daily work.&lt;/p&gt;&lt;/span&gt;</pagecontent>
+    <location>Lone Star College - Montgomery</location>
+    <speaker>Zain Naboulsi</speaker>
+    <sponsor>Zain Naboulsi</sponsor>
+    <logo />
+    <filename>2011-06-16-visual.md</filename>
+  </meeting>
+  <meeting id="34">
+    <date>2011-07-21T18:00:00</date>
+    <title>Open Forum</title>
+    <pagecontent>This month we'll have an open discussion forum.  Have a particular gnarly design problem that you'd like some feedback on?  Interested in hearing some opinions about what changes Windows 8 might bring with it?  Have some insight on a new technology that you'd like to share?  We'll throw everything out on the table for discussion.</pagecontent>
+    <location>Lone Star College - Montgomery</location>
+    <speaker>[Open Forum]</speaker>
+    <sponsor>[Open Forum]</sponsor>
+    <logo />
+    <filename>2011-07-21-open-forum.md</filename>
+  </meeting>
+  <meeting id="35">
+    <date>2011-08-18T18:00:00</date>
+    <title>Mini Presentations</title>
+    <pagecontent>Join us as some of our members take a turn giving 15 minute presentations.  Topics will include WebOS, Data Warehousing, and Location Aware apps.</pagecontent>
+    <location>Lone Star College - Montgomery</location>
+    <speaker>[Open Forum]</speaker>
+    <sponsor>[Open Forum]</sponsor>
+    <logo />
+    <filename>2011-08-18-mini-presentations.md</filename>
+  </meeting>
+  <meeting id="36">
+    <date>2011-09-15T18:00:00</date>
+    <title>Intro to MVC3 and the Razor View Engine</title>
+    <pagecontent>We will discuss some tips and tricks for getting started with MVC,
+including "why" you would even&amp;nbsp;want to bother in the first place.
+</pagecontent>
+    <location>Lone Star College - Montgomery</location>
+    <speaker>Hank Lynch</speaker>
+    <sponsor>Hank Lynch</sponsor>
+    <logo />
+    <filename>2011-09-15-intro.md</filename>
+  </meeting>
+  <meeting id="37">
+    <date>2011-10-20T18:00:00</date>
+    <title>Building Microsoft Applications Today and Tomorrow</title>
+    <pagecontent>It is a time of uncertainty for software developers. While in the past, a developer’s choices were down to which language and IDE to choose to develop on Windows or the Web, options have now exploded. The proliferation of various devices and their move into mainstream use has created change at a pace orders of magnitude faster than before. Do you develop a Windows app? A Web app? A mobile device app? Slates? You are faced with a plethora or options, platforms, IDEs, and development languages. How do you choose which to use? And most importantly, how do you protect your current investment both in terms of the applications you use as well as your personal knowledge you have built app?
+&lt;br&gt;
+Our BUILD Conference Update is postponed until November.
+</pagecontent>
+    <location>Lone Star College - Montgomery</location>
+    <speaker>Markus Egger</speaker>
+    <sponsor>Markus Egger</sponsor>
+    <logo />
+    <filename>2011-10-20-building.md</filename>
+  </meeting>
+  <meeting id="39">
+    <date>2011-12-15T18:00:00</date>
+    <title>Coding For Fun - Programming the Kinect SDK</title>
+    <pagecontent>End the year with an introduction to programming with Microsoft's Kinect SDK.</pagecontent>
+    <location>Spring Creek BBQ - Woodlands</location>
+    <speaker>Jason Awbrey</speaker>
+    <sponsor>Jason Awbrey</sponsor>
+    <logo />
+    <filename>2011-12-15-coding.md</filename>
+  </meeting>
+  <meeting id="40">
+    <date>2012-01-19T18:30:00</date>
+    <title>Update from Microsoft BUILD Conference (XAML)</title>
+    <pagecontent>Tony will report back from Microsoft's BUILD Conference on the XAML point of view.</pagecontent>
+    <location>Lone Star College - Montgomery</location>
+    <speaker>Tony Champion</speaker>
+    <sponsor>Tony Champion</sponsor>
+    <logo />
+    <filename>2012-01-19-update.md</filename>
+  </meeting>
+  <meeting id="41">
+    <date>2012-02-16T18:30:00</date>
+    <title>oData and WCF REST Services</title>
+    <pagecontent />
+    <location>Lone Star College - Montgomery</location>
+    <speaker>Mark Gordon</speaker>
+    <sponsor>Mark Gordon</sponsor>
+    <logo />
+    <filename>2012-02-16-odata.md</filename>
+  </meeting>
+  <meeting id="42">
+    <date>2012-03-15T18:30:00</date>
+    <title>The CODE Framework</title>
+    <pagecontent>The CODE Framework is a free, .NET-based development framework. It consists of various components and tools that help developers with common aspects of business application development, such as simplified SOA development with various clients, or WPF development, data access, and much more. The main focus of this framework is to enable productive, flexible, and highly maintainable business application development. We'll be demonstrating how to use the CODE Framework to quickly develop the user interface for a SOA application. Along the way we'll discuss why you would want to use SOA architecture for your applications.
+</pagecontent>
+    <location>Spring Creek BBQ - Woodlands</location>
+    <speaker>Thom  Chichester</speaker>
+    <sponsor>Thom  Chichester</sponsor>
+    <logo />
+    <filename>2012-03-15-the-code-framework.md</filename>
+  </meeting>
+  <meeting id="43">
+    <date>2012-04-19T18:30:00</date>
+    <title>Introducing Microsoft StreamInsight: Getting Kinky with Real-Time Data</title>
+    <pagecontent>Introduced as a part of the Sql Server 2008 R2 platform, StreamInsight is Microsoft's Complex Event Processing (CEP) engine. It allows you to analyze and process large volumes of data - think tens to hundreds of thousands of events per second - with sub-second response time. It's as close to real time as you can get without quantum entanglement! The Sql Server engine may be fast ... but it's just not that fast. This presentation will introduce core CEP concepts and sample uses cases and then dive into kinkiness with real-time data, including hosting StreamInsight, getting data into (and out of) the engine, how time is handled, writing queries in Linq and how to extend the StreamInsight engine. It's a whole new paradigm of looking at data.</pagecontent>
+    <location>Lone Star College - Montgomery</location>
+    <speaker>J Sawyer</speaker>
+    <sponsor>J Sawyer</sponsor>
+    <logo />
+    <filename>2012-04-19-introducing.md</filename>
+  </meeting>
+  <meeting id="44">
+    <date>2012-05-17T18:30:00</date>
+    <title>TBD</title>
+    <pagecontent>Joe Reynolds, Senior Developer at EPS Software, will be presenting this week. The topic will either be an Introduction to the Managed Add-In Framework (MAF not MEF), or an Introduction to NHibernate, with comparisons drawn to Entity Framework.</pagecontent>
+    <location>Lone Star College - Montgomery</location>
+    <speaker>Joe  Reynolds</speaker>
+    <sponsor>Joe  Reynolds</sponsor>
+    <logo />
+    <filename>2012-05-17-tbd.md</filename>
+  </meeting>
+  <meeting id="58">
+    <date>2012-06-21T18:30:00</date>
+    <title>Entity Framework 0-60 (maybe 120 if we don't get pulled over)</title>
+    <pagecontent>This meeting we will dive into the approaches to Entity Framework out there. Where they make sense, where they don’t, and how to get better at leveraging it. We will cover code first mapping, testing, and querying as well as talking about the architecture around your data access layer. This will lead us down a path with many questions and I encourage you to ask them. We will strive to debate and answer all the questions posed. So bring an open mind and a list of your questions.</pagecontent>
+    <location>Lone Star College - Montgomery</location>
+    <speaker>Devlin Liles</speaker>
+    <sponsor>Devlin Liles</sponsor>
+    <logo>improvinglogo.png</logo>
+    <filename>2012-06-21-entity.md</filename>
+  </meeting>
+  <meeting id="67">
+    <date>2012-07-19T18:30:00</date>
+    <title>Using HTML5 to Build Mobile Apps</title>
+    <pagecontent>Native apps are great, but if you want your app to reach as many people as possible, HTML5 is your ticket. In this session, we'll explore the different ways HTML5 can be used to build and deploy mobile apps, as well as the tools that can make the job easier.</pagecontent>
+    <location>Lone Star College - Montgomery</location>
+    <speaker>Todd Anglin</speaker>
+    <sponsor>Todd Anglin</sponsor>
+    <logo />
+    <filename>2012-07-19-using.md</filename>
+  </meeting>
+  <meeting id="64">
+    <date>2012-08-16T18:30:00</date>
+    <title>Mini Talks</title>
+    <pagecontent>This month will feature three mini talks.&lt;br&gt;
+Arunkumar S. Sajjan - Mobile local database App &lt;br&gt;
+Joe Reynolds - Logging with CODE Framework&lt;br&gt;
+Jeff Etter - Implementing a style sheet into MVC</pagecontent>
+    <location>Lone Star College - Montgomery</location>
+    <speaker>[Various ]</speaker>
+    <sponsor>[Various ]</sponsor>
+    <logo />
+    <filename>2012-08-16-mini-talks.md</filename>
+  </meeting>
+  <meeting id="65">
+    <date>2012-09-20T18:30:00</date>
+    <title>Windows 8 Launch</title>
+    <pagecontent>Are you ready for Windows 8? Come find out how to get Windows 8 installed now, why you would want to, and how to make your first Windows Store Application.&lt;p&gt;
+Mark Gordon, Joe Reynolds, and Jeff Etter will give you a basic understanding of what Windows 8 means to you.&lt;/p&gt;</pagecontent>
+    <location>Lone Star College - Montgomery</location>
+    <speaker>[Various ]</speaker>
+    <sponsor>[Various ]</sponsor>
+    <logo />
+    <filename>2012-09-20-windows-8-launch.md</filename>
+  </meeting>
+  <meeting id="69">
+    <date>2012-10-18T00:00:00</date>
+    <title>Fitter, Happier, More Productive Developer</title>
+    <pagecontent>How happiness can affect our productivity and how we can control how we feel about our work. Resources / inspiration for the talk include; Happiness Advantage, Outliers, Blink, Jiro Dreams of Sushi along with personal experience</pagecontent>
+    <location>Lone Star College - Montgomery</location>
+    <speaker>Johathon Birkholz</speaker>
+    <sponsor>Johathon Birkholz</sponsor>
+    <logo />
+    <filename>2012-10-18-fitter.md</filename>
+  </meeting>
+  <meeting id="70">
+    <date>2012-11-15T18:30:00</date>
+    <title>Introduction to Web API</title>
+    <pagecontent />
+    <location>Lone Star College - Montgomery</location>
+    <speaker>Ryan Riley</speaker>
+    <sponsor>Ryan Riley</sponsor>
+    <logo />
+    <filename>2012-11-15-introduction.md</filename>
+  </meeting>
+  <meeting id="71">
+    <date>2012-12-20T18:30:00</date>
+    <title>Round Table Discussion</title>
+    <pagecontent>Come join us for good food and thought provoking .NET discussions.</pagecontent>
+    <location>Spring Creek BBQ - Woodlands</location>
+    <speaker>[To Be Determined]</speaker>
+    <sponsor>[To Be Determined]</sponsor>
+    <logo>mindscapeLogo.jpg</logo>
+    <filename>2012-12-20-round.md</filename>
+  </meeting>
+  <meeting id="85">
+    <date>2013-01-17T18:30:00</date>
+    <title>Best practices of a Software Craftsmen</title>
+    <pagecontent>Best practices of a Software Craftsmen – Skills that took years to learn</pagecontent>
+    <location>Lone Star College - Montgomery</location>
+    <speaker>Devlin Liles</speaker>
+    <sponsor>Devlin Liles</sponsor>
+    <logo>sungard.jpg</logo>
+    <filename>2013-01-17-best.md</filename>
+  </meeting>
+  <meeting id="73">
+    <date>2013-02-21T18:30:00</date>
+    <title>Writing OS X Desktop Apps with C#</title>
+    <pagecontent>Learn how to leverage your existing C#/.NET skills by writing apps for Apple's OS X using MonoMac and Xamarin.Mac.</pagecontent>
+    <location>Lone Star College - Montgomery</location>
+    <speaker>Jason Awbrey</speaker>
+    <sponsor>Jason Awbrey</sponsor>
+    <logo>improvinglogo.png</logo>
+    <filename>2013-02-21-writing.md</filename>
+  </meeting>
+  <meeting id="74">
+    <date>2013-03-21T18:30:00</date>
+    <title>Correspondence</title>
+    <pagecontent>Correspondence is SkyDrive for your objects. When you build an app using the Correspondence framework, it stores your objects locally and in the cloud. The same app running on another device pulls down those objects. When you change data on one device, the UI on the other is refreshed. It works online, it works offline, and you don't need to care. The API to make all this possible is clean and simple.</pagecontent>
+    <location>Lone Star College - Montgomery</location>
+    <speaker>Michael Perry</speaker>
+    <sponsor>Michael Perry</sponsor>
+    <logo>improvinglogo.png</logo>
+    <filename>2013-03-21-correspondence.md</filename>
+  </meeting>
+  <meeting id="75">
+    <date>2013-04-18T18:30:00</date>
+    <title>RavenDB Up and Running</title>
+    <pagecontent>This session introduces you to RavenDB, a transactional open source 2nd generation document database written in .NET. You'll learn hands on how RavenDB makes development easier for .NET developers. You will understand what a document database is. You will discover the power behind flexible data models. You will learn the basic concepts. You will know how to get RavenDB up and running.  </pagecontent>
+    <location>Lone Star College - Montgomery</location>
+    <speaker>Alonso Robles</speaker>
+    <sponsor>Alonso Robles</sponsor>
+    <logo>paladin.png</logo>
+    <filename>2013-04-18-ravendb.md</filename>
+  </meeting>
+  <meeting id="76">
+    <date>2013-05-16T18:30:00</date>
+    <title>SignlR</title>
+    <pagecontent>Messaging over HTTP has become an integral aspect of our collective user experience as we interact with applications that affect our daily lives.  From Facebook to Google docs to online help desk applications, real-time messaging is no longer a neat trick, but an expected component of browser, mobile, and desktop applications for today’s users.&lt;br&gt;
+This session will cover SignalR, a sophisticated, open-source web-messaging framework designed to make real-time messaging across multiple clients painless.  We will cover the various techniques that have been employed over the years to achieve real-time communication over HTTP along with the challenges of each in order to showcase the elegance of SignalR by comparison.&lt;br&gt;
+From there, Michael Nero will showcase some SignalR features in practice, as well as show some advanced usages of SignalR through an engaging SignalR demonstration designed to push the limitations of browser-based clients.&lt;br&gt;
+Sample code link: &lt;a href="https://github.com/michaelnero" target="_blank"&gt;https://github.com/michaelnero&lt;/a&gt;</pagecontent>
+    <location>Lone Star College - Montgomery</location>
+    <speaker>Graham Swor,  Michael Nero</speaker>
+    <sponsor>Graham Swor,  Michael Nero</sponsor>
+    <logo>HeadSpring_Logo.JPG</logo>
+    <filename>2013-05-16-signlr.md</filename>
+  </meeting>
+  <meeting id="77">
+    <date>2013-06-20T18:30:00</date>
+    <title>Little Boxes: CSS Protips</title>
+    <pagecontent>What is CSS to you? Maybe an annoying roommate, complete stranger or your best friend forever. In this talk we'll explore CSS, how to implement it, deal with it in the wild and handle compatibility. Whatever your skill level, hopefully you'll walk away feeling a little better about dealing with little boxes.</pagecontent>
+    <location>Lone Star College - Montgomery</location>
+    <speaker>Wayne Denier</speaker>
+    <sponsor>Wayne Denier</sponsor>
+    <logo>HeadSpring_Logo.JPG</logo>
+    <filename>2013-06-20-little.md</filename>
+  </meeting>
+  <meeting id="78">
+    <date>2013-07-18T18:30:00</date>
+    <title>2013 Conferences - Open Discussion</title>
+    <pagecontent>We'll review and discuss the most interesting news from the major 2013 Conferences - BUILD, Google.IO, WWDC, and TechEd</pagecontent>
+    <location>Lone Star College - Montgomery</location>
+    <speaker>[Open Forum]</speaker>
+    <sponsor>[Open Forum]</sponsor>
+    <logo />
+    <filename>2013-07-18-2013.md</filename>
+  </meeting>
+  <meeting id="79">
+    <date>2013-08-15T18:30:00</date>
+    <title>Message Passing in C# will change your life</title>
+    <pagecontent>&lt;p&gt;
+Heard of Erlang? Me neither. In this presentation, we will discover what message passing means for .NET developers, through interactive demos with the audience. Think Gallagher comedy shows.
+&lt;/p&gt;
+&lt;p&gt;
+Whether you're wiring up an almighty SOA with messages, programming with Actors, or if you just want to understand the C# event keyword, this talk is for you.  
+&lt;/p&gt;
+&lt;p&gt;
+Curious? In this talk we'll discuss:
+&lt;ul&gt;
+&lt;li&gt;Why object-oriented programming is a lie&lt;/li&gt;
+&lt;li&gt;How objects are people&lt;/li&gt;
+&lt;li&gt;Acing your next interview&lt;/li&gt;
+&lt;li&gt;Why your SOAP web services are terrible and why you should be ashamed of yourself&lt;/li&gt;
+&lt;li&gt;Application of message passing via a three act play&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;p&gt;
+Slides, "notes" and demos are at &lt;a href="http://github.com/pseale/message-passing-presentation" target="_blank"&gt;http://github.com/pseale/message-passing-presentation&lt;/a&gt;
+&lt;/p&gt;</pagecontent>
+    <location>Lone Star College - Montgomery</location>
+    <speaker>Peter Seale</speaker>
+    <sponsor>Peter Seale</sponsor>
+    <logo />
+    <filename>2013-08-15-message.md</filename>
+  </meeting>
+  <meeting id="80">
+    <date>2013-09-19T18:30:00</date>
+    <title>Iteration 0: Setting up Onion Architecture for distributed systems using NServiceBus and Continuous Integration</title>
+    <pagecontent>Onion Architecture is an architectural pattern for keeping libraries and dependencies on the extremities of a software system while building a strong and cohesive system core.  Distributed systems like those that leverage NServiceBus and Enterprise Service Bus (ESB) products have characteristics that challenge layering principles of non-distributed systems.  This session will show how to properly structure and layer a .Net/C# software system that makes use of Onion Architecture, NServiceBus, and ASP.NET MVC.  The target audience for this session is:  C#, architect, senior engineer, team leads/lead developers.</pagecontent>
+    <location>Lone Star College - Montgomery</location>
+    <speaker>Jeffery Palermo</speaker>
+    <sponsor>Jeffery Palermo</sponsor>
+    <logo>paladin.png</logo>
+    <filename>2013-09-19-iteration.md</filename>
+  </meeting>
+  <meeting id="81">
+    <date>2013-10-17T18:30:00</date>
+    <title>Modern C++ for the .NET Developer</title>
+    <pagecontent />
+    <location>Lone Star College - Montgomery</location>
+    <speaker>David Cravey</speaker>
+    <sponsor>David Cravey</sponsor>
+    <logo />
+    <filename>2013-10-17-modern.md</filename>
+  </meeting>
+  <meeting id="82">
+    <date>2013-11-21T18:30:00</date>
+    <title>Lightning Talks!</title>
+    <pagecontent>Christy Piffat - WCF Authentication
+Justin Self - Web Security
+Arunkumar Sajjan - HIPAA Compliance
+Don Waldo - CODE Framework in the real world</pagecontent>
+    <location>Lone Star College - Montgomery</location>
+    <speaker>[Various ]</speaker>
+    <sponsor>[Various ]</sponsor>
+    <logo />
+    <filename>2013-11-21-lightning-talks!.md</filename>
+  </meeting>
+  <meeting id="83">
+    <date>2013-12-19T18:30:00</date>
+    <title>Cross Platform Mobile Development with C#</title>
+    <pagecontent />
+    <location>Spring Creek BBQ - Woodlands</location>
+    <speaker>Jason Awbrey</speaker>
+    <sponsor>Jason Awbrey</sponsor>
+    <logo />
+    <filename>2013-12-19-cross.md</filename>
+  </meeting>
+  <meeting id="84">
+    <date>2014-01-16T18:30:00</date>
+    <title>ASP.Net Feature Enhancements with VS2013</title>
+    <pagecontent />
+    <location>Lone Star College - Montgomery</location>
+    <speaker>Brian Sullivan</speaker>
+    <sponsor>Brian Sullivan</sponsor>
+    <logo />
+    <filename>2014-01-16-asp-net.md</filename>
+  </meeting>
+  <meeting id="86">
+    <date>2014-02-20T18:30:00</date>
+    <title>Highway Data for Entity Framework</title>
+    <pagecontent />
+    <location>Lone Star College - Montgomery</location>
+    <speaker>Devlin Liles</speaker>
+    <sponsor>Devlin Liles</sponsor>
+    <logo>improvinglogo.png</logo>
+    <filename>2014-02-20-highway.md</filename>
+  </meeting>
+  <meeting id="87">
+    <date>2014-03-20T18:30:00</date>
+    <title>Hyper-V for Developers</title>
+    <pagecontent>You’ve probably heard all the hub-bub about virtualization and Hyper-V but all it’s all been focused on infrastructure and networking types. But developers can – and should - leverage virtualization technologies as well. In this session, we’ll start with a quick overview of virtualization and what Hyper-V is and then we’ll get into some details on how to set up virtual machines, networks and disks. We’ll also look tips and tricks to use this technology more effectively, such as virtual machine checkpoints/snapshots, sysprep and sharing wireless connections with Hyper-V VMs. You’ll walk away with a better understanding of sometimes mysterious configuration and settings options and armed with the know-how to begin building your own virtual machine empire!</pagecontent>
+    <location>Lone Star College - Montgomery</location>
+    <speaker>J Sawyer</speaker>
+    <sponsor>J Sawyer</sponsor>
+    <logo>improvinglogo.png</logo>
+    <filename>2014-03-20-hyper-v.md</filename>
+  </meeting>
+  <meeting id="88">
+    <date>2014-04-17T18:30:00</date>
+    <title>Jobs Forum</title>
+    <pagecontent>Looking for a job?  Looking for good people?  Then this is the meeting for you.  We'll discuss the state of the job market in Houston, as well as how to interview .NET candidates.  We'll have a number of guest panelists including Paladin Consulting, Mike Yeager of EPS, Jeffrey Palermo of Clear Measure, and Allen Hurst of Improving Enterprises.  As always, spirited discussion from our members is highly encouraged.</pagecontent>
+    <location>Lone Star College - Montgomery</location>
+    <speaker>[Open Forum]</speaker>
+    <sponsor>[Open Forum]</sponsor>
+    <logo>paladin.png</logo>
+    <filename>2014-04-17-jobs-forum.md</filename>
+  </meeting>
+  <meeting id="89">
+    <date>2014-05-15T18:30:00</date>
+    <title>Node.js</title>
+    <pagecontent>Special Surprise Speaker!  David Neal is in town for TechEd, and agreed to drop by to speak about Node.js and how it can fit into the .NET ecosystem.</pagecontent>
+    <location>Lone Star College - Montgomery</location>
+    <speaker>David Neal</speaker>
+    <sponsor>David Neal</sponsor>
+    <logo>paladin.png</logo>
+    <filename>2014-05-15-node-js.md</filename>
+  </meeting>
+  <meeting id="90">
+    <date>2014-06-19T18:30:00</date>
+    <title>Scaling Web Apps with Azure</title>
+    <pagecontent />
+    <location>Lone Star College - Montgomery</location>
+    <speaker>Justin  Self</speaker>
+    <sponsor>Justin  Self</sponsor>
+    <logo />
+    <filename>2014-06-19-scaling.md</filename>
+  </meeting>
+  <meeting id="91">
+    <date>2014-07-17T18:30:00</date>
+    <title>2014 Mid-Year Review</title>
+    <pagecontent>2014 is halfway done.  Let's talk about the interesting things that have happened so far, the announcements from BUILD, Google IO, WWDC, etc - and whatever else is on your mind.</pagecontent>
+    <location>Lone Star College - Montgomery</location>
+    <speaker>[Open Forum]</speaker>
+    <sponsor>[Open Forum]</sponsor>
+    <logo>paladin.png</logo>
+    <filename>2014-07-17-2014-mid-year-review.md</filename>
+  </meeting>
+  <meeting id="92">
+    <date>2014-08-21T18:30:00</date>
+    <title>Build Once for Windows Phone and Windows 8</title>
+    <pagecontent />
+    <location>Lone Star College - Montgomery</location>
+    <speaker>Paul DeCarlo</speaker>
+    <sponsor>Paul DeCarlo</sponsor>
+    <logo>paladin.png</logo>
+    <filename>2014-08-21-build.md</filename>
+  </meeting>
+  <meeting id="93">
+    <date>2014-09-18T18:30:00</date>
+    <title>CANCELLED</title>
+    <pagecontent>Because of the rain and flooding in the area, September's NHDNUG meeting has been cancelled.</pagecontent>
+    <location>Lone Star College - Montgomery</location>
+    <speaker>Joe  Reynolds</speaker>
+    <sponsor>Joe  Reynolds</sponsor>
+    <logo />
+    <filename>2014-09-18-cancelled.md</filename>
+  </meeting>
+  <meeting id="94">
+    <date>2014-10-16T18:30:00</date>
+    <title>Swift for .NET Developers</title>
+    <pagecontent>An overview of Apple's shiny new development language.</pagecontent>
+    <location>Lone Star College - Montgomery</location>
+    <speaker>Mohammad Azam</speaker>
+    <sponsor>Mohammad Azam</sponsor>
+    <logo />
+    <filename>2014-10-16-swift.md</filename>
+  </meeting>
+  <meeting id="95">
+    <date>2014-11-20T18:30:00</date>
+    <title>Lightning Talks!</title>
+    <pagecontent>Lightning Talks!</pagecontent>
+    <location>Lone Star College - Montgomery</location>
+    <speaker>[Various ]</speaker>
+    <sponsor>[Various ]</sponsor>
+    <logo />
+    <filename>2014-11-20-lightning-talks!.md</filename>
+  </meeting>
+  <meeting id="96">
+    <date>2014-12-18T18:30:00</date>
+    <title>Test driving Azure Search and DocumentDB</title>
+    <pagecontent>I cover the basics of setting up Microsoft Azure Search and DocumentDB in your Azure environment. Then we will see how to generate and load data into both. From there I will walk you through an example car listings web site that demonstrates a search first (Azure Search) navigation experience backed by a NOSQL (DocumentDB) data store. By the end of this talk you will walk away with a fair understanding of how to set up and configure Azure Search and DocumentDB for your applications. You will learn how to use faceted searches to deliver the best search results for your users. And you will learn how to include a NOSQL implementation into your application as well as when to choose it over a relational database.</pagecontent>
+    <location>Spring Creek BBQ - Woodlands</location>
+    <speaker>Andrew Siemer</speaker>
+    <sponsor>Andrew Siemer</sponsor>
+    <logo />
+    <filename>2014-12-18-test.md</filename>
+  </meeting>
+  <meeting id="97">
+    <date>2015-01-15T18:30:00</date>
+    <title>SaaS Product</title>
+    <pagecontent>Adam Helms from Haliburton will discuss
+lessons learned in building a SAAS
+product using Azure PAAS</pagecontent>
+    <location>Lone Star College - Montgomery</location>
+    <speaker>Adam Hems</speaker>
+    <sponsor>Adam Hems</sponsor>
+    <logo />
+    <filename>2015-01-15-saas-product.md</filename>
+  </meeting>
+  <meeting id="98">
+    <date>2015-02-19T18:30:00</date>
+    <title>Azure Automation</title>
+    <pagecontent>Meeting will be in the Conference Center</pagecontent>
+    <location>Southwestern Energy</location>
+    <speaker>Paul Drew </speaker>
+    <sponsor>Paul Drew </sponsor>
+    <logo />
+    <filename>2015-02-19-azure-automation.md</filename>
+  </meeting>
+  <meeting id="99">
+    <date>2015-03-19T18:30:00</date>
+    <title>Architecture in C#: A Five Act Tragedy </title>
+    <pagecontent />
+    <location>Lone Star College - Montgomery</location>
+    <speaker>Peter Seale</speaker>
+    <sponsor>Peter Seale</sponsor>
+    <logo>improvinglogo.png</logo>
+    <filename>2015-03-19-architecture.md</filename>
+  </meeting>
+  <meeting id="100">
+    <date>2015-04-16T18:30:00</date>
+    <title>ASP.NET</title>
+    <pagecontent />
+    <location>Lone Star College - Montgomery</location>
+    <speaker>Brian Sullivan</speaker>
+    <sponsor>Brian Sullivan</sponsor>
+    <logo />
+    <filename>2015-04-16-asp-net.md</filename>
+  </meeting>
+  <meeting id="101">
+    <date>2015-05-21T18:30:00</date>
+    <title>You still don't understand CSS positioning?</title>
+    <pagecontent />
+    <location>Lone Star College - Montgomery</location>
+    <speaker>Justin  Self</speaker>
+    <sponsor>Justin  Self</sponsor>
+    <logo />
+    <filename>2015-05-21-you.md</filename>
+  </meeting>
+  <meeting id="102">
+    <date>2015-06-18T18:30:00</date>
+    <title>Breaking Up is Hard To Do:  From Monolith to Microservices</title>
+    <pagecontent>In this talk I will discuss the trend from Monolithic applications to Microservices, the benefits and pitfalls of the move, and give anecdotal and practical advice on how to tease those services out of an existing web application.  We’ll talk a bit about the impact to development, QA, and deployment that this change will have.  And I’ll walk through separating out a new microservice using common .NET technologies.</pagecontent>
+    <location>Lone Star College - Montgomery</location>
+    <speaker>Jake Stephenson</speaker>
+    <sponsor>Jake Stephenson</sponsor>
+    <logo />
+    <filename>2015-06-18-breaking.md</filename>
+  </meeting>
+  <meeting id="103">
+    <date>2015-07-16T18:30:00</date>
+    <title>Domain Modeling with F#</title>
+    <pagecontent>F# makes it easy to encode domain models within its type system such that it is quite possible to never allow invalid states while retaining a simple, readable code base. We'll look at a few examples, including how best to deal with inheritance vs composition, units of measure, and even language extensions for extensible domain specific languages.
+
+ </pagecontent>
+    <location>Lone Star College - Montgomery</location>
+    <speaker>Ryan Riley</speaker>
+    <sponsor>Ryan Riley</sponsor>
+    <logo>tachyus.png</logo>
+    <filename>2015-07-16-domain.md</filename>
+  </meeting>
+  <meeting id="104">
+    <date>2015-08-20T18:30:00</date>
+    <title>Year in Review and Planning Session</title>
+    <pagecontent>We'll do a review of our topics for the past year, and have an open discussion about the things we'd like to see covered in the coming year.
+
+</pagecontent>
+    <location>Lone Star College - Montgomery</location>
+    <speaker>[Open Forum]</speaker>
+    <sponsor>[Open Forum]</sponsor>
+    <logo />
+    <filename>2015-08-20-year.md</filename>
+  </meeting>
+  <meeting id="105">
+    <date>2015-09-17T18:30:00</date>
+    <title>NativeScript</title>
+    <pagecontent>Welcome back to NHDNUG's founder, Todd Anglin.  Todd will be talking about NativeScript as part of &lt;a href="https://www.nativescript.org/summerofnativescript"&gt;Summer of NativeScript&lt;/a&gt;</pagecontent>
+    <location>Lone Star College - Montgomery</location>
+    <speaker>Todd Anglin</speaker>
+    <sponsor>Todd Anglin</sponsor>
+    <logo />
+    <filename>2015-09-17-nativescript.md</filename>
+  </meeting>
+  <meeting id="106">
+    <date>2015-10-15T18:30:00</date>
+    <title>Lightning Talks!</title>
+    <pagecontent />
+    <location>Lone Star College - Montgomery</location>
+    <speaker>[Various ]</speaker>
+    <sponsor>[Various ]</sponsor>
+    <logo />
+    <filename>2015-10-15-lightning-talks!.md</filename>
+  </meeting>
+  <meeting id="107">
+    <date>2015-11-19T18:30:00</date>
+    <title>DDD, CQRS, and Event Sourcing</title>
+    <pagecontent>Come here Gabriel Schenker speak on DDD, CQRS, and Event Sourcing at Southwestern Energy!  Mr. Schenker is a Software Architect at Clear Measure who specializes in JavaScript, AngularJS, No-SQL, REST, .NET, and C#. 
+
+NOTE:  Our meeting will be at Southwestern Energy this month!
+</pagecontent>
+    <location>Southwestern Energy</location>
+    <speaker>Gabriel  Schenker </speaker>
+    <sponsor>Gabriel  Schenker </sponsor>
+    <logo>SWNLogo_TransBck_RGB.png</logo>
+    <filename>2015-11-19-ddd.md</filename>
+  </meeting>
+  <meeting id="108">
+    <date>2015-12-17T18:30:00</date>
+    <title>Windows Universal Apps</title>
+    <pagecontent />
+    <location>Spring Creek BBQ - Woodlands</location>
+    <speaker>Markus Egger</speaker>
+    <sponsor>Markus Egger</sponsor>
+    <logo />
+    <filename>2015-12-17-windows.md</filename>
+  </meeting>
+  <meeting id="110">
+    <date>2016-02-18T18:30:00</date>
+    <title>Spreading the good word of proper NHibernate usage</title>
+    <pagecontent />
+    <location>Lone Star College - Montgomery</location>
+    <speaker>Greg Major</speaker>
+    <sponsor>Greg Major</sponsor>
+    <logo />
+    <filename>2016-02-18-spreading.md</filename>
+  </meeting>
+  <meeting id="111">
+    <date>2016-03-17T18:30:00</date>
+    <title>Introduction to C# Expression trees and other mind bending tricks</title>
+    <pagecontent />
+    <location>Southwestern Energy</location>
+    <speaker>Devlin Liles</speaker>
+    <sponsor>Devlin Liles</sponsor>
+    <logo>improvinglogo.png</logo>
+    <filename>2016-03-17-introduction.md</filename>
+  </meeting>
+  <meeting id="112">
+    <date>2016-04-21T18:30:00</date>
+    <title>JavaScript Testing</title>
+    <pagecontent>Kevin is a Senior Consultant with Improving focusing on .NET and web development, with an academic background in user experience.  Over the last 10 years he’s worked in energy, healthcare, eCommerce, and anywhere challenges can be found.  He loves hosting and attending user groups and meetups.
+
+Outside of work Kevin can usually be found at a show or the Alamo Drafthouse.  He has won his Oscar prediction pool three years running.
+
+http://www.improving.com/location/houston
+http://twitter.com/improvinghou
+</pagecontent>
+    <location>Lone Star College - Montgomery</location>
+    <speaker>Kevin Cavnar-Johnson</speaker>
+    <sponsor>Kevin Cavnar-Johnson</sponsor>
+    <logo>improvinglogo.png</logo>
+    <filename>2016-04-21-javascript-testing.md</filename>
+  </meeting>
+  <meeting id="113">
+    <date>2016-05-19T18:30:00</date>
+    <title>Going Distributed with NServiceBus</title>
+    <pagecontent />
+    <location>Lone Star College - Montgomery</location>
+    <speaker>Justin  Self</speaker>
+    <sponsor>Justin  Self</sponsor>
+    <logo />
+    <filename>2016-05-19-going.md</filename>
+  </meeting>
+  <meeting id="114">
+    <date>2016-06-16T18:30:00</date>
+    <title>TBD</title>
+    <pagecontent />
+    <location>Lone Star College - Montgomery</location>
+    <speaker>[To Be Determined]</speaker>
+    <sponsor>[To Be Determined]</sponsor>
+    <logo />
+    <filename>2016-06-16-tbd.md</filename>
+  </meeting>
+  <meeting id="115">
+    <date>2016-07-21T18:30:00</date>
+    <title>TBD</title>
+    <pagecontent />
+    <location>Lone Star College - Montgomery</location>
+    <speaker>[To Be Determined]</speaker>
+    <sponsor>[To Be Determined]</sponsor>
+    <logo />
+    <filename>2016-07-21-tbd.md</filename>
+  </meeting>
+  <meeting id="116">
+    <date>2016-08-18T18:30:00</date>
+    <title>TBD</title>
+    <pagecontent />
+    <location>Lone Star College - Montgomery</location>
+    <speaker>[To Be Determined]</speaker>
+    <sponsor>[To Be Determined]</sponsor>
+    <logo />
+    <filename>2016-08-18-tbd.md</filename>
+  </meeting>
+  <meeting id="117">
+    <date>2016-09-15T18:30:00</date>
+    <title>TBD</title>
+    <pagecontent />
+    <location>Lone Star College - Montgomery</location>
+    <speaker>[To Be Determined]</speaker>
+    <sponsor>[To Be Determined]</sponsor>
+    <logo />
+    <filename>2016-09-15-tbd.md</filename>
+  </meeting>
+  <meeting id="118">
+    <date>2016-10-20T18:30:00</date>
+    <title>TBD</title>
+    <pagecontent />
+    <location>Lone Star College - Montgomery</location>
+    <speaker>[To Be Determined]</speaker>
+    <sponsor>[To Be Determined]</sponsor>
+    <logo />
+    <filename>2016-10-20-tbd.md</filename>
+  </meeting>
+  <meeting id="119">
+    <date>2016-11-17T18:30:00</date>
+    <title>TBD</title>
+    <pagecontent />
+    <location>Lone Star College - Montgomery</location>
+    <speaker>[To Be Determined]</speaker>
+    <sponsor>[To Be Determined]</sponsor>
+    <logo />
+    <filename>2016-11-17-tbd.md</filename>
+  </meeting>
+  <meeting id="120">
+    <date>2016-12-15T18:30:00</date>
+    <title>TBD</title>
+    <pagecontent />
+    <location>Lone Star College - Montgomery</location>
+    <speaker>[To Be Determined]</speaker>
+    <sponsor>[To Be Determined]</sponsor>
+    <logo />
+    <filename>2016-12-15-tbd.md</filename>
+  </meeting>
+  <meeting id="121">
+    <date>2017-01-19T18:30:00</date>
+    <title>TBD</title>
+    <pagecontent />
+    <location>Lone Star College - Montgomery</location>
+    <speaker>[To Be Determined]</speaker>
+    <sponsor>[To Be Determined]</sponsor>
+    <logo />
+    <filename>2017-01-19-tbd.md</filename>
+  </meeting>
+</meetings>
