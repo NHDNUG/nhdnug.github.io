@@ -5,7 +5,7 @@ title:              "LightSwitch - Adding custom controls"
 subtitle:           ""
 location:           "Lone Star College - Montgomery"
 location-detail:    ""
-sponsor:            "Paladin"
+sponsors:            ["Paladin"]
 description:        ""
 ---
 Visual Studio LightSwitch is a Rapid Application Development framework that leverages a coordinated set of
