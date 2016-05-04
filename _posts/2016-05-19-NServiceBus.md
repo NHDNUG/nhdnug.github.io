@@ -5,7 +5,7 @@ title:              "Going Distributed with NServiceBus"
 subtitle:           ""
 location:           "Lone Star College - Montgomery"
 location-detail:    "MC-G G123"
-sponsors:           ["Improving Enterprises", "Lonestar Montgomery College"]
+sponsors:           ["Improving", "Lonestar Montgomery College"]
 description:        ""
 meetup:             "230816677"
 ---
