@@ -1,14 +1,16 @@
 ---
-date : 2014-11-20
-title : Lightning Talks!
-description : Lightning Talks!
-location : Lone Star College - Montgomery
-speaker : [Various ]
-bio : Multiple speakers will be presenting
-speakerurl : 
-email : 
-twitter : 
-sponsor : 
-logo : 
+date:               "2014-11-20 18:30"
+speaker:            "[Various]"
+title:              "Lightning Talks!"
+subtitle:           ""
+location:           "Lone Star College - Montgomery"
+location-detail:    ""
+sponsor:            ""
+description:        ""
 ---
 Lightning Talks!
+
+* Christy Piffat
+* Justin Self
+* Michael F.
+
