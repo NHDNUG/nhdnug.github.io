@@ -25,15 +25,17 @@ layout: default
                 <dd property="location">{% include location-display.html location=page.location mode="title"
                     location-detail=page.location-detail %}
                 </dd>
-                {% if page.meetup %}
-                <br />
+                {% if page.meetup %}                
                 <dt></dt>
-                <dd><a href="http://www.meetup.com/nhdnug/events/{{ page.meetup }}/"
+                <dd>
+                    <br />
+                    <a href="http://www.meetup.com/nhdnug/events/{{ page.meetup }}/"
                        data-event="{{ page.meetup }}"
-                       class="mu-rsvp-btn">RSVP</a></dd>
+                       class="mu-rsvp-btn">RSVP</a>
+                </dd>
                 {% endif %}
             </dl>
-            <hr/>
+            <hr />
             {{ content }}
         </div>
         <div class="well">
