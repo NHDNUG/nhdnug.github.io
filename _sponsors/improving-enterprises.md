@@ -1,5 +1,5 @@
 ---
-title: "Improving Enterprises"
+title: "Improving"
 logo:
     small: "/images/sponsors/improving-sm.jpg"
 site_url: "http://improving.com"

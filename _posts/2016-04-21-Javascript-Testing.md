@@ -5,7 +5,7 @@ title:              "Don't Burn Yourself"
 subtitle:           "A Hot Take On Javascript Unit Testing"
 location:           "Lone Star College - Montgomery"
 location-detail:    "MC-G G123"
-sponsors:           ["Improving Enterprises", "Lonestar Montgomery College"]
+sponsors:           ["Improving", "Lonestar Montgomery College"]
 description:        ""
 ---
 Picking a Javascript Testing Framework can be overwhelming, since NPM can read like a coffeeshop menu.
