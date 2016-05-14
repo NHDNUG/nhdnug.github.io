@@ -1,17 +1,16 @@
 ---
-date : 2013-11-21
-title : Lightning Talks!
-description : Christy Piffat - WCF Authentication
-location : Lone Star College - Montgomery
-speaker : [Various ]
-bio : Multiple speakers will be presenting
-speakerurl : 
-email : 
-twitter : 
-sponsor : 
-logo : 
+date:               "2013-11-21 18:30"
+speaker:            "[Various ]"
+title:              "Lightning Talks!"
+subtitle:           ""
+location:           "Lone Star College - Montgomery"
+location-detail:    ""
+sponsor:            ""
+description:        ""
 ---
-Christy Piffat - WCF Authentication
-Justin Self - Web Security
-Arunkumar Sajjan - HIPAA Compliance
-Don Waldo - CODE Framework in the real world
+### More Lightning Talks!
+* Christy Piffat - WCF Authentication
+* Justin Self - Web Security
+* Arunkumar Sajjan - HIPAA Compliance
+* Don Waldo - CODE Framework in the real world
+

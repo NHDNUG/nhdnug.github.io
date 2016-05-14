@@ -15,24 +15,38 @@ layout: default
             {% if page.subtitle %}
             <p class="subtitle">{{ page.subtitle }}</p>
             {% endif %}
-            <hr />
             <dl class="dl-horizontal">
                 <dt>When</dt>
                 <dd>{% include datetime.html date=page.date day=true time=true %}</dd>
                 <dt>Who</dt>
                 <dd>{% include speaker-name.html speaker-title=page.speaker %}</dd>
                 <dt>Where</dt>
+<<<<<<< HEAD
                 <dd>{% include location-display.html location=page.location mode="title" location-detail=page.location-detail %}</dd>                        
+=======
+                <dd property="location">{% include location-display.html location=page.location mode="title"
+                    location-detail=page.location-detail %}
+                </dd>
+                {% if page.meetup %}                
+                <dt></dt>
+                <dd>
+                    <br />
+                    <a href="http://www.meetup.com/nhdnug/events/{{ page.meetup }}/"
+                       data-event="{{ page.meetup }}"
+                       class="mu-rsvp-btn">RSVP</a>
+                </dd>
+                {% endif %}
+>>>>>>> develop
             </dl>
             <hr />
             {{ content }}
         </div>
         <div class="well">
-        {% include speaker-display.html speaker-title=page.speaker %}
-        </div>        
+            {% include speaker-display.html speaker-title=page.speaker %}
+        </div>
     </div>
-    
-    
+
+
     <div class="col-xs-12 col-sm-4 col-md-3">
         {% if page.sponsor or page.sponsors %}
         <div class="panel panel-primary">
@@ -42,17 +56,17 @@ layout: default
                 </h3>
             </div>
             <div class="panel-body" style="text-align: center;">
-                
+
                 {% if page.sponsor %}
-                    {% include sponsor-display.html sponsor-title=page.sponsor %}
+                {% include sponsor-display.html sponsor-title=page.sponsor %}
                 {% else if page.sponsors %}
-                    <ul class="sponsor-list">
+                <ul class="sponsor-list">
                     {% for the_sponsor in page.sponsors %}
-                        <li>{% include sponsor-display.html sponsor-title=the_sponsor %}</li>
+                    <li>{% include sponsor-display.html sponsor-title=the_sponsor %}</li>
                     {% endfor %}
-                    </ul>
+                </ul>
                 {% endif %}
-            </div> 
+            </div>
         </div>
         {% endif %}
         {% assign numEvents = site.posts | where:"speaker", page.speaker | size %}
@@ -62,11 +76,12 @@ layout: default
                 <h3 class="panel-title">Other Events By This Speaker</h3>
             </div>
             <div class="panel-body">
-                {% include meetings-list.html ul-class="events-events-list" where-key="speaker" where-value=page.speaker exclude-url=page.url %}
-            </div> 
+                {% include meetings-list.html ul-class="events-events-list" where-key="speaker" where-value=page.speaker
+                exclude-url=page.url %}
+            </div>
         </div>
         {% endif %}
-    </div>    
+    </div>
 </div>
 
 <div class="row">
@@ -74,4 +89,13 @@ layout: default
         {% include disqus.html %}
     </div>
 </div>
-
+<script>!function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (!d.getElementById(id)) {
+        js = d.createElement(s);
+        js.id = id;
+        js.async = true;
+        js.src = "https://a248.e.akamai.net/secure.meetupstatic.com/s/script/2012676015776998360572/api/mu.btns.js?id=uvssabcpr8a8595neuvmmu0v7l";
+        fjs.parentNode.insertBefore(js, fjs);
+    }
+}(document, "script", "mu-bootjs");</script>

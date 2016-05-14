@@ -1,14 +1,12 @@
 ---
-date : 2015-02-19
-title : Azure Automation
-description : Meeting will be in the Conference Ce
-location : Southwestern Energy
-speaker : Paul Drew 
-bio : 
-speakerurl : 
-email : 
-twitter : 
-sponsor : 
-logo : 
+date:               "2015-02-19 18:30"
+speaker:            "Paul Drew "
+title:              "Azure Automation"
+subtitle:           ""
+location:           "Southwestern Energy"
+location-detail:    ""
+sponsor:            ""
+description:        ""
 ---
 Meeting will be in the Conference Center
+
