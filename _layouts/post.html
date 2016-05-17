@@ -21,12 +21,8 @@ layout: default
                 <dt>Who</dt>
                 <dd>{% include speaker-name.html speaker-title=page.speaker %}</dd>
                 <dt>Where</dt>
-<<<<<<< HEAD
+
                 <dd>{% include location-display.html location=page.location mode="title" location-detail=page.location-detail %}</dd>                        
-=======
-                <dd property="location">{% include location-display.html location=page.location mode="title"
-                    location-detail=page.location-detail %}
-                </dd>
                 {% if page.meetup %}                
                 <dt></dt>
                 <dd>
@@ -36,7 +32,6 @@ layout: default
                        class="mu-rsvp-btn">RSVP</a>
                 </dd>
                 {% endif %}
->>>>>>> develop
             </dl>
             <hr />
             {{ content }}
