@@ -7,7 +7,7 @@
         day= include the day
 {% endcomment %}{% capture final %}
 {% assign date = include.date %}
-<span{% if include.rdfa_property %} property="{{ include.rdfa_property }}" content="{{ date | date_to_xmlschema }}"{% endif%}>
+<span{% if include.rdfa_property %} property='{{ include.rdfa_property }}' content='{{ date | date: "%Y-%m-%dT%H:%M" }}'{% endif%}>
 {% assign d = date | date: "%-d" %}
 {% if include.day %}
 {{ date | date: "%A " }}
