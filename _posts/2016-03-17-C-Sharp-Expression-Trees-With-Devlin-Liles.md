@@ -1,6 +1,6 @@
 ---
 date:               "2016-03-17 18:30:00"
-speaker:            "Devlin Liles"
+speakers:           ["Devlin Liles"]
 title:              "C# Expression Trees"
 subtitle:           "And other mindblowing tricks!"
 location:           "Southwestern Energy"

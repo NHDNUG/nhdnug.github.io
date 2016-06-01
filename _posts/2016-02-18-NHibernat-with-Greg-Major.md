@@ -2,7 +2,7 @@
 title:              "NHibernate"
 subtitle:           "Spreading the good word"
 date:               "2016-02-18 18:30"
-speaker:            "Greg Major"
+speakers:           ["Greg Major"]
 location:           "Lone Star College - Montgomery"
 location-detail:    "MC-G G123"
 sponsors:           ["Blinds.com"]

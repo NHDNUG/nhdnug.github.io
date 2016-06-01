@@ -1,6 +1,6 @@
 ---
 date:               "2009-01-14 18:30"
-speaker:            "J Sawyer"
+speakers:           ["J Sawyer"]
 title:              "Developing and Deploying Your First Azure Service"
 subtitle:           ""
 location:           "Lone Star College - Montgomery"

@@ -1,6 +1,6 @@
 ---
 date:               "2011-02-17 18:30"
-speaker:            "Thom Chichester"
+speakers:           ["Thom Chichester"]
 title:              "LightSwitch - Adding custom controls"
 subtitle:           ""
 location:           "Lone Star College - Montgomery"
