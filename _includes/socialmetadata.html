@@ -1,7 +1,34 @@
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="{{ site.title }}">
-<meta name="twitter:description" content="{{ site.description }}">
+{% assign got-meeting = false %}
+{% if page.is_meeting == true %}
+    {% assign post = page %}
+    {% assign got-meeting = true %}
+    
+    {% assign socialTitle = post.title %}
+    {% capture socialDescription %}Presented by {{ post.speaker }}{% endcapture %}
+    
+    {% assign speakers = site.speakers | where:"title", post.speaker %}
+    {% assign totFound = speakers | size %}
+    {% if totFound > 0 %}
+        {% assign speaker = speakers | first %}
+        {% assign socialImage = speaker.image-sm %}
+    {% endif %}
+    
+{% elsif page.home-page %}
+    {% assign socialTitle = site.title %}
+    {% assign socialDescription = site.description %}
+{% else %}
+    {% assign socialTitle = page.title %}
+    {% assign socialDescription = page.description %}
+{% endif %}
+<meta name="description" content="{{ socialDescription }}" />
 
-<meta property="og:type" content="article">
-<meta property="og:title" content="{{ site.title }}">
-<meta property="og:description" content="{{ site.description }}">
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="{{ site.data.organization.social.twitter }}" />
+<meta name="twitter:title" content="{{ socialTitle }}" />
+<meta name="twitter:description" content="{{ socialDescription }}" />
+{% if socialImage %}<meta name="twitter:image" content="{{ socialImage | prepend: site.baseurl | prepend: site.url }}" />{% endif %}
+
+<meta property="og:type" content="article" />
+<meta property="og:title" content="{{ socialTitle }}" />
+<meta property="og:description" content="{{ socialDescription }}" />
+{% if socialImage %}<meta property="og:image" content="{{ socialImage | prepend: site.baseurl | prepend: site.url }}" />{% endif %}
