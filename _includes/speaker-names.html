@@ -1,0 +1,12 @@
+{% if include.speaker-titles %}
+    {% assign seperator = ', ' %}
+    {% if include.seperator %}
+        {% assign seperator = include.seperator %}
+    {% endif %}
+    {% assign arraySize = include.speaker-titles | size %}
+    {% assign currentIndex = 0 %}
+    {% for speaker-title in include.speaker-titles %}
+        {% assign currentIndex = currentIndex | plus: 1 %}
+        {% include speaker-name.html speaker-title=speaker-title %}{% if currentIndex < arraySize | minus: 1 %}{{ seperator }}{% endif %}
+    {% endfor %}
+{% endif %}
