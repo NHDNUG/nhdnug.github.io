@@ -28,7 +28,7 @@ home-page: true
                     <span style="white-space: nowrap;"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
                     {% include datetime.html date=post.date day=true time=true %}
                     </span> |  
-                    <span style="white-space: nowrap;"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> {% include speaker-name.html speaker-title=post.speaker %}</span> | 
+                    <span style="white-space: nowrap;"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> {% include speaker-names.html speaker-titles=post.speakers %}</span> | 
                     <span style="white-space: nowrap;"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> {% include location-display.html location=post.location mode="title" location-detail=post.location-detail %}</span>
                 </p>
                 {% if post.description %}
