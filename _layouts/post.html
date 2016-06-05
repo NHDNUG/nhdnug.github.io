@@ -4,8 +4,10 @@ layout: default
 
 {% assign sponsorCount = page.sponsors | size %}
 {% assign speakerCount = page.speakers | size %}
+{% assign meetingYear = page.date | date: '%Y' %}
+{% capture meetingYearUrl %}/meetings/{{ meetingYear }}{% endcapture %}
 
-{% include breadcrumb.html item1_url='/meetings' item1_title='Meetings' item2_url=page.url item2_title=page.title item2_last=true %}
+{% include breadcrumb.html item1_url='/meetings' item1_title='Meetings' item2_url=meetingYearUrl item2_title=meetingYear item3_url=page.url item3_title=page.title item3_last=true %}
 
 {% include ld-json-event.html event=page %}
 
