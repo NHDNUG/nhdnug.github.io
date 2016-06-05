@@ -17,7 +17,7 @@
     {% assign socialTitle = site.title %}
     {% assign socialDescription = site.description %}
 {% else %}
-    {% assign socialTitle = page.title %}
+    {% capture socialTitle %}{% if page.title_pretext %}{{ page.title_pretext }}{% endif %}{{ page.title }}{% if page.title_posttext %}{{ page.title_posttext }}{% endif %}{% endcapture %}
     {% assign socialDescription = page.description %}
 {% endif %}
 <meta name="description" content="{{ socialDescription }}" />
