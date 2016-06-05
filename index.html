@@ -28,7 +28,7 @@ home-page: true
                     <span style="white-space: nowrap;"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
                     {% include datetime.html date=post.date day=true time=true %}
                     </span> |  
-                    <span style="white-space: nowrap;"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> {% include speaker-name.html speaker-title=post.speaker %}</span> | 
+                    <span style="white-space: nowrap;"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> {% include speaker-names.html speaker-titles=post.speakers %}</span> | 
                     <span style="white-space: nowrap;"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> {% include location-display.html location=post.location mode="title" location-detail=post.location-detail %}</span>
                 </p>
                 {% if post.description %}
@@ -40,24 +40,19 @@ home-page: true
         </div>
     </div>
     <div class="col-xs-12 col-sm-4 col-md-3">
-        {% if post.sponsor or post.sponsors %}
+        {% if post.sponsors %}{% assign sponsorCount = post.sponsors | size %}
         <div class="panel panel-primary">
             <div class="panel-heading">
                 <h3 class="panel-title">
-                    Meeting Sponsor{% if post.sponsors %}s{% endif %}
+                    Meeting Sponsor{% if sponsorCount > 1 %}s{% endif %}
                 </h3>
             </div>
             <div class="panel-body" style="text-align: center;">
-                
-                {% if post.sponsor %}
-                    {% include sponsor-display.html sponsor-title=post.sponsor %}
-                {% else if post.sponsors %}
-                    <ul class="sponsor-list">
-                    {% for the_sponsor in post.sponsors %}
-                        <li>{% include sponsor-display.html sponsor-title=the_sponsor %}</li>
-                    {% endfor %}
-                    </ul>
-                {% endif %}
+                <ul class="sponsor-list">
+                {% for the_sponsor in post.sponsors %}
+                    <li>{% include sponsor-display.html sponsor-title=the_sponsor %}</li>
+                {% endfor %}
+                </ul>
             </div> 
         </div>
         {% endif %}        

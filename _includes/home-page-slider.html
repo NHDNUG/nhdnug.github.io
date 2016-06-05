@@ -23,7 +23,7 @@
                 {% endif %}
                 <p>
                     {{ post.date | date: "%B %-d, %Y"}} |
-                    {% include speaker-name.html speaker-title=post.speaker %}
+                    {% include speaker-names.html speaker-titles=post.speakers %}
                 </p>
                 <p>
                     <a class="btn" href="{{ post.url | prepend: site.baseurl }}">More Information</a>

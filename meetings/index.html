@@ -15,7 +15,7 @@ permalink: /meetings/
     {% endif %}
     <div>{% include datetime.html date=post.date %} - 
         <span class="speaker-name">
-            {% include speaker-name.html speaker-title=post.speaker %}            
+            {% include speaker-names.html speaker-titles=post.speakers %}            
         </span>
     </div>               
 {% endfor %} 
