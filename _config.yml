@@ -8,6 +8,7 @@ future: true
 show_drafts: false
 time_zone: "US/Central"
 excerpt_separator: <!--more-->
+empty_array: []
 
 kramdown:
     input: GFM          # use Github Flavored Markdown    

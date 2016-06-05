@@ -1,12 +1,18 @@
 {% if include.speaker-titles %}
     {% assign seperator = ', ' %}
+    {% assign lastSeperator = ' and ' %}
     {% if include.seperator %}
         {% assign seperator = include.seperator %}
     {% endif %}
+    {% if include.lastSeperator %}
+        {% assign lastSeperator = include.lastSeperator %}
+    {% endif %}
     {% assign arraySize = include.speaker-titles | size %}
+    {% assign lastSepIndex = arraySize | minus: 2 %}
+    {% assign finalSepIndex = arraySize | minus: 1 %}
     {% assign currentIndex = 0 %}
-    {% for speaker-title in include.speaker-titles %}
+    {% for speaker-title in include.speaker-titles %}        
+        {% include speaker-name.html speaker-title=speaker-title %}{% if currentIndex == lastSepIndex %}{{ lastSeperator }}{% elsif currentIndex < finalSepIndex %}{{ seperator }}{% endif %}
         {% assign currentIndex = currentIndex | plus: 1 %}
-        {% include speaker-name.html speaker-title=speaker-title %}{% if currentIndex < arraySize | minus: 1 %}{{ seperator }}{% endif %}
     {% endfor %}
 {% endif %}

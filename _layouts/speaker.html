@@ -50,7 +50,7 @@ layout: default
                 <h3 class="panel-title">Meetings Presented</h3>
             </div>
             <div class="panel-body">
-                {% include meetings-list.html ul-class="speaker-events-list" where-key="speaker" where-value=page.title %}
+                {% include meetings-list.html ul-class="speaker-events-list" contains-key="speakers" contains-value=page.title %}
             </div> 
         </div>
     </div>
