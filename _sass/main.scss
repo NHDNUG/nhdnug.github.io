@@ -39,7 +39,8 @@ footer {
     text-align: center;
 }
 
-.sponsor-list, .sponsor-events-list, .speaker-events-list, .events-events-list, .volunteer-list {
+.sponsor-list, .sponsor-events-list, .speaker-events-list, .events-events-list, 
+.volunteer-list, .meetingyear-events-list, .meetings-main-events-list {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -68,6 +69,10 @@ footer {
 }
 .meeting-title {
     font-size: 120%;
+}
+.meeting-subtitle {
+    font-style: italic;
+    color: #888;
 }
 #raffleSpinner {
     text-align: center;
@@ -129,4 +134,7 @@ footer {
             background-color: red;
         }
     }
+}
+h1.no-margin-top {
+    margin-top: 0;
 }

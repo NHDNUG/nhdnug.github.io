@@ -5,32 +5,35 @@ menu-top: true
 menu-top-pos: 1
 permalink: /meetings/
 ---
+
 {% include breadcrumb.html item1_url=page.url item1_title=page.title item1_last=true %}
 
-<h2>Meetings</h2>
-{% for post in paginator.posts %}
-    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-    {% if post.subtitle %}
-        <h5 class="subtitle">{{ post.subtitle }}</h5>
-    {% endif %}
-    <div>{% include datetime.html date=post.date %} - 
-        <span class="speaker-name">
-            {% include speaker-names.html speaker-titles=post.speakers %}            
-        </span>
-    </div>               
-{% endfor %} 
-
-<!-- Pagination links -->
-<div class="pagination">
-{% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
-{% else %}
-    <span class="previous">Previous</span>
-{% endif %}
-<span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-{% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
-{% else %}
-    <span class="next ">Next</span>
-{% endif %}
-</div>
+<div class="row">
+    <div class="col-xs-12 col-sm-8 col-md-9">
+        <h1 class="no-margin-top">Meetings</h1>
+        {% assign siteYear = site.time | date: '%Y' %}
+        {% include 
+            meetings-list.html 
+            ul-class="meetings-main-events-list" 
+            where-year=siteYear 
+            sort-dir="desc" 
+            show-subtitle=true 
+            show-speaker=true %}
+    </div>       
+    <div class="col-xs-12 col-sm-4 col-md-3">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h3 class="panel-title">
+                    Meetings By Year
+                </h3>
+            </div>
+            <div class="panel-body">
+              <ul class="meetingyear-list">
+              {% for meetingyear in site.meetingyears %}
+                <li><a href="{{ meetingyear.url | prepend: site.baseurl }}">{{ meetingyear.title }}</a></li>
+              {% endfor %}
+              </ul>  
+            </div>
+        </div>
+    </div>
+</div>       
