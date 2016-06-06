@@ -39,7 +39,7 @@ collections:
         output: false
     meetingyears:
         output: true
-        permalink: /meetings/:year/
+        permalink: /meetings/:name/
 
   
 # defaults
