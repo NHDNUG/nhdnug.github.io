@@ -5,7 +5,6 @@ social:
     linkedin: "https://www.linkedin.com/in/john-cavnar-johnson-4a4499"
     twitter: "https://twitter.com/williamockhamtx"
 ---
-Simpler, faster, more scalable, more usable. Make it so.
-
-Examining the nexus of technology, politics, ternary logic and other heretical ideas. 
-When you debug a distributed system, you do it Texas-style. -James Micken
+John is a Principal Consultant with Improving. In the last 25 years, he's been a 
+corporate developer, IT sysadmin, software development manager, IT enterprise architect, 
+consultant and entrepreneur.
