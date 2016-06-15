@@ -3,7 +3,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     
-    <title>{% if page.title %}{% if page.title_pretext %}{{ page.title_pretext }}{% endif %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <title>{% if page.title %}{% if page.title_pretext %}{{ page.title_pretext }}{% endif %}{{ page.title }}{% if page.title_posttext %}{{ page.title_posttext }}{% endif %} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="author" content="{{ site.data.organization.legalName }}" />
   
     {% include socialmetadata.html %}  

@@ -1,6 +1,6 @@
 ---
 date:               "2016-04-21 18:30:00"
-speaker:            "Kevin Cavnar-Johnson"
+speakers:           ["Kevin Cavnar-Johnson"]
 title:              "Don't Burn Yourself"
 subtitle:           "A Hot Take On Javascript Unit Testing"
 location:           "Lone Star College - Montgomery"

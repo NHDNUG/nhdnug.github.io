@@ -24,7 +24,7 @@ layout: default
                 <h3 class="panel-title">Meetings Sponsored</h3>
             </div>
             <div class="panel-body">
-                {% include meetings-list.html ul-class="sponsor-events-list" where-key="sponsor" where-value=page.title contains-key="sponsors" contains-value=page.title show-speaker=true %}
+                {% include meetings-list.html ul-class="sponsor-events-list" contains-key="sponsors" contains-value=page.title show-speaker=true %}
             </div> 
         </div>
     </div>

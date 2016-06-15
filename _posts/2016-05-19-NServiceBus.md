@@ -1,6 +1,6 @@
 ---
 date:               "2016-05-19 18:30:00"
-speaker:            "Justin Self"
+speakers:           ["Justin Self"]
 title:              "Going Distributed with NServiceBus"
 subtitle:           ""
 location:           "Lone Star College - Montgomery"

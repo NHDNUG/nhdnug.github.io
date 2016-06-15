@@ -1,11 +1,11 @@
 ---
 date:               "2009-01-14 18:30"
-speaker:            "J Sawyer"
+speakers:           ["J Sawyer"]
 title:              "Developing and Deploying Your First Azure Service"
 subtitle:           ""
 location:           "Lone Star College - Montgomery"
 location-detail:    ""
-sponsor:            "Telerik"
+sponsors:            ["Telerik"]
 description:        ""
 ---
 In this session we will take a tour of the capabilities of the Microsoft cloud platform by building and

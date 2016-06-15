@@ -3,23 +3,27 @@ layout: default
 ---
 
 {% assign sponsorCount = page.sponsors | size %}
+{% assign speakerCount = page.speakers | size %}
+{% assign meetingYear = page.date | date: '%Y' %}
+{% capture meetingYearUrl %}/meetings/{{ meetingYear }}{% endcapture %}
 
-{% include breadcrumb.html item1_url='/meetings' item1_title='Meetings' item2_url=page.url item2_title=page.title item2_last=true %}
+{% include breadcrumb.html item1_url='/meetings' item1_title='Meetings' item2_url=meetingYearUrl item2_title=meetingYear item3_url=page.url item3_title=page.title item3_last=true %}
 
 {% include ld-json-event.html event=page %}
 
+
 <div class="row">
     <div class="col-xs-12 col-sm-8 col-md-9">
-        <div>
-            <h1>{{ page.title }}</h1>
+        <div>            
+            <h1 class="no-margin-top">{{ page.title }}</h1>
             {% if page.subtitle %}
             <p class="subtitle">{{ page.subtitle }}</p>
-            {% endif %}
+            {% endif %}            
             <dl class="dl-horizontal">
                 <dt>When</dt>
                 <dd>{% include datetime.html date=page.date day=true time=true %}</dd>
                 <dt>Who</dt>
-                <dd>{% include speaker-name.html speaker-title=page.speaker %}</dd>
+                <dd>{% include speaker-names.html speaker-titles=page.speakers %}</dd>
                 <dt>Where</dt>
 
                 <dd>{% include location-display.html location=page.location mode="title" location-detail=page.location-detail %}</dd>                        
@@ -36,45 +40,52 @@ layout: default
             <hr />
             {{ content }}
         </div>
+        {% for meetingSpeaker in page.speakers %}
         <div class="well">
-            {% include speaker-display.html speaker-title=page.speaker %}
+            {% include speaker-display.html speaker-title=meetingSpeaker %}
         </div>
+        {% endfor %}
     </div>
 
 
     <div class="col-xs-12 col-sm-4 col-md-3">
-        {% if page.sponsor or page.sponsors %}
+        {% if page.sponsors %}
         <div class="panel panel-primary">
             <div class="panel-heading">
                 <h3 class="panel-title">
-                    Meeting Sponsor{% if page.sponsors %}s{% endif %}
+                    Meeting Sponsor{% if sponsorCount > 1 %}s{% endif %}
                 </h3>
             </div>
             <div class="panel-body" style="text-align: center;">
-
-                {% if page.sponsor %}
-                {% include sponsor-display.html sponsor-title=page.sponsor %}
-                {% else if page.sponsors %}
                 <ul class="sponsor-list">
                     {% for the_sponsor in page.sponsors %}
                     <li>{% include sponsor-display.html sponsor-title=the_sponsor %}</li>
                     {% endfor %}
                 </ul>
-                {% endif %}
             </div>
         </div>
         {% endif %}
-        {% assign numEvents = site.posts | where:"speaker", page.speaker | size %}
-        {% if numEvents > 1 %}
-        <div class="panel panel-primary">
-            <div class="panel-heading">
-                <h3 class="panel-title">Other Events By This Speaker</h3>
+        {% if speakerCount == 1 %}
+            {% assign speakerTitle = page.speakers | first %}
+            {% assign meetingsArray = site.empty_array %}
+            {% for post in site.posts %}
+                {% if post.speakers contains page.speakers[0] %}
+                    {% assign meetingsArray = meetingsArray | push: post %}
+                {% endif %}
+            {% endfor %}
+        
+            {% assign numMeetings = meetingsArray | size %}
+            {% if numMeetings > 1 %}
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Other Meetings Presented By This Speaker</h3>
+                </div>
+                <div class="panel-body">
+                    {% include meetings-list.html ul-class="events-events-list" contains-key="speakers" contains-value=speakerTitle
+                    exclude-url=page.url %}
+                </div>
             </div>
-            <div class="panel-body">
-                {% include meetings-list.html ul-class="events-events-list" where-key="speaker" where-value=page.speaker
-                exclude-url=page.url %}
-            </div>
-        </div>
+            {% endif %}
         {% endif %}
     </div>
 </div>

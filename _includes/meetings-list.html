@@ -1,32 +1,55 @@
+{% assign sortDir = 'asc' %}
+{% if include.sort-dir %}{% assign sortDir = include.sort-dir | lower %}{% endif %}
 
 <ul class="{{ include.ul-class }}">
-    {% assign events = site.posts %}
+    {% assign events = site.empty_array %}
     {% if include.where-key %}
-        {% assign events = events | where:include.where-key, include.where-value %}
-    {% endif %}
-    {% if include.contains-key %}{% for post in site.posts %}{% if post[include.contains-key] contains include.contains-value %}{% assign events = events | push: post %}{% endif %}{% endfor %}
+        {% assign validQuery = true %}
+        {% assign events = site.posts | where:include.where-key, include.where-value %}
+    {% elsif include.contains-key %}
+        {% for post in site.posts %}
+            {% if post[include.contains-key] contains include.contains-value %}
+                {% assign events = events | push: post %}
+            {% endif %}
+        {% endfor %}
+    {% elsif include.where-year %}
+        {% assign targetYear = include.where-year | plus: 0 %}
+        {% for post in site.posts %}
+            {% assign meetingYear = post.date | date: '%Y' | plus: 0 %}
+            {% if meetingYear == targetYear %}
+                {% assign events = events | push: post %}
+            {% endif %}
+        {% endfor %}
     {% endif %}
     
-    {% assign events = events | sort: 'date' %}
-    
-    {% for event in events reversed %}
-        {% assign includeEvent = true %}
-        {% if include.exclude-url == event.url %}
-            {% assign includeEvent = false %}
+    {% assign numMeetings = events | size %}
+    {% if numMeetings > 0 %}
+        {% if sortDir == 'desc' %}    
+            {% assign events = events | sort: 'date' %}
         {% endif %}
-        {% if includeEvent == true %}
-            <li>
-                <div class="meeting-title">
-                    <a href="{{ event.url | prepend: site.baseurl }}">{{ event.title }}</a>
-                </div>
-                <div class="meeting-meta">
-                    {% include datetime.html date=event.date %}                    
-                    {% if include.show-speaker %}
-                     - {% include speaker-name.html speaker-title=event.speaker %}
-                    {% endif %}
-                </div>
-            </li>
-        {% endif %}    
         
-    {% endfor %}
+        {% for event in events reversed %}
+            {% assign includeEvent = true %}
+            {% if include.exclude-url == event.url %}
+                {% assign includeEvent = false %}
+            {% endif %}
+            {% if includeEvent == true %}
+                <li>
+                    <div class="meeting-title">
+                        <a href="{{ event.url | prepend: site.baseurl }}">{{ event.title }}</a>
+                    </div>
+                     {% if include.show-subtitle and event.subtitle %}
+                    <div class="meeting-subtitle">{{ event.subtitle }}</div>
+                    {% endif %}
+                    <div class="meeting-meta">
+                        {% include datetime.html date=event.date %}                    
+                        {% if include.show-speaker %}
+                        - {% include speaker-names.html speaker-titles=event.speakers %}
+                        {% endif %}
+                    </div>
+                </li>
+            {% endif %}    
+            
+        {% endfor %}
+    {% endif %}
 </ul>

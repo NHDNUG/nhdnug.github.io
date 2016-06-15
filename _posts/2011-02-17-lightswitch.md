@@ -1,11 +1,11 @@
 ---
 date:               "2011-02-17 18:30"
-speaker:            "Thom Chichester"
+speakers:           ["Thom Chichester"]
 title:              "LightSwitch - Adding custom controls"
 subtitle:           ""
 location:           "Lone Star College - Montgomery"
 location-detail:    ""
-sponsor:            "Paladin"
+sponsors:            ["Paladin"]
 description:        ""
 ---
 Visual Studio LightSwitch is a Rapid Application Development framework that leverages a coordinated set of

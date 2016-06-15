@@ -8,6 +8,7 @@ future: true
 show_drafts: false
 time_zone: "US/Central"
 excerpt_separator: <!--more-->
+empty_array: []
 
 kramdown:
     input: GFM          # use Github Flavored Markdown    
@@ -36,6 +37,9 @@ collections:
         permalink: /speakers/:name/
     locations:
         output: false
+    meetingyears:
+        output: true
+        permalink: /meetings/:name/
 
   
 # defaults
@@ -59,6 +63,12 @@ defaults:
     values:
       layout: "speaker"
       title_pretext: "About "
+  - scope:
+      path: ""
+      type: meetingyears
+    values:
+      layout: meetingyear
+      title_posttext: " Meetings"
      
 # Site Properties
 title: North Houston .Net Users Group
