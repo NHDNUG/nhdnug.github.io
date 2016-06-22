@@ -14,6 +14,39 @@ If you at least skim the cheat sheet - and follow along with what's going on in 
 
 If you just want to give clone and run it, give it a try! That first site will get all the pre-reqs moving, all you have to do is hit the "servesite.bat" file, and you can see your changes as you make them. Have fun!
 
+## Important when working with this Repo
+
+Gh-pages (what hosts this site) is case-sensitive. As such, make sure your local git repo is set to be case sensitive.
+
+```
+git config core.ignorecase false
+```
+
+## Authoring Guide
+
+### Adding a Speaker
+
+1. Add a picture of the speaker (if not already present) to the images/speakers directory.
+2. Resize the picture of the speaker to **350x350** pixels.
+3. Copy last month's speaker file from the _speakers directory and paste it back into the _speakers directory.
+4. Rename this pasted file in the format {first}-{last}.md (lower case)
+5. Adjust the metadata in the file as appropriate.
+
+### Adding a Sponsor
+
+1. Add the sponsor's logo (if not already present) to the images/sponsors directory.
+2. Resize the sponsor log to a size with a **width of 350px** (height can be taller or shorter)
+3. Copy an existing sponsor file from the _sponsors directory and paste it back into the _sponsors directory.
+4. Rename this pasted file in the format {sponsor-name}.md (lower case)
+5. Adjust the metadata in the file as appropriate.
+
+## New Meetings
+
+1. Copy last's month's meeting file from _posts and paste it back into the same directory.
+2. Rename this pasted file in the format {year}-{month}-{day}-{Title-Here}.md
+3. Adjust the metadata in the file as appropriate.
+
+
 ### Copyright and license
 
 This repo's source code is licensed under the [MIT license](/LICENSE).
