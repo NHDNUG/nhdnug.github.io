@@ -3,10 +3,12 @@ title: "Improving"
 logo:
     small: "/images/sponsors/improving-sm.jpg"
 site_url: "http://improving.com"
-display_home_page: true
-display_home_page_order: 1
-display_sponsors_page: true
-display_sponsors_page_order: 1
+terms:
+ -
+  type: "platinum"
+  start: "2016-02-01"
+  end: "2017-01-31"
+
 ---
 
 Improving is a complete IT services firm, offering training, consulting, recruiting, and project 

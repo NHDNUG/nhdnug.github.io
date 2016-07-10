@@ -3,10 +3,6 @@ title: "Lonestar Montgomery College"
 logo:
     small: "/images/sponsors/lonestar-montgomery-sm.png"
 site_url: "http://www.lonestar.edu/montgomery.htm"    
-display_home_page: true
-display_home_page_order: 10
-display_sponsors_page: true
-display_sponsors_page_order: 2
 ---
 
 * We're close to home.

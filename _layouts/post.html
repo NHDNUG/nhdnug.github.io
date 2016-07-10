@@ -49,22 +49,7 @@ layout: default
 
 
     <div class="col-xs-12 col-sm-4 col-md-3">
-        {% if page.sponsors %}
-        <div class="panel panel-primary">
-            <div class="panel-heading">
-                <h3 class="panel-title">
-                    Meeting Sponsor{% if sponsorCount > 1 %}s{% endif %}
-                </h3>
-            </div>
-            <div class="panel-body" style="text-align: center;">
-                <ul class="sponsor-list">
-                    {% for the_sponsor in page.sponsors %}
-                    <li>{% include sponsor-display.html sponsor-title=the_sponsor %}</li>
-                    {% endfor %}
-                </ul>
-            </div>
-        </div>
-        {% endif %}
+        {% include sponsor-list2.html meeting=page ul-class="sponsor-list" show-surround=true %}
         {% if speakerCount == 1 %}
             {% assign speakerTitle = page.speakers | first %}
             {% assign meetingsArray = site.empty_array %}

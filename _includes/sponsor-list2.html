@@ -1,0 +1,161 @@
+{% assign post_sponsors = site.empty_array %}
+{% assign this_now = site.time | date: "%Y%j" %} 
+{% assign this_mode = "meeting" %}
+
+{% if include.mode %}
+    {% assign this_mode = include.mode %}
+{% endif %}
+{% if include.meeting %}
+    {% assign post_sponsors = include.meeting.sponsors %}
+    {% assign this_now = include.meeting.date | date: "%Y%j" %}
+{% endif %}
+
+ 
+
+{% assign post_sponsors_count = post_sponsors | size %}
+{% assign this_sponsors_flat = site.empty_array %}
+{% assign this_sponsors = site.empty_array %}
+{% assign this_sponsors_platinum = site.empty_array %}
+{% assign this_sponsors_gold = site.empty_array %}
+{% assign this_sponsors_silver = site.empty_array %}
+{% assign this_sponsors_meeting = site.empty_array %}
+{% assign num_platinum = 0 %}
+{% assign num_gold = 0 %}
+{% assign num_silver = 0 %}
+{% assign num_meeting = 0 %}
+
+ 
+ {% for site_sponsor in site.sponsors %}
+    {% if site_sponsor.terms %}
+        {% for term in site_sponsor.terms %}
+            {% assign start_date = term.start | date: "%Y%j" %}
+            {% assign end_date = term.end | date: "%Y%j" %}
+            {% if start_date <= this_now and end_date >= this_now %}
+                {% if this_sponsors_flat contains site_sponsor.title %}{% else %}
+                    {% assign this_sponsors_flat = this_sponsors_flat | push: site_sponsor.title %}
+                    {% assign this_sponsors = this_sponsors | push: site_sponsor %}
+                    {% if term.type == "platinum" %}
+                        {% assign num_platinum = num_platinum | plus: 1 %}
+                        {% assign this_sponsors_platinum = this_sponsors_platinum | push: site_sponsor %}  
+                    {% endif %}
+                    {% if term.type == "gold" %}
+                        {% assign num_gold = num_gold | plus: 1 %}
+                        {% assign this_sponsors_gold = this_sponsors_gold | push: site_sponsor %} 
+                    {% endif %}
+                    {% if term.type == "silver" %}
+                        {% assign num_silver = num_silver | plus: 1 %}
+                        {% assign this_sponsors_silver = this_sponsors_silver | push: site_sponsor %} 
+                    {% endif %}
+                {% endif %}
+            {% endif %}
+        {% endfor %}
+    {% endif %}
+{% endfor %}
+
+{% if post_sponsors_count > 0 %}
+{% for site_sponsor in site.sponsors %}
+    {% if post_sponsors contains site_sponsor.title %}
+        {% if this_sponsors_flat contains site_sponsor.title %}{% else %}
+            {% assign this_sponsors_flat = this_sponsors_flat | push: site_sponsor.title %}
+            {% assign this_sponsors = this_sponsors | push: site_sponsor %}
+            {% assign this_sponsors_meeting = this_sponsors_meeting | push: site_sponsor %} 
+            {% assign num_meeting = num_meeting | plus: 1 %}
+        {% endif %}
+    {% endif %}
+{% endfor %}
+{% endif %}
+
+{% if this_mode == "sponsors page" %}
+    {% assign this_year = site.time | date: "%Y" %}
+    {% for post in site.posts %}
+        {% assign post_year = post.date | date: "%Y" %}
+        {% if post_year == this_year %}
+            {% for meeting_sponsor in post.sponsors %}
+                {% if this_sponsors_flat contains meeting_sponsor %}{% else %}
+                    {% assign this_sponsors_flat = this_sponsors_flat | push: meeting_sponsor %}
+
+                    {% for site_sponsor in site.sponsors %}
+                        {% if site_sponsor.title == meeting_sponsor %}
+                            {% assign this_sponsors = this_sponsors | push: site_sponsor %}
+                            {% assign this_sponsors_meeting = this_sponsors_meeting | push: site_sponsor %} 
+                        {% endif %}
+                    {% endfor %}
+
+                    {% assign num_meeting = num_meeting | plus: 1 %}
+                {% endif %}
+            {% endfor %}
+        {% endif %}
+    {% endfor %}
+{% endif %}
+
+{% assign sponsorCount = this_sponsors_flat | size %}
+
+{% assign this_sponsor_class = "col-xs-12 col-sm-6 col-md-4 sponsors-page-sponsor-logo" %}
+{% if this_mode == "meeting" %}
+    {% assign this_sponsor_class ="col-xs-12 meeting-page-sponsor-logo" %}
+{% endif %}
+
+{% if num_platinum > 0 %}
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h3 class="panel-title">Platinum Sponsor{% if num_platinum > 1 %}s{% endif %}</h3>
+        </div>
+        <div class="panel-body">
+            <div class="row">
+                {% for sponsor in this_sponsors_platinum %}
+                    <div class="{{ this_sponsor_class }}">
+                        {% include sponsor-display.html sponsor=sponsor %}
+                    </div>
+                {% endfor %}
+            </div>
+        </div> 
+    </div>
+{% endif %}
+{% if num_gold > 0 %}
+    <div class="panel panel-warning">
+        <div class="panel-heading">
+            <h3 class="panel-title">Gold Sponsor{% if num_gold > 1 %}s{% endif %}</h3>
+        </div>
+        <div class="panel-body">
+            <div class="row">
+                {% for sponsor in this_sponsors_gold %}
+                    <div class="{{ this_sponsor_class }}">
+                        {% include sponsor-display.html sponsor=sponsor %}
+                    </div>
+                {% endfor %}
+            </div>
+        </div> 
+    </div>        
+{% endif %}
+{% if num_silver > 0 %}
+        <div class="panel panel-default">
+        <div class="panel-heading">
+            <h3 class="panel-title">Silver Sponsor{% if num_silver > 1 %}s{% endif %}</h3>
+        </div>
+        <div class="panel-body">
+            <div class="row">
+                {% for sponsor in this_sponsors_silver %}
+                    <div class="{{ this_sponsor_class }}">
+                        {% include sponsor-display.html sponsor=sponsor %}
+                    </div>
+                {% endfor %}
+            </div>
+        </div> 
+    </div>        
+{% endif %}
+{% if num_meeting > 0 %}
+    <div class="panel panel-success">
+        <div class="panel-heading">
+            <h3 class="panel-title">Meeting Sponsor{% if num_meeting > 1 %}s{% endif %}</h3>
+        </div>
+        <div class="panel-body">
+            <div class="row">
+                {% for sponsor in this_sponsors_meeting %}
+                    <div class="{{ this_sponsor_class }}">
+                        {% include sponsor-display.html sponsor=sponsor %}
+                    </div>
+                {% endfor %}
+            </div>
+        </div> 
+    </div>        
+{% endif %}
