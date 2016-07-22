@@ -3,10 +3,12 @@ title: Ctuit
 logo:
     small: "/images/sponsors/ctuit-sm.jpg"
 site_url: "http://www.ctuit.com"
-display_home_page: false
-display_home_page_order: 0
-display_sponsors_page: true
-display_sponsors_page_order: 0
+terms:
+ -
+  type: "platinum"
+  start: "2016-07-01"
+  end: "2017-06-30"
+
 ---
 ### What We Do Differently
 
