@@ -5,7 +5,7 @@ title:              "Microsoft Release Management"
 subtitle:           ""
 location:           "Lone Star College - Montgomery"
 location-detail:    "MC-G G105"
-sponsors:           ["Improving", "Ctuit", "Avanade", "Lonestar Montgomery College"]
+sponsors:           ["Avanade", "Lonestar Montgomery College", "JetBrains", "Telerik"]
 description:        ""
 meetup:             "231926804"
 ---
