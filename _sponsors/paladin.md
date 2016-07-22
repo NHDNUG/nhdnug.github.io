@@ -3,10 +3,6 @@ title: Paladin
 logo:
     small: "/images/sponsors/paladin.png"
 site_url: "http://www.paladin-inc.com"
-display_home_page: false
-display_home_page_order: 0
-display_sponsors_page: false
-display_sponsors_page_order: 0
 ---
 We help company leaders elevate their business performance by providing them
 with the talent they need to change and grow.
