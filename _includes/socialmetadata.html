@@ -3,7 +3,7 @@
     {% assign post = page %}
     {% assign got-meeting = true %}
     
-    {% capture socialTitle %}{{ post.title }}{% if post.subtitle %}: {{ post.subtitle }}{% endif %}{% endcapture %}
+    {% capture socialTitle %}{{ post.title }}{% if post.subtitle and post.subtitle != "" %}: {{ post.subtitle }}{% endif %}{% endcapture %}
     {% capture socialDescription %}Presented by {% include speaker-names.html speaker-titles=post.speakers name-only=true %}{% endcapture %}
     
     {% assign socialMediaSpeakerName = post.speakers | first %}
