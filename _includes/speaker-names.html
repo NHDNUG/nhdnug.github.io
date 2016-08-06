@@ -11,8 +11,12 @@
     {% assign lastSepIndex = arraySize | minus: 2 %}
     {% assign finalSepIndex = arraySize | minus: 1 %}
     {% assign currentIndex = 0 %}
-    {% for speaker-title in include.speaker-titles %}        
+    {% for speaker-title in include.speaker-titles %}
+        {% if include.name-only %}
+            {{ speaker-title }}{% if currentIndex == lastSepIndex %}{{ lastSeperator }}{% elsif currentIndex < finalSepIndex %}{{ seperator }}{% endif %}
+        {% else %}        
         {% include speaker-name.html speaker-title=speaker-title %}{% if currentIndex == lastSepIndex %}{{ lastSeperator }}{% elsif currentIndex < finalSepIndex %}{{ seperator }}{% endif %}
+        {% endif %}
         {% assign currentIndex = currentIndex | plus: 1 %}
     {% endfor %}
 {% endif %}
