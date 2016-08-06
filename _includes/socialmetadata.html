@@ -3,16 +3,12 @@
     {% assign post = page %}
     {% assign got-meeting = true %}
     
-    {% assign socialTitle = post.title %}
-    {% capture socialDescription %}Presented by {{ post.speaker }}{% endcapture %}
+    {% capture socialTitle %}{{ post.title }}{% if post.subtitle %}: {{ post.subtitle }}{% endif %}{% endcapture %}
+    {% capture socialDescription %}Presented by {% include speaker-names.html speaker-titles=post.speakers name-only=true %}{% endcapture %}
     
-    {% assign speakers = site.speakers | where:"title", post.speaker %}
-    {% assign totFound = speakers | size %}
-    {% if totFound > 0 %}
-        {% assign speaker = speakers | first %}
-        {% assign socialImage = speaker.image-sm %}
-    {% endif %}
-    
+    {% assign socialMediaSpeakerName = post.speakers | first %}
+    {% assign socialMediaSpeaker = site.speakers | where:"title", socialMediaSpeakerName | first %}
+    {% assign socialImage = socialMediaSpeaker.image-sm %}
 {% elsif page.home-page %}
     {% assign socialTitle = site.title %}
     {% assign socialDescription = site.description %}
