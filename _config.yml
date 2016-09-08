@@ -1,6 +1,4 @@
 # Jekyll Settings
-paginate: 10
-paginate_path: "/meetings/page:num"
 permalink: "/meetings/:year/:month/:day/:title"
 markdown: kramdown
 highlighter: rouge
@@ -17,7 +15,7 @@ kramdown:
 sass:
     sass_dir: _sass
 
-gems: ['jekyll-paginate', 'jekyll-sitemap']
+gems: ['jekyll-sitemap']
 exclude: ['README.md',
     'Gemfile',
     'Gemfile.lock',

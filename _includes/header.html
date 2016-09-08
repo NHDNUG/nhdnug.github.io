@@ -17,15 +17,15 @@
     <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
         
       <ul class="nav navbar-nav">
-    {% assign items = site.pages | where: "menu-top", true | sort: "menu-top-pos" %}
-    {% for item in items %}
-        {% if item.url == page.url %}
+    {% assign site_pages_with_nav = site.pages | where: "menu-top", true | sort: "menu-top-pos" %}
+    {% for site_page in site_pages_with_nav %}      
+        {% if site_page.url == page.url %}
         <li class="active">
-            <a href="{{ item.url | prepend: site.baseurl }}">{{ item.title }} <span class="sr-only">(current)</span></a>
+            <a href="{{ site_page.url | prepend: site.baseurl }}">{{ site_page.title }} <span class="sr-only">(current)</span></a>
         </li>
         {% else %}
         <li>
-            <a href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a>
+            <a href="{{ site_page.url | prepend: site.baseurl }}">{{ site_page.title }}</a>
         </li>
         {% endif %}
     {% endfor %}          
