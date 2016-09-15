@@ -4,7 +4,7 @@ speakers:           ["Colin Pear"]
 title:              "Distributed Systems"
 subtitle:           ""
 location:           "Lone Star College - Montgomery"
-location-detail:    "MC-G G105"
+location-detail:    "MC-G G123"
 sponsors:           ["Lonestar Montgomery College", "JetBrains", "Telerik"]
 description:        ""
 meetup:             "230879896"
