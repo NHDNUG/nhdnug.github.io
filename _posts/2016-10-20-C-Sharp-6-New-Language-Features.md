@@ -1,5 +1,5 @@
 ---
-date:               "2016-10-06 18:30:00"
+date:               "2016-10-20 18:30:00"
 speakers:           ["Joseph Reynolds"]
 title:              "C# 6: New Language Features"
 subtitle:           ""
