@@ -15,8 +15,8 @@ to give you plenty to think about heading into the new year!
 
 **This year's topics:**
 
- - Jekyll and Github-Pages - Jon Badgett
+ - Jekyll and Github-Pages - Jon Badgett - [code & docs](https://github.com/jonthenerd/2016-nhdnug-lightning-talks-jekyll)
  - Using Git Effectively - Joseph Reynolds
- - APIs with Swag(ger) - Gary DeReese
+ - APIs with Swag(ger) - Gary DeReese - [code & docs](https://github.com/gdereese/apis-with-swagger-nhdnug)
  - Electronics for IOT Devs - Arun Sajjan
  - Visual Studio DB Projects - Martin Mason
