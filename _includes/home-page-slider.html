@@ -9,6 +9,7 @@
         {% endfor %}
         {% if post == '' %}
         {% assign post = meetings | last %}
+        {% assign post_num_speakers = post.speakers | size %}
         {% endif %}
 
 <section class="main-slider-bg">
@@ -22,8 +23,8 @@
                     <h5 class="subtitle">{{ post.subtitle }}</h5>
                 {% endif %}
                 <p>
-                    {{ post.date | date: "%B %-d, %Y"}} |
-                    {% include speaker-names.html speaker-titles=post.speakers %}
+                    {{ post.date | date: "%B %-d, %Y"}}
+                    {% if post_num_speakers > 0 %} | {% include speaker-names.html speaker-titles=post.speakers %}{% endif %}
                 </p>
                 <p>
                     <a class="btn" href="{{ post.url | prepend: site.baseurl }}">More Information</a>

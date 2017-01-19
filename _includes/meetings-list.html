@@ -34,6 +34,7 @@
                 {% assign includeEvent = false %}
             {% endif %}
             {% if includeEvent == true %}
+                {% assign num_event_speakers = event.speakers | size %}
                 <li>
                     <div class="meeting-title">
                         <a href="{{ event.url | prepend: site.baseurl }}">{{ event.title }}</a>
@@ -43,7 +44,7 @@
                     {% endif %}
                     <div class="meeting-meta">
                         {% include datetime.html date=event.date %}                    
-                        {% if include.show-speaker %}
+                        {% if include.show-speaker and num_event_speakers > 0 %}
                         - {% include speaker-names.html speaker-titles=event.speakers %}
                         {% endif %}
                     </div>

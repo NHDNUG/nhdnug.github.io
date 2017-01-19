@@ -1,16 +1,17 @@
 ---
 date:               "2017-01-19 18:30:00"
-speakers:           ["Curtis Schlak"]
-title:              "Web Components & ASP.NET Core"
+speakers:           []
+title:              "Meeting Cancelled"
 subtitle:           ""
-location:           "Lone Star College - Montgomery"
-location-detail:    "MC-G G123"
-sponsors:           ["JetBrains", "Telerik"]
+location:           ""
+location-detail:    ""
+sponsors:           []
 description:        ""
 meetup:             "236120155"
 ---
 
-Join us for Curtis Schlak's talk on Web Components & ASP.NET Core.
+Tonight's meeting has been cancelled due to heavy rain and flooding 
+in the Houston area. Please join us next month.
 
 
 
