@@ -15,9 +15,9 @@ home-page: true
         {% endif %}
         {% endfor %}
         {% if post == '' %}
-        {% assign post = meetings | last %}
-        {% assign post_num_speakers = post.speakers | size %}
+        {% assign post = meetings | last %}        
         {% endif %}
+        {% assign post_num_speakers = post.speakers | size %}
         
         <div id="nextMeeting">
                 <h1 style="text-align: center;">{{ post.date | date: "%B" }} Meeting</h1>
@@ -29,7 +29,7 @@ home-page: true
                     <span style="white-space: nowrap;"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
                     {% include datetime.html date=post.date day=true time=true %}
                     </span>  
-                    {% if num_post_speakers > 0 %} | <span style="white-space: nowrap;"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> {% include speaker-names.html speaker-titles=post.speakers %}</span>{% endif %}
+                    {% if post_num_speakers > 0 %} | <span style="white-space: nowrap;"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> {% include speaker-names.html speaker-titles=post.speakers %}</span>{% endif %}
                     {% if post.location and post.location != "" %} |<span style="white-space: nowrap;"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> {% include location-display.html location=post.location mode="title" location-detail=post.location-detail %}</span>{% endif %}
                 </p>
                 {% if post.description %}

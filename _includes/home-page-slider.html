@@ -8,11 +8,12 @@
         {% endif %}
         {% endfor %}
         {% if post == '' %}
-        {% assign post = meetings | last %}
-        {% assign post_num_speakers = post.speakers | size %}
+        {% assign post = meetings | last %}        
         {% endif %}
+        {% assign post_num_speakers = post.speakers | size %}
 
 <section class="main-slider-bg">
+    
     <div class="flexslider top-flexslider">
         <ul class="slides">
             <li>
