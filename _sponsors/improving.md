@@ -7,7 +7,7 @@ terms:
  -
   type: "platinum"
   start: "2016-02-01"
-  end: "2017-01-31"
+  end: "2018-01-31"
 
 ---
 
