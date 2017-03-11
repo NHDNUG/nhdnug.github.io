@@ -30,7 +30,7 @@ layout: default
                 <dt>Where</dt>
                 <dd>{% include location-display.html location=page.location mode="title" location-detail=page.location-detail %}</dd>
                 {% endif %}
-                {% if page.meetup %}                
+                {% if page.meetup and page.meetup != "" %}                
                 <dt></dt>
                 <dd>
                     <br />
