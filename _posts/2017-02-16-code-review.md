@@ -13,3 +13,5 @@ As part of the work I’ve been doing for many years, I get to do a lot of code 
 document things that come up doing a code review so I can share it with other developers in the teams. 
 In this session, I share some of the code I’ve looked at, the reasons why the code raised yellow or red 
 flags in my head, and possible solutions I’ve proposed.
+
+[Claudio's blog post about this meeting](https://lassala.net/2017/02/13/speaking-at-the-north-houston-net-user-group-this-week/)
