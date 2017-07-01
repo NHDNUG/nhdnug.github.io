@@ -3,7 +3,7 @@ date: '2016-01-20'
 title: 'Panel Discussion: Microservices – Pros and Cons'
 location: Lone Star College - Montgomery
 speakers:
-  - Andrew Seimer
+  - Andrew Siemer
   - Gabriel Schenker
   - James Allen
   - Miguel Gonzalez
