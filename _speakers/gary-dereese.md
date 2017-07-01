@@ -1,5 +1,6 @@
 ---
 title: "Gary DeReese"
+lastUpdated: "2016-11-17"
 image-sm: "/images/speakers/gary-dereese.jpg"
 social:
     linkedin: "https://www.linkedin.com/in/garydereese"

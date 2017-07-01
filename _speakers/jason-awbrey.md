@@ -1,5 +1,6 @@
 ---
 title: "Jason Awbrey"
+lastUpdated: "2017-06-15"
 image-sm: "/images/speakers/jason-awbrey.jpg"
 social: 
     email: "jason@awbrey.net"

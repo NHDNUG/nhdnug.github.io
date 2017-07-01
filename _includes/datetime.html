@@ -7,6 +7,11 @@
         day= include the day
 {% endcomment %}{% capture final %}
 {% assign date = include.date %}
+{% assign time = date | date: "T%H:%M"}
+{% assign includeTime = include.time %}
+{% if time == "T12:00" %}
+{% assign includeTime = false %}
+{% endif %}
 <span{% if include.rdfa_property %} property='{{ include.rdfa_property }}' content='{{ date | date: "%Y-%m-%dT%H:%M" }}'{% endif%}>
 {% assign d = date | date: "%-d" %}
 {% if include.day %}
@@ -15,5 +20,5 @@
 {{ date | date: "%B "}}
 {% case d %}{% when '1' or '21' or '31' %}{{ d }}<sup>st</sup>{% when '2' or '22' %}{{ d }}<sup>nd</sup>{% when '3' or '23' %}{{ d }}<sup>rd</sup>{% else %}{{ d }}<sup>th</sup>{% endcase %}, 
 {{ date | date: "%Y" }}
-{% if include.time %} @ {{ date | date: "%l:%M %p" }}{% endif %}
+{% if includeTime %} @ {{ date | date: "%l:%M %p" }}{% endif %}
 </span>{% endcapture %}{{ final | strip_newlines }}

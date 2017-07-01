@@ -44,10 +44,8 @@ layout: default
             <hr />
             {{ content }}
         </div>
-        {% for meetingSpeaker in page.speakers %}
-        <div class="well">
-            {% include speaker-display.html speaker-title=meetingSpeaker %}
-        </div>
+        {% for meetingSpeaker in page.speakers %}        
+            {% include speaker-display.html speaker-title=meetingSpeaker %}        
         {% endfor %}
     </div>
 

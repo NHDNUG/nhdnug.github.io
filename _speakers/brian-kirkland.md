@@ -1,6 +1,6 @@
 ---
 title: "Brian Kirkland"
-social: 
+lastUpdated: "2010-10-20"
 ---
 Brian Kirkland is a senior software consultant @ Infusion with
 experience in a wide array of technologies. He has developed software

@@ -1,5 +1,6 @@
 ---
 title: "Brian Sullivan"
+lastUpdated: "2017-04-20"
 image-sm: "/images/speakers/brian-sullivan.jpg"
 social:
     linkedin: "https://www.linkedin.com/in/bmsullivan/"

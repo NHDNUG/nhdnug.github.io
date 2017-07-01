@@ -1,5 +1,6 @@
 ---
 title: "Claudio Lassala"
+lastUpdated: "2017-02-16"
 image-sm: "/images/speakers/claudio-lassala.jpg"
 social: 
     twitter: "https://twitter.com/ClaudioLassala"

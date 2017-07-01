@@ -1,9 +1,11 @@
 {% if include.speaker %}
     {% assign speaker = include.speaker %}
-    <div class="row">
+    <div class="speaker-display row">
+        {% if speaker.image-sm %}
         <div class="col-sm-5 col-md-3">
             <img src="{{ speaker.image-sm }}" alt="{{ speaker.title }}" />
         </div>
+        {% endif %}
         <div class="col-sm-7 col-md-9">
             <h4>
             <a href="{{ speaker.url | prepend: site.baseurl }}">
@@ -29,11 +31,16 @@
         
     {% else %}    
         {% assign speaker = speakers | first %}
-        <div class="row">
+        <div class="well"> 
+        <div class="speaker-display row">        
+        {% if speaker.image-sm %}
         <div class="col-sm-5 col-md-3">
             <img src="{{ speaker.image-sm }}" alt="{{ speaker.title }}" />
         </div>
         <div class="col-sm-7 col-md-9">
+        {% else %}
+        <div class="col-xs-12">
+        {% endif %}        
             <h4>
             <a href="{{ speaker.url | prepend: site.baseurl }}">
                 <span typeof="Person">
@@ -47,8 +54,14 @@
                 {{ speaker.excerpt }}
             {% else if speaker.description %}
                 {{ speaker.description }}
-            {% endif %}        
+            {% endif %}
+            {% if speaker.lastUpdated %}            
+            <div class="last-updated">
+                Last Updated: {% include datetime.html date=speaker.lastUpdated day=false time=false %}
+            </div>        
+            {% endif %}
         </div>
+    </div>
     </div>
     {% endif %}
 {% endif %}

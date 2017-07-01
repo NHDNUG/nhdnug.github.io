@@ -2,11 +2,9 @@
 date:               "2016-05-19 18:30:00"
 speakers:           ["Justin Self"]
 title:              "Going Distributed with NServiceBus"
-subtitle:           ""
 location:           "Lone Star College - Montgomery"
 location-detail:    "MC-G G123"
 sponsors:           ["Improving", "Lonestar Montgomery College"]
-description:        ""
 meetup:             "230816677"
 ---
  Reliability, durability, and availability are all things we worry about when

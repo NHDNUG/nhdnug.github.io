@@ -1,5 +1,6 @@
 ---
 title: "Curtis Schlak"
+lastUpdated: "2017-05-18"
 image-sm: "/images/speakers/curtis-schlak.jpg"
 social:
     linkedin: "https://www.linkedin.com/in/cschlak"

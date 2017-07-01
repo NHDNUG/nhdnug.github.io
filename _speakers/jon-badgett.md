@@ -1,5 +1,6 @@
 ---
 title: "Jon Badgett"
+lastUpdated: "2016-11-17"
 image-sm: "/images/speakers/jon-badgett.jpg"
 social:
     linkedin: "https://www.linkedin.com/in/jon-badgett-825a326b"

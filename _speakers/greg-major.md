@@ -1,5 +1,6 @@
 ---
 title: "Greg Major"
+lastUpdated: "2016-08-18"
 image-sm: "/images/speakers/greg-major.jpg"
 social:
     github: "https://github.com/gregmajor"

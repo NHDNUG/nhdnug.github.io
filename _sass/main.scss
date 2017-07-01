@@ -33,6 +33,19 @@ footer {
         }
     }
 }
+.speaker-layout {
+    .last-updated {        
+        font-style: italic;
+        font-size: 80%;
+    }
+}
+.speaker-display {
+    .last-updated {
+        text-align: right;
+        font-style: italic;
+        font-size: 80%;
+    }
+}
 
 .sponsor-list {
     text-align: center;

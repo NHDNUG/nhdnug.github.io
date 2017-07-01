@@ -1,5 +1,6 @@
 ---
 title: "Colin Pear"
+lastUpdated: "2016-09-15"
 image-sm: "/images/speakers/colin-pear.jpg"
 social:
     linkedin: "https://www.linkedin.com/in/cpear"

@@ -1,5 +1,6 @@
 ---
 title: "Joseph Reynolds"
+lastUpdated: "2016-11-17"
 image-sm: "/images/speakers/joe-reynolds.jpg"
 social:
     linkedin: "http://www.linkedin.com/in/josephreynolds"
