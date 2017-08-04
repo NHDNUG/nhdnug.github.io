@@ -17,7 +17,7 @@ layout: default
         {% endif %}
         
         <div class="hidden-sm hidden-md hidden-lg" style="text-align: center; margin-bottom: 1em;">
-            <img src="{{ page.image-sm }}" alt="{{ page.title }}" />
+            <div class="bio-image" style="background-image: url({{ page.image-sm }})"></div>            
         </div>
         {{ content }}
        
@@ -48,7 +48,7 @@ layout: default
     <div class="col-xs-12 col-sm-4 col-md-3">
         {% if page.image-sm %}
         <div class="hidden-xs" style="text-align: center; margin-bottom: 1em;">
-            <img src="{{ page.image-sm }}" alt="{{ page.title }}" />
+            <div class="bio-image" style="background-image: url({{ page.image-sm }})"></div>
         </div>
         {% endif %}
         <div class="panel panel-primary">
