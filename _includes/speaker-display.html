@@ -35,7 +35,7 @@
         <div class="speaker-display row">        
         {% if speaker.image-sm %}
         <div class="col-sm-5 col-md-3">
-            <img src="{{ speaker.image-sm }}" alt="{{ speaker.title }}" />
+            <div class="bio-image" style="background-image: url({{ speaker.image-sm }})"></div>                        
         </div>
         <div class="col-sm-7 col-md-9">
         {% else %}

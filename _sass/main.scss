@@ -38,12 +38,26 @@ footer {
         font-style: italic;
         font-size: 80%;
     }
+    .bio-image {
+        height: 260px;
+        width: 260px;
+        background-position: center;
+        background-size: cover;
+        display: inline-block;
+    }
 }
 .speaker-display {
     .last-updated {
         text-align: right;
         font-style: italic;
         font-size: 80%;
+    }
+    .bio-image {
+        
+        height: 180px;
+        width: 180px;
+        background-position: center;
+        background-size: cover;
     }
 }
 
