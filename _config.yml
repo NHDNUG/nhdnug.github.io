@@ -38,6 +38,9 @@ collections:
     meetingyears:
         output: true
         permalink: /meetings/:name/
+    events:
+        output: true
+        permalink: /events/:name/
 
   
 # defaults
@@ -67,6 +70,13 @@ defaults:
     values:
       layout: meetingyear
       title_posttext: " Meetings"
+  - scope:
+      path: ""
+      type: events
+    values:
+      layout: event
+      title_posttext: ""
+
      
 # Site Properties
 title: North Houston .Net Users Group

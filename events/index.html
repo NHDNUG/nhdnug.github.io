@@ -1,0 +1,35 @@
+---
+layout: page
+title: Events
+permalink: /events/
+---
+
+{% include breadcrumb.html item1_url=page.url item1_title=page.title item1_last=true %}
+
+<h1>Events</h1>
+
+{% assign events = site.events | sort:"date" %}
+{% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
+{% assign upcoming-events = site.empty_array %}
+{% assign past-events = site.empty_array %}
+
+{% for event in events %}
+{% capture event-date %}{{ event.date | date: '%s'}}{% endcapture %}
+{% if event-date > nowunix %}
+{% assign upcoming-events = upcoming-events | push: event %}
+{% else %}
+{% assign past-events = past-events | push: event %}
+{% endif %}
+{% endfor %}
+
+{% assign num-upcoming-events = upcoming-events | size %}
+{% assign num-past-events = past-events | size %}
+
+{% if num-upcoming-events %}
+<h2>Upcoming</h2>
+<ul>
+    {% for event in upcoming-events %}
+    <li><a href="{{ event.url | prepend: site.baseurl }}">{{ event.title }} - {% include datetime.html date=event.date day=true %}</a></li>
+    {% endfor %}
+</ul>
+{% endif %}
