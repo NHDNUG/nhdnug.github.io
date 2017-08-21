@@ -1,0 +1,16 @@
+<ul class="{{ include.ul-class }}">
+    {% assign persons = site.persons %}
+    {% if include.sort-key %}
+        {% assign persons = persons | sort:include.sort-key %}
+    {% else %}
+        {% assign persons = persons | sort:title %}
+    {% endif %}
+    
+    {% for person in persons %}
+        
+            <li>
+                {% include person-name.html person=person %}                
+            </li>
+        
+    {% endfor %}
+</ul>

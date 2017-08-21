@@ -45,7 +45,7 @@
                     <div class="meeting-meta">
                         {% include datetime.html date=event.date %}                    
                         {% if include.show-speaker and num_event_speakers > 0 %}
-                        - {% include speaker-names.html speaker-titles=event.speakers %}
+                        - {% include person-names.html person-titles=event.speakers %}
                         {% endif %}
                     </div>
                 </li>

@@ -1,0 +1,67 @@
+{% if include.person %}
+    {% assign person = include.person %}
+    <div class="person-display row">
+        {% if person.image-sm %}
+        <div class="col-sm-5 col-md-3">
+            <img src="{{ person.image-sm }}" alt="{{ person.title }}" />
+        </div>
+        {% endif %}
+        <div class="col-sm-7 col-md-9">
+            <h4>
+            <a href="{{ person.url | prepend: site.baseurl }}">
+                <span typeof="Person">
+                    <span property="name">
+                    {{ person.title }}
+                    </span>
+                </span>
+            </a>
+            </h4>
+            {% if person.excerpt %}
+                {{ person.excerpt }}
+            {% else if person.description %}
+                {{ person.description }}
+            {% endif %}        
+        </div>
+    </div>
+    
+{% else %}
+    {% assign people = site.persons | where:"title", include.person-title %}
+    {% assign totFound = persons | size %}
+    {% if totFound == 0 %}
+        
+    {% else %}    
+        {% assign person = persons | first %}
+        <div class="well"> 
+        <div class="person-display row">        
+        {% if person.image-sm %}
+        <div class="col-sm-5 col-md-3">
+            <div class="person-image" style="background-image: url({{ person.image-sm }})"></div>                        
+        </div>
+        <div class="col-sm-7 col-md-9">
+        {% else %}
+        <div class="col-xs-12">
+        {% endif %}        
+            <h4>
+            <a href="{{ person.url | prepend: site.baseurl }}">
+                <span typeof="Person">
+                    <span property="name">
+                    {{ person.title }}
+                    </span>
+                </span>
+            </a>
+            </h4>        
+            {% if person.excerpt %}
+                {{ person.excerpt }}
+            {% else if person.description %}
+                {{ person.description }}
+            {% endif %}
+            {% if person.lastUpdated %}            
+            <div class="last-updated">
+                Last Updated: {% include datetime.html date=person.lastUpdated day=false time=false %}
+            </div>        
+            {% endif %}
+        </div>
+    </div>
+    </div>
+    {% endif %}
+{% endif %}

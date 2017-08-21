@@ -25,7 +25,7 @@
                 {% endif %}
                 <p>
                     {{ post.date | date: "%B %-d, %Y"}}
-                    {% if post_num_speakers > 0 %} | {% include speaker-names.html speaker-titles=post.speakers %}{% endif %}
+                    {% if post_num_speakers > 0 %} | {% include person-names.html person-titles=post.speakers %}{% endif %}
                 </p>
                 <p>
                     <a class="btn" href="{{ post.url | prepend: site.baseurl }}">More Information</a>

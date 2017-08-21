@@ -26,9 +26,9 @@ git config core.ignorecase false
 
 ### Adding a Speaker
 
-1. Add a picture of the speaker (if not already present) to the images/speakers directory.
+1. Add a picture of the speaker (if not already present) to the images/persons directory.
 2. Resize the picture of the speaker to **350x350** pixels.
-3. Copy last month's speaker file from the _speakers directory and paste it back into the _speakers directory.
+3. Copy last month's speaker file from the _persons directory and paste it back into the _persons directory.
 4. Rename this pasted file in the format {first}-{last}.md (lower case)
 5. Adjust the metadata in the file as appropriate.
 

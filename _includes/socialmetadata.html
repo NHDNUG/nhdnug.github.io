@@ -4,11 +4,11 @@
     {% assign got-meeting = true %}
     
     {% capture socialTitle %}{{ post.title }}{% if post.subtitle and post.subtitle != "" %}: {{ post.subtitle }}{% endif %}{% endcapture %}
-    {% capture socialDescription %}Presented by {% include speaker-names.html speaker-titles=post.speakers name-only=true %}{% endcapture %}
+    {% capture socialDescription %}Presented by {% include person-names.html person-titles=post.speakers name-only=true %}{% endcapture %}
     
     {% assign socialMediaSpeakerName = post.speakers | first %}
-    {% assign socialMediaSpeaker = site.speakers | where:"title", socialMediaSpeakerName | first %}
-    {% assign socialImage = socialMediaSpeaker.image-sm %}
+    {% assign socialMediaPerson = site.persons | where:"title", socialMediaSpeakerName | first %}
+    {% assign socialImage = socialMediaPerson.image-sm %}
 {% elsif page.home-page %}
     {% assign socialTitle = site.title %}
     {% assign socialDescription = site.description %}

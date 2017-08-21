@@ -33,26 +33,35 @@ footer {
         }
     }
 }
-.speaker-layout {
+.person-layout {
+    h1 {
+        margin: 0;
+    }
+    .metadata {
+        margin-bottom: 15px;
+    }
     .last-updated {        
         font-style: italic;
-        font-size: 80%;
+        font-size: 80%;        
     }
-    .bio-image {
+    .person-image {
         height: 260px;
         width: 260px;
         background-position: center;
         background-size: cover;
         display: inline-block;
     }
+    .volunteer-position {
+        font-size: 130%;
+    }
 }
-.speaker-display {
+.person-display {
     .last-updated {
         text-align: right;
         font-style: italic;
         font-size: 80%;
     }
-    .bio-image {
+    .person-image {
         
         height: 180px;
         width: 180px;
@@ -65,7 +74,7 @@ footer {
     text-align: center;
 }
 
-.sponsor-list, .sponsor-events-list, .speaker-events-list, .events-events-list, 
+.sponsor-list, .sponsor-events-list, .person-events-list, .events-events-list, 
 .volunteer-list, .meetingyear-events-list, .meetings-main-events-list {
     list-style-type: none;
     margin: 0;
@@ -76,7 +85,7 @@ footer {
         margin: 0 0 1.5em 0;
     }
 }
-.speaker-social-list {
+.person-social-list {
     list-style-type: none;
     margin: 0 0 1em 0;
     padding: 0;

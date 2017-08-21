@@ -1,0 +1,16 @@
+{% if include.person %}
+    {% assign person = include.person %}
+    <a href="{{ person.url | prepend: site.baseurl }}">
+        <span typeof="Person">
+            <span property="name">
+            {{ person.title }}</span></span></a>{% else %}
+    {% assign persons = site.persons | where:"title", include.person-title %}
+    {% assign totFound = persons | size %}
+    {% if totFound == 0 %}
+        <span typeof="Person">
+            <span property="name">{{ include.person-title }}</span></span>{% else %}
+        {% assign person = persons | first %}
+        <a href="{{ person.url | prepend: site.baseurl }}">
+            <span typeof="Person">
+                <span property="name">
+                {{ person.title }}</span></span></a>{% endif %}{% endif %}

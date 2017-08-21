@@ -1,0 +1,22 @@
+{% if include.person-titles %}
+    {% assign seperator = ', ' %}
+    {% assign lastSeperator = ' and ' %}
+    {% if include.seperator %}
+        {% assign seperator = include.seperator %}
+    {% endif %}
+    {% if include.lastSeperator %}
+        {% assign lastSeperator = include.lastSeperator %}
+    {% endif %}
+    {% assign arraySize = include.person-titles | size %}
+    {% assign lastSepIndex = arraySize | minus: 2 %}
+    {% assign finalSepIndex = arraySize | minus: 1 %}
+    {% assign currentIndex = 0 %}
+    {% for person-title in include.person-titles %}
+        {% if include.name-only %}
+            {{ person-title }}{% if currentIndex == lastSepIndex %}{{ lastSeperator }}{% elsif currentIndex < finalSepIndex %}{{ seperator }}{% endif %}
+        {% else %}        
+        {% include person-name.html person-title=person-title %}{% if currentIndex == lastSepIndex %}{{ lastSeperator }}{% elsif currentIndex < finalSepIndex %}{{ seperator }}{% endif %}
+        {% endif %}
+        {% assign currentIndex = currentIndex | plus: 1 %}
+    {% endfor %}
+{% endif %}

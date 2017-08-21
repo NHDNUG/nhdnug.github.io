@@ -24,7 +24,7 @@ layout: default
                 <dd>{% include datetime.html date=page.date day=true time=true %}</dd>
                 {% if speakerCount > 0 %}
                 <dt>Who</dt>
-                <dd>{% include speaker-names.html speaker-titles=page.speakers %}</dd>
+                <dd>{% include person-names.html person-titles=page.speakers %}</dd>
                 {% endif %}
                 {% if page.location != "" %}
                 <dt>Where</dt>
@@ -44,8 +44,8 @@ layout: default
             <hr />
             {{ content }}
         </div>
-        {% for meetingSpeaker in page.speakers %}        
-            {% include speaker-display.html speaker-title=meetingSpeaker %}        
+        {% for meetingspeaker in page.speakers %}        
+            {% include person-display.html person-title=meetingspeaker %}        
         {% endfor %}
     </div>
 

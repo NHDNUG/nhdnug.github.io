@@ -30,9 +30,9 @@ collections:
     sponsors:
         output: true
         permalink: /sponsors/:name/
-    speakers:
+    persons:
         output: true
-        permalink: /speakers/:name/
+        permalink: /people/:name/
     locations:
         output: false
     meetingyears:
@@ -57,9 +57,9 @@ defaults:
       title_pretext: "About "
   - scope:
       path: ""
-      type: speakers
+      type: persons
     values:
-      layout: "speaker"
+      layout: "person"
       title_pretext: "About "
   - scope:
       path: ""

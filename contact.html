@@ -11,7 +11,7 @@ permalink: /contact/
 <h1>Contact</h1>
 <div class="row">
     <div class="col-xs-12 col-sm-8">
-        <p>To reach the North Houston DNUG, please email <a href="mailto:{{ site.data.organization.email }}">info@nhdnug.org</a>.</p>
+        <p>To reach the North Houston DNUG, please email <a href="mailto:{{ site.data.organization.email }}">{{ site.data.organization.email }}</a>.</p>
 
         <p>The North Houston .NET Users Group meets the third Thursday of every month at 6:30 PM 
             on the campus of Lone Star College Montgomery in The Woodlands, Texas. There is free 
@@ -24,14 +24,20 @@ permalink: /contact/
     <div class="col-xs-12 col-sm-4">
         <p>North Houston .Net Users Group is run by a team of volunteers:</p>
         <ul class="volunteer-list">
-            {% for person in site.data.volunteers %}
+            {% assign volunteers = site.empty_array %}
+            {% for person in site.persons %}                
+                {% if person.volunteer-position %}
+                    {% assign volunteers = volunteers | push: person %}
+                {% endif %}
+            {% endfor %}
+            {% assign volunteers = volunteers|sort:"volunteer-order" %}
+
+            {% for person in volunteers %}
             <li>
-                 <div typeof="Person">
-                    {% if person.title %}
-                    <div class="jobtitle" property="jobtitle">{{ person.title }}</div>
-                    {% endif %}    
-                    <div property="name">{{ person.name }}</div>
-                </div>
+                <div typeof="Person">                    
+                    <div class="jobtitle" property="jobtitle">{{ person.volunteer-position }}</div>                    
+                    <div property="name">{% include person-name.html person=person %}</div>
+                </div>                
             </li>
             {% endfor %}
         </ul>
