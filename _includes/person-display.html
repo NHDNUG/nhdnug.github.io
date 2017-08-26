@@ -24,13 +24,13 @@
         </div>
     </div>
     
-{% else %}
+{% else %}    
     {% assign people = site.persons | where:"title", include.person-title %}
     {% assign totFound = persons | size %}
     {% if totFound == 0 %}
         
     {% else %}    
-        {% assign person = persons | first %}
+        {% assign person = people | first %}        
         <div class="well"> 
         <div class="person-display row">        
         {% if person.image-sm %}
