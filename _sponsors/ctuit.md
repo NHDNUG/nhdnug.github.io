@@ -8,6 +8,10 @@ terms:
   type: "platinum"
   start: "2016-07-01"
   end: "2017-06-30"
+ -
+  type: "silver"
+  start: "2017-09-01"
+  end: "2018-08-30"
 
 ---
 ### What We Do Differently

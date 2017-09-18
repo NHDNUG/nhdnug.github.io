@@ -38,9 +38,10 @@ home-page: true
                 <p>
                 {% include location-display.html location=post.location  location-detail=post.location-detail mode="map_embed" %}
                 </p>
-        </div>
+        </div>        
     </div>
     <div class="col-xs-12 col-sm-4 col-md-3">
+        {% include events-display.html %}
         {% include sponsor-list2.html meeting=post ul-class="sponsor-list" show-surround=true %}
     </div>    
 </div>
