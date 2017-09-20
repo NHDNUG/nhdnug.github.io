@@ -2,7 +2,7 @@
 layout: default
 ---
 {% include breadcrumb.html item1_url='/people' item1_title='people' item2_url=page.url item2_title=page.title item2_last=true %}
-{% assign firstname = page.title | split:&nbsp; | first %}
+{% assign firstname = page.title | split:' ' | first %}
 <div class="person-layout row">
     <div class="col-xs-12 col-sm-8 col-md-9">
         
