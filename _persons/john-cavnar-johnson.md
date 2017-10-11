@@ -11,6 +11,7 @@ IT enterprise architect, consultant, and entrepreneur, but mostly he’s spent h
 problems and hooking stuff together. Before becoming a professional software geek, John was lucky 
 enough to meet Grace Hopper, take a graduate school course from Barbara Jordan, and marry Mary 
 Cavnar-Johnson, MD.
+ <!--more-->
  
 When he’s not toying with tiny WiFi devices or designing enterprise software, you can 
 find him reading, enjoying craft beer, and hanging out in his hot tub (often at the same time).
