@@ -1,0 +1,214 @@
+---
+permalink: /deck/
+title: Meeting Deck
+---
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        
+        <title>{% if page.title %}{% if page.title_pretext %}{{ page.title_pretext }}{% endif %}{{ page.title }}{% if page.title_posttext %}{{ page.title_posttext }}{% endif %} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+        <meta name="author" content="{{ site.data.organization.legalName }}" />       
+        <link rel="stylesheet" href="/css/reveal.css" />
+        <link rel="stylesheet" href="/css/reveal-themes/white.css" />
+        <link rel="stylesheet" href="/css/reveal-nhdnug.css" />
+    </head>
+    <body>
+        {% assign meetings = site.posts | where: "is_meeting", "true" | sort: "date" %}
+        {% assign post = '' %}
+        {% for meeting in meetings %}
+        {% if meeting.date > site.time %}
+            {% assign post = meeting %}
+            {% break %}
+        {% endif %}
+        {% endfor %}
+        {% if post == '' %}
+        {% assign post = meetings | last %}        
+        {% endif %}
+        {% assign post_num_speakers = post.speakers | size %}
+        <div class="reveal">
+            <div class="slides">
+                <!-- Welcome Slide -->
+                <section>
+                    <h2>North Houston<br />.Net Users Group</h2>
+                    <p>{% include datetime.html date=post.date day=true time=false %}</p>
+                </section>
+
+
+                <!-- Sponsor Slides Start -->
+                {% assign post_sponsors = site.empty_array %}
+                {% assign this_now = post.date | date: "%Y%j" %}
+                {% assign post_sponsors = post.sponsors %}
+                {% assign post_sponsors_count = post_sponsors | size %}
+                {% assign this_sponsors_flat = site.empty_array %}
+                {% assign this_sponsors = site.empty_array %}
+                {% assign this_sponsors_platinum = site.empty_array %}
+                {% assign this_sponsors_gold = site.empty_array %}
+                {% assign this_sponsors_silver = site.empty_array %}
+                {% assign this_sponsors_meeting = site.empty_array %}
+                {% assign num_platinum = 0 %}
+                {% assign num_gold = 0 %}
+                {% assign num_silver = 0 %}
+                {% assign num_meeting = 0 %}
+
+                {% for site_sponsor in site.sponsors %}
+                    {% if site_sponsor.terms %}
+                        {% for term in site_sponsor.terms %}
+                            {% assign start_date = term.start | date: "%Y%j" %}
+                            {% assign end_date = term.end | date: "%Y%j" %}
+                            {% if start_date <= this_now and end_date >= this_now %}
+                                {% if this_sponsors_flat contains site_sponsor.title %}{% else %}
+                                    {% assign this_sponsors_flat = this_sponsors_flat | push: site_sponsor.title %}
+                                    {% assign this_sponsors = this_sponsors | push: site_sponsor %}
+                                    {% if term.type == "platinum" %}
+                                        {% assign num_platinum = num_platinum | plus: 1 %}
+                                        {% assign this_sponsors_platinum = this_sponsors_platinum | push: site_sponsor %}  
+                                    {% endif %}
+                                    {% if term.type == "gold" %}
+                                        {% assign num_gold = num_gold | plus: 1 %}
+                                        {% assign this_sponsors_gold = this_sponsors_gold | push: site_sponsor %} 
+                                    {% endif %}
+                                    {% if term.type == "silver" %}
+                                        {% assign num_silver = num_silver | plus: 1 %}
+                                        {% assign this_sponsors_silver = this_sponsors_silver | push: site_sponsor %} 
+                                    {% endif %}
+                                {% endif %}
+                            {% endif %}
+                        {% endfor %}
+                    {% endif %}
+                {% endfor %}
+                {% if post_sponsors_count > 0 %}
+                    {% for site_sponsor in site.sponsors %}
+                        {% if post_sponsors contains site_sponsor.title %}
+                            {% if this_sponsors_flat contains site_sponsor.title %}{% else %}
+                                {% assign this_sponsors_flat = this_sponsors_flat | push: site_sponsor.title %}
+                                {% assign this_sponsors = this_sponsors | push: site_sponsor %}
+                                {% assign this_sponsors_meeting = this_sponsors_meeting | push: site_sponsor %} 
+                                {% assign num_meeting = num_meeting | plus: 1 %}
+                            {% endif %}
+                        {% endif %}
+                    {% endfor %}
+                {% endif %}
+                {% assign sponsorCount = this_sponsors_flat | size %}
+                
+                
+
+                {% for sponsor in this_sponsors_platinum %}
+                    {% include sponsor-slide.html sponsor=sponsor level="platinum" %}                
+                {% endfor %}
+                {% for sponsor in this_sponsors_gold %}
+                    {% include sponsor-slide.html sponsor=sponsor level="gold" %}                
+                {% endfor %}
+                {% for sponsor in this_sponsors_silver %}
+                    {% include sponsor-slide.html sponsor=sponsor level="silver" %}                
+                {% endfor %}
+                {% if num_meeting > 0 %}
+                <section>
+                    <h4>Tonight's Meeting Sponsors:</h4>
+                    {% for sponsor in this_sponsors_meeting %}
+                    <div class="meeting-sponsor">
+                        <img src="{{ sponsor.logo.small | prepend: site.baseurl }}" />                     
+                    </div>
+                    {% endfor %}
+                </section>
+                {% endif %}
+
+                <!-- Sponsor Slides End -->
+                
+                <section>
+                    <h3>Announcements</h3>
+                    <p><span style="color: blue;">info@nhdnug.org</span></p>
+                    <p>Hiring? On the market? Interested in speaking? Have a favorite speaker? Send it all to the email!</p>
+                </section>
+
+                <!-- Upcoming Events Start -->
+                {% assign events = site.events | sort:"date" %}
+                {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
+                {% assign upcoming-events = site.empty_array %}
+                {% assign past-events = site.empty_array %}
+                
+                {% for event in events %}
+                {% capture event-date %}{{ event.date | date: '%s'}}{% endcapture %}
+                {% if event-date > nowunix %}
+                {% assign upcoming-events = upcoming-events | push: event %}
+                {% else %}
+                {% assign past-events = past-events | push: event %}
+                {% endif %}
+                {% endfor %}
+                
+                {% assign num-upcoming-events = upcoming-events | size %}
+                {% assign num-past-events = past-events | size %}
+                
+                {% if num-upcoming-events > 0 %}
+                <section>
+                <h3>Upcoming Events </h3>
+                
+                {% for event in upcoming-events %}                
+                <div>{{ event.title }} - {% include datetime.html date=event.date day=true %}</div>
+                <div class="event-excerpt">{{ event.excerpt }}</div>
+                <hr />
+                {% endfor %}
+                
+                {% endif %}
+                </section>
+
+                <!-- Upcoming Events End -->
+
+                <!-- Survey Start -->
+                {% if post.survey-url %}
+                <section>
+                    <h3>Tonight's Survey</h3>
+                    <p style="color: blue;">{{post.survey-url}}</p>                    
+                </section>
+                {% endif %}
+
+                <!-- Survey End -->
+
+                <!-- Officers Start -->
+                <section class="officers-slide">
+                    <h3>Questions? Comments? Let us know.</h3>
+                    {% assign volunteers = site.empty_array %}
+                    {% for person in site.persons %}                
+                        {% if person.volunteer-position %}
+                            {% assign volunteers = volunteers | push: person %}
+                        {% endif %}
+                    {% endfor %}
+                    {% assign volunteers = volunteers|sort:"volunteer-order" %}
+        
+                    {% for person in volunteers %}
+                    
+                        <div class="officer">
+                            <div class="officer-image">
+                                {% if person.image-sm %}
+                                <div class="person-image" style="background-image: url({{ person.image-sm }})"></div>  
+                                {% endif %}
+                            </div>                    
+                            <div class="officer-text">
+                                <div>{{ person.title }}</div>
+                                <div class="officer-title">{{ person.volunteer-position }}</div>
+                            </div>
+                        </div>                
+                    
+                    {% endfor %}
+
+                </section>
+
+                <!-- Officers End -->
+            </div>
+        </div>
+        <script src="/js/reveal.js"></script>
+        <script>
+            Reveal.initialize({
+                width: "100%",
+                height: "100%",
+                margin: 0.05,
+                controls: false,
+                progress: false,
+                loop: true,
+                autoSlide: 10000
+            });
+        </script>
+    </body>
+</html>

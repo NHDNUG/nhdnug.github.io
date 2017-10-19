@@ -1,0 +1,64 @@
+@import 'nhdnug-mixins';
+
+sup {
+    font-size: smaller !important;
+}
+
+
+.reveal section img {
+    border: none;
+    box-shadow: none;
+}
+
+.sponsor-logo img {
+    height: 180px;
+} 
+.sponsor-platinum {
+    @include backgroundGradient(#f2f6f8, #d8e1e7, #b5c6d0, #e0eff9);
+    color: #333;
+    border-color: #b5c6d0;
+}
+.sponsor-gold {
+    @include backgroundGradient(#fceabb, #fccd4d, #fbdf93, #f8b500);
+    color: #333;
+    border-color: #fbdf93;
+}
+.sponsor-silver {
+    @include backgroundGradient(#e2e2e2, #dbdbdb, #d1d1d1, #fefefe);
+    color: #333;
+    border-color: #d1d1d1;
+}
+
+.event-excerpt {
+    font-size: 50% !important;
+    color: #555;
+}
+
+.officers-slide {
+    .officer {
+        clear: both;
+    }
+    .officer-image {
+        display: inline-block;
+        height: 100px;
+        vertical-align: middle;
+    }
+    .person-image {
+        height: 100px;
+        width: 100px;
+        background-position: center;
+        background-size: cover;
+        display: inline-block;
+    }
+    .officer-text {
+        height: 100px;
+        padding-top: 20px;
+        vertical-align: middle;
+        display: inline-block;
+        width: 300px;
+    }
+    .officer-title {
+        font-size: 50% !important;
+        color: #555;
+    }
+}

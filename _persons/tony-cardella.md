@@ -1,5 +1,6 @@
 ---
 title: "Tony Cardella"
+image-sm: "/images/persons/tony-cardella.jpg"
 social:
     linkedin: "https://www.linkedin.com/in/tcardella/"
     facebook: "https://www.facebook.com/TXPower125"

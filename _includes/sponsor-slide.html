@@ -1,0 +1,17 @@
+{% assign sponsor = include.sponsor %}
+{% assign level = include.level %}
+<section>        
+    {% if sponsor.logo.large %}
+    <div class="sponsor-logo">
+        <img src="{{ sponsor.logo.large | prepend: site.baseurl }}" />
+    </div>
+    {% else if sponsor.logo.small %}
+    <div class="sponsor-logo">
+        <img src="{{ sponsor.logo.small | prepend: site.baseurl }}" />
+    </div>    
+    {% endif %}
+    {% if sponsor.site_url_pretty %}
+    <p>To learn more, visit {{ sponsor.site_url_pretty }}</p>        
+    {% endif %}
+    <p class="sponsor-{{ level }}">Thanks to this {{ level }} sponsor!</p>
+</section>
