@@ -8,6 +8,7 @@ location-detail:    "MC-G G123"
 sponsors:           ["Lonestar Montgomery College", "JetBrains"]
 description:        ""
 meetup:             "244442976"
+survey-url:         "http://bit.ly/2ioom6K"
 ---
 It's that time again for our Annual Lightning Talks! This year's talks are:
 
