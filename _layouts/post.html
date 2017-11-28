@@ -34,9 +34,7 @@ layout: default
                 <dt></dt>
                 <dd>
                     <br />
-                    <a href="http://www.meetup.com/nhdnug/events/{{ page.meetup }}/"
-                       data-event="{{ page.meetup }}"
-                       class="mu-rsvp-btn">RSVP</a> 
+                    <a class="btn btn-danger btn-sm" href="https://www.meetup.com/nhdnug/events/{{ page.meetup }}" role="button">RSVP</a>
                     <span style="font-style: italic; color: darkgray;">(not required, but it helps us buy enough pizza!)</span>
                 </dd>
                 {% endif %}
@@ -82,13 +80,3 @@ layout: default
         {% include disqus.html %}
     </div>
 </div>
-<script>!function (d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (!d.getElementById(id)) {
-        js = d.createElement(s);
-        js.id = id;
-        js.async = true;
-        js.src = "https://a248.e.akamai.net/secure.meetupstatic.com/s/script/2012676015776998360572/api/mu.btns.js?id=uvssabcpr8a8595neuvmmu0v7l";
-        fjs.parentNode.insertBefore(js, fjs);
-    }
-}(document, "script", "mu-bootjs");</script>
