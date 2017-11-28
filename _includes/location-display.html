@@ -11,7 +11,7 @@
     {% endif %}
 
     {% if include.mode == "title" %}
-        <a href="{{ map-url }}">{{ location.title }}{% if include.location-detail %}
+        <a href="{{ map-url }}">{{ location.title }}{% if include.location-detail and include.location-detail != "" and include.location-detail != nil %}
             ({{ include.location-detail }})
         {% endif %}</a>
     {% else if include.mod == "map_embed" %}
@@ -21,7 +21,7 @@
     {% endif %}  
 {% else %}
     {% if include.mode == "title" %}
-        {{ include.location }}{% if include.location-detail %}({{ include.location-detail }}) {% endif %}
+        {{ include.location }}{% if include.location-detail and include.location-detail != "" and include.location-detail != nil %}({{ include.location-detail }}) {% endif %}
     {% endif %}
 {% endif %}
 

@@ -1,5 +1,6 @@
 ---
 title: "Devlin Liles"
+lastUpdated: "2017-11-28"
 image-sm: "/images/persons/devlin-liles.jpg"
 social:
     linkedin: "https://www.linkedin.com/in/devlin-liles-2a010526"
@@ -8,14 +9,7 @@ social:
     github: "https://github.com/DevlinLiles"
 ---
 
-Devlin Liles is a Principal Consultant at Improving Enterprises and a passionate technologist. 
-Devlin prides himself on staying a generalist, but his passion in development is data and its interactions. 
-These passions gained him the recognition of Microsoft as an MVP of Data Platform Development awardee. 
+Devlin Liles is the president of Improving Houston and a passionate technologist. He prides himself on staying a generalist, but his passion is leveraging technology to solve the problems facing business. Devlin has an entrepreneurial mindset and has been a key contributor to growth and success of the Houston office being one of the founding employees in 2011. 
 <!--more-->
 
-Since 2007 he has been presenting and teaching classes on software development practices and tools 
-to audiences around the nation. He is a regular national presenter at user groups, conferences, and community events. He founded an internal Corporate Software Craftsmanship conference in Northwest Arkansas as well as led the Tyson User group for a year and a half. He has been involved in many conferences and events (Dallas TechFest, Houston TechFest, Houston CodeCamp, Houston GiveCamp, AgileDotNet) 
-as a coordinator; planner; or just a helping hand. 
-
-Recently Devlin became published along with his good friend Tim Rayburn as authors of a book about 
-Entity Framework and the expert's approach to it.
+Since 2007, he has been presenting and teaching classes on software development practices and tools to audiences around the world including user groups, conferences, and community events. Devlin has held the prestigious Microsoft MVP Award for the past 6 years which is only awarded to 3,000 technologists' annually. He is the co-author, along with his good friend Tim Rayburn of Entity Framework 4.1 Experts Cookbook. When he is not in front of a crowd or behind a computer Devlin is an avid soccer player and hobbyist gamer.
