@@ -8,7 +8,7 @@ location-detail:    "Conference Center"
 sponsors:           ["Southwestern Energy", "JetBrains"]
 description:        ""
 meetup:             "jjmqlmywqbcc"
-survey-url:         ""
+survey-url:         "http://bit.ly/2p5KzfA"
 ---
 The industry continues to push buzz words, and we keep hearing about the death of scrum vs long live agile. In this talk we will be diving into these trends, and how they impact each of us in the coming year.
 

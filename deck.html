@@ -196,6 +196,14 @@ title: Meeting Deck
                 </section>
 
                 <!-- Officers End -->
+
+                <!-- Tonight's Details -->
+                <section>
+                    <h3>{{ post.title }}</h3>
+                    {% for speaker in post.speakers %}
+                    <p>{{ speaker }}</p>
+                    {% endfor %}
+                </section>
             </div>
         </div>
         <script src="/js/reveal.js"></script>
