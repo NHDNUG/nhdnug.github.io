@@ -1,6 +1,6 @@
 ---
 date:               "2017-11-16 18:30:00"
-speakers:           ["Brian Dudley", "Martin Mason", "Christine Piffat", "Joseph Reynolds"]
+speakers:           ["Brian Dudley", "Martin Mason", "Christine Piffat"]
 title:              "Annual Lightning Talks"
 subtitle:           ""
 location:           "Lone Star College - Montgomery"
@@ -20,6 +20,3 @@ Visual Studio Team Services (VSTS) is Microsoft’s cloud based solution for App
 
 ### DotNet Core with Angular - Christine Piffat
 Angular, TypeScript, WebPack, RxJS – what are these and where can I start as a .NET developer? Most of the articles on these technologies assume they will be used as a stand-alone application. This talk will use the new template to set up a .NET Core application with Angular and go over what is included so that you can begin learning the new client-side tools in a familiar environment.
-
-### C# 7: New Language Features - Joe Reynolds
-C# is an ever changing language. Come learn about all the new features in version 7!

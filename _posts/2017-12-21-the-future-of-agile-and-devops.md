@@ -18,3 +18,5 @@ Please note that we will be meeting in the Conference Center of the Southwestern
  - From the South, take Exit 70B
 
 Turn West on Springwoods Village Parkway at the traffic light.  Turn South (left) at the next traffic light (Energy Drive).
+
+**Update:** [Devlin Liles's presentation *2018 The Future of DevOps and Agile*](/meeting-materials/2017-12/2018 The Future of DevOps and Agile.pdf) is now available. 
