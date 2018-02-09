@@ -15,7 +15,7 @@ kramdown:
 sass:
     sass_dir: _sass
 
-gems: ['jekyll-sitemap']
+plugins: ['jekyll-sitemap']
 exclude: ['README.md',
     'Gemfile',
     'Gemfile.lock',

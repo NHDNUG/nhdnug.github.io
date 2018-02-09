@@ -21,14 +21,14 @@ layout: default
                         {% if page.location.city %}<br />{{ page.location.city }}{% endif %}
                     </dd>
                     {% endif %}
-                    {% if page.links.www || page.links.registration %}
+                    {% if page.links.www or page.links.registration %}
                     <dt>More Information</dt>
                     <dd>
                         <ul class="list-unstyled">
-                        {% if page.links.www %}
+                        {% if page.links.www and page.links.www != "" %}
                             <li><a href="{{ page.links.www }}">{{ page.title }} (Official Site)</a></li>
                         {% endif %}
-                        {% if page.links.registration %}
+                        {% if page.links.registration and page.links.registration != "" %}
                             <li><a href="{{ page.links.registration }}">{{ page.title }} (Registration)</a></li>
                         {% endif %}
                         </ul>
