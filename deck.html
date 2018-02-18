@@ -158,9 +158,10 @@ title: Meeting Deck
 
                 <!-- Survey Start -->
                 {% if post.survey-url %}
-                <section>
+                <section class="survey-slide">
                     <h3>Tonight's Survey</h3>
-                    <p style="color: blue;">{{post.survey-url}}</p>                    
+                    <p style="color: blue;">{{post.survey-url}}</p>
+                    <div id="survey-qrcode"></div>                                   
                 </section>
                 {% endif %}
 
@@ -206,6 +207,15 @@ title: Meeting Deck
                 </section>
             </div>
         </div>
+        {% if post.survey-url %}
+        <script src="/js/qrcode.min.js"></script>
+        <script>
+            new QRCode(
+                document.getElementById("survey-qrcode"), 
+                "{{ post.survey-url }}"
+            );
+        </script>     
+        {% endif %}
         <script src="/js/reveal.js"></script>
         <script>
             Reveal.initialize({
@@ -218,5 +228,6 @@ title: Meeting Deck
                 autoSlide: 10000
             });
         </script>
+        
     </body>
 </html>
