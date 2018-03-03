@@ -1,8 +1,8 @@
 ---
-date:               "2018-03-15"
+date:               "2018-03-22"
 title:              "NHDNUG Officer Nominations Due"
 ---
-Nominations for NHDNUG officer positions are due by March 15th, 2018. The following positions are to be elected:
+Nominations for NHDNUG officer positions are due by March 22nd, 2018. The following positions are to be elected:
 
  - President
  - Director of Sponsorships (Vice President)

@@ -1,10 +1,11 @@
 ---
 title: "J Sawyer"
+image-sm: "/images/persons/j-sawyer.jpg"
 social: 
     twitter: "https://twitter.com/jdotnet"
     www: "http://www.devbiker.net"
-    email: "j.sawyer@logica.com"
+    linkedin: "https://www.linkedin.com/in/devbiker/"
 ---
-J is a Senior Architect for Hitachi Consulting based in Houston, TX who absolutely loves to write code and build cool, innovative solutions to hard problems. Lately he's been deeply involved with Microsoft's Complex Event Processing platform - StreamInsight - and have been recognized by Microsoft as a Most Valuable Professional (MVP). He's also the President of the Houston .NET User's Group
+J is a Senior Architect for Hitachi Consulting based in Houston, TX who loves to write code and build cool, innovative solutions to hard problems. When not coding, J likes to hang out with his family, play with his computers and ride his Kawasaki Concours 14. But he doesn't code and ride at the same time. That would be bad.
 <!--more-->
 <!--excerpt-->
