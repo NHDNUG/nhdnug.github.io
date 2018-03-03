@@ -17,3 +17,8 @@ Improving is a complete IT services firm, offering training, consulting, recruit
 <!--more-->
 
 Our culture encourages both the inspiration and motivation to achieve amazing things. We are constantly striving to live out our values of Excellence, Dedication, and Involvement through the foundation of trust.
+
+[Upcoming Training Courses](http://improving.com/location/houston)
+
+[Available Job Positions](http://improving.com/careers)
+
