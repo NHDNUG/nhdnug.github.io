@@ -142,17 +142,16 @@ title: Meeting Deck
                 {% assign num-past-events = past-events | size %}
                 
                 {% if num-upcoming-events > 0 %}
-                <section>
-                <h3>Upcoming Events </h3>
-                
                 {% for event in upcoming-events %}                
-                <div>{{ event.title }} - {% include datetime.html date=event.date day=true %}</div>
-                <div class="event-excerpt">{{ event.excerpt }}</div>
-                <hr />
-                {% endfor %}
-                
-                {% endif %}
+                <section class="event-slide">
+                    <h3>{{ event.title }}</h3>
+                    <div>{% include datetime.html date=event.date day=true %}</div>
+                    <div class="event-excerpt">{{ event.excerpt }}</div>
+                    <div class="event-qrcode" data-value="{{ event.links.www }}"></div>
                 </section>
+                {% endfor %}
+                {% endif %}
+                
 
                 <!-- Upcoming Events End -->
 
@@ -207,17 +206,23 @@ title: Meeting Deck
                 </section>
             </div>
         </div>
-        {% if post.survey-url %}
+
         <script src="/js/qrcode.min.js"></script>
-        <script>
-            new QRCode(
-                document.getElementById("survey-qrcode"), 
-                "{{ post.survey-url }}"
-            );
-        </script>     
-        {% endif %}
         <script src="/js/reveal.js"></script>
         <script>
+            var surveyQrCode = document.getElementById("survey-qrcode");
+            if (surveyQrCode) {
+                new QRCode(surveyQrCode, "{{ post.survey-url }}");
+            }
+            var eventQrCodes = document.getElementsByClassName("event-qrcode");
+            if (eventQrCodes && eventQrCodes.length) {
+                for(var i = 0; i < eventQrCodes.length; i++) {
+                    var eventQrCode = eventQrCodes[i];
+                    var href = eventQrCode.getAttribute("data-value");
+                    new QRCode(eventQrCode, href);
+                }
+            }
+
             Reveal.initialize({
                 width: "100%",
                 height: "100%",

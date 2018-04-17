@@ -5,6 +5,7 @@ location:
     title:          "San Jacinto College Central"
     city:           "Pasadena, TX"
 links:    
+    www: "http://www.houstontechfest.com"
     registration:   "https://www.eventbrite.com/e/houston-techfest-spring-2018-tickets-43314704447"
 social:
     facebook:       "https://www.facebook.com/htechfest/"
