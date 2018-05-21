@@ -14,4 +14,4 @@ Introductory (Novice) Session on Raspberry Pi Setup and Programming (Python)
  - FREE!
  - 10 to 2 PM
 
-If you are interested in the remaining slots, please email [Ramon Lozano](lozano@conroeedc.org).
+If you are interested in the remaining slots, please email [Ramon Lozano](mailto:lozano@conroeedc.org?subject=Raspberry%20Pi%20Mini-Hackathon).
