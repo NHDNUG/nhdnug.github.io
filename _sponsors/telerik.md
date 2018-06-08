@@ -3,6 +3,7 @@ title: Telerik
 logo:
     small: "/images/sponsors/telerik-sm.png"
 site_url: "http://www.telerik.com"
+site_url_pretty: telerik.com
 ---
 
 #### We're dedicated to making the lives of developers like you easier, faster and more creative than ever

@@ -3,6 +3,7 @@ title: JetBrains
 logo:
     small: "/images/sponsors/jetbrains-sm.png"
 site_url: "https://www.jetbrains.com"
+site_url_pretty: jetbrains.com
 ---
 At JetBrains, code is our passion. For over 15 years we have strived to make the 
 strongest, most effective developer tools on earth. By automating routine checks 

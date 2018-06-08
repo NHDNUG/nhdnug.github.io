@@ -104,16 +104,9 @@ title: Meeting Deck
                 {% for sponsor in this_sponsors_silver %}
                     {% include sponsor-slide.html sponsor=sponsor level="silver" %}                
                 {% endfor %}
-                {% if num_meeting > 0 %}
-                <section>
-                    <h4>Tonight's Meeting Sponsors:</h4>
-                    {% for sponsor in this_sponsors_meeting %}
-                    <div class="meeting-sponsor">
-                        <img src="{{ sponsor.logo.small | prepend: site.baseurl }}" />                     
-                    </div>
-                    {% endfor %}
-                </section>
-                {% endif %}
+                {% for sponsor in this_sponsors_meeting %}
+                    {% include sponsor-slide.html sponsor=sponsor level="meeting" %}
+                {% endfor %}
 
                 <!-- Sponsor Slides End -->
                 
