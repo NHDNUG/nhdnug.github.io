@@ -1,0 +1,24 @@
+{
+  "name": "nhdnug.github.io",
+  "version": "1.0.0",
+  "description": "Welcome to the repository home for North Houston .Net User Group's website.",
+  "main": "build/index.js",
+  "scripts": {
+    "update-jobs": "node ./build/scrape-improving-jobs.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NHDNUG/nhdnug.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NHDNUG/nhdnug.github.io/issues"
+  },
+  "homepage": "https://github.com/NHDNUG/nhdnug.github.io",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "request": "^2.87.0",
+    "request-promise": "^4.2.2"
+  }
+}

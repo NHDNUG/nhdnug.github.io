@@ -23,7 +23,10 @@ exclude: ['README.md',
     'servesite.bat',
     'LICENSE',
     'OldSiteConversionScript',
-    'vagrant']
+    'vagrant',
+    'build',
+    'package.json',
+    'node_modules']
     
 # Collections
 collections:
