@@ -1,0 +1,22 @@
+{% assign jobs = site.data.sponsor-jobs %}
+
+{% assign num-jobs = jobs | size %}
+
+{% if num-jobs > 0 %}
+{% assign sorted-jobs = jobs | sort: 'title' %}
+<div id="jobs-list" class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">Houston Area Available Positions</h3>
+    </div>
+    <div class="panel-body">    
+        <ul>
+        {% for job in sorted-jobs %}
+            <li>
+                <div class="title"><a href="{{ job.link }}" target="_blank">{{ job.title }}</a></div>
+                <div class="details">{{ job.sponsor }} ({{job.type}})</div>
+            </li>
+        {% endfor %}
+        </ul>                    
+    </div> 
+</div>
+{% endif %}

@@ -109,6 +109,38 @@ title: Meeting Deck
                 {% endfor %}
 
                 <!-- Sponsor Slides End -->
+
+                <!-- Sponsor Jobs Start -->
+                {% assign jobs = site.data.sponsor-jobs %}
+                {% assign num-jobs = jobs | size %}
+                {% if num-jobs > 0 %}
+                {% assign sorted-jobs = jobs | sort: 'title' %}
+                    
+                <section class="jobs-slide">
+                    <h3>Houston Area Available Positions</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <td></td>
+                                <td>Type</td>
+                                <td>Sponsor</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        {% for job in sorted-jobs %}
+                        <tr>
+                            <td>{{job.title}}</td>
+                            <td>{{job.type}}</td>
+                            <td>{{job.sponsor}}</td>
+                        </tr>
+                        {% endfor %}
+                        </tbody>
+                    </table>
+                    <p>See <a href="/">nhdnug.org</a> for links to all available positions</p>                    
+                </section>
+                    
+                {% endif %}
+                <!-- Sponsor Jobs End -->
                 
                 <section>
                     <h3>Announcements</h3>
@@ -140,7 +172,7 @@ title: Meeting Deck
                     <h3>{{ event.title }}</h3>
                     <div>{% include datetime.html date=event.date day=true %}</div>
                     <div class="event-excerpt">{{ event.excerpt }}</div>
-                    <div class="event-qrcode" data-value="{{ event.links.www }}"></div>
+                    <div class="qrcode" data-value="{{ event.links.www }}"></div>
                 </section>
                 {% endfor %}
                 {% endif %}
@@ -207,10 +239,11 @@ title: Meeting Deck
             if (surveyQrCode) {
                 new QRCode(surveyQrCode, "{{ post.survey-url }}");
             }
-            var eventQrCodes = document.getElementsByClassName("event-qrcode");
-            if (eventQrCodes && eventQrCodes.length) {
-                for(var i = 0; i < eventQrCodes.length; i++) {
-                    var eventQrCode = eventQrCodes[i];
+            
+            var neededQrCodes = document.getElementsByClassName("qrcode");
+            if (neededQrCodes && neededQrCodes.length) {
+                for(var i = 0; i < neededQrCodes.length; i++) {
+                    var eventQrCode = neededQrCodes[i];
                     var href = eventQrCode.getAttribute("data-value");
                     new QRCode(eventQrCode, href);
                 }

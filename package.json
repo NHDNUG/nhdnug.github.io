@@ -4,7 +4,7 @@
   "description": "Welcome to the repository home for North Houston .Net User Group's website.",
   "main": "build/index.js",
   "scripts": {
-    "update-jobs": "node ./build/scrape-improving-jobs.js"
+    "update-jobs": "node ./build/update-jobs.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,7 @@
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
     "request": "^2.87.0",
-    "request-promise": "^4.2.2"
+    "request-promise": "^4.2.2",
+    "write-yaml": "^1.0.0"
   }
 }
