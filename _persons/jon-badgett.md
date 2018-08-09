@@ -5,7 +5,7 @@ image-sm: "/images/persons/jon-badgett.jpg"
 social:
     linkedin: "https://www.linkedin.com/in/jon-badgett-825a326b"
     github: "https://github.com/jonthenerd"
-    email: "jon.computerguy@gmail.com"
+    email: "jon@nhdnug.org"
     www: "http://www.jonthenerd.com"
 volunteer-position: "President"
 volunteer-order: 0
