@@ -11,3 +11,5 @@ meetup:             "253630320"
 survey-url:         "https://bit.ly/2MxM3Gy"
 ---
 Its no secret that Whiteboard interviews are widely panned by the industry. Just as well known is that you will inevitably have to face one every time you interview. But why? There must be some pattern or principle that can be learned to make the process less unpleasant, right? Indeed there is! Come learn some simple steps and tools you can use to improve your next whiteboarding interview, whether you are taking or giving one!
+
+If you missed this presentation or want to review it again, Daniel has made his materials available on github: [Repo for 'Towards a better Whiteboard Interview'](https://github.com/NHDNUG/nhdnug-whiteboarding).
