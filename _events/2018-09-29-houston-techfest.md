@@ -11,4 +11,4 @@ social:
     facebook:       "https://www.facebook.com/htechfest/"
     twitter:        "https://twitter.com/houstontechfest"
 ---
-New and improved, now with a handy spring version! Improving, our platinum sponsor, is proud to be sponsoring Spring Houston Techfest.
+Improving, our platinum sponsor, is proud to be sponsoring Houston Techfest.
