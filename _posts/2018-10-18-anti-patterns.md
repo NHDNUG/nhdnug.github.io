@@ -14,3 +14,5 @@ survey-url:         "https://bit.ly/2MxM3Gy"
 **Our room has changed. We are now in G-109.**
 
 Take a walk on the wild side and learn all the well-known ways NOT to manage your project, treat your people, design your software, and write your code.
+
+[Eric's Anti-Pattern Slide Deck](https://github.com/NHDNUG/anti-patterns)
