@@ -1,17 +1,11 @@
 ---
 title: "Gary DeReese"
-lastUpdated: "2016-11-17"
+lastUpdated: "2019-01-12"
 image-sm: "/images/persons/gary-dereese.jpg"
 social:
     linkedin: "https://www.linkedin.com/in/garydereese"
-    facebook: "https://www.facebook.com/gary.dereesejr"    
+    twitter: "https://twitter.com/TexVectrex"    
 ---
-Gary is a proactive, highly effective manager of software development teams. 
-A technical professional that calls upon years of deep architecture and development 
-experience from a wide array of software projects, he is passionate and committed 
-to maximizing the effectiveness of organizations through the relentless 
-pursuit of improvement.
+Gary is a software craftsman at his core.  He has served in both technical and management leadership roles, and calls upon deep architecture and development experience from a wide array of industries. He is also a passionate DevOps advocate committed to maximizing the effectiveness of the organization through the relentless pursuit of improvement.
 
-Along with spending time with his family, he enjoys playing, writing and 
-recording music in his home studio and working on personal software and 
-electronics projects.
+At home, he enjoys spending time with his family, working on personal software projects, playing guitar, and tinkering with all kinds of Arduino and FPGA gadgets.
