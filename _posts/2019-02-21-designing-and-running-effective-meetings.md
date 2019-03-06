@@ -5,7 +5,7 @@ title:              "Designing and Running Effective Meetings"
 subtitle:           "Reclaiming your most valuable asset"
 location:           "Lone Star College - Montgomery"
 location-detail:    "MC-G G109"
-sponsors:           ["Lonestar Montgomery College", "JetBrains", "Telerik"]
+sponsors:           ["Lonestar Montgomery College", "JetBrains"]
 description:        ""
 meetup:             "258890088"
 survey-url:         "https://bit.ly/2MxM3Gy"

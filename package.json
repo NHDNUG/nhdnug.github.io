@@ -4,7 +4,9 @@
   "description": "Welcome to the repository home for North Houston .Net User Group's website.",
   "main": "build/index.js",
   "scripts": {
-    "update-jobs": "node ./build/update-jobs.js"
+    "update-jobs": "node ./build/update-jobs.js",
+    "build": "bundle exec jekyll serve",
+    "start": "yarn run update-jobs && yarn run build"
   },
   "repository": {
     "type": "git",
