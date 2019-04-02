@@ -16,3 +16,5 @@ The .NET platform's most recent major releases prominently feature improved conc
 But let's face it: even with nice tools like the TPL and async / await, multi-threaded concurrent programming has typically been a bottomless pit of despair, Heisenbugs, and lessons learned the hard way.
 
 None of this is true with Akka.NET and the actor model: a powerful programming methodology that makes building concurrent applications easy, fun, and much more powerful than what we had before.
+
+Aaron's slide deck on [Akka.NET and the Actor Model](https://www.slideshare.net/petabridge/akkanet-concurrency-without-the-pain-138474721) is now available.
