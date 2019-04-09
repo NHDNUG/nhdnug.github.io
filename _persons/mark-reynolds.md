@@ -1,10 +1,11 @@
 ---
 title: "Mark Reynolds"
-lastUpdated: "2017-07-14"
+lastUpdated: "2019-04-08"
 image-sm: "/images/persons/mark-reynolds.jpg"
 social:
     linkedin: "https://www.linkedin.com/in/profreynolds" 
     www: "http://www.profreynolds.com/"
-    email: markr@IntentDriven.com   
+    twitter: "https://twitter.com/prof_reynolds"
+    email: "mark@profreynolds.com"   
 ---
-Mark has 40 years’ experience with operations-centric solutions, Machine Learning, Pedictive Analytics, and Surveillance Systems. He is a contributing author for energy industry and computer science magazines, public bio at industry conferences, and teaches Computer Science at Lone Star College.
+Mark has been developing operations-centric solutions, Machine Learning, Predictive Analytics, and Surveillance Systems. Mark’s experience includes addressing challenges in Operations Technology, Information Technology, and Knowledge Engineering. Recently he has been a contributing leader in public forums as an Applied System Engineer and Machine Learning Architect. Mark is a contributing author for energy industry and computer science magazines, and speaker at industry conferences. In his spare time, he is Professor of Computer Science at Lone Star College.
