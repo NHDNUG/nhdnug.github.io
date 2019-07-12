@@ -1,6 +1,6 @@
 ---
 title: "Devlin Liles"
-lastUpdated: "2017-11-28"
+lastUpdated: "2019-07-12"
 image-sm: "/images/persons/devlin-liles.jpg"
 social:
     linkedin: "https://www.linkedin.com/in/devlin-liles-2a010526"
