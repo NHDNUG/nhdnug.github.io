@@ -7,7 +7,7 @@ location:           "Lone Star College - Montgomery"
 location-detail:    "MC-G G109"
 sponsors:           ["Lonestar Montgomery College", "JetBrains"]
 description:        ""
-meetup:             ""
+meetup:             "265642455"
 survey-url:         "https://bit.ly/2MxM3Gy"
 ---
 
