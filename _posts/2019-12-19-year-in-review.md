@@ -7,7 +7,7 @@ location:           "Spring Creek BBQ"
 location-detail:    ""
 sponsors:           []
 description:        ""
-meetup:             ""
+meetup:             "267022107"
 survey-url:         ""
 ---
 
