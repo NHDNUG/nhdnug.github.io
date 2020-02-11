@@ -9,7 +9,7 @@ terms:
  -
   type: "platinum"
   start: "2016-02-01"
-  end: "2020-01-31"
+  end: "2020-02-31"
 
 ---
 
