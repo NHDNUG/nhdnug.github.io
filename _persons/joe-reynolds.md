@@ -8,8 +8,6 @@ social:
     github: "https://github.com/jmreynolds"
     email: "info@nhdnug.org"
     www: "http://www.infocraft.net"
-volunteer-position: "Director of Speakers"
-volunteer-order: 3    
 ---
 Joseph earned his Master of Science in Information Technology,
 with a focus in Software Architecture from Capella University in 2009.

@@ -21,7 +21,11 @@
     {% endif %}  
 {% else %}
     {% if include.mode == "title" %}
-        {{ include.location }}{% if include.location-detail and include.location-detail != "" and include.location-detail != nil %}({{ include.location-detail }}) {% endif %}
+        {% if include.location-url and include.location-url != "" and include.location-url != nil %}
+            <a href="{{include.location-url}}">{{ include.location }}{% if include.location-detail and include.location-detail != "" and include.location-detail != nil %}({{ include.location-detail }}) {% endif %}</a>
+        {% else %}
+            {{ include.location }}{% if include.location-detail and include.location-detail != "" and include.location-detail != nil %}({{ include.location-detail }}) {% endif %}
+        {% endif %}
     {% endif %}
 {% endif %}
 

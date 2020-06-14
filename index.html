@@ -30,13 +30,13 @@ home-page: true
                     {% include datetime.html date=post.date day=true time=true %}
                     </span>  
                     {% if post_num_speakers > 0 %} | <span style="white-space: nowrap;"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> {% include person-names.html person-titles=post.speakers %}</span>{% endif %}
-                    {% if post.location and post.location != "" %} |<span style="white-space: nowrap;"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> {% include location-display.html location=post.location mode="title" location-detail=post.location-detail %}</span>{% endif %}
+                    {% if post.location and post.location != "" %} |<span style="white-space: nowrap;"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> {% include location-display.html location=post.location mode="title" location-detail=post.location-detail location-url=post.location-url %}</span>{% endif %}
                 </p>
                 {% if post.description %}
                     <p>{{ post.description }}</p>
                 {% endif %}
                 <p>
-                {% include location-display.html location=post.location  location-detail=post.location-detail mode="map_embed" %}
+                {% include location-display.html location=post.location  location-detail=post.location-detail location-url=post.location-url mode="map_embed" %}
                 </p>
         </div>
         <div class="col-xs-12 col-sm-6">
