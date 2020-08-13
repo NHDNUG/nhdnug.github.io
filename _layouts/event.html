@@ -17,8 +17,7 @@ layout: default
                     <dd>{% include datetime.html date=page.date day=true %}</dd>                   
                     {% if page.location.title %}
                     <dt>Where</dt>
-                    <dd>{{ page.location.title }}
-                        {% if page.location.city %}<br />{{ page.location.city }}{% endif %}
+                    <dd>{% include location-display.html location=page.location mode="title" location-detail=page.location-detail location-url=page.location-url %}
                     </dd>
                     {% endif %}
                     {% if page.links.www or page.links.registration %}

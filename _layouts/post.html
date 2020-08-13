@@ -28,7 +28,7 @@ layout: default
                 {% endif %}
                 {% if page.location != "" %}
                 <dt>Where</dt>
-                <dd>{% include location-display.html location=page.location mode="title" location-detail=page.location-detail %}</dd>
+                <dd>{% include location-display.html location=page.location mode="title" location-detail=page.location-detail location-url=page.location-url %}</dd>
                 {% endif %}
                 {% if page.meetup and page.meetup != "" %}                
                 <dt></dt>
