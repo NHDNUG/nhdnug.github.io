@@ -1,5 +1,5 @@
 ---
-date:               "2023-02-16 18:30:00"
+date:               "2023-02-16 17:30:00"
 speakers:           ["Aaron Stannard"]
 title:              "OpenTelemetry"
 subtitle:           "the Future of Observability for .NET Applications"
