@@ -6,7 +6,7 @@
   "scripts": {
     "update-jobs": "node ./build/update-jobs.js",
     "build": "bundle exec jekyll serve",
-    "start": "yarn run update-jobs && yarn run build"
+    "start": "npm run update-jobs && npm run build"
   },
   "repository": {
     "type": "git",

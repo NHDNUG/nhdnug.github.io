@@ -149,9 +149,8 @@ title: Meeting Deck
                 <!-- Sponsor Jobs End -->
                 
                 <section>
-                    <h3>Announcements</h3>
-                    <p><span style="color: blue;">info@nhdnug.org</span></p>
-                    <p>Hiring? On the market? Interested in speaking? Have a favorite speaker? Send it all to the email!</p>
+                    <h3>Announcements</h3>                    
+                    <p>Hiring? On the market? Interested in speaking? Have a favorite speaker? Let an officer know!</p>
                 </section>
 
                 <!-- Upcoming Events Start -->
@@ -187,7 +186,7 @@ title: Meeting Deck
                 <!-- Upcoming Events End -->
 
                 <!-- Survey Start -->
-                {% if post.survey-url %}
+                {% if post.survey-url != "" %}
                 <section class="survey-slide">
                     <h3>Tonight's Survey</h3>
                     <p style="color: blue;">{{post.survey-url}}</p>
@@ -231,8 +230,9 @@ title: Meeting Deck
                 <!-- Tonight's Details -->
                 <section>
                     <h3>{{ post.title }}</h3>
+                    <p>{{post.subtitle}}</p>
                     {% for speaker in post.speakers %}
-                    <p>{{ speaker }}</p>
+                    <h4>{{ speaker }}</h4>
                     {% endfor %}
                 </section>
             </div>
