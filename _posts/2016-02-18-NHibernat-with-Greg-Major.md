@@ -8,8 +8,7 @@ location-detail:    "MC-G G123"
 sponsors:           ["Blinds.com"]
 categories:         [NHibernate, C#, ORM]
 tags:               [NHibernate, C#, ORM]
-sourcecode:         "LeadPipe.Net.NHibernateExamples"
 ---
 Tonight's talk was on some cool stuff - Greg Major talked about NHibernate and his LeadPipe framework.
 
-[Here's a link to his source](https://github.com/NHDNUG/{{page.sourcecode}})
+[Here's a link to his source](https://github.com/LeadPipeSoftware/LeadPipe.Net.NHibernateExamples)

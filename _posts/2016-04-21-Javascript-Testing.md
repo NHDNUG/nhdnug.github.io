@@ -13,3 +13,5 @@ But deciding on a test framework is only a small aspect of the approach you choo
 
 In this talk, we'll discuss the factors that go into making the decisions of whether to test, what to test, and how to get the most effective benefits for the cost. As well as share some pitfalls learned from painful,
 painful experience.
+
+[Presentation on GitHub](https://github.com/cavnak/javascript-testing)
