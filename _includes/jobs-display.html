@@ -12,7 +12,7 @@
         <ul>
         {% for job in sorted-jobs %}
             <li>
-                <div class="title"><a href="{{ job.link }}" target="_blank">{{ job.title }}</a></div>
+                <div class="title"><a href="{{ job.link }}" target="_blank" rel="noopener">{{ job.title }}</a></div>
                 <div class="details">{{ job.sponsor }} ({{job.type}})</div>
             </li>
         {% endfor %}
