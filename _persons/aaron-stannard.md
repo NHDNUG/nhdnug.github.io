@@ -7,8 +7,8 @@ social:
     linkedin: "https://www.linkedin.com/in/aaronstannard/"
     twitter: "https://twitter.com/Aaronontheweb"
     github: "https://github.com/Aaronontheweb"
-volunteer-position: "Organizer; President vNext"
-volunteer-order: 3
+volunteer-position: "President"
+volunteer-order: 0
 ---
 
 Aaron Stannard is the CEO and founder of [Petabridge](http://petabridge.com/), where he makes distributed programming for .NET developers easy by working on [Akka.NET](https://getakka.net/), [NBench](https://nbench.io/), and dozens of other OSS projects.

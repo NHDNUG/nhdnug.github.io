@@ -83,7 +83,7 @@ defaults:
 
      
 # Site Properties
-title: North Houston .Net Users Group
+title: North Houston .NET Users Group
 description: 'A programmers meetup'
 url: 'https://www.nhdnug.org'
 baseurl: ''

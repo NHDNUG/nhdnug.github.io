@@ -30,22 +30,25 @@ layout: default
         <h4>Connect with {{ firstname }}:</h4>
         <ul class="person-social-list">            
             {% if page.social.facebook %}
-            <li><a href="{{ page.social.facebook }}"><img src="/images/icons/facebook.png" alt="Facebook" /></a></li>
+            <li><a href="{{ page.social.facebook }}"><img src="/images/icons/facebook.png" alt="Facebook" title="Facebook" /></a></li>
             {% endif %}
             {% if page.social.twitter %}
-            <li><a href="{{ page.social.twitter }}"><img src="/images/icons/twitter.png" style="background-color: #55acee" alt="Twitter" /></a></li>
+            <li><a href="{{ page.social.twitter }}"><img src="/images/icons/twitter.png" style="background-color: #55acee" alt="Twitter" title="Twitter" /></a></li>
             {% endif %}
             {% if page.social.linkedin %}
-            <li><a href="{{ page.social.linkedin }}"><img src="/images/icons/linkedin.png" alt="Linked in" /></a></li>                            
+            <li><a href="{{ page.social.linkedin }}"><img src="/images/icons/linkedin.png" alt="LinkedIn" title="LinkedIn" /></a></li>
             {% endif %}
             {% if page.social.github %}
-            <li><a href="{{ page.social.github }}"><img src="/images/icons/github_logo.png" alt="Github" /></a></li>
+            <li><a href="{{ page.social.github }}"><img src="/images/icons/github_logo.png" alt="GitHub" title="GitHub" /></a></li>
+            {% endif %}
+            {% if page.social.twitch %}
+            <li><a href="{{ page.social.twitch }}"><img src="/images/icons/twitch.png" alt="Twitch" title="Twitch" /></a></li>
             {% endif %}
             {% if page.social.www %}
-            <li><a href="{{ page.social.www }}"><img src="/images/icons/browser.png" alt="Website" /></a></li>
+            <li><a href="{{ page.social.www }}"><img src="/images/icons/browser.png" alt="Website" title="Website" /></a></li>
             {% endif %}
             {% if page.social.email %}
-            <li><a href="mailto:{{ page.social.email }}"><img src="/images/icons/email.png" alt="Email" /></a></li>
+            <li><a href="mailto:{{ page.social.email }}"><img src="/images/icons/email.png" alt="Email" title="Email" /></a></li>
             {% endif %}
         </ul>
         {% endif %}

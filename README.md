@@ -1,6 +1,6 @@
 # NHDNUG.org
 
-Welcome to the repository home for North Houston .Net User Group's website.
+Welcome to the repository home for North Houston .NET User Group's website.
 
 We allow contribution to our site... In fact, we encourage it!!!
 
