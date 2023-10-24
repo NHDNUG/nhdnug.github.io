@@ -52,3 +52,4 @@ git config core.ignorecase false
 ### Copyright and license
 
 This repo's source code is licensed under the [MIT license](/LICENSE).
+
