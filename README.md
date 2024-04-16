@@ -47,6 +47,7 @@ git config core.ignorecase false
 1. Copy last's month's meeting file from _posts and paste it back into the same directory.
 2. Rename this pasted file in the format {year}-{month}-{day}-{Title-Here}.md
 3. Adjust the metadata in the file as appropriate.
+   
 
 
 ### Copyright and license
