@@ -1,0 +1,27 @@
+.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 { text-transform: none; }
+
+sup { font-size: smaller !important; }
+
+.reveal section img { border: none; box-shadow: none; }
+
+.sponsor-logo img { height: 180px; }
+
+.sponsor-platinum { background: #f2f6f8; /* Old browsers */ background: -moz-linear-gradient(top, #f2f6f8 0%, #d8e1e7 50%, #b5c6d0 100%, #e0eff9 100%); /* FF3.6-15 */ background: -webkit-linear-gradient(top, #f2f6f8 0%, #d8e1e7 50%, #b5c6d0 100%, #e0eff9 100%); /* Chrome10-25,Safari5.1-6 */ background: linear-gradient(to bottom, #f2f6f8 0%, #d8e1e7 50%, #b5c6d0 100%, #e0eff9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$color1', endColorstr='$color4',GradientType=0 ); /* IE6-9 */ color: #333; border-color: #b5c6d0; }
+
+.sponsor-gold { background: #fceabb; /* Old browsers */ background: -moz-linear-gradient(top, #fceabb 0%, #fccd4d 50%, #fbdf93 100%, #f8b500 100%); /* FF3.6-15 */ background: -webkit-linear-gradient(top, #fceabb 0%, #fccd4d 50%, #fbdf93 100%, #f8b500 100%); /* Chrome10-25,Safari5.1-6 */ background: linear-gradient(to bottom, #fceabb 0%, #fccd4d 50%, #fbdf93 100%, #f8b500 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$color1', endColorstr='$color4',GradientType=0 ); /* IE6-9 */ color: #333; border-color: #fbdf93; }
+
+.sponsor-silver { background: #e2e2e2; /* Old browsers */ background: -moz-linear-gradient(top, #e2e2e2 0%, #dbdbdb 50%, #d1d1d1 100%, #fefefe 100%); /* FF3.6-15 */ background: -webkit-linear-gradient(top, #e2e2e2 0%, #dbdbdb 50%, #d1d1d1 100%, #fefefe 100%); /* Chrome10-25,Safari5.1-6 */ background: linear-gradient(to bottom, #e2e2e2 0%, #dbdbdb 50%, #d1d1d1 100%, #fefefe 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$color1', endColorstr='$color4',GradientType=0 ); /* IE6-9 */ color: #333; border-color: #d1d1d1; }
+
+.event-excerpt { font-size: 50% !important; color: #555; }
+
+.officers-slide .officer { clear: both; }
+.officers-slide .officer-image { display: inline-block; height: 100px; vertical-align: middle; }
+.officers-slide .person-image { height: 100px; width: 100px; background-position: center; background-size: cover; display: inline-block; }
+.officers-slide .officer-text { height: 100px; padding-top: 20px; vertical-align: middle; display: inline-block; width: 300px; }
+.officers-slide .officer-title { font-size: 50% !important; color: #555; }
+
+.reveal section .qrcode img { margin-left: auto; margin-right: auto; }
+
+.jobs-slide table { font-size: 60%; }
+
+.survey-slide #survey-qrcode img { margin-left: auto; margin-right: auto; }

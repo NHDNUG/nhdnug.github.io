@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>North Houston .NET Users Group</title>
+    <description>A programmers meetup</description>
+    <link>https://www.nhdnug.org/</link>
+    <atom:link href="https://www.nhdnug.org/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sun, 21 Apr 2024 01:06:13 +0000</pubDate>
+    <lastBuildDate>Sun, 21 Apr 2024 01:06:13 +0000</lastBuildDate>
+    <generator>Jekyll v3.9.5</generator>
+    
+      <item>
+        <title>.NET Trivia Night</title>
+        <description>&lt;p&gt;Show off your .NET knowledge and battle for the .NET LeetCode trophy at our NHDNUG .NET Trivia Night!&lt;/p&gt;
+
+&lt;p&gt;Join us for an evening of fun, friendly rivalry, and retro arcade games on Thursday, May 16th at A Game Changer, located in downtown Conroe - just a 15 minute drive North of The Woodlands.&lt;/p&gt;
+
+&lt;p&gt;This event will not only be a battle of wits over .NET-related trivia questions, but an opportunity to engage in some friendly competition while enjoying a night out with fellow .NET enthusiasts. Attendees can organize into small teams or compete on their own, fostering a collaborative and competitive atmosphere as they vie for the ultimate trophy to proudly display in their office.&lt;/p&gt;
+
+&lt;p&gt;Come for the trivia, stay for the games, and leave with new connections - and possibly the ultimate symbol of .NET prowess!&lt;/p&gt;
+
+&lt;h2 id=&quot;food--drinks&quot;&gt;Food / Drinks&lt;/h2&gt;
+&lt;p&gt;NHDNUG will provide food, soft drinks, and wristbands for unlimited access to classic arcade games.&lt;/p&gt;
+
+&lt;p&gt;Please check in at the front / bar area to receive your wristband - and be sure to let them know you’re attending Trivia Night.&lt;/p&gt;
+
+&lt;p&gt;Alcoholic beverages are available to purchase.&lt;/p&gt;
+
+&lt;h2 id=&quot;directions-and-parking&quot;&gt;Directions and Parking&lt;/h2&gt;
+
+&lt;p&gt;This Meetup will be at A Game Changer, located at 109 MetCalf St, Conroe, TX 77301, in downtown Conroe - just 15 minutes North of The Woodlands.&lt;/p&gt;
+
+&lt;p&gt;Ample parking is available in this charming downtown area.&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 16 May 2024 17:30:00 +0000</pubDate>
+        <link>https://www.nhdnug.org/meetings/2024/05/16/.net-trivia.night</link>
+        <guid isPermaLink="true">https://www.nhdnug.org/meetings/2024/05/16/.net-trivia.night</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Hands-on Machine Learning with Microsoft ML.NET</title>
+        <description>&lt;p&gt;“ML.NET is a cross-platform machine learning framework by Microsoft that allows developers in the .NET ecosystem to perform advanced Machine Learning techniques. In this live software coding session, Michael will train and demonstrate several machine learning algorithms and techniques and provide commentary on effectiveness, metrics evaluation, and more.”&lt;/p&gt;
+
+&lt;p&gt;“Additionally, we will explore some online Azure AI services such as Image Detection and Generative AI with an LLM via Azure OpenAI. Everything from Machine Learning basics to a few advanced techniques will be covered, so come prepared to learn about the machine learning toolkit from Microsoft.”&lt;/p&gt;
+
+&lt;h2 id=&quot;food--drinks&quot;&gt;Food / Drinks&lt;/h2&gt;
+&lt;p&gt;Food and drinks will be provided! Please contact us (on meetup) if you have any dietary restrictions/food allergies.&lt;/p&gt;
+
+&lt;h2 id=&quot;directions-and-parking-instructions&quot;&gt;Directions and Parking Instructions&lt;/h2&gt;
+
+&lt;p&gt;Meeting will be held in the offices of SmartDraw Software, 1780 Hughes Landing Blvd #1100 on the 11th floor.&lt;/p&gt;
+
+&lt;p&gt;Enter through the main doors of the building and take the elevator to the 11th floor; the door to SmartDraw’s suite is in the elevator lobby on the 11th floor.&lt;/p&gt;
+
+&lt;p&gt;If you arrive at 1780 Hughes Landing after 6pm a member of the SmartDraw team will help you enter the building then travel up to the 11th floor.&lt;/p&gt;
+
+&lt;h3 id=&quot;parking&quot;&gt;Parking:&lt;/h3&gt;
+
+&lt;p&gt;Park in the garage directly opposite. You’ll need to take a ticket to enter but there is no fee to leave - parking is free.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 18 Apr 2024 17:30:00 +0000</pubDate>
+        <link>https://www.nhdnug.org/meetings/2024/04/18/hands-on-machine-learning-with-microsoft-ml.net</link>
+        <guid isPermaLink="true">https://www.nhdnug.org/meetings/2024/04/18/hands-on-machine-learning-with-microsoft-ml.net</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Resilient Unit Testing - Going beyond Arrange, Act, Assert</title>
+        <description>&lt;p&gt;“Unit testing and TDD are designed to save time for the developers and testers while also reducing the risk of accidental bugs while implementing change. Yet, most teams either don’t use unit tests or found that they take more time than they save. But this doesn’t have to be your experience, and this session is going to cover the role of a unit test, how to build them to last, and other hidden benefits you can find along the way.”&lt;/p&gt;
+
+&lt;p&gt;“Come join as we crack open the code and discover a world beyond arrange, act, and assert.”&lt;/p&gt;
+
+&lt;h2 id=&quot;food--drinks&quot;&gt;Food / Drinks&lt;/h2&gt;
+&lt;p&gt;Food and drinks will be provided! Please contact us (on meetup) if you have any dietary restrictions/food allergies.&lt;/p&gt;
+
+&lt;h2 id=&quot;directions-and-parking-instructions&quot;&gt;Directions and Parking Instructions&lt;/h2&gt;
+
+&lt;p&gt;Meeting will be held in the offices of SmartDraw Software, 1780 Hughes Landing Blvd #1100 on the 11th floor.&lt;/p&gt;
+
+&lt;p&gt;Enter through the main doors of the building and take the elevator to the 11th floor; the door to SmartDraw’s suite is in the elevator lobby on the 11th floor.&lt;/p&gt;
+
+&lt;p&gt;If you arrive at 1780 Hughes Landing after 6pm, a member of the SmartDraw team will help you enter then building then travel up to the 11th floor.&lt;/p&gt;
+
+&lt;h3 id=&quot;parking&quot;&gt;Parking:&lt;/h3&gt;
+
+&lt;p&gt;Park in the garage directly opposite. You’ll need to take a ticket to enter but there is no fee to leave - parking is free.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 21 Mar 2024 17:30:00 +0000</pubDate>
+        <link>https://www.nhdnug.org/meetings/2024/03/21/resilient-unit-testing</link>
+        <guid isPermaLink="true">https://www.nhdnug.org/meetings/2024/03/21/resilient-unit-testing</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>How Software Developers Destroy Business Value (and What to Do About It)</title>
+        <description>&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;Software developers are intended to be massive, highly leverageable value creators for their companies and teams - using their creative and technical talent to build products themselves or mission-critical systems that facilitate the delivery of value inside the business.&lt;/p&gt;
+
+&lt;p&gt;The blunt truth, however, is that many software developers would screw up tying their own shoes when left to their own devices.&lt;/p&gt;
+
+&lt;p&gt;There’s an abundant corpus of work out there on how managers routinely let down their software developers through insufficient planning, communication, listening, and support.&lt;/p&gt;
+
+&lt;p&gt;In this talk we’re going to explore the inverse - how individual software developers contributing to a project unintentionally sabotage their teams, their companies, their projects, and themselves through:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Immutable technical preferences + biases;&lt;/li&gt;
+  &lt;li&gt;Bad attitudes;&lt;/li&gt;
+  &lt;li&gt;Poor listening;&lt;/li&gt;
+  &lt;li&gt;Inflexible and unproductive learning styles;&lt;/li&gt;
+  &lt;li&gt;Risk aversion;&lt;/li&gt;
+  &lt;li&gt;Incuriosity;&lt;/li&gt;
+  &lt;li&gt;And more!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Most importantly, in this talk we’re going to try to address how we can help shift developers who want to learn and improve, but are have trouble executing, become the high value contributors they’d like to be.&lt;/p&gt;
+
+&lt;h3 id=&quot;who-is-this-talk-for&quot;&gt;Who Is This Talk For?&lt;/h3&gt;
+
+&lt;p&gt;This talk is for managers of developers, senior developers who want to learn how to effectively mentor or collaborate with other team members who are struggling, and crucially - for JUNIOR developers who don’t want to fall into these bad habits before they even get started.&lt;/p&gt;
+
+&lt;h2 id=&quot;food--drinks&quot;&gt;Food / Drinks&lt;/h2&gt;
+&lt;p&gt;Food and drinks will be provided! Please contact us (on meetup) if you have any dietary restrictions/food allergies.&lt;/p&gt;
+
+&lt;h2 id=&quot;directions-and-parking-instructions&quot;&gt;Directions and Parking Instructions&lt;/h2&gt;
+
+&lt;p&gt;Meeting will be held in the offices of SmartDraw Software, 1780 Hughes Landing Blvd #1100 on the 11th floor.&lt;/p&gt;
+
+&lt;p&gt;Enter through the main doors of the building and take the elevator to the 11th floor; the door to SmartDraw’s suite is in the elevator lobby on the 11th floor.&lt;/p&gt;
+
+&lt;p&gt;If you arrive at 1780 Hughes Landing after 6pm a member of the SmartDraw team will help you enter the building then travel up to the 11th floor.&lt;/p&gt;
+
+&lt;h3 id=&quot;parking&quot;&gt;Parking:&lt;/h3&gt;
+
+&lt;p&gt;Park in the garage directly opposite. You’ll need to take a ticket to enter but there is no fee to leave - parking is free.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 15 Feb 2024 17:30:00 +0000</pubDate>
+        <link>https://www.nhdnug.org/meetings/2024/02/15/how-software-developers-destroy-business-value-(and-what-to-do-about-it)</link>
+        <guid isPermaLink="true">https://www.nhdnug.org/meetings/2024/02/15/how-software-developers-destroy-business-value-(and-what-to-do-about-it)</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Building Secure and Scalable APIs in .NET 8</title>
+        <description>&lt;p&gt;“Whether you are building desktop apps, mobile apps, or SPAs, nearly every application needs backend APIs. Not only do these APIs need to provide business functionality, but they need to be performant, scalable, and most importantly secure. In this session you will learn the best practices for building APIs in .NET 8 that are being utilized in large scale data sensitive environments today.”&lt;/p&gt;
+
+&lt;h2 id=&quot;food--drinks&quot;&gt;Food / Drinks&lt;/h2&gt;
+&lt;p&gt;Food and drinks will be provided! Please contact us (on meetup) if you have any dietary restrictions/food allergies.&lt;/p&gt;
+
+&lt;h2 id=&quot;directions-and-parking-instructions&quot;&gt;Directions and Parking Instructions&lt;/h2&gt;
+
+&lt;p&gt;Meeting will be held in the offices of SmartDraw Software, 1780 Hughes Landing Blvd #1100 on the 11th floor.&lt;/p&gt;
+
+&lt;p&gt;Enter through the main doors of the building and take the elevator to the 11th floor; the door to SmartDraw’s suite is in the elevator lobby on the 11th floor.&lt;/p&gt;
+
+&lt;p&gt;If you arrive at 1780 Hughes Landing after 6pm a member of the SmartDraw team will help you enter the building then travel up to the 11th floor.&lt;/p&gt;
+
+&lt;h3 id=&quot;parking&quot;&gt;Parking:&lt;/h3&gt;
+
+&lt;p&gt;Park in the garage directly opposite. You’ll need to take a ticket to enter but there is no fee to leave - parking is free.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 18 Jan 2024 17:30:00 +0000</pubDate>
+        <link>https://www.nhdnug.org/meetings/2024/01/18/building-secure-and-scalable-apis-in-.net-8</link>
+        <guid isPermaLink="true">https://www.nhdnug.org/meetings/2024/01/18/building-secure-and-scalable-apis-in-.net-8</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Low Ceremony Event Sourcing and CQRS with the Critter Stack</title>
+        <description>&lt;p&gt;“Many people are scared of the potential complexity and difficulty in starting with an Event Sourcing and CQRS technical strategy.”&lt;/p&gt;
+
+&lt;p&gt;“Fear not though, the “Critter Stack” is here to provide a very low code ceremony approach to using Event Sourcing as your persistence strategy within a larger CQRS architecture. Using a combination of the Postgresql-backed Marten (https://martendb.io) library for event sourcing and its newer friend Wolverine (https://wolverine.netlify.app) for command handling and asynchronous messaging, I’ll show you how you can quickly get started with both CQRS and Event Sourcing. Once we get past the quick start, I’ll show you how the Critter Stack’s unique approach to the “Decider” pattern will help you create robust command handlers with very little code ceremony while still enjoying easy testability.”&lt;/p&gt;
+
+&lt;p&gt;“Moving beyond basic command handling into the realm of “grown up” systems development, we’ll dive into how the critter stack supports effective test automation, built in telemetry, and even manages to provide high performance and scalable systems.”&lt;/p&gt;
+
+&lt;h2 id=&quot;food--drinks&quot;&gt;Food / Drinks&lt;/h2&gt;
+&lt;p&gt;Food and drinks will be provided! Please contact us (on meetup) if you have any dietary restrictions/food allergies.&lt;/p&gt;
+
+&lt;h2 id=&quot;directions-and-parking-instructions&quot;&gt;Directions and Parking Instructions&lt;/h2&gt;
+
+&lt;p&gt;Meeting will be held in the offices of SmartDraw Software, 1780 Hughes Landing Blvd #1100 on the 11th floor.&lt;/p&gt;
+
+&lt;p&gt;Enter through the main doors of the building and take the elevator to the 11th floor; the door to SmartDraw’s suite is in the elevator lobby on the 11th floor.&lt;/p&gt;
+
+&lt;p&gt;If you arrive at 1780 Hughes Landing after 6pm a member of the SmartDraw team will help you enter the building then travel up to the 11th floor.&lt;/p&gt;
+
+&lt;h3 id=&quot;parking&quot;&gt;Parking:&lt;/h3&gt;
+
+&lt;p&gt;Park in the garage directly opposite. You’ll need to take a ticket to enter but there is no fee to leave - parking is free.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 16 Nov 2023 17:30:00 +0000</pubDate>
+        <link>https://www.nhdnug.org/meetings/2023/11/16/low-ceremony-event-sourcing-and-cqrs</link>
+        <guid isPermaLink="true">https://www.nhdnug.org/meetings/2023/11/16/low-ceremony-event-sourcing-and-cqrs</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Let&apos;s Try Bolero</title>
+        <description>&lt;p&gt;“When my team decided it was time to migrate one of our web apps away from AngularJS [^1], Blazor seemed like a good fit. Javascript isn’t really one of our core competencies, but we needed a more robust client than, say, HTMX. One of the devs suggested we look into &lt;a href=&quot;https://fsbolero.io&quot;&gt;Bolero&lt;/a&gt;. We prefer F# for our technical applications,and we were already familiar with some of the design principles espoused by the authors. Four months later, we are in production and quite pleased with the results!”&lt;/p&gt;
+
+&lt;p&gt;“Bolero is a library that brings functional Model-View-Update[^3] to the Blazor ecosystem. In short, the MVU architecture attempts to decrease the complexity of modern asynchronous web apps. The application state (the “model”) is stored immutably. Updates to the model are queued in a global message buffer, and all data flows in a single direction.”&lt;/p&gt;
+
+&lt;p&gt;“In this talk, I’ll walk through a sample Bolero application[^4]. I’ll cover ways to avoid standard MVU pitfalls and show how to implement some nice UX features (debounce, polling, time travel(?!)). I’ll show you how the discipline of MVU combined with the flexibility of F# (and the .NET ecosystem) simplifies UI development for a non front-end dev like me!”&lt;/p&gt;
+
+&lt;p&gt;”[^1]: That’s &lt;a href=&quot;https://angularjs.org&quot;&gt;AngularJS&lt;/a&gt; 1.18, the original[^2], not &lt;a href=&quot;https://angular.io&quot;&gt;Angular 16.9&lt;/a&gt;”&lt;/p&gt;
+
+&lt;p&gt;”[^2]: yes, in 2023.”&lt;/p&gt;
+
+&lt;p&gt;”[^3]: AKA the &lt;a href=&quot;https://guide.elm-lang.org/architecture/index.html&quot;&gt;elm architecture&lt;/a&gt;. There are other MVU architectures (Maui, SwiftUI, Redux) that take slightly different approaches.”&lt;/p&gt;
+
+&lt;p&gt;”[^4]: &lt;a href=&quot;https://github.com/clbrem/bolero-agents&quot;&gt;clbrem/bolero-agents&lt;/a&gt;”&lt;/p&gt;
+
+&lt;h2 id=&quot;food--drinks&quot;&gt;Food / Drinks&lt;/h2&gt;
+&lt;p&gt;Food and drinks will be provided! Please contact us (on meetup) if you have any dietary restrictions/food allergies.&lt;/p&gt;
+
+&lt;h2 id=&quot;directions-and-parking-instructions&quot;&gt;Directions and Parking Instructions&lt;/h2&gt;
+
+&lt;p&gt;Meeting will be held in the offices of SmartDraw Software, 1780 Hughes Landing Blvd #1100 on the 11th floor.&lt;/p&gt;
+
+&lt;p&gt;Enter through the main doors of the building and take the elevator to the 11th floor; the door to SmartDraw’s suite is in the elevator lobby on the 11th floor.&lt;/p&gt;
+
+&lt;p&gt;If you arrive at 1780 Hughes Landing after 6pm a member of the SmartDraw team will help you enter the building then travel up to the 11th floor.&lt;/p&gt;
+
+&lt;h3 id=&quot;parking&quot;&gt;Parking:&lt;/h3&gt;
+
+&lt;p&gt;Park in the garage directly opposite. You’ll need to take a ticket to enter but there is no fee to leave - parking is free.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 26 Oct 2023 17:30:00 +0000</pubDate>
+        <link>https://www.nhdnug.org/meetings/2023/10/26/lets-try-bolero</link>
+        <guid isPermaLink="true">https://www.nhdnug.org/meetings/2023/10/26/lets-try-bolero</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Journey to Containers</title>
+        <description>&lt;p&gt;“Summary:  We did it. We upgraded a large Windows/.NET Framework monolith to run on linux containers in Azure Kubernetes Service, and in the process simplified our infrastructure, improved security, and cut out the majority of our (significant!) compute spend. And that was over two years ago! Let’s hop through each step of the process and talk through the what, the why, and what we’d do differently in 2023 (notably: Azure Container Apps). And yes, we blundered, and I’ll talk through some of the blunders. I have almost no shame, so the stories should be good…as long as there’s no permanent recording of this talk.”&lt;/p&gt;
+
+&lt;p&gt;“Most of all, I’m hoping to hear from you on your own journey—so bring questions and share your own experience report! I will happily cede time during the presentation to anyone else who is willing to compare notes!”&lt;/p&gt;
+
+&lt;p&gt;“Giving credit: I will make several references to this excellent article that mirrors our experience, and I highly recommend anyone considering a migration to containers in Azure read it: https://techcommunity.microsoft.com/t5/fasttrack-for-azure/journey-to-containers/ba-p/3792199”&lt;/p&gt;
+
+&lt;h2 id=&quot;food--drinks&quot;&gt;Food / Drinks&lt;/h2&gt;
+&lt;p&gt;Food and drinks will be provided! Please contact us (on meetup) if you have any dietary restrictions/food allergies.&lt;/p&gt;
+
+&lt;h2 id=&quot;directions-and-parking-instructions&quot;&gt;Directions and Parking Instructions&lt;/h2&gt;
+
+&lt;p&gt;Meeting will be held in the offices of SmartDraw Software, 1780 Hughes Landing Blvd #1100 on the 11th floor.&lt;/p&gt;
+
+&lt;p&gt;Enter through the main doors of the building and take the elevator to the 11th floor; the door to SmartDraw’s suite is in the elevator lobby on the 11th floor.&lt;/p&gt;
+
+&lt;p&gt;If you arrive at 1780 Hughes Landing after 6pm a member of the SmartDraw team will help you enter the building then travel up to the 11th floor.&lt;/p&gt;
+
+&lt;h3 id=&quot;parking&quot;&gt;Parking:&lt;/h3&gt;
+
+&lt;p&gt;Park in the garage directly opposite. You’ll need to take a ticket to enter but there is no fee to leave - parking is free.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 21 Sep 2023 17:30:00 +0000</pubDate>
+        <link>https://www.nhdnug.org/meetings/2023/09/21/journey-to-containers</link>
+        <guid isPermaLink="true">https://www.nhdnug.org/meetings/2023/09/21/journey-to-containers</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>AI, Ethics and the Real World</title>
+        <description>&lt;p&gt;“In the coming years AI and machine learning will continue to change our lives in meaningful ways, but not all of those ways will be positive. How are we going to measure and manage the impact of that AI on our society? Do we leverage AI in teaching children, and if so how? These are big questions facing us but will not be solved ( in the short term ) by regulations and politicians. They will be tackled by the people at the keyboards developing the systems that influence human decision making. In this talk we will dive into this problem space, and how simple practices can impact the outcomes significantly.”&lt;/p&gt;
+
+&lt;h2 id=&quot;food--drinks&quot;&gt;Food / Drinks&lt;/h2&gt;
+&lt;p&gt;Food and drinks will be provided! Please contact us (on meetup) if you have any dietary restrictions/food allergies.&lt;/p&gt;
+
+&lt;h2 id=&quot;directions-and-parking-instructions&quot;&gt;Directions and Parking Instructions&lt;/h2&gt;
+
+&lt;p&gt;Meeting will be held in the offices of SmartDraw Software, 1780 Hughes Landing Blvd #1100 on the 11th floor.&lt;/p&gt;
+
+&lt;p&gt;Enter through the main doors of the building and take the elevator to the 11th floor; the door to SmartDraw’s suite is in the elevator lobby on the 11th floor.&lt;/p&gt;
+
+&lt;p&gt;If you arrive at 1780 Hughes Landing after 6pm a member of the SmartDraw team will help you enter the building then travel up to the 11th floor.&lt;/p&gt;
+
+&lt;h3 id=&quot;parking&quot;&gt;Parking:&lt;/h3&gt;
+
+&lt;p&gt;Park in the garage directly opposite. You’ll need to take a ticket to enter but there is no fee to leave - parking is free.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 17 Aug 2023 17:30:00 +0000</pubDate>
+        <link>https://www.nhdnug.org/meetings/2023/08/17/ai-ethics-and-the-real-world</link>
+        <guid isPermaLink="true">https://www.nhdnug.org/meetings/2023/08/17/ai-ethics-and-the-real-world</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>High Optionality Programming</title>
+        <description>&lt;p&gt;“High Optionality Programming” - the practice of paying a small design &amp;amp; programming premium today in order to avoid a massive accumulation of technical debt later. This is a technique we’ve successfully used at large scale in our previous business and in the businesses of many of our customers. The key to implementing high optionality programming correctly is to assess the likelihood of a future change to your system and to plan for its eventuality in advance when it’s cheap to do so: early on in the software development lifecycle.In this talk we explain the concepts behind high optionality programming, offer some case studies of how it’s been used successfully, and introduce the techniques that actively curb the long-term accumulation of technical debt in software projects.&lt;/p&gt;
+
+&lt;h2 id=&quot;food--drinks&quot;&gt;Food / Drinks&lt;/h2&gt;
+&lt;p&gt;Food and drinks will be provided! Please contact us (on meetup) if you have any dietary restrictions/food allergies.&lt;/p&gt;
+
+&lt;h2 id=&quot;directions-and-parking-instructions&quot;&gt;Directions and Parking Instructions&lt;/h2&gt;
+
+&lt;p&gt;Meeting will be held in the offices of SmartDraw Software, 1780 Hughes Landing Blvd #1100 on the 11th floor.&lt;/p&gt;
+
+&lt;p&gt;Enter through the main doors of the building and take the elevator to the 11th floor; the door to SmartDraw’s suite is in the elevator lobby on the 11th floor.&lt;/p&gt;
+
+&lt;p&gt;If you arrive at 1780 Hughes Landing after 6pm a member of the SmartDraw team will help you enter the building then travel up to the 11th floor.&lt;/p&gt;
+
+&lt;h3 id=&quot;parking&quot;&gt;Parking:&lt;/h3&gt;
+
+&lt;p&gt;Park in the garage directly opposite. You’ll need to take a ticket to enter but there is no fee to leave - parking is free.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 20 Jul 2023 17:30:00 +0000</pubDate>
+        <link>https://www.nhdnug.org/meetings/2023/07/20/high-optionality-programming</link>
+        <guid isPermaLink="true">https://www.nhdnug.org/meetings/2023/07/20/high-optionality-programming</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
