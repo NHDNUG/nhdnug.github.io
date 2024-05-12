@@ -5,9 +5,63 @@
     <description>A programmers meetup</description>
     <link>https://www.nhdnug.org/</link>
     <atom:link href="https://www.nhdnug.org/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 05 May 2024 01:06:54 +0000</pubDate>
-    <lastBuildDate>Sun, 05 May 2024 01:06:54 +0000</lastBuildDate>
+    <pubDate>Sun, 12 May 2024 01:08:54 +0000</pubDate>
+    <lastBuildDate>Sun, 12 May 2024 01:08:54 +0000</lastBuildDate>
     <generator>Jekyll v3.9.5</generator>
+    
+      <item>
+        <title>gRPC + .NET: Lessons from the Trenches</title>
+        <description>&lt;p&gt;Come find out what gRPC is, when you should use it, when you shouldn’t use it, and how to work around some of it’s limitations. Plus, we’ll go over how we used it (with .NET) to deliver a microservices architecture at one of the largest Oil &amp;amp; Gas companies in the greater Houston, Texas area to support their trading operations. Plus, you will learn a few ideas that will help make your implementation of gRPC easier!&lt;/p&gt;
+
+&lt;h2 id=&quot;food--drinks&quot;&gt;Food / Drinks&lt;/h2&gt;
+&lt;p&gt;Food and drinks will be provided! Please contact us (on meetup) if you have any dietary restrictions/food allergies.&lt;/p&gt;
+
+&lt;h2 id=&quot;directions-and-parking-instructions&quot;&gt;Directions and Parking Instructions&lt;/h2&gt;
+
+&lt;p&gt;Meeting will be held in the offices of SmartDraw Software, 1780 Hughes Landing Blvd #1100 on the 11th floor.&lt;/p&gt;
+
+&lt;p&gt;Enter through the main doors of the building and take the elevator to the 11th floor; the door to SmartDraw’s suite is in the elevator lobby on the 11th floor.&lt;/p&gt;
+
+&lt;p&gt;If you arrive at 1780 Hughes Landing after 6pm a member of the SmartDraw team will help you enter the building then travel up to the 11th floor.&lt;/p&gt;
+
+&lt;h3 id=&quot;parking&quot;&gt;Parking:&lt;/h3&gt;
+
+&lt;p&gt;Park in the garage directly opposite. You’ll need to take a ticket to enter but there is no fee to leave - parking is free.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 18 Jul 2024 17:30:00 +0000</pubDate>
+        <link>https://www.nhdnug.org/meetings/2024/07/18/grpc-plus-dot-net-lessons-from-the-trenches</link>
+        <guid isPermaLink="true">https://www.nhdnug.org/meetings/2024/07/18/grpc-plus-dot-net-lessons-from-the-trenches</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Property Based Testing in FsCheck</title>
+        <description>&lt;p&gt;Many of us who use automated tests will use Example Based Tests; these are tests in which we provide data – the examples that should pass. However there’s another less known, but very powerful testing style called Property Based Testing. In this style of testing, we provide properties – universal invariants that should hold regardless of input. As a result, we no longer specify examples, but let a framework choose examples for us. This gives us a different way to think about our tests and software.&lt;/p&gt;
+
+&lt;p&gt;This talk introduces Property Based Testing using FsCheck. FsCheck is a property based testing framework for .NET. While this talk uses F# for most examples, it will provide some examples in C# as well.&lt;/p&gt;
+
+&lt;h2 id=&quot;food--drinks&quot;&gt;Food / Drinks&lt;/h2&gt;
+&lt;p&gt;Food and drinks will be provided! Please contact us (on meetup) if you have any dietary restrictions/food allergies.&lt;/p&gt;
+
+&lt;h2 id=&quot;directions-and-parking-instructions&quot;&gt;Directions and Parking Instructions&lt;/h2&gt;
+
+&lt;p&gt;Meeting will be held in the offices of SmartDraw Software, 1780 Hughes Landing Blvd #1100 on the 11th floor.&lt;/p&gt;
+
+&lt;p&gt;Enter through the main doors of the building and take the elevator to the 11th floor; the door to SmartDraw’s suite is in the elevator lobby on the 11th floor.&lt;/p&gt;
+
+&lt;p&gt;If you arrive at 1780 Hughes Landing after 6pm a member of the SmartDraw team will help you enter the building then travel up to the 11th floor.&lt;/p&gt;
+
+&lt;h3 id=&quot;parking&quot;&gt;Parking:&lt;/h3&gt;
+
+&lt;p&gt;Park in the garage directly opposite. You’ll need to take a ticket to enter but there is no fee to leave - parking is free.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 20 Jun 2024 17:30:00 +0000</pubDate>
+        <link>https://www.nhdnug.org/meetings/2024/06/20/property-based-testing-in-fcheck</link>
+        <guid isPermaLink="true">https://www.nhdnug.org/meetings/2024/06/20/property-based-testing-in-fcheck</guid>
+        
+        
+      </item>
     
       <item>
         <title>.NET Trivia Night</title>
@@ -265,58 +319,6 @@
         <pubDate>Thu, 21 Sep 2023 17:30:00 +0000</pubDate>
         <link>https://www.nhdnug.org/meetings/2023/09/21/journey-to-containers</link>
         <guid isPermaLink="true">https://www.nhdnug.org/meetings/2023/09/21/journey-to-containers</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>AI, Ethics and the Real World</title>
-        <description>&lt;p&gt;“In the coming years AI and machine learning will continue to change our lives in meaningful ways, but not all of those ways will be positive. How are we going to measure and manage the impact of that AI on our society? Do we leverage AI in teaching children, and if so how? These are big questions facing us but will not be solved ( in the short term ) by regulations and politicians. They will be tackled by the people at the keyboards developing the systems that influence human decision making. In this talk we will dive into this problem space, and how simple practices can impact the outcomes significantly.”&lt;/p&gt;
-
-&lt;h2 id=&quot;food--drinks&quot;&gt;Food / Drinks&lt;/h2&gt;
-&lt;p&gt;Food and drinks will be provided! Please contact us (on meetup) if you have any dietary restrictions/food allergies.&lt;/p&gt;
-
-&lt;h2 id=&quot;directions-and-parking-instructions&quot;&gt;Directions and Parking Instructions&lt;/h2&gt;
-
-&lt;p&gt;Meeting will be held in the offices of SmartDraw Software, 1780 Hughes Landing Blvd #1100 on the 11th floor.&lt;/p&gt;
-
-&lt;p&gt;Enter through the main doors of the building and take the elevator to the 11th floor; the door to SmartDraw’s suite is in the elevator lobby on the 11th floor.&lt;/p&gt;
-
-&lt;p&gt;If you arrive at 1780 Hughes Landing after 6pm a member of the SmartDraw team will help you enter the building then travel up to the 11th floor.&lt;/p&gt;
-
-&lt;h3 id=&quot;parking&quot;&gt;Parking:&lt;/h3&gt;
-
-&lt;p&gt;Park in the garage directly opposite. You’ll need to take a ticket to enter but there is no fee to leave - parking is free.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 17 Aug 2023 17:30:00 +0000</pubDate>
-        <link>https://www.nhdnug.org/meetings/2023/08/17/ai-ethics-and-the-real-world</link>
-        <guid isPermaLink="true">https://www.nhdnug.org/meetings/2023/08/17/ai-ethics-and-the-real-world</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>High Optionality Programming</title>
-        <description>&lt;p&gt;“High Optionality Programming” - the practice of paying a small design &amp;amp; programming premium today in order to avoid a massive accumulation of technical debt later. This is a technique we’ve successfully used at large scale in our previous business and in the businesses of many of our customers. The key to implementing high optionality programming correctly is to assess the likelihood of a future change to your system and to plan for its eventuality in advance when it’s cheap to do so: early on in the software development lifecycle.In this talk we explain the concepts behind high optionality programming, offer some case studies of how it’s been used successfully, and introduce the techniques that actively curb the long-term accumulation of technical debt in software projects.&lt;/p&gt;
-
-&lt;h2 id=&quot;food--drinks&quot;&gt;Food / Drinks&lt;/h2&gt;
-&lt;p&gt;Food and drinks will be provided! Please contact us (on meetup) if you have any dietary restrictions/food allergies.&lt;/p&gt;
-
-&lt;h2 id=&quot;directions-and-parking-instructions&quot;&gt;Directions and Parking Instructions&lt;/h2&gt;
-
-&lt;p&gt;Meeting will be held in the offices of SmartDraw Software, 1780 Hughes Landing Blvd #1100 on the 11th floor.&lt;/p&gt;
-
-&lt;p&gt;Enter through the main doors of the building and take the elevator to the 11th floor; the door to SmartDraw’s suite is in the elevator lobby on the 11th floor.&lt;/p&gt;
-
-&lt;p&gt;If you arrive at 1780 Hughes Landing after 6pm a member of the SmartDraw team will help you enter the building then travel up to the 11th floor.&lt;/p&gt;
-
-&lt;h3 id=&quot;parking&quot;&gt;Parking:&lt;/h3&gt;
-
-&lt;p&gt;Park in the garage directly opposite. You’ll need to take a ticket to enter but there is no fee to leave - parking is free.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 20 Jul 2023 17:30:00 +0000</pubDate>
-        <link>https://www.nhdnug.org/meetings/2023/07/20/high-optionality-programming</link>
-        <guid isPermaLink="true">https://www.nhdnug.org/meetings/2023/07/20/high-optionality-programming</guid>
         
         
       </item>
