@@ -1,16 +1,18 @@
 ---
 date:               "2024-07-18 17:30:00"
-speakers:           ["Tony Cardella"]
-title:              "gRPC + .NET: Lessons from the Trenches"
+speakers:           ["Aaron Stannard"]
+title:              "High Optionality Programming: Architectural Choices That Mitigate Technical Debt"
 
 location:           "SmartDraw Software"
 sponsors:           ["SmartDraw Software"]
 description:        ""
-meetup:             "300901975"
+meetup:             "302178955"
 survey-url:         ""
 ---
 
-Come find out what gRPC is, when you should use it, when you shouldn't use it, and how to work around some of it's limitations. Plus, we'll go over how we used it (with .NET) to deliver a microservices architecture at one of the largest Oil & Gas companies in the greater Houston, Texas area to support their trading operations. Plus, you will learn a few ideas that will help make your implementation of gRPC easier!
+"High Optionality Programming" - the practice of paying a small design & programming premium today in order to avoid a massive accumulation of technical debt later. This is a technique we've successfully used at large scale in our previous business and in the businesses of many of our customers. The key to implementing high optionality programming correctly is to assess the likelihood of a future change to your system and to plan for its eventuality in advance when it's cheap to do so: early on in the software development lifecycle.
+
+In this talk we explain the concepts behind high optionality programming, offer some case studies of how it's been used successfully, and introduce the techniques that actively curb the long-term accumulation of technical debt in software projects.
 
 ## Food / Drinks
 Food and drinks will be provided! Please contact us (on meetup) if you have any dietary restrictions/food allergies.
