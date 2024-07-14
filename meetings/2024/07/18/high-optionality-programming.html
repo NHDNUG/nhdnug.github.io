@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     
-    <title>gRPC + .NET: Lessons from the Trenches - North Houston .NET Users Group</title>
+    <title>High Optionality Programming: Architectural Choices That Mitigate Technical Debt - North Houston .NET Users Group</title>
     <meta name="author" content="North Houston .NET Users Group" />
   
     
@@ -21,7 +21,7 @@
     
     
         
-            Tony Cardella
+            Aaron Stannard
         
         
     
@@ -29,7 +29,7 @@
 
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@nhdnug" />
-<meta name="twitter:title" content="gRPC + .NET: Lessons from the Trenches" />
+<meta name="twitter:title" content="High Optionality Programming: Architectural Choices That Mitigate Technical Debt" />
 <meta name="twitter:description" content="Presented by 
     
     
@@ -41,15 +41,15 @@
     
     
         
-            Tony Cardella
+            Aaron Stannard
         
         
     
 " />
-<meta name="twitter:image" content="https://www.nhdnug.org/images/persons/tony-cardella.jpg" />
+<meta name="twitter:image" content="https://www.nhdnug.org/images/persons/aaron-stannard.jpg" />
 
 <meta property="og:type" content="article" />
-<meta property="og:title" content="gRPC + .NET: Lessons from the Trenches" />
+<meta property="og:title" content="High Optionality Programming: Architectural Choices That Mitigate Technical Debt" />
 <meta property="og:description" content="Presented by 
     
     
@@ -61,12 +61,12 @@
     
     
         
-            Tony Cardella
+            Aaron Stannard
         
         
     
 " />
-<meta property="og:image" content="https://www.nhdnug.org/images/persons/tony-cardella.jpg" />
+<meta property="og:image" content="https://www.nhdnug.org/images/persons/aaron-stannard.jpg" />
   
     <meta name="HandheldFriendly" content="True" />
 <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -95,7 +95,7 @@
     <link rel="stylesheet" href="/css/nhdnug.css" />
     
         
-    <link rel="canonical" href="https://www.nhdnug.org/meetings/2024/07/18/grpc-plus-dot-net-lessons-from-the-trenches" />
+    <link rel="canonical" href="https://www.nhdnug.org/meetings/2024/07/18/high-optionality-programming" />
     <link rel="alternate" type="application/rss+xml" title="North Houston .NET Users Group" href="feed.xml" />
 </head>
 
@@ -212,7 +212,7 @@
         
         
             
-<li property="itemListElement" typeof="ListItem" class="active"><span property="item" typeof="WebPage"><span property="name">gRPC + .NET: Lessons from the Trenches</span></span><meta property="position" content="4" /></li>
+<li property="itemListElement" typeof="ListItem" class="active"><span property="item" typeof="WebPage"><span property="name">High Optionality Programming: Architectural Choices That Mitigate Technical Debt</span></span><meta property="position" content="4" /></li>
             
         
     
@@ -231,9 +231,9 @@
 {
   "@context": "http://schema.org",
   "@type": "Event",
-  "name": "gRPC + .NET: Lessons from the Trenches",
+  "name": "High Optionality Programming: Architectural Choices That Mitigate Technical Debt",
   "startDate" : "2024-07-18T17:30",
-  "url" : "https://www.nhdnug.org/meetings/2024/07/18/grpc-plus-dot-net-lessons-from-the-trenches",
+  "url" : "https://www.nhdnug.org/meetings/2024/07/18/high-optionality-programming",
   "location" : {
     "@type" : "Place",
     "sameAs" : "https://www.smartdraw.com/about/contact.htm",
@@ -247,7 +247,7 @@
 <div class="row">
     <div class="col-xs-12 col-sm-8 col-md-9">
         <div>            
-            <h1 class="no-margin-top">gRPC + .NET: Lessons from the Trenches</h1>
+            <h1 class="no-margin-top">High Optionality Programming: Architectural Choices That Mitigate Technical Debt</h1>
                         
             <dl class="dl-horizontal">
                 <dt>When</dt>
@@ -272,10 +272,10 @@
     
     
         
-        <a href="/people/tony-cardella/">
+        <a href="/people/aaron-stannard/">
             <span typeof="Person">
                 <span property="name">
-                Tony Cardella</span></span></a>
+                Aaron Stannard</span></span></a>
         
         
     
@@ -300,12 +300,14 @@
                 <dt></dt>
                 <dd>
                     <br />
-                    <a class="btn btn-danger btn-sm" href="https://www.meetup.com/nhdnug/events/300901975" role="button">RSVP</a>                    
+                    <a class="btn btn-danger btn-sm" href="https://www.meetup.com/nhdnug/events/302178955" role="button">RSVP</a>                    
                 </dd>
                 
             </dl>
             <hr />
-            <p>Come find out what gRPC is, when you should use it, when you shouldn’t use it, and how to work around some of it’s limitations. Plus, we’ll go over how we used it (with .NET) to deliver a microservices architecture at one of the largest Oil &amp; Gas companies in the greater Houston, Texas area to support their trading operations. Plus, you will learn a few ideas that will help make your implementation of gRPC easier!</p>
+            <p>“High Optionality Programming” - the practice of paying a small design &amp; programming premium today in order to avoid a massive accumulation of technical debt later. This is a technique we’ve successfully used at large scale in our previous business and in the businesses of many of our customers. The key to implementing high optionality programming correctly is to assess the likelihood of a future change to your system and to plan for its eventuality in advance when it’s cheap to do so: early on in the software development lifecycle.</p>
+
+<p>In this talk we explain the concepts behind high optionality programming, offer some case studies of how it’s been used successfully, and introduce the techniques that actively curb the long-term accumulation of technical debt in software projects.</p>
 
 <h2 id="food--drinks">Food / Drinks</h2>
 <p>Food and drinks will be provided! Please contact us (on meetup) if you have any dietary restrictions/food allergies.</p>
@@ -333,25 +335,34 @@
         <div class="person-display row">        
         
         <div class="col-sm-5 col-md-3">
-            <div class="person-image" style="background-image: url(/images/persons/tony-cardella.jpg)"></div>                        
+            <div class="person-image" style="background-image: url(/images/persons/aaron-stannard.jpg)"></div>                        
         </div>
         <div class="col-sm-7 col-md-9">
                 
             <h4>
-            <a href="/people/tony-cardella/">
+            <a href="/people/aaron-stannard/">
                 <span typeof="Person">
                     <span property="name">
-                    Tony Cardella
+                    Aaron Stannard
                     </span>
                 </span>
             </a>
             </h4>        
             
-                <p>Tony Cardella has over 20 years experience in software engineering across diverse verticals, including oil &amp; gas, energy &amp; utilities, construction, supply chain, FinTech, and health &amp; fitness.</p>
+                <p>Aaron Stannard is the CEO and founder of <a href="http://petabridge.com/">Petabridge</a>, where he makes distributed programming for .NET developers easy by working on <a href="https://getakka.net/">Akka.NET</a>, <a href="https://nbench.io/">NBench</a>, and dozens of other OSS projects.</p>
 
-<p>As a software engineer and a Software Engineering Capability Lead at BJSS, Tony is currently engaged with a large oil &amp; gas client leveraging his expertise in the .NET Framework and C# to deliver innovative solutions. Tony holds several certifications in Azure and AWS including the Azure Solutions Architect Expert, DevOps Engineer Expert, and Cybersecurity Architect Expert.</p>
+<p>Aaron also just recently founded <a href="https://sdkbin.com/">Sdkbin</a> - think NuGet meets the App Store, to help OSS and .NET developers build sustainable businesses around their work.</p>
+
+<p>Prior to Petabridge Aaron founded MarkedUp Analytics, a real-time in-app marketing and analytics service used by 1000+ developers to track real-time Windows Store app usage and send targeted push notifications to users based on in-app behavior. Prior to that Aaron worked at Microsoft as a Startup Developer Evangelist.</p>
+
 
             
+                        
+            <div class="last-updated">
+                Last Updated: 
+<span>February 1<sup>st</sup>, 2023</span>
+
+            </div>        
             
         </div>
     </div>
@@ -457,12 +468,88 @@
                 
                 <li>
                     <div class="meeting-title">
-                        <a href="/meetings/2018/11/15/c-sharp-on-raspberry-pi">C# on the Raspberry Pi</a>
+                        <a href="/meetings/2019/03/21/akka-dot-net-and-the-actor-model">Akka.NET and the Actor Model</a>
                     </div>
                      
                     <div class="meeting-meta">
                         
-<span>November 15<sup>th</sup>, 2018</span>
+<span>March 21<sup>st</sup>, 2019</span>
+                    
+                        
+                    </div>
+                </li>
+                
+            
+        
+            
+            
+            
+                
+                <li>
+                    <div class="meeting-title">
+                        <a href="/meetings/2023/02/16/open-telemetry">OpenTelemetry</a>
+                    </div>
+                     
+                    <div class="meeting-meta">
+                        
+<span>February 16<sup>th</sup>, 2023</span>
+                    
+                        
+                    </div>
+                </li>
+                
+            
+        
+            
+            
+            
+                
+                <li>
+                    <div class="meeting-title">
+                        <a href="/meetings/2023/05/18/the-coming-open-source-sustainability-crisis">The Coming Open Source Sustainability Crisis</a>
+                    </div>
+                     
+                    <div class="meeting-meta">
+                        
+<span>May 18<sup>th</sup>, 2023</span>
+                    
+                        
+                    </div>
+                </li>
+                
+            
+        
+            
+            
+            
+                
+                <li>
+                    <div class="meeting-title">
+                        <a href="/meetings/2023/07/20/high-optionality-programming">High Optionality Programming</a>
+                    </div>
+                     
+                    <div class="meeting-meta">
+                        
+<span>July 20<sup>th</sup>, 2023</span>
+                    
+                        
+                    </div>
+                </li>
+                
+            
+        
+            
+            
+            
+                
+                <li>
+                    <div class="meeting-title">
+                        <a href="/meetings/2024/02/15/how-software-developers-destroy-business-value-(and-what-to-do-about-it)">How Software Developers Destroy Business Value (and What to Do About It)</a>
+                    </div>
+                     
+                    <div class="meeting-meta">
+                        
+<span>February 15<sup>th</sup>, 2024</span>
                     
                         
                     </div>
@@ -489,7 +576,7 @@
         <div id="disqus_thread"></div>
 <script>
 var disqus_config = function () {
-    this.page.url = "https://www.nhdnug.org/meetings/2024/07/18/grpc-plus-dot-net-lessons-from-the-trenches";
+    this.page.url = "https://www.nhdnug.org/meetings/2024/07/18/high-optionality-programming";
     this.page.identifier = this.page.url;
 };
 

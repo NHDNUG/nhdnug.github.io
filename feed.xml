@@ -5,13 +5,15 @@
     <description>A programmers meetup</description>
     <link>https://www.nhdnug.org/</link>
     <atom:link href="https://www.nhdnug.org/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 07 Jul 2024 01:13:58 +0000</pubDate>
-    <lastBuildDate>Sun, 07 Jul 2024 01:13:58 +0000</lastBuildDate>
+    <pubDate>Sun, 14 Jul 2024 01:15:01 +0000</pubDate>
+    <lastBuildDate>Sun, 14 Jul 2024 01:15:01 +0000</lastBuildDate>
     <generator>Jekyll v3.9.5</generator>
     
       <item>
-        <title>gRPC + .NET: Lessons from the Trenches</title>
-        <description>&lt;p&gt;Come find out what gRPC is, when you should use it, when you shouldn’t use it, and how to work around some of it’s limitations. Plus, we’ll go over how we used it (with .NET) to deliver a microservices architecture at one of the largest Oil &amp;amp; Gas companies in the greater Houston, Texas area to support their trading operations. Plus, you will learn a few ideas that will help make your implementation of gRPC easier!&lt;/p&gt;
+        <title>High Optionality Programming: Architectural Choices That Mitigate Technical Debt</title>
+        <description>&lt;p&gt;“High Optionality Programming” - the practice of paying a small design &amp;amp; programming premium today in order to avoid a massive accumulation of technical debt later. This is a technique we’ve successfully used at large scale in our previous business and in the businesses of many of our customers. The key to implementing high optionality programming correctly is to assess the likelihood of a future change to your system and to plan for its eventuality in advance when it’s cheap to do so: early on in the software development lifecycle.&lt;/p&gt;
+
+&lt;p&gt;In this talk we explain the concepts behind high optionality programming, offer some case studies of how it’s been used successfully, and introduce the techniques that actively curb the long-term accumulation of technical debt in software projects.&lt;/p&gt;
 
 &lt;h2 id=&quot;food--drinks&quot;&gt;Food / Drinks&lt;/h2&gt;
 &lt;p&gt;Food and drinks will be provided! Please contact us (on meetup) if you have any dietary restrictions/food allergies.&lt;/p&gt;
@@ -29,8 +31,8 @@
 &lt;p&gt;Park in the garage directly opposite. You’ll need to take a ticket to enter but there is no fee to leave - parking is free.&lt;/p&gt;
 </description>
         <pubDate>Thu, 18 Jul 2024 17:30:00 +0000</pubDate>
-        <link>https://www.nhdnug.org/meetings/2024/07/18/grpc-plus-dot-net-lessons-from-the-trenches</link>
-        <guid isPermaLink="true">https://www.nhdnug.org/meetings/2024/07/18/grpc-plus-dot-net-lessons-from-the-trenches</guid>
+        <link>https://www.nhdnug.org/meetings/2024/07/18/high-optionality-programming</link>
+        <guid isPermaLink="true">https://www.nhdnug.org/meetings/2024/07/18/high-optionality-programming</guid>
         
         
       </item>
