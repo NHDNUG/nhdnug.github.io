@@ -14,8 +14,6 @@ How would you feel if you ordered a steak expecting it to be cooked to medium bu
 
 In all seriousness, finding the right level of done in software development isn’t as easy as “Rare, medium, or well done?” and we are going to talk about why that is while providing some tools to get it just right.
 
-
-
 ## Food / Drinks
 Food and drinks will be provided! Please contact us (on meetup) if you have any dietary restrictions/food allergies.
 
