@@ -5,9 +5,55 @@
     <description>A programmers meetup</description>
     <link>https://www.nhdnug.org/</link>
     <atom:link href="https://www.nhdnug.org/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 21 Jul 2024 01:14:44 +0000</pubDate>
-    <lastBuildDate>Sun, 21 Jul 2024 01:14:44 +0000</lastBuildDate>
+    <pubDate>Sun, 28 Jul 2024 01:15:04 +0000</pubDate>
+    <lastBuildDate>Sun, 28 Jul 2024 01:15:04 +0000</lastBuildDate>
     <generator>Jekyll v3.9.5</generator>
+    
+      <item>
+        <title>gRPC + .NET: Lessons from the Trenches</title>
+        <description>&lt;p&gt;Come find out what gRPC is, when you should use it, when you shouldn’t use it, and how to work around some of it’s limitations. Plus, we’ll go over how we used it (with .NET) to deliver a microservices architecture at one of the largest Oil &amp;amp; Gas companies in the greater Houston, Texas area to support their trading operations. Plus, you will learn a few ideas that will help make your implementation of gRPC easier!&lt;/p&gt;
+
+&lt;h2 id=&quot;food--drinks&quot;&gt;Food / Drinks&lt;/h2&gt;
+&lt;p&gt;Food and drinks will be provided! Please contact us (on meetup) if you have any dietary restrictions/food allergies.&lt;/p&gt;
+
+&lt;h2 id=&quot;directions-and-parking-instructions&quot;&gt;Directions and Parking Instructions&lt;/h2&gt;
+
+&lt;p&gt;Meeting will be held in the offices of SmartDraw Software, 1780 Hughes Landing Blvd #1100 on the 11th floor.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 19 Sep 2024 17:30:00 +0000</pubDate>
+        <link>https://www.nhdnug.org/meetings/2024/09/19/grpc-.net-lesson-from-the-trenches</link>
+        <guid isPermaLink="true">https://www.nhdnug.org/meetings/2024/09/19/grpc-.net-lesson-from-the-trenches</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Rare, Medium, or Well Done? Finding the right level of DONE in Software Development</title>
+        <description>&lt;p&gt;How would you feel if you ordered a steak expecting it to be cooked to medium but ended up receiving it well done? It sounds like a big missed-steak to me! I mean, steak puns are rarely well done.&lt;/p&gt;
+
+&lt;p&gt;In all seriousness, finding the right level of done in software development isn’t as easy as “Rare, medium, or well done?” and we are going to talk about why that is while providing some tools to get it just right.&lt;/p&gt;
+
+&lt;h2 id=&quot;food--drinks&quot;&gt;Food / Drinks&lt;/h2&gt;
+&lt;p&gt;Food and drinks will be provided! Please contact us (on meetup) if you have any dietary restrictions/food allergies.&lt;/p&gt;
+
+&lt;h2 id=&quot;directions-and-parking-instructions&quot;&gt;Directions and Parking Instructions&lt;/h2&gt;
+
+&lt;p&gt;Meeting will be held in the offices of SmartDraw Software, 1780 Hughes Landing Blvd #1100 on the 11th floor.&lt;/p&gt;
+
+&lt;p&gt;Enter through the main doors of the building and take the elevator to the 11th floor; the door to SmartDraw’s suite is in the elevator lobby on the 11th floor.&lt;/p&gt;
+
+&lt;p&gt;If you arrive at 1780 Hughes Landing after 6pm a member of the SmartDraw team will help you enter the building then travel up to the 11th floor.&lt;/p&gt;
+
+&lt;h3 id=&quot;parking&quot;&gt;Parking:&lt;/h3&gt;
+
+&lt;p&gt;Park in the garage directly opposite. You’ll need to take a ticket to enter but there is no fee to leave - parking is free.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 15 Aug 2024 17:30:00 +0000</pubDate>
+        <link>https://www.nhdnug.org/meetings/2024/08/15/rare-medium-or-well-done</link>
+        <guid isPermaLink="true">https://www.nhdnug.org/meetings/2024/08/15/rare-medium-or-well-done</guid>
+        
+        
+      </item>
     
       <item>
         <title>High Optionality Programming: Architectural Choices That Mitigate Technical Debt</title>
@@ -253,74 +299,6 @@
         <pubDate>Thu, 16 Nov 2023 17:30:00 +0000</pubDate>
         <link>https://www.nhdnug.org/meetings/2023/11/16/low-ceremony-event-sourcing-and-cqrs</link>
         <guid isPermaLink="true">https://www.nhdnug.org/meetings/2023/11/16/low-ceremony-event-sourcing-and-cqrs</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Let&apos;s Try Bolero</title>
-        <description>&lt;p&gt;“When my team decided it was time to migrate one of our web apps away from AngularJS [^1], Blazor seemed like a good fit. Javascript isn’t really one of our core competencies, but we needed a more robust client than, say, HTMX. One of the devs suggested we look into &lt;a href=&quot;https://fsbolero.io&quot;&gt;Bolero&lt;/a&gt;. We prefer F# for our technical applications,and we were already familiar with some of the design principles espoused by the authors. Four months later, we are in production and quite pleased with the results!”&lt;/p&gt;
-
-&lt;p&gt;“Bolero is a library that brings functional Model-View-Update[^3] to the Blazor ecosystem. In short, the MVU architecture attempts to decrease the complexity of modern asynchronous web apps. The application state (the “model”) is stored immutably. Updates to the model are queued in a global message buffer, and all data flows in a single direction.”&lt;/p&gt;
-
-&lt;p&gt;“In this talk, I’ll walk through a sample Bolero application[^4]. I’ll cover ways to avoid standard MVU pitfalls and show how to implement some nice UX features (debounce, polling, time travel(?!)). I’ll show you how the discipline of MVU combined with the flexibility of F# (and the .NET ecosystem) simplifies UI development for a non front-end dev like me!”&lt;/p&gt;
-
-&lt;p&gt;”[^1]: That’s &lt;a href=&quot;https://angularjs.org&quot;&gt;AngularJS&lt;/a&gt; 1.18, the original[^2], not &lt;a href=&quot;https://angular.io&quot;&gt;Angular 16.9&lt;/a&gt;”&lt;/p&gt;
-
-&lt;p&gt;”[^2]: yes, in 2023.”&lt;/p&gt;
-
-&lt;p&gt;”[^3]: AKA the &lt;a href=&quot;https://guide.elm-lang.org/architecture/index.html&quot;&gt;elm architecture&lt;/a&gt;. There are other MVU architectures (Maui, SwiftUI, Redux) that take slightly different approaches.”&lt;/p&gt;
-
-&lt;p&gt;”[^4]: &lt;a href=&quot;https://github.com/clbrem/bolero-agents&quot;&gt;clbrem/bolero-agents&lt;/a&gt;”&lt;/p&gt;
-
-&lt;h2 id=&quot;food--drinks&quot;&gt;Food / Drinks&lt;/h2&gt;
-&lt;p&gt;Food and drinks will be provided! Please contact us (on meetup) if you have any dietary restrictions/food allergies.&lt;/p&gt;
-
-&lt;h2 id=&quot;directions-and-parking-instructions&quot;&gt;Directions and Parking Instructions&lt;/h2&gt;
-
-&lt;p&gt;Meeting will be held in the offices of SmartDraw Software, 1780 Hughes Landing Blvd #1100 on the 11th floor.&lt;/p&gt;
-
-&lt;p&gt;Enter through the main doors of the building and take the elevator to the 11th floor; the door to SmartDraw’s suite is in the elevator lobby on the 11th floor.&lt;/p&gt;
-
-&lt;p&gt;If you arrive at 1780 Hughes Landing after 6pm a member of the SmartDraw team will help you enter the building then travel up to the 11th floor.&lt;/p&gt;
-
-&lt;h3 id=&quot;parking&quot;&gt;Parking:&lt;/h3&gt;
-
-&lt;p&gt;Park in the garage directly opposite. You’ll need to take a ticket to enter but there is no fee to leave - parking is free.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 26 Oct 2023 17:30:00 +0000</pubDate>
-        <link>https://www.nhdnug.org/meetings/2023/10/26/lets-try-bolero</link>
-        <guid isPermaLink="true">https://www.nhdnug.org/meetings/2023/10/26/lets-try-bolero</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Journey to Containers</title>
-        <description>&lt;p&gt;“Summary:  We did it. We upgraded a large Windows/.NET Framework monolith to run on linux containers in Azure Kubernetes Service, and in the process simplified our infrastructure, improved security, and cut out the majority of our (significant!) compute spend. And that was over two years ago! Let’s hop through each step of the process and talk through the what, the why, and what we’d do differently in 2023 (notably: Azure Container Apps). And yes, we blundered, and I’ll talk through some of the blunders. I have almost no shame, so the stories should be good…as long as there’s no permanent recording of this talk.”&lt;/p&gt;
-
-&lt;p&gt;“Most of all, I’m hoping to hear from you on your own journey—so bring questions and share your own experience report! I will happily cede time during the presentation to anyone else who is willing to compare notes!”&lt;/p&gt;
-
-&lt;p&gt;“Giving credit: I will make several references to this excellent article that mirrors our experience, and I highly recommend anyone considering a migration to containers in Azure read it: https://techcommunity.microsoft.com/t5/fasttrack-for-azure/journey-to-containers/ba-p/3792199”&lt;/p&gt;
-
-&lt;h2 id=&quot;food--drinks&quot;&gt;Food / Drinks&lt;/h2&gt;
-&lt;p&gt;Food and drinks will be provided! Please contact us (on meetup) if you have any dietary restrictions/food allergies.&lt;/p&gt;
-
-&lt;h2 id=&quot;directions-and-parking-instructions&quot;&gt;Directions and Parking Instructions&lt;/h2&gt;
-
-&lt;p&gt;Meeting will be held in the offices of SmartDraw Software, 1780 Hughes Landing Blvd #1100 on the 11th floor.&lt;/p&gt;
-
-&lt;p&gt;Enter through the main doors of the building and take the elevator to the 11th floor; the door to SmartDraw’s suite is in the elevator lobby on the 11th floor.&lt;/p&gt;
-
-&lt;p&gt;If you arrive at 1780 Hughes Landing after 6pm a member of the SmartDraw team will help you enter the building then travel up to the 11th floor.&lt;/p&gt;
-
-&lt;h3 id=&quot;parking&quot;&gt;Parking:&lt;/h3&gt;
-
-&lt;p&gt;Park in the garage directly opposite. You’ll need to take a ticket to enter but there is no fee to leave - parking is free.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 21 Sep 2023 17:30:00 +0000</pubDate>
-        <link>https://www.nhdnug.org/meetings/2023/09/21/journey-to-containers</link>
-        <guid isPermaLink="true">https://www.nhdnug.org/meetings/2023/09/21/journey-to-containers</guid>
         
         
       </item>
