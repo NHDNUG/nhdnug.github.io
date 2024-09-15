@@ -5,9 +5,29 @@
     <description>A programmers meetup</description>
     <link>https://www.nhdnug.org/</link>
     <atom:link href="https://www.nhdnug.org/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 08 Sep 2024 01:20:21 +0000</pubDate>
-    <lastBuildDate>Sun, 08 Sep 2024 01:20:21 +0000</lastBuildDate>
+    <pubDate>Sun, 15 Sep 2024 01:23:05 +0000</pubDate>
+    <lastBuildDate>Sun, 15 Sep 2024 01:23:05 +0000</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
+    
+      <item>
+        <title>TDD for People</title>
+        <description>&lt;p&gt;Has this ever happened to you? You’re in a meeting, and you and your colleagues just can’t seem to get each other. You’ve shared all the relevant data, and the solution seems obvious to you… But there they go again heading off in some completely esoteric and unintelligible way. Frustrating right? It’s a little like what happens when you write some code, only to find it misbehaving in production right?&lt;/p&gt;
+
+&lt;p&gt;As developers we solved misbehaving code with Unit Tests. WE adjusted the way we develop so we could get more predictable outcomes. WE invented TDD. What if there was a way to apply to that those confusing and often frustrating conversations with our colleagues? What if we could test our conversations as we make them to get to better results? Let’s talk about how we might apply the Ladder of Inference to help us test and verify our conversations and our conclusions as we make them!&lt;/p&gt;
+
+&lt;h2 id=&quot;food--drinks&quot;&gt;Food / Drinks&lt;/h2&gt;
+&lt;p&gt;Food and drinks will be provided! Please contact us (on meetup) if you have any dietary restrictions/food allergies.&lt;/p&gt;
+
+&lt;h2 id=&quot;directions-and-parking-instructions&quot;&gt;Directions and Parking Instructions&lt;/h2&gt;
+
+&lt;p&gt;Meeting will be held in the offices of SmartDraw Software, 1780 Hughes Landing Blvd #1100 on the 11th floor.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 17 Oct 2024 17:30:00 +0000</pubDate>
+        <link>https://www.nhdnug.org/meetings/2024/10/17/tdd-for-people</link>
+        <guid isPermaLink="true">https://www.nhdnug.org/meetings/2024/10/17/tdd-for-people</guid>
+        
+        
+      </item>
     
       <item>
         <title>gRPC + .NET: Lessons from the Trenches</title>
@@ -269,36 +289,6 @@
         <pubDate>Thu, 18 Jan 2024 17:30:00 +0000</pubDate>
         <link>https://www.nhdnug.org/meetings/2024/01/18/building-secure-and-scalable-apis-in-.net-8</link>
         <guid isPermaLink="true">https://www.nhdnug.org/meetings/2024/01/18/building-secure-and-scalable-apis-in-.net-8</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Low Ceremony Event Sourcing and CQRS with the Critter Stack</title>
-        <description>&lt;p&gt;“Many people are scared of the potential complexity and difficulty in starting with an Event Sourcing and CQRS technical strategy.”&lt;/p&gt;
-
-&lt;p&gt;“Fear not though, the “Critter Stack” is here to provide a very low code ceremony approach to using Event Sourcing as your persistence strategy within a larger CQRS architecture. Using a combination of the Postgresql-backed Marten (https://martendb.io) library for event sourcing and its newer friend Wolverine (https://wolverine.netlify.app) for command handling and asynchronous messaging, I’ll show you how you can quickly get started with both CQRS and Event Sourcing. Once we get past the quick start, I’ll show you how the Critter Stack’s unique approach to the “Decider” pattern will help you create robust command handlers with very little code ceremony while still enjoying easy testability.”&lt;/p&gt;
-
-&lt;p&gt;“Moving beyond basic command handling into the realm of “grown up” systems development, we’ll dive into how the critter stack supports effective test automation, built in telemetry, and even manages to provide high performance and scalable systems.”&lt;/p&gt;
-
-&lt;h2 id=&quot;food--drinks&quot;&gt;Food / Drinks&lt;/h2&gt;
-&lt;p&gt;Food and drinks will be provided! Please contact us (on meetup) if you have any dietary restrictions/food allergies.&lt;/p&gt;
-
-&lt;h2 id=&quot;directions-and-parking-instructions&quot;&gt;Directions and Parking Instructions&lt;/h2&gt;
-
-&lt;p&gt;Meeting will be held in the offices of SmartDraw Software, 1780 Hughes Landing Blvd #1100 on the 11th floor.&lt;/p&gt;
-
-&lt;p&gt;Enter through the main doors of the building and take the elevator to the 11th floor; the door to SmartDraw’s suite is in the elevator lobby on the 11th floor.&lt;/p&gt;
-
-&lt;p&gt;If you arrive at 1780 Hughes Landing after 6pm a member of the SmartDraw team will help you enter the building then travel up to the 11th floor.&lt;/p&gt;
-
-&lt;h3 id=&quot;parking&quot;&gt;Parking:&lt;/h3&gt;
-
-&lt;p&gt;Park in the garage directly opposite. You’ll need to take a ticket to enter but there is no fee to leave - parking is free.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 16 Nov 2023 17:30:00 +0000</pubDate>
-        <link>https://www.nhdnug.org/meetings/2023/11/16/low-ceremony-event-sourcing-and-cqrs</link>
-        <guid isPermaLink="true">https://www.nhdnug.org/meetings/2023/11/16/low-ceremony-event-sourcing-and-cqrs</guid>
         
         
       </item>
