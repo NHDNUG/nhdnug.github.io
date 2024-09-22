@@ -5,9 +5,29 @@
     <description>A programmers meetup</description>
     <link>https://www.nhdnug.org/</link>
     <atom:link href="https://www.nhdnug.org/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 15 Sep 2024 01:23:05 +0000</pubDate>
-    <lastBuildDate>Sun, 15 Sep 2024 01:23:05 +0000</lastBuildDate>
+    <pubDate>Sun, 22 Sep 2024 01:23:29 +0000</pubDate>
+    <lastBuildDate>Sun, 22 Sep 2024 01:23:29 +0000</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
+    
+      <item>
+        <title>Why Is All of My Data Stored in Parquet? (A Deep Dive into the Data Lake)</title>
+        <description>&lt;p&gt;Apache Parquet is a data format for efficient storage and retrieval of massive quantities of data that has been popularized by widespread adoption of the “data lake” architecture. The title of this talk is a question I asked of a coworker (a data engineer) in the process of consolidating our reporting and inference models onto a new analytics platform. The short answer, “because Databricks”, didn’t satisfy me. I was accustomed to traditional SQL, executing ad hoc queries from any language or platform I chose.&lt;/p&gt;
+
+&lt;p&gt;The long answer comes from a months-long investigation into how to read and write Parquet files from my favorite languages (C# and F#) and a growing appreciation of the format’s flexibility. I hope to convey more than just the Parquet specification, but also the ““how”” of parsing and writing Parquet and ““why”” this data format is so popular. I want to spark a discussion on the value of open-source data formats and how to avoid vendor lock-in for data access.&lt;/p&gt;
+
+&lt;h2 id=&quot;food--drinks&quot;&gt;Food / Drinks&lt;/h2&gt;
+&lt;p&gt;Food and drinks will be provided! Please contact us (on meetup) if you have any dietary restrictions/food allergies.&lt;/p&gt;
+
+&lt;h2 id=&quot;directions-and-parking-instructions&quot;&gt;Directions and Parking Instructions&lt;/h2&gt;
+
+&lt;p&gt;Meeting will be held in the offices of SmartDraw Software, 1780 Hughes Landing Blvd #1100 on the 11th floor.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 21 Nov 2024 18:30:00 +0000</pubDate>
+        <link>https://www.nhdnug.org/meetings/2024/11/21/why-is-all-of-my-data-stored-in-parquet</link>
+        <guid isPermaLink="true">https://www.nhdnug.org/meetings/2024/11/21/why-is-all-of-my-data-stored-in-parquet</guid>
+        
+        
+      </item>
     
       <item>
         <title>TDD for People</title>
@@ -263,32 +283,6 @@
         <pubDate>Thu, 15 Feb 2024 17:30:00 +0000</pubDate>
         <link>https://www.nhdnug.org/meetings/2024/02/15/how-software-developers-destroy-business-value-(and-what-to-do-about-it)</link>
         <guid isPermaLink="true">https://www.nhdnug.org/meetings/2024/02/15/how-software-developers-destroy-business-value-(and-what-to-do-about-it)</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Building Secure and Scalable APIs in .NET 8</title>
-        <description>&lt;p&gt;“Whether you are building desktop apps, mobile apps, or SPAs, nearly every application needs backend APIs. Not only do these APIs need to provide business functionality, but they need to be performant, scalable, and most importantly secure. In this session you will learn the best practices for building APIs in .NET 8 that are being utilized in large scale data sensitive environments today.”&lt;/p&gt;
-
-&lt;h2 id=&quot;food--drinks&quot;&gt;Food / Drinks&lt;/h2&gt;
-&lt;p&gt;Food and drinks will be provided! Please contact us (on meetup) if you have any dietary restrictions/food allergies.&lt;/p&gt;
-
-&lt;h2 id=&quot;directions-and-parking-instructions&quot;&gt;Directions and Parking Instructions&lt;/h2&gt;
-
-&lt;p&gt;Meeting will be held in the offices of SmartDraw Software, 1780 Hughes Landing Blvd #1100 on the 11th floor.&lt;/p&gt;
-
-&lt;p&gt;Enter through the main doors of the building and take the elevator to the 11th floor; the door to SmartDraw’s suite is in the elevator lobby on the 11th floor.&lt;/p&gt;
-
-&lt;p&gt;If you arrive at 1780 Hughes Landing after 6pm a member of the SmartDraw team will help you enter the building then travel up to the 11th floor.&lt;/p&gt;
-
-&lt;h3 id=&quot;parking&quot;&gt;Parking:&lt;/h3&gt;
-
-&lt;p&gt;Park in the garage directly opposite. You’ll need to take a ticket to enter but there is no fee to leave - parking is free.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 18 Jan 2024 17:30:00 +0000</pubDate>
-        <link>https://www.nhdnug.org/meetings/2024/01/18/building-secure-and-scalable-apis-in-.net-8</link>
-        <guid isPermaLink="true">https://www.nhdnug.org/meetings/2024/01/18/building-secure-and-scalable-apis-in-.net-8</guid>
         
         
       </item>

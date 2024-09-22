@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     
-    <title>Building Secure and Scalable APIs in .NET 8 - North Houston .NET Users Group</title>
+    <title>Why Is All of My Data Stored in Parquet? (A Deep Dive into the Data Lake) - North Houston .NET Users Group</title>
     <meta name="author" content="North Houston .NET Users Group" />
   
     
@@ -21,7 +21,7 @@
     
     
         
-            Tony Champion
+            Christopher Bremer
         
         
     
@@ -29,7 +29,7 @@
 
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@nhdnug" />
-<meta name="twitter:title" content="Building Secure and Scalable APIs in .NET 8" />
+<meta name="twitter:title" content="Why Is All of My Data Stored in Parquet? (A Deep Dive into the Data Lake)" />
 <meta name="twitter:description" content="Presented by 
     
     
@@ -41,15 +41,15 @@
     
     
         
-            Tony Champion
+            Christopher Bremer
         
         
     
 " />
-<meta name="twitter:image" content="https://www.nhdnug.org/images/persons/tony-champion.jpg" />
+<meta name="twitter:image" content="https://www.nhdnug.org/images/persons/chris-bremer.png" />
 
 <meta property="og:type" content="article" />
-<meta property="og:title" content="Building Secure and Scalable APIs in .NET 8" />
+<meta property="og:title" content="Why Is All of My Data Stored in Parquet? (A Deep Dive into the Data Lake)" />
 <meta property="og:description" content="Presented by 
     
     
@@ -61,12 +61,12 @@
     
     
         
-            Tony Champion
+            Christopher Bremer
         
         
     
 " />
-<meta property="og:image" content="https://www.nhdnug.org/images/persons/tony-champion.jpg" />
+<meta property="og:image" content="https://www.nhdnug.org/images/persons/chris-bremer.png" />
   
     <meta name="HandheldFriendly" content="True" />
 <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -95,7 +95,7 @@
     <link rel="stylesheet" href="/css/nhdnug.css" />
     
         
-    <link rel="canonical" href="https://www.nhdnug.org/meetings/2024/01/18/building-secure-and-scalable-apis-in-.net-8" />
+    <link rel="canonical" href="https://www.nhdnug.org/meetings/2024/11/21/why-is-all-of-my-data-stored-in-parquet" />
     <link rel="alternate" type="application/rss+xml" title="North Houston .NET Users Group" href="feed.xml" />
 </head>
 
@@ -212,7 +212,7 @@
         
         
             
-<li property="itemListElement" typeof="ListItem" class="active"><span property="item" typeof="WebPage"><span property="name">Building Secure and Scalable APIs in .NET 8</span></span><meta property="position" content="4" /></li>
+<li property="itemListElement" typeof="ListItem" class="active"><span property="item" typeof="WebPage"><span property="name">Why Is All of My Data Stored in Parquet? (A Deep Dive into the Data Lake)</span></span><meta property="position" content="4" /></li>
             
         
     
@@ -231,9 +231,9 @@
 {
   "@context": "http://schema.org",
   "@type": "Event",
-  "name": "Building Secure and Scalable APIs in .NET 8",
-  "startDate" : "2024-01-18T17:30",
-  "url" : "https://www.nhdnug.org/meetings/2024/01/18/building-secure-and-scalable-apis-in-.net-8",
+  "name": "Why Is All of My Data Stored in Parquet? (A Deep Dive into the Data Lake)",
+  "startDate" : "2024-11-21T18:30",
+  "url" : "https://www.nhdnug.org/meetings/2024/11/21/why-is-all-of-my-data-stored-in-parquet",
   "location" : {
     "@type" : "Place",
     "sameAs" : "https://www.smartdraw.com/about/contact.htm",
@@ -247,12 +247,12 @@
 <div class="row">
     <div class="col-xs-12 col-sm-8 col-md-9">
         <div>            
-            <h1 class="no-margin-top">Building Secure and Scalable APIs in .NET 8</h1>
+            <h1 class="no-margin-top">Why Is All of My Data Stored in Parquet? (A Deep Dive into the Data Lake)</h1>
                         
             <dl class="dl-horizontal">
                 <dt>When</dt>
                 <dd>
-<span>Thursday January 18<sup>th</sup>, 2024 @  5:30 PM</span>
+<span>Thursday November 21<sup>st</sup>, 2024 @  6:30 PM</span>
 </dd>
                 
                 <dt>Who</dt>
@@ -272,10 +272,10 @@
     
     
         
-        <a href="/people/tony-champion/">
+        <a href="/people/christopher-bremer/">
             <span typeof="Person">
                 <span property="name">
-                Tony Champion</span></span></a>
+                Christopher Bremer</span></span></a>
         
         
     
@@ -300,12 +300,14 @@
                 <dt></dt>
                 <dd>
                     <br />
-                    <a class="btn btn-danger btn-sm" href="https://www.meetup.com/nhdnug/events/297966552" role="button">RSVP</a>                    
+                    <a class="btn btn-danger btn-sm" href="https://www.meetup.com/nhdnug/events/303263438" role="button">RSVP</a>                    
                 </dd>
                 
             </dl>
             <hr />
-            <p>“Whether you are building desktop apps, mobile apps, or SPAs, nearly every application needs backend APIs. Not only do these APIs need to provide business functionality, but they need to be performant, scalable, and most importantly secure. In this session you will learn the best practices for building APIs in .NET 8 that are being utilized in large scale data sensitive environments today.”</p>
+            <p>Apache Parquet is a data format for efficient storage and retrieval of massive quantities of data that has been popularized by widespread adoption of the “data lake” architecture. The title of this talk is a question I asked of a coworker (a data engineer) in the process of consolidating our reporting and inference models onto a new analytics platform. The short answer, “because Databricks”, didn’t satisfy me. I was accustomed to traditional SQL, executing ad hoc queries from any language or platform I chose.</p>
+
+<p>The long answer comes from a months-long investigation into how to read and write Parquet files from my favorite languages (C# and F#) and a growing appreciation of the format’s flexibility. I hope to convey more than just the Parquet specification, but also the ““how”” of parsing and writing Parquet and ““why”” this data format is so popular. I want to spark a discussion on the value of open-source data formats and how to avoid vendor lock-in for data access.</p>
 
 <h2 id="food--drinks">Food / Drinks</h2>
 <p>Food and drinks will be provided! Please contact us (on meetup) if you have any dietary restrictions/food allergies.</p>
@@ -313,14 +315,6 @@
 <h2 id="directions-and-parking-instructions">Directions and Parking Instructions</h2>
 
 <p>Meeting will be held in the offices of SmartDraw Software, 1780 Hughes Landing Blvd #1100 on the 11th floor.</p>
-
-<p>Enter through the main doors of the building and take the elevator to the 11th floor; the door to SmartDraw’s suite is in the elevator lobby on the 11th floor.</p>
-
-<p>If you arrive at 1780 Hughes Landing after 6pm a member of the SmartDraw team will help you enter the building then travel up to the 11th floor.</p>
-
-<h3 id="parking">Parking:</h3>
-
-<p>Park in the garage directly opposite. You’ll need to take a ticket to enter but there is no fee to leave - parking is free.</p>
 
         </div>
                           
@@ -333,23 +327,29 @@
         <div class="person-display row">        
         
         <div class="col-sm-5 col-md-3">
-            <div class="person-image" style="background-image: url(/images/persons/tony-champion.jpg)"></div>                        
+            <div class="person-image" style="background-image: url(/images/persons/chris-bremer.png)"></div>                        
         </div>
         <div class="col-sm-7 col-md-9">
                 
             <h4>
-            <a href="/people/tony-champion/">
+            <a href="/people/christopher-bremer/">
                 <span typeof="Person">
                     <span property="name">
-                    Tony Champion
+                    Christopher Bremer
                     </span>
                 </span>
             </a>
             </h4>        
             
-                <p>Tony Champion is a software architect with over 20 years of experience developing with Microsoft technologies. As the president of Champion DS and its lead software architect, he remains active in the latest trends and technologies, creating custom solutions on Microsoft platforms. His list of clients span across multiple industries and includes companies such as: Schlumberger, Microsoft, Boeing, MLB, and Chevron Philips. Tony is an active participant in the community as a six year Microsoft MVP, international speaker, published author, and blogger.</p>
+                Chris is the software simulation manager at NOV ReedHycalog in Conroe TX, where he manages a team of engineers and data scientists. His group supports the drill bit design team by providing on demand wellbore simulation and analysis. Prior to working in software, Chris was a research mathematician studying algebraic geometry and representation theory at University of Chicago and Louisiana State University.
 
             
+                        
+            <div class="last-updated">
+                Last Updated: 
+<span>August 25<sup>th</sup>, 2023</span>
+
+            </div>        
             
         </div>
     </div>
@@ -455,97 +455,16 @@
                 
                 <li>
                     <div class="meeting-title">
-                        <a href="/meetings/2009/04/15/developing-ria-applications-in-silverlight">Developing RIA Applications in Silverlight 3</a>
+                        <a href="/meetings/2023/10/26/lets-try-bolero">Let's Try Bolero</a>
                     </div>
                      
                     <div class="meeting-meta">
                         
-<span>April 15<sup>th</sup>, 2009</span>
+<span>October 26<sup>th</sup>, 2023</span>
                     
                         
                     </div>
                 </li>
-                
-            
-        
-            
-            
-            
-                
-                <li>
-                    <div class="meeting-title">
-                        <a href="/meetings/2010/08/18/silverlight-pivotviewer">Silverlight PivotViewer</a>
-                    </div>
-                     
-                    <div class="meeting-meta">
-                        
-<span>August 18<sup>th</sup>, 2010</span>
-                    
-                        
-                    </div>
-                </li>
-                
-            
-        
-            
-            
-            
-                
-                <li>
-                    <div class="meeting-title">
-                        <a href="/meetings/2011/01/19/pivotviewer">PivotViewer</a>
-                    </div>
-                     
-                    <div class="meeting-meta">
-                        
-<span>January 19<sup>th</sup>, 2011</span>
-                    
-                        
-                    </div>
-                </li>
-                
-            
-        
-            
-            
-            
-                
-                <li>
-                    <div class="meeting-title">
-                        <a href="/meetings/2012/01/18/update-from-microsoft-build-conference-xaml">Update from Microsoft BUILD Conference (XAML)</a>
-                    </div>
-                     
-                    <div class="meeting-meta">
-                        
-<span>January 18<sup>th</sup>, 2012</span>
-                    
-                        
-                    </div>
-                </li>
-                
-            
-        
-            
-            
-            
-                
-                <li>
-                    <div class="meeting-title">
-                        <a href="/meetings/2018/06/21/project-rome">Building Cross Device Experiences with Project Rome</a>
-                    </div>
-                     
-                    <div class="meeting-meta">
-                        
-<span>June 21<sup>st</sup>, 2018</span>
-                    
-                        
-                    </div>
-                </li>
-                
-            
-        
-            
-            
                 
             
         
@@ -568,7 +487,7 @@
         <div id="disqus_thread"></div>
 <script>
 var disqus_config = function () {
-    this.page.url = "https://www.nhdnug.org/meetings/2024/01/18/building-secure-and-scalable-apis-in-.net-8";
+    this.page.url = "https://www.nhdnug.org/meetings/2024/11/21/why-is-all-of-my-data-stored-in-parquet";
     this.page.identifier = this.page.url;
 };
 
