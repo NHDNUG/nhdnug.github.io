@@ -28,6 +28,10 @@ title: Meeting Deck
         {% assign post = meetings | last %}        
         {% endif %}
         {% assign post_num_speakers = post.speakers | size %}
+
+         <!-- Filter meetings to get upcoming meetings after the current one -->
+        {% assign upcoming_meetings = meetings | where_exp: "meeting", "meeting.date > post.date" | sort: "date" %}
+
         <div class="reveal">
             <div class="slides">
                 <!-- Welcome Slide -->
@@ -195,6 +199,28 @@ title: Meeting Deck
                 {% endif %}
 
                 <!-- Survey End -->
+
+                <!-- Upcoming Meetings Start -->
+                <section class="upcoming-meetings">
+                    <h3>Upcoming Meetings</h3>
+                    {% if upcoming_meetings.size > 0 %}
+                    <ul>
+                        {% for meeting in upcoming_meetings %}
+                        <li>
+                            <a href="{{ meeting.url }}">{{ meeting.title }}</a> {% if meeting.subtitle %}<em>{{ meeting.subtitle }}</em>{% endif %} - {{ meeting.date | date: "%B %e, %Y" }} -
+                            {% if meeting.speakers %}
+                                {% for speaker in meeting.speakers %}
+                                    {{ speaker }}
+                                {% endfor %}
+                            {% endif %}
+                        </li>
+                        {% endfor %}
+                    </ul>
+                    {% else %}
+                    <p>No upcoming meetings scheduled.</p>
+                    {% endif %}
+                </section>
+                <!-- Upcoming Meetings Slide -->
 
                 <!-- Officers Start -->
                 <section class="officers-slide">
