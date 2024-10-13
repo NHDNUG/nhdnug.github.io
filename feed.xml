@@ -5,9 +5,31 @@
     <description>A programmers meetup</description>
     <link>https://www.nhdnug.org/</link>
     <atom:link href="https://www.nhdnug.org/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 06 Oct 2024 01:24:15 +0000</pubDate>
-    <lastBuildDate>Sun, 06 Oct 2024 01:24:15 +0000</lastBuildDate>
+    <pubDate>Sun, 13 Oct 2024 01:23:53 +0000</pubDate>
+    <lastBuildDate>Sun, 13 Oct 2024 01:23:53 +0000</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
+    
+      <item>
+        <title>.NET Conf 2024 &amp; NHDNUG Holiday Party</title>
+        <description>&lt;p&gt;Join NHDNUG for our 2024 Holiday Party and a live .NET Conf 2024 watch party at Spring Creek BBQ! We’re treating all registered attendees to a delicious BBQ dinner, so bring your appetite and your love for .NET!&lt;/p&gt;
+
+&lt;p&gt;We’ll be recapping and replaying the best moments from .NET Conf, which airs live from November 12-14. Come enjoy great food, exciting .NET news, and festive networking with fellow members. It’s the perfect way to celebrate the season!&lt;/p&gt;
+
+&lt;h2 id=&quot;food--drinks&quot;&gt;Food / Drinks&lt;/h2&gt;
+&lt;p&gt;NHDNUG will cover the cost of your meal and a non-alcoholic beverage - just swing by the private banquet room to grab your meal ticket first.&lt;/p&gt;
+
+&lt;p&gt;Want a beer? Spring Creek has plenty, but it’s on your tab. Cheers!&lt;/p&gt;
+
+&lt;h2 id=&quot;directions-and-parking-instructions&quot;&gt;Directions and Parking Instructions&lt;/h2&gt;
+
+&lt;p&gt;We’ll be meeting in the Banquet Room at Spring Creek BBQ in Shenandoah - just look for the NHDNUG signs.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 05 Dec 2024 17:30:00 +0000</pubDate>
+        <link>https://www.nhdnug.org/meetings/2024/12/05/.net-conf-2024-and-holiday-party</link>
+        <guid isPermaLink="true">https://www.nhdnug.org/meetings/2024/12/05/.net-conf-2024-and-holiday-party</guid>
+        
+        
+      </item>
     
       <item>
         <title>Why Is All of My Data Stored in Parquet? (A Deep Dive into the Data Lake)</title>
@@ -234,55 +256,6 @@
         <pubDate>Thu, 21 Mar 2024 17:30:00 +0000</pubDate>
         <link>https://www.nhdnug.org/meetings/2024/03/21/resilient-unit-testing</link>
         <guid isPermaLink="true">https://www.nhdnug.org/meetings/2024/03/21/resilient-unit-testing</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>How Software Developers Destroy Business Value (and What to Do About It)</title>
-        <description>&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
-&lt;p&gt;Software developers are intended to be massive, highly leverageable value creators for their companies and teams - using their creative and technical talent to build products themselves or mission-critical systems that facilitate the delivery of value inside the business.&lt;/p&gt;
-
-&lt;p&gt;The blunt truth, however, is that many software developers would screw up tying their own shoes when left to their own devices.&lt;/p&gt;
-
-&lt;p&gt;There’s an abundant corpus of work out there on how managers routinely let down their software developers through insufficient planning, communication, listening, and support.&lt;/p&gt;
-
-&lt;p&gt;In this talk we’re going to explore the inverse - how individual software developers contributing to a project unintentionally sabotage their teams, their companies, their projects, and themselves through:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Immutable technical preferences + biases;&lt;/li&gt;
-  &lt;li&gt;Bad attitudes;&lt;/li&gt;
-  &lt;li&gt;Poor listening;&lt;/li&gt;
-  &lt;li&gt;Inflexible and unproductive learning styles;&lt;/li&gt;
-  &lt;li&gt;Risk aversion;&lt;/li&gt;
-  &lt;li&gt;Incuriosity;&lt;/li&gt;
-  &lt;li&gt;And more!&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Most importantly, in this talk we’re going to try to address how we can help shift developers who want to learn and improve, but are have trouble executing, become the high value contributors they’d like to be.&lt;/p&gt;
-
-&lt;h3 id=&quot;who-is-this-talk-for&quot;&gt;Who Is This Talk For?&lt;/h3&gt;
-
-&lt;p&gt;This talk is for managers of developers, senior developers who want to learn how to effectively mentor or collaborate with other team members who are struggling, and crucially - for JUNIOR developers who don’t want to fall into these bad habits before they even get started.&lt;/p&gt;
-
-&lt;h2 id=&quot;food--drinks&quot;&gt;Food / Drinks&lt;/h2&gt;
-&lt;p&gt;Food and drinks will be provided! Please contact us (on meetup) if you have any dietary restrictions/food allergies.&lt;/p&gt;
-
-&lt;h2 id=&quot;directions-and-parking-instructions&quot;&gt;Directions and Parking Instructions&lt;/h2&gt;
-
-&lt;p&gt;Meeting will be held in the offices of SmartDraw Software, 1780 Hughes Landing Blvd #1100 on the 11th floor.&lt;/p&gt;
-
-&lt;p&gt;Enter through the main doors of the building and take the elevator to the 11th floor; the door to SmartDraw’s suite is in the elevator lobby on the 11th floor.&lt;/p&gt;
-
-&lt;p&gt;If you arrive at 1780 Hughes Landing after 6pm a member of the SmartDraw team will help you enter the building then travel up to the 11th floor.&lt;/p&gt;
-
-&lt;h3 id=&quot;parking&quot;&gt;Parking:&lt;/h3&gt;
-
-&lt;p&gt;Park in the garage directly opposite. You’ll need to take a ticket to enter but there is no fee to leave - parking is free.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 15 Feb 2024 17:30:00 +0000</pubDate>
-        <link>https://www.nhdnug.org/meetings/2024/02/15/how-software-developers-destroy-business-value-(and-what-to-do-about-it)</link>
-        <guid isPermaLink="true">https://www.nhdnug.org/meetings/2024/02/15/how-software-developers-destroy-business-value-(and-what-to-do-about-it)</guid>
         
         
       </item>
