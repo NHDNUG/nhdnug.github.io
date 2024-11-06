@@ -49,7 +49,6 @@ git config core.ignorecase false
 3. Adjust the metadata in the file as appropriate.
    
 
-
 ### Copyright and license
 
 This repo's source code is licensed under the [MIT license](/LICENSE).
