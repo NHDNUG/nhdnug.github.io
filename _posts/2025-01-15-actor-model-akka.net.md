@@ -1,10 +1,10 @@
 ---
 date:               "2025-01-16 17:30:00"
 title:              "Introduction to the Actor Model with Akka.NET"
-
-location:           "Spring Creek BBQ"
+speakers:           ["Aaron Stannard"]
+location:           "SmartDraw Software"
 sponsors:           ["SmartDraw Software"]
-description:        ""
+description:        "In this talk we will introduce the actor model through the use of Akka.NET, the most popular distributed actor model framework in .NET"
 meetup:             "305382891"
 survey-url:         ""
 ---
