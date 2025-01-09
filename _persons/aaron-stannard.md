@@ -7,6 +7,7 @@ social:
     linkedin: "https://www.linkedin.com/in/aaronstannard/"
     twitter: "https://twitter.com/Aaronontheweb"
     github: "https://github.com/Aaronontheweb"
+    youtube: "https://www.youtube.com/@petabridge"
 volunteer-position: "President"
 volunteer-order: 0
 ---
