@@ -5,9 +5,49 @@
     <description>A programmers meetup</description>
     <link>https://www.nhdnug.org/</link>
     <atom:link href="https://www.nhdnug.org/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 05 Jan 2025 01:25:23 +0000</pubDate>
-    <lastBuildDate>Sun, 05 Jan 2025 01:25:23 +0000</lastBuildDate>
+    <pubDate>Sun, 12 Jan 2025 01:26:42 +0000</pubDate>
+    <lastBuildDate>Sun, 12 Jan 2025 01:26:42 +0000</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
+    
+      <item>
+        <title>Null, The Absence of a Reference in C#</title>
+        <description>&lt;p&gt;Have you ever encountered a “possible deference of null reference” in your code and ignored it? How often does application telemetry show Null Reference Exceptions in your production environment? Do you even know what null is?&lt;/p&gt;
+
+&lt;p&gt;During this talk we will explore what &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;null&lt;/code&gt; is, how C# handles it, and some tools and practices to keep you from having failing code in production that can be handled during your development cycles.&lt;/p&gt;
+
+&lt;h2 id=&quot;food--drinks&quot;&gt;Food / Drinks&lt;/h2&gt;
+&lt;p&gt;Food and drinks will be provided! Please contact us (on meetup) if you have any dietary restrictions/food allergies.&lt;/p&gt;
+
+&lt;h2 id=&quot;directions-and-parking-instructions&quot;&gt;Directions and Parking Instructions&lt;/h2&gt;
+
+&lt;p&gt;Meeting will be held in the offices of SmartDraw Software, 1780 Hughes Landing Blvd #1100 on the 11th floor.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 20 Feb 2025 17:30:00 +0000</pubDate>
+        <link>https://www.nhdnug.org/meetings/2025/02/20/null-absence-of-a-reference</link>
+        <guid isPermaLink="true">https://www.nhdnug.org/meetings/2025/02/20/null-absence-of-a-reference</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Introduction to the Actor Model with Akka.NET</title>
+        <description>&lt;p&gt;The actor model is an old computer science concept, originating in 1973 - and it laid dormant is largely a thought experiment for most of its history until the rise of the Internet. Now in the era of cheap, commodity cloud computing the actor model is staging a major comeback across all programming languages and runtimes, both for building distributed systems and for creating reactive mobile or desktop applications.&lt;/p&gt;
+
+&lt;p&gt;In this talk we will introduce the actor model through the use of &lt;a href=&quot;https://getakka.net/&quot;&gt;Akka.NET&lt;/a&gt;, the most popular distributed actor model framework in .NET. We’ll talk about what sorts of problems it solves well, when you should use it, and what are some of the adoption costs and overhead involved in using a tool like &lt;a href=&quot;https://getakka.net/&quot;&gt;Akka.NET&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;food--drinks&quot;&gt;Food / Drinks&lt;/h2&gt;
+&lt;p&gt;Food and drinks will be provided! Please contact us (on meetup) if you have any dietary restrictions/food allergies.&lt;/p&gt;
+
+&lt;h2 id=&quot;directions-and-parking-instructions&quot;&gt;Directions and Parking Instructions&lt;/h2&gt;
+
+&lt;p&gt;Meeting will be held in the offices of SmartDraw Software, 1780 Hughes Landing Blvd #1100 on the 11th floor.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 16 Jan 2025 17:30:00 +0000</pubDate>
+        <link>https://www.nhdnug.org/meetings/2025/01/16/actor-model-akka.net</link>
+        <guid isPermaLink="true">https://www.nhdnug.org/meetings/2025/01/16/actor-model-akka.net</guid>
+        
+        
+      </item>
     
       <item>
         <title>.NET Conf 2024 &amp; NHDNUG Holiday Party</title>
@@ -200,62 +240,6 @@
         <pubDate>Thu, 16 May 2024 17:30:00 +0000</pubDate>
         <link>https://www.nhdnug.org/meetings/2024/05/16/.net-trivia.night</link>
         <guid isPermaLink="true">https://www.nhdnug.org/meetings/2024/05/16/.net-trivia.night</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Hands-on Machine Learning with Microsoft ML.NET</title>
-        <description>&lt;p&gt;“ML.NET is a cross-platform machine learning framework by Microsoft that allows developers in the .NET ecosystem to perform advanced Machine Learning techniques. In this live software coding session, Michael will train and demonstrate several machine learning algorithms and techniques and provide commentary on effectiveness, metrics evaluation, and more.”&lt;/p&gt;
-
-&lt;p&gt;“Additionally, we will explore some online Azure AI services such as Image Detection and Generative AI with an LLM via Azure OpenAI. Everything from Machine Learning basics to a few advanced techniques will be covered, so come prepared to learn about the machine learning toolkit from Microsoft.”&lt;/p&gt;
-
-&lt;h2 id=&quot;food--drinks&quot;&gt;Food / Drinks&lt;/h2&gt;
-&lt;p&gt;Food and drinks will be provided! Please contact us (on meetup) if you have any dietary restrictions/food allergies.&lt;/p&gt;
-
-&lt;h2 id=&quot;directions-and-parking-instructions&quot;&gt;Directions and Parking Instructions&lt;/h2&gt;
-
-&lt;p&gt;Meeting will be held in the offices of SmartDraw Software, 1780 Hughes Landing Blvd #1100 on the 11th floor.&lt;/p&gt;
-
-&lt;p&gt;Enter through the main doors of the building and take the elevator to the 11th floor; the door to SmartDraw’s suite is in the elevator lobby on the 11th floor.&lt;/p&gt;
-
-&lt;p&gt;If you arrive at 1780 Hughes Landing after 6pm a member of the SmartDraw team will help you enter the building then travel up to the 11th floor.&lt;/p&gt;
-
-&lt;h3 id=&quot;parking&quot;&gt;Parking:&lt;/h3&gt;
-
-&lt;p&gt;Park in the garage directly opposite. You’ll need to take a ticket to enter but there is no fee to leave - parking is free.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 18 Apr 2024 17:30:00 +0000</pubDate>
-        <link>https://www.nhdnug.org/meetings/2024/04/18/hands-on-machine-learning-with-microsoft-ml.net</link>
-        <guid isPermaLink="true">https://www.nhdnug.org/meetings/2024/04/18/hands-on-machine-learning-with-microsoft-ml.net</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Resilient Unit Testing - Going beyond Arrange, Act, Assert</title>
-        <description>&lt;p&gt;“Unit testing and TDD are designed to save time for the developers and testers while also reducing the risk of accidental bugs while implementing change. Yet, most teams either don’t use unit tests or found that they take more time than they save. But this doesn’t have to be your experience, and this session is going to cover the role of a unit test, how to build them to last, and other hidden benefits you can find along the way.”&lt;/p&gt;
-
-&lt;p&gt;“Come join as we crack open the code and discover a world beyond arrange, act, and assert.”&lt;/p&gt;
-
-&lt;h2 id=&quot;food--drinks&quot;&gt;Food / Drinks&lt;/h2&gt;
-&lt;p&gt;Food and drinks will be provided! Please contact us (on meetup) if you have any dietary restrictions/food allergies.&lt;/p&gt;
-
-&lt;h2 id=&quot;directions-and-parking-instructions&quot;&gt;Directions and Parking Instructions&lt;/h2&gt;
-
-&lt;p&gt;Meeting will be held in the offices of SmartDraw Software, 1780 Hughes Landing Blvd #1100 on the 11th floor.&lt;/p&gt;
-
-&lt;p&gt;Enter through the main doors of the building and take the elevator to the 11th floor; the door to SmartDraw’s suite is in the elevator lobby on the 11th floor.&lt;/p&gt;
-
-&lt;p&gt;If you arrive at 1780 Hughes Landing after 6pm, a member of the SmartDraw team will help you enter then building then travel up to the 11th floor.&lt;/p&gt;
-
-&lt;h3 id=&quot;parking&quot;&gt;Parking:&lt;/h3&gt;
-
-&lt;p&gt;Park in the garage directly opposite. You’ll need to take a ticket to enter but there is no fee to leave - parking is free.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 21 Mar 2024 17:30:00 +0000</pubDate>
-        <link>https://www.nhdnug.org/meetings/2024/03/21/resilient-unit-testing</link>
-        <guid isPermaLink="true">https://www.nhdnug.org/meetings/2024/03/21/resilient-unit-testing</guid>
         
         
       </item>
