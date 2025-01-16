@@ -19,7 +19,7 @@ title: Meeting Deck
         {% assign meetings = site.posts | where: "is_meeting", "true" | sort: "date" %}
         {% assign post = '' %}
         {% for meeting in meetings %}
-        {% if meeting.date > site.time | date: '%s' | plus: 86400 %}
+        {% if meeting.date | date: '%s' | plus: 86400 > site.time %}
             {% assign post = meeting %}
             {% break %}
         {% endif %}
