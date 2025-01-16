@@ -9,7 +9,7 @@ home-page: true
         {% assign meetings = site.posts | where: "is_meeting", "true" | sort: "date" %}
         {% assign post = '' %}
         {% for meeting in meetings %}
-        {% if meeting.date | date: '%s' | plus: 86400 > site.time %}
+        {% if meeting.date > site.time | date: '%s' | plus: 86400 %}
             {% assign post = meeting %}
             {% break %}
         {% endif %}
