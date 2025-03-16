@@ -5,8 +5,8 @@
     <description>A programmers meetup</description>
     <link>https://www.nhdnug.org/</link>
     <atom:link href="https://www.nhdnug.org/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 09 Mar 2025 01:12:16 +0000</pubDate>
-    <lastBuildDate>Sun, 09 Mar 2025 01:12:16 +0000</lastBuildDate>
+    <pubDate>Sun, 16 Mar 2025 01:36:08 +0000</pubDate>
+    <lastBuildDate>Sun, 16 Mar 2025 01:36:08 +0000</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
     
       <item>
@@ -14,6 +14,34 @@
         <description>&lt;p&gt;We are doing something a little different for our March 2025 meetup: Lightning Talks⚡⚡⚡!&lt;/p&gt;
 
 &lt;p&gt;If you have a topic that is .NET or .NET-adjacent (i.e. front-end, testing, architecture, cloud, etc) that you’re passionate about but you’re not sure you can give a full 45-60 minute presentation then this is your chance - we’re going to select 3 Lightning talks that are 15-20 minutes apiece.&lt;/p&gt;
+
+&lt;h2 id=&quot;our-lightning-talk-lineup&quot;&gt;Our Lightning Talk Lineup&lt;/h2&gt;
+
+&lt;p&gt;We’re excited to announce our speakers for this event:&lt;/p&gt;
+
+&lt;h3 id=&quot;roslyn-powered-standards-automate-team-conventions&quot;&gt;Roslyn-Powered Standards: Automate Team Conventions&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Peter Hellmuth, Solution Support Engineer at 3E&lt;/p&gt;
+
+&lt;p&gt;Learn how to design custom Roslyn analyzers to enforce your team’s coding standards, transforming red squiggles into proactive code reviews that begin before you even commit. Develop quick fixes that allow developers to resolve violations with a single click, improving efficiency and consistency. For non-negotiable rules, integrate analyzers into your CI/CD pipeline to catch issues early and enforce standards before code merges.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Level: Introductory and overview&lt;/em&gt;&lt;br /&gt;
+&lt;em&gt;Topics: C#, Continuous Delivery, Tooling, Patterns &amp;amp; Best Practices&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;semantic-search-with-sql-server&quot;&gt;Semantic Search with SQL Server&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Travis Plummer, Developer at SmartDraw&lt;/p&gt;
+
+&lt;p&gt;Looking to show how we can enhance everyday search with Natural Language Processing.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Level: Intermediate&lt;/em&gt;&lt;br /&gt;
+&lt;em&gt;Topics: C#, Architecture&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;supercharge-your-net-testing-with-ncrunch&quot;&gt;Supercharge Your .NET Testing with NCrunch&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Tony Cardella, Software Engineer / Software Engineering Capability Lead at BJSS&lt;/p&gt;
+
+&lt;p&gt;Tired of waiting for tests to run? NCrunch is a powerful continuous testing tool for .NET that runs your tests in the background, providing instant feedback, real-time code coverage, and parallel execution to speed up development. In this lightning talk, we’ll explore how NCrunch works, highlight its key features, and see it in action with a quick demo.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Level: Introductory and overview&lt;/em&gt;&lt;br /&gt;
+&lt;em&gt;Topics: C#, Testing, Tooling&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;If this sounds like fun, please submit our speaker interest form here: &lt;a href=&quot;https://forms.gle/aVzeVpvVhAkdfWLy7&quot;&gt;https://forms.gle/aVzeVpvVhAkdfWLy7&lt;/a&gt;&lt;/p&gt;
 
