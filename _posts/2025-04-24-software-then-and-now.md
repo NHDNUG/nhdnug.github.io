@@ -5,7 +5,7 @@ speakers:           ["Paul Stannard"]
 location:           "SmartDraw Software"
 sponsors:           ["SmartDraw Software"]
 description:        "I started my first software company in 1982 and have been an active developer for more than 40 years. What were the challenges back then compared to the present day? How has the business changed? What have I learned that still apply today?"
-meetup:             "305508295"
+meetup:             "307085988"
 ---
 
 
