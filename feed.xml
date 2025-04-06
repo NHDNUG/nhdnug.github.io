@@ -5,9 +5,31 @@
     <description>A programmers meetup</description>
     <link>https://www.nhdnug.org/</link>
     <atom:link href="https://www.nhdnug.org/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 30 Mar 2025 01:38:40 +0000</pubDate>
-    <lastBuildDate>Sun, 30 Mar 2025 01:38:40 +0000</lastBuildDate>
+    <pubDate>Sun, 06 Apr 2025 01:37:41 +0000</pubDate>
+    <lastBuildDate>Sun, 06 Apr 2025 01:37:41 +0000</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
+    
+      <item>
+        <title>Software then and now: a personal journey</title>
+        <description>&lt;p&gt;I started my first software company in 1982 and have been an active developer for more than 40 years. What were the challenges back then compared to the present day? How has the business changed? What have I learned that still apply today?&lt;/p&gt;
+
+&lt;h2 id=&quot;date-change&quot;&gt;Date Change&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;NORMALLY, we do the third Thursday of every month - but in order to accommodate our speaker’s schedule we’re doing April 24th instead.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;food--drinks&quot;&gt;Food / Drinks&lt;/h2&gt;
+&lt;p&gt;Food and drinks will be provided! Please contact us (on meetup) if you have any dietary restrictions/food allergies.&lt;/p&gt;
+
+&lt;h2 id=&quot;directions-and-parking-instructions&quot;&gt;Directions and Parking Instructions&lt;/h2&gt;
+
+&lt;p&gt;Meeting will be held in the offices of SmartDraw Software, 1780 Hughes Landing Blvd #1100 on the 11th floor.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 24 Apr 2025 17:30:00 +0000</pubDate>
+        <link>https://www.nhdnug.org/meetings/2025/04/24/software-then-and-now</link>
+        <guid isPermaLink="true">https://www.nhdnug.org/meetings/2025/04/24/software-then-and-now</guid>
+        
+        
+      </item>
     
       <item>
         <title>Lightning Talks!</title>
@@ -231,34 +253,6 @@
         <pubDate>Thu, 18 Jul 2024 17:30:00 +0000</pubDate>
         <link>https://www.nhdnug.org/meetings/2024/07/18/high-optionality-programming</link>
         <guid isPermaLink="true">https://www.nhdnug.org/meetings/2024/07/18/high-optionality-programming</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Property Based Testing in FsCheck</title>
-        <description>&lt;p&gt;Many of us who use automated tests will use Example Based Tests; these are tests in which we provide data – the examples that should pass. However there’s another less known, but very powerful testing style called Property Based Testing. In this style of testing, we provide properties – universal invariants that should hold regardless of input. As a result, we no longer specify examples, but let a framework choose examples for us. This gives us a different way to think about our tests and software.&lt;/p&gt;
-
-&lt;p&gt;This talk introduces Property Based Testing using FsCheck. FsCheck is a property based testing framework for .NET. While this talk uses F# for most examples, it will provide some examples in C# as well.&lt;/p&gt;
-
-&lt;h2 id=&quot;food--drinks&quot;&gt;Food / Drinks&lt;/h2&gt;
-&lt;p&gt;Food and drinks will be provided! Please contact us (on meetup) if you have any dietary restrictions/food allergies.&lt;/p&gt;
-
-&lt;h2 id=&quot;directions-and-parking-instructions&quot;&gt;Directions and Parking Instructions&lt;/h2&gt;
-
-&lt;p&gt;Meeting will be held in the offices of SmartDraw Software, 1780 Hughes Landing Blvd #1100 on the 11th floor.&lt;/p&gt;
-
-&lt;p&gt;Enter through the main doors of the building and take the elevator to the 11th floor; the door to SmartDraw’s suite is in the elevator lobby on the 11th floor.&lt;/p&gt;
-
-&lt;p&gt;If you arrive at 1780 Hughes Landing after 6pm a member of the SmartDraw team will help you enter the building then travel up to the 11th floor.&lt;/p&gt;
-
-&lt;h3 id=&quot;parking&quot;&gt;Parking:&lt;/h3&gt;
-
-&lt;p&gt;Park in the garage directly opposite. You’ll need to take a ticket to enter but there is no fee to leave - parking is free.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 20 Jun 2024 17:30:00 +0000</pubDate>
-        <link>https://www.nhdnug.org/meetings/2024/06/20/property-based-testing-in-fcheck</link>
-        <guid isPermaLink="true">https://www.nhdnug.org/meetings/2024/06/20/property-based-testing-in-fcheck</guid>
         
         
       </item>
