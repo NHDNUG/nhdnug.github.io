@@ -5,9 +5,68 @@
     <description>A programmers meetup</description>
     <link>https://www.nhdnug.org/</link>
     <atom:link href="https://www.nhdnug.org/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 11 May 2025 01:43:30 +0000</pubDate>
-    <lastBuildDate>Sun, 11 May 2025 01:43:30 +0000</lastBuildDate>
+    <pubDate>Sun, 18 May 2025 01:44:41 +0000</pubDate>
+    <lastBuildDate>Sun, 18 May 2025 01:44:41 +0000</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
+    
+      <item>
+        <title>Lines, Lies, and Logic: Making Sense of Code Metrics</title>
+        <description>&lt;p&gt;Code metrics: we’ve seen them in dashboards, status reports, and maybe even used them to win an argument or two. But what do they actually mean—and are they even helpful?&lt;/p&gt;
+
+&lt;p&gt;In this light-hearted but informative session, we’ll take a look at a whole grab bag of code metrics, including (but not limited to) Cyclomatic Complexity, Code Coverage %, Maintainability Index, Code Churn, Coupling, Cohesion, and everyone’s favorite: Lines. Of. Code.&lt;/p&gt;
+
+&lt;p&gt;You’ll learn:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;What these metrics can tell you about your code&lt;/li&gt;
+  &lt;li&gt;What they absolutely cannot&lt;/li&gt;
+  &lt;li&gt;How to avoid weaponizing them (intentionally or otherwise)&lt;/li&gt;
+  &lt;li&gt;When it’s okay to say, “Yeah, this number means nothing.”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We’ll bust some myths, share some laughs, and maybe have a little audience participation along the way. If you’ve ever looked at a sonar report and felt a mix of confusion, curiosity, and existential dread—this talk is for you.&lt;/p&gt;
+
+&lt;p&gt;Bring your questions, your skepticism, and your metric horror stories. You’ll leave with a clearer sense of how to use metrics without losing your mind—or your team’s trust.&lt;/p&gt;
+
+&lt;h2 id=&quot;food--drinks&quot;&gt;Food / Drinks&lt;/h2&gt;
+&lt;p&gt;Food and drinks will be provided! Please contact us (on meetup) if you have any dietary restrictions/food allergies.&lt;/p&gt;
+
+&lt;h2 id=&quot;directions-and-parking-instructions&quot;&gt;Directions and Parking Instructions&lt;/h2&gt;
+
+&lt;p&gt;Meeting will be held in the offices of SmartDraw Software, 1780 Hughes Landing Blvd #1100 on the 11th floor.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 19 Jun 2025 17:30:00 +0000</pubDate>
+        <link>https://www.nhdnug.org/meetings/2025/06/19/code-metrics</link>
+        <guid isPermaLink="true">https://www.nhdnug.org/meetings/2025/06/19/code-metrics</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Powering Up Your .NET with JetBrains Rider and Qodana</title>
+        <description>&lt;p&gt;Meet &lt;a href=&quot;https://www.jetbrains.com/rider/&quot;&gt;Rider&lt;/a&gt;, the most productive IDE for cross-platform .NET development. With features like version control integration, local history, database support, and thousands of plugins, Rider boosts your productivity. Now it also includes an AI Assistant to generate code, create unit tests, fix bugs, and explain exceptions or commit messages, allowing you to skip the tedious tasks.&lt;/p&gt;
+
+&lt;p&gt;Meanwhile, JetBrains continues to push the boundaries of static code analysis with &lt;a href=&quot;https://www.jetbrains.com/qodana/&quot;&gt;Qodana&lt;/a&gt;, a centralized code quality platform integrated into CI/CD pipelines. Qodana generates detailed reports on code quality and security, making them accessible not only to developers but also to security and compliance teams.&lt;/p&gt;
+
+&lt;p&gt;In this talk, we’ll explore Rider’s capabilities alongside Qodana’s role in .NET projects, ensuring you get the most out of your development tools and maintain impeccable code quality. Whether you’re a seasoned user or new to these tools, this session will elevate your workflow.&lt;/p&gt;
+
+&lt;h2 id=&quot;date-change&quot;&gt;Date Change&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;NORMALLY, we do the third Thursday of every month - but in order to accommodate our speaker’s schedule we’re doing June 5th instead.&lt;/strong&gt; This is technically our May, 2025 meetup.&lt;/p&gt;
+
+&lt;h2 id=&quot;food--drinks&quot;&gt;Food / Drinks&lt;/h2&gt;
+
+&lt;p&gt;Food and drinks will be provided! Please contact us (on meetup) if you have any dietary restrictions/food allergies.&lt;/p&gt;
+
+&lt;h2 id=&quot;directions-and-parking-instructions&quot;&gt;Directions and Parking Instructions&lt;/h2&gt;
+
+&lt;p&gt;Meeting will be held in the offices of SmartDraw Software, 1780 Hughes Landing Blvd #1100 on the 11th floor.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 05 Jun 2025 17:30:00 +0000</pubDate>
+        <link>https://www.nhdnug.org/meetings/2025/06/05/rider-qodana</link>
+        <guid isPermaLink="true">https://www.nhdnug.org/meetings/2025/06/05/rider-qodana</guid>
+        
+        
+      </item>
     
       <item>
         <title>Software then and now: a personal journey</title>
@@ -197,62 +256,6 @@
         <pubDate>Thu, 19 Sep 2024 17:30:00 +0000</pubDate>
         <link>https://www.nhdnug.org/meetings/2024/09/19/grpc-.net-lesson-from-the-trenches</link>
         <guid isPermaLink="true">https://www.nhdnug.org/meetings/2024/09/19/grpc-.net-lesson-from-the-trenches</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Rare, Medium, or Well Done? Finding the right level of DONE in Software Development</title>
-        <description>&lt;p&gt;How would you feel if you ordered a steak expecting it to be cooked to medium but ended up receiving it well done? It sounds like a big missed-steak to me! I mean, steak puns are rarely well done.&lt;/p&gt;
-
-&lt;p&gt;In all seriousness, finding the right level of done in software development isn’t as easy as “Rare, medium, or well done?” and we are going to talk about why that is while providing some tools to get it just right.&lt;/p&gt;
-
-&lt;h2 id=&quot;food--drinks&quot;&gt;Food / Drinks&lt;/h2&gt;
-&lt;p&gt;Food and drinks will be provided! Please contact us (on meetup) if you have any dietary restrictions/food allergies.&lt;/p&gt;
-
-&lt;h2 id=&quot;directions-and-parking-instructions&quot;&gt;Directions and Parking Instructions&lt;/h2&gt;
-
-&lt;p&gt;Meeting will be held in the offices of SmartDraw Software, 1780 Hughes Landing Blvd #1100 on the 11th floor.&lt;/p&gt;
-
-&lt;p&gt;Enter through the main doors of the building and take the elevator to the 11th floor; the door to SmartDraw’s suite is in the elevator lobby on the 11th floor.&lt;/p&gt;
-
-&lt;p&gt;If you arrive at 1780 Hughes Landing after 6pm a member of the SmartDraw team will help you enter the building then travel up to the 11th floor.&lt;/p&gt;
-
-&lt;h3 id=&quot;parking&quot;&gt;Parking:&lt;/h3&gt;
-
-&lt;p&gt;Park in the garage directly opposite. You’ll need to take a ticket to enter but there is no fee to leave - parking is free.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 15 Aug 2024 17:30:00 +0000</pubDate>
-        <link>https://www.nhdnug.org/meetings/2024/08/15/rare-medium-or-well-done</link>
-        <guid isPermaLink="true">https://www.nhdnug.org/meetings/2024/08/15/rare-medium-or-well-done</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>High Optionality Programming: Architectural Choices That Mitigate Technical Debt</title>
-        <description>&lt;p&gt;“High Optionality Programming” - the practice of paying a small design &amp;amp; programming premium today in order to avoid a massive accumulation of technical debt later. This is a technique we’ve successfully used at large scale in our previous business and in the businesses of many of our customers. The key to implementing high optionality programming correctly is to assess the likelihood of a future change to your system and to plan for its eventuality in advance when it’s cheap to do so: early on in the software development lifecycle.&lt;/p&gt;
-
-&lt;p&gt;In this talk we explain the concepts behind high optionality programming, offer some case studies of how it’s been used successfully, and introduce the techniques that actively curb the long-term accumulation of technical debt in software projects.&lt;/p&gt;
-
-&lt;h2 id=&quot;food--drinks&quot;&gt;Food / Drinks&lt;/h2&gt;
-&lt;p&gt;Food and drinks will be provided! Please contact us (on meetup) if you have any dietary restrictions/food allergies.&lt;/p&gt;
-
-&lt;h2 id=&quot;directions-and-parking-instructions&quot;&gt;Directions and Parking Instructions&lt;/h2&gt;
-
-&lt;p&gt;Meeting will be held in the offices of SmartDraw Software, 1780 Hughes Landing Blvd #1100 on the 11th floor.&lt;/p&gt;
-
-&lt;p&gt;Enter through the main doors of the building and take the elevator to the 11th floor; the door to SmartDraw’s suite is in the elevator lobby on the 11th floor.&lt;/p&gt;
-
-&lt;p&gt;If you arrive at 1780 Hughes Landing after 6pm a member of the SmartDraw team will help you enter the building then travel up to the 11th floor.&lt;/p&gt;
-
-&lt;h3 id=&quot;parking&quot;&gt;Parking:&lt;/h3&gt;
-
-&lt;p&gt;Park in the garage directly opposite. You’ll need to take a ticket to enter but there is no fee to leave - parking is free.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 18 Jul 2024 17:30:00 +0000</pubDate>
-        <link>https://www.nhdnug.org/meetings/2024/07/18/high-optionality-programming</link>
-        <guid isPermaLink="true">https://www.nhdnug.org/meetings/2024/07/18/high-optionality-programming</guid>
         
         
       </item>
