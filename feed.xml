@@ -5,9 +5,29 @@
     <description>A programmers meetup</description>
     <link>https://www.nhdnug.org/</link>
     <atom:link href="https://www.nhdnug.org/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 15 Jun 2025 01:50:48 +0000</pubDate>
-    <lastBuildDate>Sun, 15 Jun 2025 01:50:48 +0000</lastBuildDate>
+    <pubDate>Sun, 22 Jun 2025 01:50:11 +0000</pubDate>
+    <lastBuildDate>Sun, 22 Jun 2025 01:50:11 +0000</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
+    
+      <item>
+        <title>Why You Should Be Doing Test-Driven-Development</title>
+        <description>&lt;p&gt;Developers are not excited to write tests let alone writing them in advance of the code they are going to write. And yet the ability to write the test in advance causes valuable “outside in thinking”:  Consider the class responsibility, consider the API first, and consider the messages to be passed via the API. It also prevents the problem of cutting corners towards the end where maybe those tests don’t get written at all. The design gets a good benefit when starting with tests.&lt;/p&gt;
+
+&lt;p&gt;In this talk we’ll do some exercises, writing tests in advance and witnessing how doing so improves class design.&lt;/p&gt;
+
+&lt;h2 id=&quot;food--drinks&quot;&gt;Food / Drinks&lt;/h2&gt;
+&lt;p&gt;Food and drinks will be provided! Please contact us (on meetup) if you have any dietary restrictions/food allergies.&lt;/p&gt;
+
+&lt;h2 id=&quot;directions-and-parking-instructions&quot;&gt;Directions and Parking Instructions&lt;/h2&gt;
+
+&lt;p&gt;Meeting will be held in the offices of SmartDraw Software, 1780 Hughes Landing Blvd #1100 on the 11th floor.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 17 Jul 2025 17:30:00 +0000</pubDate>
+        <link>https://www.nhdnug.org/meetings/2025/07/17/why-do-tdd</link>
+        <guid isPermaLink="true">https://www.nhdnug.org/meetings/2025/07/17/why-do-tdd</guid>
+        
+        
+      </item>
     
       <item>
         <title>Lines, Lies, and Logic: Making Sense of Code Metrics</title>
@@ -229,34 +249,6 @@
         <pubDate>Thu, 19 Sep 2024 17:30:00 +0000</pubDate>
         <link>https://www.nhdnug.org/meetings/2024/09/19/grpc-.net-lesson-from-the-trenches</link>
         <guid isPermaLink="true">https://www.nhdnug.org/meetings/2024/09/19/grpc-.net-lesson-from-the-trenches</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Rare, Medium, or Well Done? Finding the right level of DONE in Software Development</title>
-        <description>&lt;p&gt;How would you feel if you ordered a steak expecting it to be cooked to medium but ended up receiving it well done? It sounds like a big missed-steak to me! I mean, steak puns are rarely well done.&lt;/p&gt;
-
-&lt;p&gt;In all seriousness, finding the right level of done in software development isn’t as easy as “Rare, medium, or well done?” and we are going to talk about why that is while providing some tools to get it just right.&lt;/p&gt;
-
-&lt;h2 id=&quot;food--drinks&quot;&gt;Food / Drinks&lt;/h2&gt;
-&lt;p&gt;Food and drinks will be provided! Please contact us (on meetup) if you have any dietary restrictions/food allergies.&lt;/p&gt;
-
-&lt;h2 id=&quot;directions-and-parking-instructions&quot;&gt;Directions and Parking Instructions&lt;/h2&gt;
-
-&lt;p&gt;Meeting will be held in the offices of SmartDraw Software, 1780 Hughes Landing Blvd #1100 on the 11th floor.&lt;/p&gt;
-
-&lt;p&gt;Enter through the main doors of the building and take the elevator to the 11th floor; the door to SmartDraw’s suite is in the elevator lobby on the 11th floor.&lt;/p&gt;
-
-&lt;p&gt;If you arrive at 1780 Hughes Landing after 6pm a member of the SmartDraw team will help you enter the building then travel up to the 11th floor.&lt;/p&gt;
-
-&lt;h3 id=&quot;parking&quot;&gt;Parking:&lt;/h3&gt;
-
-&lt;p&gt;Park in the garage directly opposite. You’ll need to take a ticket to enter but there is no fee to leave - parking is free.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 15 Aug 2024 17:30:00 +0000</pubDate>
-        <link>https://www.nhdnug.org/meetings/2024/08/15/rare-medium-or-well-done</link>
-        <guid isPermaLink="true">https://www.nhdnug.org/meetings/2024/08/15/rare-medium-or-well-done</guid>
         
         
       </item>
