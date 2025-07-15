@@ -1,0 +1,19 @@
+# Security Configuration for NHDNUG Website
+# Configure these settings to enhance form security
+
+# Google reCAPTCHA v3 settings
+recaptcha:
+  site_key: "6LeMhIQrAAAAANj-vlZURagG8FkW4pnIW7BARB8j"  # Your actual reCAPTCHA site key
+  score_threshold: 0.5  # Minimum score to allow submission (0.0-1.0)
+
+# Rate limiting settings (client-side)
+rate_limiting:
+  min_submission_time: 3000  # Minimum time between form load and submit (ms)
+  max_submissions_per_hour: 5  # Maximum submissions from same IP per hour
+
+# Honeypot settings
+honeypot:
+  fields:
+    - "website"
+    - "phone"
+    - "company"  # Additional trap field 
