@@ -181,6 +181,15 @@
             <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
             <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_7caabf49168c8e4afd10d62fd_f3a96ce54f" tabindex="-1" value=""></div>
             
+            <!-- Additional honeypot fields for enhanced bot protection -->
+            <div style="display: none;">
+                <input type="text" name="website" value="" />
+                <input type="text" name="phone" value="" />
+            </div>
+            
+            <!-- Timestamp field to detect too-fast submissions -->
+            <input type="hidden" name="timestamp" id="form-timestamp" value="" />
+            
             <div class="clear">
                 <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-success pull-right" />
             </div>
@@ -188,7 +197,55 @@
     </form>
 </div>
 
-<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+<!-- Load reCAPTCHA v3 -->
+<script src="https://www.google.com/recaptcha/api.js?render=6LeMhIQrAAAAANj-vlZURagG8FkW4pnIW7BARB8j"></script>
+
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+<script type='text/javascript'>
+(function($) {
+    window.fnames = new Array(); 
+    window.ftypes = new Array();
+    fnames[0]='EMAIL';ftypes[0]='email';
+    
+    // Set timestamp when form loads
+    document.getElementById('form-timestamp').value = Date.now();
+    
+    // Enhanced form protection
+    $('#mc-embedded-subscribe-form').on('submit', function(e) {
+        e.preventDefault();
+        
+        // Check if honeypot fields are filled (indicates bot)
+        if ($('input[name="website"]').val() !== '' || $('input[name="phone"]').val() !== '') {
+            return false;
+        }
+        
+        // Check submission speed (less than 3 seconds indicates bot)
+        var submitTime = Date.now();
+        var loadTime = parseInt(document.getElementById('form-timestamp').value);
+        if (submitTime - loadTime < 3000) {
+            alert('Please take a moment to review your submission.');
+            return false;
+        }
+        
+        // Execute reCAPTCHA
+        grecaptcha.ready(function() {
+            grecaptcha.execute('6LeMhIQrAAAAANj-vlZURagG8FkW4pnIW7BARB8j', {action: 'submit'}).then(function(token) {
+                // Add the token to the form
+                var tokenInput = document.createElement('input');
+                tokenInput.type = 'hidden';
+                tokenInput.name = 'g-recaptcha-response';
+                tokenInput.value = token;
+                document.getElementById('mc-embedded-subscribe-form').appendChild(tokenInput);
+                
+                // Submit the form
+                document.getElementById('mc-embedded-subscribe-form').submit();
+            });
+        });
+    });
+}(jQuery));
+
+var $mcj = jQuery.noConflict(true);
+</script>
 
     </div>
 </div>

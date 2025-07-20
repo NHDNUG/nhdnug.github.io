@@ -5,9 +5,29 @@
     <description>A programmers meetup</description>
     <link>https://www.nhdnug.org/</link>
     <atom:link href="https://www.nhdnug.org/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 13 Jul 2025 01:55:41 +0000</pubDate>
-    <lastBuildDate>Sun, 13 Jul 2025 01:55:41 +0000</lastBuildDate>
+    <pubDate>Sun, 20 Jul 2025 01:57:04 +0000</pubDate>
+    <lastBuildDate>Sun, 20 Jul 2025 01:57:04 +0000</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
+    
+      <item>
+        <title>Leading from the IDE: How .NET Devs Can Rehearse Leadership with AI</title>
+        <description>&lt;p&gt;You’ve been building with .NET long enough to know what good code looks like. But leadership isn’t just about writing code—it’s about helping others write it well, too.&lt;/p&gt;
+
+&lt;p&gt;In this session, you’ll learn how to use AI to simulate team leadership: think pairing with a junior, refining specs, or documenting your thought process. Whether you lead a team or want to grow into the role, AI gives you a low-stakes way to practice the habits that make great leads.&lt;/p&gt;
+
+&lt;h2 id=&quot;food--drinks&quot;&gt;Food / Drinks&lt;/h2&gt;
+&lt;p&gt;Food and drinks will be provided! Please contact us (on meetup) if you have any dietary restrictions/food allergies.&lt;/p&gt;
+
+&lt;h2 id=&quot;directions-and-parking-instructions&quot;&gt;Directions and Parking Instructions&lt;/h2&gt;
+
+&lt;p&gt;Meeting will be held in the offices of SmartDraw Software, 1780 Hughes Landing Blvd #1100 on the 11th floor.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 21 Aug 2025 17:30:00 +0000</pubDate>
+        <link>https://www.nhdnug.org/meetings/2025/08/21/leading-with-ai</link>
+        <guid isPermaLink="true">https://www.nhdnug.org/meetings/2025/08/21/leading-with-ai</guid>
+        
+        
+      </item>
     
       <item>
         <title>Why You Should Be Doing Test-Driven-Development</title>
@@ -231,24 +251,6 @@
         <pubDate>Thu, 17 Oct 2024 17:30:00 +0000</pubDate>
         <link>https://www.nhdnug.org/meetings/2024/10/17/tdd-for-people</link>
         <guid isPermaLink="true">https://www.nhdnug.org/meetings/2024/10/17/tdd-for-people</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>gRPC + .NET: Lessons from the Trenches</title>
-        <description>&lt;p&gt;Come find out what gRPC is, when you should use it, when you shouldn’t use it, and how to work around some of it’s limitations. Plus, we’ll go over how we used it (with .NET) to deliver a microservices architecture at one of the largest Oil &amp;amp; Gas companies in the greater Houston, Texas area to support their trading operations. Plus, you will learn a few ideas that will help make your implementation of gRPC easier!&lt;/p&gt;
-
-&lt;h2 id=&quot;food--drinks&quot;&gt;Food / Drinks&lt;/h2&gt;
-&lt;p&gt;Food and drinks will be provided! Please contact us (on meetup) if you have any dietary restrictions/food allergies.&lt;/p&gt;
-
-&lt;h2 id=&quot;directions-and-parking-instructions&quot;&gt;Directions and Parking Instructions&lt;/h2&gt;
-
-&lt;p&gt;Meeting will be held in the offices of SmartDraw Software, 1780 Hughes Landing Blvd #1100 on the 11th floor.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 19 Sep 2024 17:30:00 +0000</pubDate>
-        <link>https://www.nhdnug.org/meetings/2024/09/19/grpc-.net-lesson-from-the-trenches</link>
-        <guid isPermaLink="true">https://www.nhdnug.org/meetings/2024/09/19/grpc-.net-lesson-from-the-trenches</guid>
         
         
       </item>
