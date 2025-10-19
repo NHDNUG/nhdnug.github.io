@@ -5,9 +5,48 @@
     <description>A programmers meetup</description>
     <link>https://www.nhdnug.org/</link>
     <atom:link href="https://www.nhdnug.org/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 12 Oct 2025 01:35:41 +0000</pubDate>
-    <lastBuildDate>Sun, 12 Oct 2025 01:35:41 +0000</lastBuildDate>
+    <pubDate>Sun, 19 Oct 2025 01:43:49 +0000</pubDate>
+    <lastBuildDate>Sun, 19 Oct 2025 01:43:49 +0000</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
+    
+      <item>
+        <title>Is Your Local Dev Environment a Mess? How .NET Aspire Can Help</title>
+        <description>&lt;p&gt;If you follow any of Microsoft’s big personalities on social media you might get the impression that .NET Aspire was curing cancer, proving P=NP, and on the verge of delivering sustainable nuclear fusion power.&lt;/p&gt;
+
+&lt;p&gt;It’s not, not even close.&lt;/p&gt;
+
+&lt;p&gt;But it &lt;em&gt;is&lt;/em&gt; a tremendous improvement in developer productivity for local development, integration testing… and maybe one day in the future, deployments.&lt;/p&gt;
+
+&lt;p&gt;In this talk we’re going to use .NET Aspire to:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Streamline local development&lt;/strong&gt;: wire up your applications along with all of its real dependencies, so &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;F5&lt;/code&gt; ”just works” and launches a full, ready-to-debug instance of your app without any shared databases or other resources.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Integration test without mocks&lt;/strong&gt;: why use fake testing utilities when you can just run your real application and really test against it using Aspire.Hosting.Testing?&lt;/li&gt;
+  &lt;li&gt;Experiment with local deployments: the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;aspire&lt;/code&gt; CLI and the deployment model are the most experimental parts of Aspire, but we’re going to look at them and see what the future holds.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;.NET Aspire can help get rid of the awful rats’ nest of shared databases, missing functionality, and configuration hell that most production code bases settle for - and instead deliver a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git clone &amp;gt; dotnet run&lt;/code&gt; experience out of the box.&lt;/p&gt;
+
+&lt;h3 id=&quot;code-samples&quot;&gt;Code Samples&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;https://github.com/petabridge/DrawTogether.NET&lt;/li&gt;
+  &lt;li&gt;https://github.com/akkadotnet/Akka.Streams.Kafka/tree/dev/examples/Simple&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;food--drinks&quot;&gt;Food / Drinks&lt;/h2&gt;
+&lt;p&gt;Food and drinks will be provided! Please contact us (on meetup) if you have any dietary restrictions/food allergies.&lt;/p&gt;
+
+&lt;h2 id=&quot;directions-and-parking-instructions&quot;&gt;Directions and Parking Instructions&lt;/h2&gt;
+
+&lt;p&gt;Meeting will be held in the offices of SmartDraw Software, 1780 Hughes Landing Blvd #1100 on the 11th floor.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 16 Oct 2025 17:30:00 +0000</pubDate>
+        <link>https://www.nhdnug.org/meetings/2025/10/16/dotnet-aspire-local-dev</link>
+        <guid isPermaLink="true">https://www.nhdnug.org/meetings/2025/10/16/dotnet-aspire-local-dev</guid>
+        
+        
+      </item>
     
       <item>
         <title>Eight Reasons to Try F#</title>
@@ -231,26 +270,6 @@
         <pubDate>Thu, 05 Dec 2024 17:30:00 +0000</pubDate>
         <link>https://www.nhdnug.org/meetings/2024/12/05/.net-conf-2024-and-holiday-party</link>
         <guid isPermaLink="true">https://www.nhdnug.org/meetings/2024/12/05/.net-conf-2024-and-holiday-party</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Why Is All of My Data Stored in Parquet? (A Deep Dive into the Data Lake)</title>
-        <description>&lt;p&gt;Apache Parquet is a data format for efficient storage and retrieval of massive quantities of data that has been popularized by widespread adoption of the “data lake” architecture. The title of this talk is a question I asked of a coworker (a data engineer) in the process of consolidating our reporting and inference models onto a new analytics platform. The short answer, “because Databricks”, didn’t satisfy me. I was accustomed to traditional SQL, executing ad hoc queries from any language or platform I chose.&lt;/p&gt;
-
-&lt;p&gt;The long answer comes from a months-long investigation into how to read and write Parquet files from my favorite languages (C# and F#) and a growing appreciation of the format’s flexibility. I hope to convey more than just the Parquet specification, but also the ““how”” of parsing and writing Parquet and ““why”” this data format is so popular. I want to spark a discussion on the value of open-source data formats and how to avoid vendor lock-in for data access.&lt;/p&gt;
-
-&lt;h2 id=&quot;food--drinks&quot;&gt;Food / Drinks&lt;/h2&gt;
-&lt;p&gt;Food and drinks will be provided! Please contact us (on meetup) if you have any dietary restrictions/food allergies.&lt;/p&gt;
-
-&lt;h2 id=&quot;directions-and-parking-instructions&quot;&gt;Directions and Parking Instructions&lt;/h2&gt;
-
-&lt;p&gt;Meeting will be held in the offices of SmartDraw Software, 1780 Hughes Landing Blvd #1100 on the 11th floor.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 21 Nov 2024 18:30:00 +0000</pubDate>
-        <link>https://www.nhdnug.org/meetings/2024/11/21/why-is-all-of-my-data-stored-in-parquet</link>
-        <guid isPermaLink="true">https://www.nhdnug.org/meetings/2024/11/21/why-is-all-of-my-data-stored-in-parquet</guid>
         
         
       </item>
