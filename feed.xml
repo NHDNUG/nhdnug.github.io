@@ -5,9 +5,50 @@
     <description>A programmers meetup</description>
     <link>https://www.nhdnug.org/</link>
     <atom:link href="https://www.nhdnug.org/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 26 Oct 2025 01:40:45 +0000</pubDate>
-    <lastBuildDate>Sun, 26 Oct 2025 01:40:45 +0000</lastBuildDate>
+    <pubDate>Sun, 02 Nov 2025 01:42:30 +0000</pubDate>
+    <lastBuildDate>Sun, 02 Nov 2025 01:42:30 +0000</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
+    
+      <item>
+        <title>Is Your Local Dev Environment a Mess? How .NET Aspire Can Help [Take 2]</title>
+        <description>&lt;p&gt;&lt;strong&gt;UPDATE&lt;/strong&gt;: welp, our October meetup got abruptly cancelled mid-talk due to building management deciding to run a prolonged fire alarm test beginning at 6pm. So, we’ve scheduled for November!&lt;/p&gt;
+
+&lt;p&gt;If you follow any of Microsoft’s big personalities on social media you might get the impression that .NET Aspire was curing cancer, proving P=NP, and on the verge of delivering sustainable nuclear fusion power.&lt;/p&gt;
+
+&lt;p&gt;It’s not, not even close.&lt;/p&gt;
+
+&lt;p&gt;But it &lt;em&gt;is&lt;/em&gt; a tremendous improvement in developer productivity for local development, integration testing… and maybe one day in the future, deployments.&lt;/p&gt;
+
+&lt;p&gt;In this talk we’re going to use .NET Aspire to:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Streamline local development&lt;/strong&gt;: wire up your applications along with all of its real dependencies, so &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;F5&lt;/code&gt; ”just works” and launches a full, ready-to-debug instance of your app without any shared databases or other resources.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Integration test without mocks&lt;/strong&gt;: why use fake testing utilities when you can just run your real application and really test against it using Aspire.Hosting.Testing?&lt;/li&gt;
+  &lt;li&gt;Experiment with local deployments: the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;aspire&lt;/code&gt; CLI and the deployment model are the most experimental parts of Aspire, but we’re going to look at them and see what the future holds.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;.NET Aspire can help get rid of the awful rats’ nest of shared databases, missing functionality, and configuration hell that most production code bases settle for - and instead deliver a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git clone &amp;gt; dotnet run&lt;/code&gt; experience out of the box.&lt;/p&gt;
+
+&lt;h3 id=&quot;code-samples&quot;&gt;Code Samples&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;https://github.com/petabridge/DrawTogether.NET&lt;/li&gt;
+  &lt;li&gt;https://github.com/akkadotnet/Akka.Streams.Kafka/tree/dev/examples/Simple&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;food--drinks&quot;&gt;Food / Drinks&lt;/h2&gt;
+&lt;p&gt;Food and drinks will be provided! Please contact us (on meetup) if you have any dietary restrictions/food allergies.&lt;/p&gt;
+
+&lt;h2 id=&quot;directions-and-parking-instructions&quot;&gt;Directions and Parking Instructions&lt;/h2&gt;
+
+&lt;p&gt;Meeting will be held in the offices of SmartDraw Software, 1780 Hughes Landing Blvd #1100 on the 11th floor.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 20 Nov 2025 17:30:00 +0000</pubDate>
+        <link>https://www.nhdnug.org/meetings/2025/11/20/dotnet-aspire-local-dev</link>
+        <guid isPermaLink="true">https://www.nhdnug.org/meetings/2025/11/20/dotnet-aspire-local-dev</guid>
+        
+        
+      </item>
     
       <item>
         <title>Is Your Local Dev Environment a Mess? How .NET Aspire Can Help</title>
@@ -248,28 +289,6 @@
         <pubDate>Thu, 16 Jan 2025 17:30:00 +0000</pubDate>
         <link>https://www.nhdnug.org/meetings/2025/01/16/actor-model-akka.net</link>
         <guid isPermaLink="true">https://www.nhdnug.org/meetings/2025/01/16/actor-model-akka.net</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>.NET Conf 2024 &amp; NHDNUG Holiday Party</title>
-        <description>&lt;p&gt;Join NHDNUG for our 2024 Holiday Party and a live .NET Conf 2024 watch party at Spring Creek BBQ! We’re treating all registered attendees to a delicious BBQ dinner, so bring your appetite and your love for .NET!&lt;/p&gt;
-
-&lt;p&gt;We’ll be recapping and replaying the best moments from .NET Conf, which airs live from November 12-14. Come enjoy great food, exciting .NET news, and festive networking with fellow members. It’s the perfect way to celebrate the season!&lt;/p&gt;
-
-&lt;h2 id=&quot;food--drinks&quot;&gt;Food / Drinks&lt;/h2&gt;
-&lt;p&gt;NHDNUG will cover the cost of your meal and a non-alcoholic beverage - just swing by the private banquet room to grab your meal ticket first.&lt;/p&gt;
-
-&lt;p&gt;Want a beer? Spring Creek has plenty, but it’s on your tab. Cheers!&lt;/p&gt;
-
-&lt;h2 id=&quot;directions-and-parking-instructions&quot;&gt;Directions and Parking Instructions&lt;/h2&gt;
-
-&lt;p&gt;We’ll be meeting in the Banquet Room at Spring Creek BBQ in Shenandoah - just look for the NHDNUG signs.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 05 Dec 2024 17:30:00 +0000</pubDate>
-        <link>https://www.nhdnug.org/meetings/2024/12/05/.net-conf-2024-and-holiday-party</link>
-        <guid isPermaLink="true">https://www.nhdnug.org/meetings/2024/12/05/.net-conf-2024-and-holiday-party</guid>
         
         
       </item>
