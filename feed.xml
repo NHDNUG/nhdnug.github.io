@@ -5,9 +5,32 @@
     <description>A programmers meetup</description>
     <link>https://www.nhdnug.org/</link>
     <atom:link href="https://www.nhdnug.org/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 07 Dec 2025 01:50:25 +0000</pubDate>
-    <lastBuildDate>Sun, 07 Dec 2025 01:50:25 +0000</lastBuildDate>
+    <pubDate>Sun, 14 Dec 2025 01:51:02 +0000</pubDate>
+    <lastBuildDate>Sun, 14 Dec 2025 01:51:02 +0000</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
+    
+      <item>
+        <title>.NET Conf 2025 &amp; NHDNUG Holiday Party</title>
+        <description>&lt;p&gt;Join NHDNUG for our 2025 Holiday Party and a live .NET Conf 2025 watch party at the SmartDraw Software offices! We’re treating all registered attendees to a delicious meal from Postino, so bring your appetite and your love for .NET!&lt;/p&gt;
+
+&lt;p&gt;We’ll be recapping and replaying the best moments from .NET Conf, which aired live from November 11-13. Come enjoy great food, exciting .NET news, and festive networking with fellow members. It’s the perfect way to celebrate the season!&lt;/p&gt;
+
+&lt;h2 id=&quot;food--drinks&quot;&gt;Food / Drinks&lt;/h2&gt;
+&lt;p&gt;NHDNUG will cover the cost of your meal and drinks courtesy of Postino. If you have any dietary restrictions, please let us know in advance so we can accommodate you.&lt;/p&gt;
+
+&lt;h2 id=&quot;directions-and-parking-instructions&quot;&gt;Directions and Parking Instructions&lt;/h2&gt;
+
+&lt;p&gt;We’ll be meeting on the 11th floor of SmartDraw Software offices at 1780 Hughes Landing Blvd #1100 in The Woodlands. Free parking is available in the nearby garage.&lt;/p&gt;
+
+&lt;h2 id=&quot;looking-for-speakers-in-2026&quot;&gt;Looking for Speakers in 2026!&lt;/h2&gt;
+&lt;p&gt;We’re actively seeking speakers for our 2026 meetups! If you’re interested in presenting, please contact us at hi@petabridge.com or complete our speaker interest form.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 18 Dec 2025 17:30:00 +0000</pubDate>
+        <link>https://www.nhdnug.org/meetings/2025/12/18/.net-conf-2025-and-holiday-party</link>
+        <guid isPermaLink="true">https://www.nhdnug.org/meetings/2025/12/18/.net-conf-2025-and-holiday-party</guid>
+        
+        
+      </item>
     
       <item>
         <title>Is Your Local Dev Environment a Mess? How .NET Aspire Can Help [Take 2]</title>
@@ -269,26 +292,6 @@
         <pubDate>Thu, 20 Feb 2025 17:30:00 +0000</pubDate>
         <link>https://www.nhdnug.org/meetings/2025/02/20/null-absence-of-a-reference</link>
         <guid isPermaLink="true">https://www.nhdnug.org/meetings/2025/02/20/null-absence-of-a-reference</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Introduction to the Actor Model with Akka.NET</title>
-        <description>&lt;p&gt;The actor model is an old computer science concept, originating in 1973 - and it laid dormant is largely a thought experiment for most of its history until the rise of the Internet. Now in the era of cheap, commodity cloud computing the actor model is staging a major comeback across all programming languages and runtimes, both for building distributed systems and for creating reactive mobile or desktop applications.&lt;/p&gt;
-
-&lt;p&gt;In this talk we will introduce the actor model through the use of &lt;a href=&quot;https://getakka.net/&quot;&gt;Akka.NET&lt;/a&gt;, the most popular distributed actor model framework in .NET. We’ll talk about what sorts of problems it solves well, when you should use it, and what are some of the adoption costs and overhead involved in using a tool like &lt;a href=&quot;https://getakka.net/&quot;&gt;Akka.NET&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;food--drinks&quot;&gt;Food / Drinks&lt;/h2&gt;
-&lt;p&gt;Food and drinks will be provided! Please contact us (on meetup) if you have any dietary restrictions/food allergies.&lt;/p&gt;
-
-&lt;h2 id=&quot;directions-and-parking-instructions&quot;&gt;Directions and Parking Instructions&lt;/h2&gt;
-
-&lt;p&gt;Meeting will be held in the offices of SmartDraw Software, 1780 Hughes Landing Blvd #1100 on the 11th floor.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 16 Jan 2025 17:30:00 +0000</pubDate>
-        <link>https://www.nhdnug.org/meetings/2025/01/16/actor-model-akka.net</link>
-        <guid isPermaLink="true">https://www.nhdnug.org/meetings/2025/01/16/actor-model-akka.net</guid>
         
         
       </item>
