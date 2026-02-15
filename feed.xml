@@ -5,9 +5,37 @@
     <description>A programmers meetup</description>
     <link>https://www.nhdnug.org/</link>
     <atom:link href="https://www.nhdnug.org/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 08 Feb 2026 02:37:03 +0000</pubDate>
-    <lastBuildDate>Sun, 08 Feb 2026 02:37:03 +0000</lastBuildDate>
+    <pubDate>Sun, 15 Feb 2026 02:24:42 +0000</pubDate>
+    <lastBuildDate>Sun, 15 Feb 2026 02:24:42 +0000</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
+    
+      <item>
+        <title>Software 2.0: It&apos;s Not Vibe Coding, But It&apos;s Not Business as Usual Either</title>
+        <description>&lt;p&gt;How is AI-assisted development fundamentally shifting the way we verify software?&lt;/p&gt;
+
+&lt;p&gt;In this talk, Aaron explores how the rise of AI-powered development tools is changing the game for software engineers. This isn’t “vibe coding” — it’s a real shift in how we think about building and verifying software systems. Key topics include:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Prompt engineering effectiveness&lt;/strong&gt;: how to get the most out of AI-assisted development tools.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Designing feedback mechanisms&lt;/strong&gt;: building systems that catch AI errors before they reach production.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Blast radius planning&lt;/strong&gt;: managing risk when your development process involves probabilistic outputs rather than deterministic ones.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Modern development increasingly involves building systems whose behavior is probabilistic rather than deterministic — and that requires new approaches to verification, testing, and risk management.&lt;/p&gt;
+
+&lt;h2 id=&quot;food--drinks&quot;&gt;Food / Drinks&lt;/h2&gt;
+&lt;p&gt;Food and drinks will be provided! Please contact us (on meetup) if you have any dietary restrictions/food allergies.&lt;/p&gt;
+
+&lt;h2 id=&quot;directions-and-parking-instructions&quot;&gt;Directions and Parking Instructions&lt;/h2&gt;
+
+&lt;p&gt;Meeting will be held in the offices of SmartDraw Software, 1780 Hughes Landing Blvd #1100 on the 11th floor. Free parking is available in the adjacent garage.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 19 Feb 2026 17:30:00 +0000</pubDate>
+        <link>https://www.nhdnug.org/meetings/2026/02/19/software-2-its-not-vibe-coding</link>
+        <guid isPermaLink="true">https://www.nhdnug.org/meetings/2026/02/19/software-2-its-not-vibe-coding</guid>
+        
+        
+      </item>
     
       <item>
         <title>.NET Conf 2025 &amp; NHDNUG Holiday Party</title>
@@ -272,26 +300,6 @@
         <pubDate>Thu, 20 Mar 2025 17:30:00 +0000</pubDate>
         <link>https://www.nhdnug.org/meetings/2025/03/20/lightning-talks</link>
         <guid isPermaLink="true">https://www.nhdnug.org/meetings/2025/03/20/lightning-talks</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Null, The Absence of a Reference in C#</title>
-        <description>&lt;p&gt;Have you ever encountered a “possible deference of null reference” in your code and ignored it? How often does application telemetry show Null Reference Exceptions in your production environment? Do you even know what null is?&lt;/p&gt;
-
-&lt;p&gt;During this talk we will explore what &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;null&lt;/code&gt; is, how C# handles it, and some tools and practices to keep you from having failing code in production that can be handled during your development cycles.&lt;/p&gt;
-
-&lt;h2 id=&quot;food--drinks&quot;&gt;Food / Drinks&lt;/h2&gt;
-&lt;p&gt;Food and drinks will be provided! Please contact us (on meetup) if you have any dietary restrictions/food allergies.&lt;/p&gt;
-
-&lt;h2 id=&quot;directions-and-parking-instructions&quot;&gt;Directions and Parking Instructions&lt;/h2&gt;
-
-&lt;p&gt;Meeting will be held in the offices of SmartDraw Software, 1780 Hughes Landing Blvd #1100 on the 11th floor.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 20 Feb 2025 17:30:00 +0000</pubDate>
-        <link>https://www.nhdnug.org/meetings/2025/02/20/null-absence-of-a-reference</link>
-        <guid isPermaLink="true">https://www.nhdnug.org/meetings/2025/02/20/null-absence-of-a-reference</guid>
         
         
       </item>
