@@ -5,19 +5,101 @@
     <description>A programmers meetup</description>
     <link>https://www.nhdnug.org/</link>
     <atom:link href="https://www.nhdnug.org/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 29 Mar 2026 02:32:29 +0000</pubDate>
-    <lastBuildDate>Sun, 29 Mar 2026 02:32:29 +0000</lastBuildDate>
+    <pubDate>Sun, 05 Apr 2026 02:35:03 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Apr 2026 02:35:03 +0000</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
+    
+      <item>
+        <title>The Future - The Last Developer Standing</title>
+        <description>&lt;p&gt;Current state of AI-assisted development (GitHub Copilot, Claude Code, autonomous agents). Demonstrations of agentic coding workflows. Argues developers who think clearest (not type fastest) will thrive with AI tools.&lt;/p&gt;
+
+&lt;h2 id=&quot;food--drinks&quot;&gt;Food / Drinks&lt;/h2&gt;
+&lt;p&gt;Food and drinks will be provided! Please contact us (on meetup) if you have any dietary restrictions/food allergies.&lt;/p&gt;
+
+&lt;h2 id=&quot;directions-and-parking-instructions&quot;&gt;Directions and Parking Instructions&lt;/h2&gt;
+
+&lt;p&gt;Meeting will be held in the offices of SmartDraw Software, 1780 Hughes Landing Blvd #1100 on the 11th floor. Free parking is available in the adjacent garage.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 20 Aug 2026 17:30:00 +0000</pubDate>
+        <link>https://www.nhdnug.org/meetings/2026/08/20/the-last-developer-standing</link>
+        <guid isPermaLink="true">https://www.nhdnug.org/meetings/2026/08/20/the-last-developer-standing</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>From CI/CD to Continuous Scheduling: The Smart Repo Revolution</title>
+        <description>&lt;p&gt;Modern AI coding tools are powerful, but without structure, they’re chaotic. In this session, Mark Wardell introduces Repo-Driven Development (RDD), a methodology that transforms your Git repository into the single source of truth for AI-assisted development: a living project manager, a deterministic prompt engine, and a scheduling system, all in one place.&lt;/p&gt;
+
+&lt;p&gt;Mark will demonstrate the Smart Repo VSCode Extension, a practical tool that brings RDD to life by giving developers structured control over what their LLM codes, in what order, and under what constraints. We’ll explore how well-crafted GitLab issues, epics, and pipelines become the guardrails that turn unpredictable AI output into production-ready code, and how this pattern pushes teams beyond CI/CD into a new paradigm: Continuous Scheduling (CS), where development workflows are no longer triggered by commits alone, but by time, context, and intent.&lt;/p&gt;
+
+&lt;p&gt;Whether you’re a solo developer or leading a team, you’ll leave with a concrete framework for making AI work for your process, not against it.&lt;/p&gt;
+
+&lt;h2 id=&quot;food--drinks&quot;&gt;Food / Drinks&lt;/h2&gt;
+&lt;p&gt;Food and drinks will be provided! Please contact us (on meetup) if you have any dietary restrictions/food allergies.&lt;/p&gt;
+
+&lt;h2 id=&quot;directions-and-parking-instructions&quot;&gt;Directions and Parking Instructions&lt;/h2&gt;
+
+&lt;p&gt;Meeting will be held in the offices of SmartDraw Software, 1780 Hughes Landing Blvd #1100 on the 11th floor. Free parking is available in the adjacent garage.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 16 Jul 2026 17:30:00 +0000</pubDate>
+        <link>https://www.nhdnug.org/meetings/2026/07/16/from-cicd-to-continuous-scheduling</link>
+        <guid isPermaLink="true">https://www.nhdnug.org/meetings/2026/07/16/from-cicd-to-continuous-scheduling</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Should You Build an MCP Server?</title>
+        <description>&lt;p&gt;Building robust and secure software tools in era of LLM chat interfaces replacing traditional web apps. Discussion of how developers can continue delivering quality tools as interface paradigms shift.&lt;/p&gt;
+
+&lt;h2 id=&quot;food--drinks&quot;&gt;Food / Drinks&lt;/h2&gt;
+&lt;p&gt;Food and drinks will be provided! Please contact us (on meetup) if you have any dietary restrictions/food allergies.&lt;/p&gt;
+
+&lt;h2 id=&quot;directions-and-parking-instructions&quot;&gt;Directions and Parking Instructions&lt;/h2&gt;
+
+&lt;p&gt;Meeting will be held in the offices of SmartDraw Software, 1780 Hughes Landing Blvd #1100 on the 11th floor. Free parking is available in the adjacent garage.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 21 May 2026 17:30:00 +0000</pubDate>
+        <link>https://www.nhdnug.org/meetings/2026/05/21/should-you-build-an-mcp-server</link>
+        <guid isPermaLink="true">https://www.nhdnug.org/meetings/2026/05/21/should-you-build-an-mcp-server</guid>
+        
+        
+      </item>
     
       <item>
         <title>Lightning Talks!</title>
         <description>&lt;p&gt;We are doing something a little different for our April 2026 meetup: Lightning Talks⚡⚡⚡!&lt;/p&gt;
 
-&lt;p&gt;If you have a topic that is .NET or .NET-adjacent (i.e. front-end, testing, architecture, cloud, etc) that you’re passionate about but you’re not sure you can give a full 45-60 minute presentation then this is your chance - we’re going to select 3 Lightning talks that are 15-20 minutes apiece.&lt;/p&gt;
+&lt;p&gt;Three speakers, 15-20 minutes each.&lt;/p&gt;
 
-&lt;h2 id=&quot;speakers&quot;&gt;Speakers&lt;/h2&gt;
+&lt;h2 id=&quot;our-lightning-talk-lineup&quot;&gt;Our Lightning Talk Lineup&lt;/h2&gt;
 
-&lt;p&gt;Speakers TBD - we’re looking for lightning talk speakers! If you’re interested in giving a 15-20 minute talk, please submit our speaker interest form here: &lt;a href=&quot;https://forms.gle/aVzeVpvVhAkdfWLy7&quot;&gt;https://forms.gle/aVzeVpvVhAkdfWLy7&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;mutant-ralph-squeezing-llm-code-with-adversarial-mutation-testing&quot;&gt;Mutant RALPH: Squeezing LLM Code with Adversarial Mutation Testing&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Peter Hellmuth, Senior Full Stack Developer at Logisolve&lt;/p&gt;
+
+&lt;p&gt;What if your AI coding agent had an adversary? A systems engineering experiment with a bash-orchestrated loop pitting a Writer agent against an Adversary using mutation testing (Stryker.NET). Identifies gaps in requirement enforcement, forces resolution of ambiguities through deterministic mutant killing.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Level: Intermediate&lt;/em&gt;
+&lt;em&gt;Topics: C#, Architecture, Testing, Patterns &amp;amp; Best Practices, AI/ML&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;the-anatomy-of-a-smart-repo-repo-driven-development-in-15-minutes&quot;&gt;The Anatomy of a Smart Repo: Repo-Driven Development in 15 Minutes&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Mark Wardell, Founder at The Middle Way Software&lt;/p&gt;
+
+&lt;p&gt;You’ve got GitHub Copilot, Claude, or Cursor — and your AI still wanders. Mark breaks down Repo-Driven Development (RDD): a lightweight methodology that turns your Git repository into an intelligent project manager for AI-assisted coding. In 15 minutes you’ll see what makes a repo “smart” — structured issues, intentional epics, and pipeline conventions that tell your LLM what to build, in what order, and within what guardrails.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Level: Intermediate&lt;/em&gt;
+&lt;em&gt;Topics: Architecture, AI/ML, Career Development&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;distributable-c-coding-conventions&quot;&gt;Distributable C# Coding Conventions&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Jon Badgett, Senior Software Architect at SmartDraw&lt;/p&gt;
+
+&lt;p&gt;Tired of copy-pasting your team’s coding standards between projects? Jon shows how to package C# coding conventions into a reusable NuGet package — consistent rules across codebases, versioned and easy to evolve as .NET moves forward.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Level: Intermediate&lt;/em&gt;
+&lt;em&gt;Topics: C#, Patterns &amp;amp; Best Practices&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;If this sounds like fun, please submit our speaker interest form here: &lt;a href=&quot;https://forms.gle/aVzeVpvVhAkdfWLy7&quot;&gt;https://forms.gle/aVzeVpvVhAkdfWLy7&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;food--drinks&quot;&gt;Food / Drinks&lt;/h2&gt;
 &lt;p&gt;Food and drinks will be provided! Please contact us (on meetup) if you have any dietary restrictions/food allergies.&lt;/p&gt;
@@ -200,80 +282,6 @@
         <pubDate>Thu, 21 Aug 2025 17:30:00 +0000</pubDate>
         <link>https://www.nhdnug.org/meetings/2025/08/21/leading-with-ai</link>
         <guid isPermaLink="true">https://www.nhdnug.org/meetings/2025/08/21/leading-with-ai</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Why You Should Be Doing Test-Driven-Development</title>
-        <description>&lt;p&gt;Developers are not excited to write tests let alone writing them in advance of the code they are going to write. And yet the ability to write the test in advance causes valuable “outside in thinking”:  Consider the class responsibility, consider the API first, and consider the messages to be passed via the API. It also prevents the problem of cutting corners towards the end where maybe those tests don’t get written at all. The design gets a good benefit when starting with tests.&lt;/p&gt;
-
-&lt;p&gt;In this talk we’ll do some exercises, writing tests in advance and witnessing how doing so improves class design.&lt;/p&gt;
-
-&lt;h2 id=&quot;food--drinks&quot;&gt;Food / Drinks&lt;/h2&gt;
-&lt;p&gt;Food and drinks will be provided! Please contact us (on meetup) if you have any dietary restrictions/food allergies.&lt;/p&gt;
-
-&lt;h2 id=&quot;directions-and-parking-instructions&quot;&gt;Directions and Parking Instructions&lt;/h2&gt;
-
-&lt;p&gt;Meeting will be held in the offices of SmartDraw Software, 1780 Hughes Landing Blvd #1100 on the 11th floor.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 17 Jul 2025 17:30:00 +0000</pubDate>
-        <link>https://www.nhdnug.org/meetings/2025/07/17/why-do-tdd</link>
-        <guid isPermaLink="true">https://www.nhdnug.org/meetings/2025/07/17/why-do-tdd</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Lines, Lies, and Logic: Making Sense of Code Metrics</title>
-        <description>&lt;p&gt;Code metrics: we’ve seen them in dashboards, status reports, and maybe even used them to win an argument or two. But what do they actually mean—and are they even helpful?&lt;/p&gt;
-
-&lt;p&gt;In this light-hearted but informative session, we’ll take a look at a whole grab bag of code metrics, including (but not limited to) Cyclomatic Complexity, Code Coverage %, Maintainability Index, Code Churn, Coupling, Cohesion, and everyone’s favorite: Lines. Of. Code.&lt;/p&gt;
-
-&lt;p&gt;You’ll learn:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;What these metrics can tell you about your code&lt;/li&gt;
-  &lt;li&gt;What they absolutely cannot&lt;/li&gt;
-  &lt;li&gt;How to avoid weaponizing them (intentionally or otherwise)&lt;/li&gt;
-  &lt;li&gt;When it’s okay to say, “Yeah, this number means nothing.”&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;We’ll bust some myths, share some laughs, and maybe have a little audience participation along the way. If you’ve ever looked at a sonar report and felt a mix of confusion, curiosity, and existential dread—this talk is for you.&lt;/p&gt;
-
-&lt;p&gt;Bring your questions, your skepticism, and your metric horror stories. You’ll leave with a clearer sense of how to use metrics without losing your mind—or your team’s trust.&lt;/p&gt;
-
-&lt;h2 id=&quot;food--drinks&quot;&gt;Food / Drinks&lt;/h2&gt;
-&lt;p&gt;Food and drinks will be provided! Please contact us (on meetup) if you have any dietary restrictions/food allergies.&lt;/p&gt;
-
-&lt;h2 id=&quot;directions-and-parking-instructions&quot;&gt;Directions and Parking Instructions&lt;/h2&gt;
-
-&lt;p&gt;Meeting will be held in the offices of SmartDraw Software, 1780 Hughes Landing Blvd #1100 on the 11th floor.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 19 Jun 2025 17:30:00 +0000</pubDate>
-        <link>https://www.nhdnug.org/meetings/2025/06/19/code-metrics</link>
-        <guid isPermaLink="true">https://www.nhdnug.org/meetings/2025/06/19/code-metrics</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Software then and now: a personal journey</title>
-        <description>&lt;p&gt;I started my first software company in 1982 and have been an active developer for more than 40 years. What were the challenges back then compared to the present day? How has the business changed? What have I learned that still apply today?&lt;/p&gt;
-
-&lt;h2 id=&quot;date-change&quot;&gt;Date Change&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;NORMALLY, we do the third Thursday of every month - but in order to accommodate our speaker’s schedule we’re doing April 24th instead.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;food--drinks&quot;&gt;Food / Drinks&lt;/h2&gt;
-&lt;p&gt;Food and drinks will be provided! Please contact us (on meetup) if you have any dietary restrictions/food allergies.&lt;/p&gt;
-
-&lt;h2 id=&quot;directions-and-parking-instructions&quot;&gt;Directions and Parking Instructions&lt;/h2&gt;
-
-&lt;p&gt;Meeting will be held in the offices of SmartDraw Software, 1780 Hughes Landing Blvd #1100 on the 11th floor.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 24 Apr 2025 17:30:00 +0000</pubDate>
-        <link>https://www.nhdnug.org/meetings/2025/04/24/software-then-and-now</link>
-        <guid isPermaLink="true">https://www.nhdnug.org/meetings/2025/04/24/software-then-and-now</guid>
         
         
       </item>
