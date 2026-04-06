@@ -4,6 +4,7 @@ title:              "Lightning Talks!"
 location:           "SmartDraw Software"
 sponsors:           ["SmartDraw Software"]
 description:        "We are doing something a little different for our April 2026 meetup: Lightning Talks⚡⚡⚡!"
+speakers:           ["Peter Hellmuth", "Mark Wardell", "Jon Badgett"]
 meetup:             "313806670"
 survey-url:         ""
 ---
