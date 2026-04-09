@@ -40,11 +40,13 @@ title: Meeting Deck
                     <p>{% include datetime.html date=post.date day=true time=false %}</p>
                 </section>
 
+                <!-- Check-in slide disabled until form is updated
                 <section>
                     <h2>Check in please!</h2>
                     <p style="color: blue;">https://forms.gle/7b864ucWZW6czBs79</p>
-                    <div class="qrcode" data-value="https://docs.google.com/forms/d/e/1FAIpQLSeh3LbeS6BZhzpQMCNwxbFij16ce9gGwkDvf_pUhyhV1Yj0Aw/viewform?usp=header"></div>                    
+                    <div class="qrcode" data-value="https://docs.google.com/forms/d/e/1FAIpQLSeh3LbeS6BZhzpQMCNwxbFij16ce9gGwkDvf_pUhyhV1Yj0Aw/viewform?usp=header"></div>
                 </section>
+                -->
 
 
                 <!-- Sponsor Slides Start -->
@@ -153,9 +155,28 @@ title: Meeting Deck
                 <!-- Sponsor Jobs End -->
                 
                 <section>
-                    <h3>Announcements</h3>                    
+                    <h3>Announcements</h3>
                     <p>Hiring? On the market? Interested in speaking? Have a favorite speaker? Let an officer know!</p>
                 </section>
+
+                <!-- New Venue Announcement -->
+                <section>
+                    <h3>We're Moving!</h3>
+                    <p>Starting in May, NHDNUG meets at our new home:</p>
+                    <p><strong>Beach Walk Coworking</strong><br/>
+                    96 Beach Walk Blvd, Conroe, TX 77304<br/>
+                    Ground floor meeting room</p>
+                    <p>Same schedule: 3rd Thursday, 5:30 PM</p>
+                </section>
+
+                <section>
+                    <h3>Our New Home</h3>
+                    <div style="display: flex; gap: 20px; justify-content: center; align-items: center;">
+                        <img src="/images/venues/beachwalk-exterior.jpg" alt="Beach Walk Coworking exterior" style="max-width: 48%; max-height: 70vh; object-fit: contain;" />
+                        <img src="/images/venues/beachwalk-meeting-room.jpg" alt="Beach Walk Coworking meeting room" style="max-width: 48%; max-height: 70vh; object-fit: contain;" />
+                    </div>
+                </section>
+                <!-- End New Venue Announcement -->
 
                 <!-- Upcoming Events Start -->
                 {% assign events = site.events | sort:"date" %}
