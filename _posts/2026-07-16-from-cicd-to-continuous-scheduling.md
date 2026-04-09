@@ -2,8 +2,8 @@
 date:               "2026-07-16 17:30:00"
 speakers:           ["Mark Wardell"]
 title:              "From CI/CD to Continuous Scheduling: The Smart Repo Revolution"
-location:           "SmartDraw Software"
-sponsors:           ["SmartDraw Software"]
+location:           "Beach Walk Coworking"
+sponsors:           ["Petabridge"]
 description:        "Repo-Driven Development (RDD) transforms your Git repository into the single source of truth for AI-assisted development."
 meetup:             "314060750"
 survey-url:         ""
@@ -20,4 +20,4 @@ Food and drinks will be provided! Please contact us (on meetup) if you have any 
 
 ## Directions and Parking Instructions
 
-Meeting will be held in the offices of SmartDraw Software, 1780 Hughes Landing Blvd #1100 on the 11th floor. Free parking is available in the adjacent garage.
+Meeting will be held at Beach Walk Coworking, 96 Beach Walk Blvd, Conroe, TX 77304 in the ground floor meeting room. Free parking is available on site.

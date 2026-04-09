@@ -2,8 +2,8 @@
 date:               "2026-05-21 17:30:00"
 speakers:           ["Christopher Bremer"]
 title:              "Should You Build an MCP Server?"
-location:           "SmartDraw Software"
-sponsors:           ["SmartDraw Software"]
+location:           "Beach Walk Coworking"
+sponsors:           ["Petabridge"]
 description:        "Building robust and secure software tools in era of LLM chat interfaces replacing traditional web apps."
 meetup:             "314059650"
 survey-url:         ""
@@ -16,4 +16,4 @@ Food and drinks will be provided! Please contact us (on meetup) if you have any 
 
 ## Directions and Parking Instructions
 
-Meeting will be held in the offices of SmartDraw Software, 1780 Hughes Landing Blvd #1100 on the 11th floor. Free parking is available in the adjacent garage.
+Meeting will be held at Beach Walk Coworking, 96 Beach Walk Blvd, Conroe, TX 77304 in the ground floor meeting room. Free parking is available on site.
