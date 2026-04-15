@@ -4,14 +4,14 @@ title:              "Lightning Talks!"
 location:           "SmartDraw Software"
 sponsors:           ["Petabridge", "SmartDraw Software"]
 description:        "We are doing something a little different for our April 2026 meetup: Lightning Talks⚡⚡⚡!"
-speakers:           ["Peter Hellmuth", "Mark Wardell", "Jon Badgett"]
+speakers:           ["Peter Hellmuth", "Mark Wardell"]
 meetup:             "313806670"
 survey-url:         ""
 ---
 
 We are doing something a little different for our April 2026 meetup: Lightning Talks⚡⚡⚡!
 
-Three speakers, 15-20 minutes each.
+Two speakers, 15-20 minutes each.
 
 ## Our Lightning Talk Lineup
 
@@ -30,14 +30,6 @@ You've got GitHub Copilot, Claude, or Cursor — and your AI still wanders. Mark
 
 *Level: Intermediate*
 *Topics: Architecture, AI/ML, Career Development*
-
-### Distributable C# Coding Conventions
-**Speaker:** Jon Badgett, Senior Software Architect at SmartDraw
-
-Tired of copy-pasting your team's coding standards between projects? Jon shows how to package C# coding conventions into a reusable NuGet package — consistent rules across codebases, versioned and easy to evolve as .NET moves forward.
-
-*Level: Intermediate*
-*Topics: C#, Patterns & Best Practices*
 
 If this sounds like fun, please submit our speaker interest form here: [https://forms.gle/aVzeVpvVhAkdfWLy7](https://forms.gle/aVzeVpvVhAkdfWLy7)
 
