@@ -5,8 +5,8 @@
     <description>A programmers meetup</description>
     <link>https://www.nhdnug.org/</link>
     <atom:link href="https://www.nhdnug.org/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 12 Apr 2026 02:41:06 +0000</pubDate>
-    <lastBuildDate>Sun, 12 Apr 2026 02:41:06 +0000</lastBuildDate>
+    <pubDate>Sun, 19 Apr 2026 02:45:58 +0000</pubDate>
+    <lastBuildDate>Sun, 19 Apr 2026 02:45:58 +0000</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
     
       <item>
@@ -71,7 +71,7 @@
         <title>Lightning Talks!</title>
         <description>&lt;p&gt;We are doing something a little different for our April 2026 meetup: Lightning Talks⚡⚡⚡!&lt;/p&gt;
 
-&lt;p&gt;Three speakers, 15-20 minutes each.&lt;/p&gt;
+&lt;p&gt;Two speakers, 15-20 minutes each.&lt;/p&gt;
 
 &lt;h2 id=&quot;our-lightning-talk-lineup&quot;&gt;Our Lightning Talk Lineup&lt;/h2&gt;
 
@@ -90,14 +90,6 @@
 
 &lt;p&gt;&lt;em&gt;Level: Intermediate&lt;/em&gt;
 &lt;em&gt;Topics: Architecture, AI/ML, Career Development&lt;/em&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;distributable-c-coding-conventions&quot;&gt;Distributable C# Coding Conventions&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Jon Badgett, Senior Software Architect at SmartDraw&lt;/p&gt;
-
-&lt;p&gt;Tired of copy-pasting your team’s coding standards between projects? Jon shows how to package C# coding conventions into a reusable NuGet package — consistent rules across codebases, versioned and easy to evolve as .NET moves forward.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Level: Intermediate&lt;/em&gt;
-&lt;em&gt;Topics: C#, Patterns &amp;amp; Best Practices&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;If this sounds like fun, please submit our speaker interest form here: &lt;a href=&quot;https://forms.gle/aVzeVpvVhAkdfWLy7&quot;&gt;https://forms.gle/aVzeVpvVhAkdfWLy7&lt;/a&gt;&lt;/p&gt;
 
