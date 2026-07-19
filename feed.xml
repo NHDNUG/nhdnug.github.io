@@ -5,9 +5,45 @@
     <description>A programmers meetup</description>
     <link>https://www.nhdnug.org/</link>
     <atom:link href="https://www.nhdnug.org/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 12 Jul 2026 02:48:49 +0000</pubDate>
-    <lastBuildDate>Sun, 12 Jul 2026 02:48:49 +0000</lastBuildDate>
+    <pubDate>Sun, 19 Jul 2026 02:45:23 +0000</pubDate>
+    <lastBuildDate>Sun, 19 Jul 2026 02:45:23 +0000</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
+    
+      <item>
+        <title>You Should Probably Be Using IAsyncEnumerable</title>
+        <description>&lt;p&gt;A job has been running for twenty minutes. Is it working, or is it dead?&lt;/p&gt;
+
+&lt;p&gt;You can’t tell. Not from the outside.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Task&amp;lt;T&amp;gt;&lt;/code&gt; has three states: pending, completed, faulted. “Alive and making progress” and “stuck forever and never coming back” are the same one. That isn’t an observability gap you can instrument your way out of. It’s how Task is designed.&lt;/p&gt;
+
+&lt;p&gt;What we need is a better primitive for modeling longer running background jobs, intermittent jobs, and producer-consumer relationships. Enter &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;IAsyncEnumerable&lt;/code&gt;, which allows us to model these tasks as asynchronous &lt;em&gt;streaming&lt;/em&gt; jobs.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;IAsyncEnumerable&amp;lt;T&amp;gt;&lt;/code&gt; isn’t a sequence you await. It’s a producer / consumer contract - you know it’s alive when new events arrive during the &lt;em&gt;progression&lt;/em&gt; of the job, rather than at its completion.&lt;/p&gt;
+
+&lt;p&gt;In this talk we’ll look at several examples of .NET code where &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;IAsyncEnumerable&lt;/code&gt; is crucial to ensure the success of the application:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;AI agent that runs two timers over its own token stream, so it can distinguish “nothing arrived, it’s dead” scenarios from “heartbeats arriving, zero real output, it’s alive and stuck.”&lt;/li&gt;
+  &lt;li&gt;A 20-minute re-embedding job that streams progress over ASP.NET Core SSE, where a late subscriber’s first element is the current state.&lt;/li&gt;
+  &lt;li&gt;And an e-commerce checkout page that used to poll for proof of fulfillment / payment activity, that now instead waits for events via SSE to drive navigation and behavior from the back-end.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You’ll learn how and where to apply &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;IAsyncEnumerable&lt;/code&gt; to solve your problems.&lt;/p&gt;
+
+&lt;h2 id=&quot;food--drinks&quot;&gt;Food / Drinks&lt;/h2&gt;
+&lt;p&gt;Food and drinks will be provided! Please contact us (on meetup) if you have any dietary restrictions/food allergies.&lt;/p&gt;
+
+&lt;h2 id=&quot;directions-and-parking-instructions&quot;&gt;Directions and Parking Instructions&lt;/h2&gt;
+
+&lt;p&gt;Meeting will be held at Beach Walk Coworking, 96 Beach Walk Blvd, Conroe, TX 77304 in the ground floor meeting room. Free parking is available on site.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 17 Sep 2026 17:30:00 +0000</pubDate>
+        <link>https://www.nhdnug.org/meetings/2026/09/17/you-should-probably-be-using-iasyncenumerable</link>
+        <guid isPermaLink="true">https://www.nhdnug.org/meetings/2026/09/17/you-should-probably-be-using-iasyncenumerable</guid>
+        
+        
+      </item>
     
       <item>
         <title>The Future - The Last Developer Standing</title>
@@ -254,26 +290,6 @@
         <pubDate>Thu, 18 Sep 2025 17:30:00 +0000</pubDate>
         <link>https://www.nhdnug.org/meetings/2025/09/18/eight-reasons-to-try-fsharp</link>
         <guid isPermaLink="true">https://www.nhdnug.org/meetings/2025/09/18/eight-reasons-to-try-fsharp</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Leading from the IDE: How .NET Devs Can Rehearse Leadership with AI</title>
-        <description>&lt;p&gt;You’ve been building with .NET long enough to know what good code looks like. But leadership isn’t just about writing code—it’s about helping others write it well, too.&lt;/p&gt;
-
-&lt;p&gt;In this session, you’ll learn how to use AI to simulate team leadership: think pairing with a junior, refining specs, or documenting your thought process. Whether you lead a team or want to grow into the role, AI gives you a low-stakes way to practice the habits that make great leads.&lt;/p&gt;
-
-&lt;h2 id=&quot;food--drinks&quot;&gt;Food / Drinks&lt;/h2&gt;
-&lt;p&gt;Food and drinks will be provided! Please contact us (on meetup) if you have any dietary restrictions/food allergies.&lt;/p&gt;
-
-&lt;h2 id=&quot;directions-and-parking-instructions&quot;&gt;Directions and Parking Instructions&lt;/h2&gt;
-
-&lt;p&gt;Meeting will be held in the offices of SmartDraw Software, 1780 Hughes Landing Blvd #1100 on the 11th floor.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 21 Aug 2025 17:30:00 +0000</pubDate>
-        <link>https://www.nhdnug.org/meetings/2025/08/21/leading-with-ai</link>
-        <guid isPermaLink="true">https://www.nhdnug.org/meetings/2025/08/21/leading-with-ai</guid>
         
         
       </item>
