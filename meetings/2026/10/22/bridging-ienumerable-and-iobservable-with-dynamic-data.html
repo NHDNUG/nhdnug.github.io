@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     
-    <title>Null, The Absence of a Reference in C# - North Houston .NET Users Group</title>
+    <title>Bridging IEnumerable and IObservable with Dynamic Data - North Houston .NET Users Group</title>
     <meta name="author" content="North Houston .NET Users Group" />
   
     
@@ -29,7 +29,7 @@
 
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@nhdnug" />
-<meta name="twitter:title" content="Null, The Absence of a Reference in C#" />
+<meta name="twitter:title" content="Bridging IEnumerable and IObservable with Dynamic Data" />
 <meta name="twitter:description" content="Presented by 
     
     
@@ -49,7 +49,7 @@
 <meta name="twitter:image" content="https://www.nhdnug.org/images/persons/rodney-littles-ii.webp" />
 
 <meta property="og:type" content="article" />
-<meta property="og:title" content="Null, The Absence of a Reference in C#" />
+<meta property="og:title" content="Bridging IEnumerable and IObservable with Dynamic Data" />
 <meta property="og:description" content="Presented by 
     
     
@@ -95,7 +95,7 @@
     <link rel="stylesheet" href="/css/nhdnug.css" />
     
         
-    <link rel="canonical" href="https://www.nhdnug.org/meetings/2025/02/20/null-absence-of-a-reference" />
+    <link rel="canonical" href="https://www.nhdnug.org/meetings/2026/10/22/bridging-ienumerable-and-iobservable-with-dynamic-data" />
     <link rel="alternate" type="application/rss+xml" title="North Houston .NET Users Group" href="feed.xml" />
 </head>
 
@@ -203,7 +203,7 @@
         
         
             
-<li property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" href="/meetings/2025"><span property="name">2025</span></a><meta property="position" content="3" /></li>
+<li property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" href="/meetings/2026"><span property="name">2026</span></a><meta property="position" content="3" /></li>
             
         
     
@@ -212,7 +212,7 @@
         
         
             
-<li property="itemListElement" typeof="ListItem" class="active"><span property="item" typeof="WebPage"><span property="name">Null, The Absence of a Reference in C#</span></span><meta property="position" content="4" /></li>
+<li property="itemListElement" typeof="ListItem" class="active"><span property="item" typeof="WebPage"><span property="name">Bridging IEnumerable and IObservable with Dynamic Data</span></span><meta property="position" content="4" /></li>
             
         
     
@@ -231,14 +231,14 @@
 {
   "@context": "http://schema.org",
   "@type": "Event",
-  "name": "Null, The Absence of a Reference in C#",
-  "startDate" : "2025-02-20T17:30",
-  "url" : "https://www.nhdnug.org/meetings/2025/02/20/null-absence-of-a-reference",
+  "name": "Bridging IEnumerable and IObservable with Dynamic Data",
+  "startDate" : "2026-10-22T17:30",
+  "url" : "https://www.nhdnug.org/meetings/2026/10/22/bridging-ienumerable-and-iobservable-with-dynamic-data",
   "location" : {
     "@type" : "Place",
-    "sameAs" : "https://www.smartdraw.com/about/contact.htm",
-    "name" : "SmartDraw Software",
-    "address" : "1780 Hughes Landing Blvd, The Woodlands, TX 77380"
+    "sameAs" : "https://www.beachwalkoffice.com",
+    "name" : "Beach Walk Coworking",
+    "address" : "96 Beach Walk Blvd, Conroe, TX 77304"
   }
 }
 </script>
@@ -247,12 +247,12 @@
 <div class="row">
     <div class="col-xs-12 col-sm-8 col-md-9">
         <div>            
-            <h1 class="no-margin-top">Null, The Absence of a Reference in C#</h1>
+            <h1 class="no-margin-top">Bridging IEnumerable and IObservable with Dynamic Data</h1>
                         
             <dl class="dl-horizontal">
                 <dt>When</dt>
                 <dd>
-<span>Thursday February 20<sup>th</sup>, 2025 @  5:30 PM</span>
+<span>Thursday October 22<sup>nd</sup>, 2026 @  5:30 PM</span>
 </dd>
                 
                 <dt>Who</dt>
@@ -290,7 +290,7 @@
     
 
     
-        <a href="https://goo.gl/maps/4mkEA3poNURPgpTQ7">SmartDraw Software</a>
+        <a href="https://maps.google.com/?q=96+Beach+Walk+Blvd,+Conroe,+TX+77304">Beach Walk Coworking</a>
       
 
 
@@ -300,21 +300,21 @@
                 <dt></dt>
                 <dd>
                     <br />
-                    <a class="btn btn-danger btn-sm" href="https://www.meetup.com/nhdnug/events/305508295" role="button">RSVP</a>                    
+                    <a class="btn btn-danger btn-sm" href="https://www.meetup.com/nhdnug/events/316119800" role="button">RSVP</a>                    
                 </dd>
                 
             </dl>
             <hr />
-            <p>Have you ever encountered a “possible deference of null reference” in your code and ignored it? How often does application telemetry show Null Reference Exceptions in your production environment? Do you even know what null is?</p>
+            <p>You’ve bound a list, updated an item’s property, and watched the UI do nothing. That gap in <code class="language-plaintext highlighter-rouge">ObservableCollection&lt;T&gt;</code> is by design: binding a list requires <code class="language-plaintext highlighter-rouge">INotifyCollectionChanged</code> — not just <code class="language-plaintext highlighter-rouge">INotifyPropertyChanged</code> — and out of the box the two don’t compose. Dynamic Data, created by Roland Pheasant and now a dependency of ReactiveUI, bridges <code class="language-plaintext highlighter-rouge">IEnumerable</code> and <code class="language-plaintext highlighter-rouge">IObservable</code> by projecting change sets out of your collections. With a <code class="language-plaintext highlighter-rouge">SourceCache&lt;T, TKey&gt;</code> or <code class="language-plaintext highlighter-rouge">SourceList&lt;T&gt;</code> at the core, you get reactive operators — Filter, Transform, Sort, AutoRefresh, Batch — that can be driven by other observables. Want the list to re-sort every time a picker selection changes? That’s one operator. Want property changes inside list items to trigger a new sort pass? That’s one operator. In this session we’ll demonstrate a few working view models that connect to a data source and pipe changes all the way to the UI — without a single <code class="language-plaintext highlighter-rouge">foreach</code>, event handler, or manual <code class="language-plaintext highlighter-rouge">ObservableCollection</code> reassignment.</p>
 
-<p>During this talk we will explore what <code class="language-plaintext highlighter-rouge">null</code> is, how C# handles it, and some tools and practices to keep you from having failing code in production that can be handled during your development cycles.</p>
+<p><em>Difficulty: Intermediate — helpful to know C#, MVVM, and Reactive Extensions basics going in.</em></p>
 
 <h2 id="food--drinks">Food / Drinks</h2>
 <p>Food and drinks will be provided! Please contact us (on meetup) if you have any dietary restrictions/food allergies.</p>
 
 <h2 id="directions-and-parking-instructions">Directions and Parking Instructions</h2>
 
-<p>Meeting will be held in the offices of SmartDraw Software, 1780 Hughes Landing Blvd #1100 on the 11th floor.</p>
+<p>Meeting will be held at Beach Walk Coworking, 96 Beach Walk Blvd, Conroe, TX 77304 in the ground floor meeting room. Free parking is available on site.</p>
 
         </div>
                           
@@ -413,8 +413,8 @@
 
     
     <div class="sponsor-logo">
-        <a href="/sponsors/smartdraw/">
-            <img src="/images/sponsors/smartdraw.png" alt="SmartDraw Software" />
+        <a href="/sponsors/petabridge/">
+            <img src="/images/sponsors/petabridge.png" alt="Petabridge" />
         </a>
     </div>
         
@@ -471,25 +471,25 @@
         
             
             
+            
+                
+                <li>
+                    <div class="meeting-title">
+                        <a href="/meetings/2025/02/20/null-absence-of-a-reference">Null, The Absence of a Reference in C#</a>
+                    </div>
+                     
+                    <div class="meeting-meta">
+                        
+<span>February 20<sup>th</sup>, 2025</span>
+                    
+                        
+                    </div>
+                </li>
                 
             
         
             
             
-            
-                
-                <li>
-                    <div class="meeting-title">
-                        <a href="/meetings/2026/10/22/bridging-ienumerable-and-iobservable-with-dynamic-data">Bridging IEnumerable and IObservable with Dynamic Data</a>
-                    </div>
-                     
-                    <div class="meeting-meta">
-                        
-<span>October 22<sup>nd</sup>, 2026</span>
-                    
-                        
-                    </div>
-                </li>
                 
             
         
@@ -507,7 +507,7 @@
         <div id="disqus_thread"></div>
 <script>
 var disqus_config = function () {
-    this.page.url = "https://www.nhdnug.org/meetings/2025/02/20/null-absence-of-a-reference";
+    this.page.url = "https://www.nhdnug.org/meetings/2026/10/22/bridging-ienumerable-and-iobservable-with-dynamic-data";
     this.page.identifier = this.page.url;
 };
 

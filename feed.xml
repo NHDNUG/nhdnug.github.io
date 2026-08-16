@@ -5,9 +5,29 @@
     <description>A programmers meetup</description>
     <link>https://www.nhdnug.org/</link>
     <atom:link href="https://www.nhdnug.org/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 09 Aug 2026 01:45:18 +0000</pubDate>
-    <lastBuildDate>Sun, 09 Aug 2026 01:45:18 +0000</lastBuildDate>
+    <pubDate>Sun, 16 Aug 2026 01:18:21 +0000</pubDate>
+    <lastBuildDate>Sun, 16 Aug 2026 01:18:21 +0000</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
+    
+      <item>
+        <title>Bridging IEnumerable and IObservable with Dynamic Data</title>
+        <description>&lt;p&gt;You’ve bound a list, updated an item’s property, and watched the UI do nothing. That gap in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ObservableCollection&amp;lt;T&amp;gt;&lt;/code&gt; is by design: binding a list requires &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;INotifyCollectionChanged&lt;/code&gt; — not just &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;INotifyPropertyChanged&lt;/code&gt; — and out of the box the two don’t compose. Dynamic Data, created by Roland Pheasant and now a dependency of ReactiveUI, bridges &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;IEnumerable&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;IObservable&lt;/code&gt; by projecting change sets out of your collections. With a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;SourceCache&amp;lt;T, TKey&amp;gt;&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;SourceList&amp;lt;T&amp;gt;&lt;/code&gt; at the core, you get reactive operators — Filter, Transform, Sort, AutoRefresh, Batch — that can be driven by other observables. Want the list to re-sort every time a picker selection changes? That’s one operator. Want property changes inside list items to trigger a new sort pass? That’s one operator. In this session we’ll demonstrate a few working view models that connect to a data source and pipe changes all the way to the UI — without a single &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;foreach&lt;/code&gt;, event handler, or manual &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ObservableCollection&lt;/code&gt; reassignment.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Difficulty: Intermediate — helpful to know C#, MVVM, and Reactive Extensions basics going in.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;food--drinks&quot;&gt;Food / Drinks&lt;/h2&gt;
+&lt;p&gt;Food and drinks will be provided! Please contact us (on meetup) if you have any dietary restrictions/food allergies.&lt;/p&gt;
+
+&lt;h2 id=&quot;directions-and-parking-instructions&quot;&gt;Directions and Parking Instructions&lt;/h2&gt;
+
+&lt;p&gt;Meeting will be held at Beach Walk Coworking, 96 Beach Walk Blvd, Conroe, TX 77304 in the ground floor meeting room. Free parking is available on site.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 22 Oct 2026 17:30:00 +0000</pubDate>
+        <link>https://www.nhdnug.org/meetings/2026/10/22/bridging-ienumerable-and-iobservable-with-dynamic-data</link>
+        <guid isPermaLink="true">https://www.nhdnug.org/meetings/2026/10/22/bridging-ienumerable-and-iobservable-with-dynamic-data</guid>
+        
+        
+      </item>
     
       <item>
         <title>You Should Probably Be Using IAsyncEnumerable</title>
@@ -270,26 +290,6 @@
         <pubDate>Thu, 16 Oct 2025 17:30:00 +0000</pubDate>
         <link>https://www.nhdnug.org/meetings/2025/10/16/dotnet-aspire-local-dev</link>
         <guid isPermaLink="true">https://www.nhdnug.org/meetings/2025/10/16/dotnet-aspire-local-dev</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Eight Reasons to Try F#</title>
-        <description>&lt;p&gt;Many F# introductions follow the same pattern: a dutiful introduction to syntax, a few allusions to functional programming, a “Hello World” code sample. I’m not sure these presentations have ever convinced anyone to try F#.&lt;/p&gt;
-
-&lt;p&gt;In this talk, I will build (…and break) an application to show off the killer language features that keep me coming back to .NET’s &lt;em&gt;other&lt;/em&gt; language.&lt;/p&gt;
-
-&lt;h2 id=&quot;food--drinks&quot;&gt;Food / Drinks&lt;/h2&gt;
-&lt;p&gt;Food and drinks will be provided! Please contact us (on meetup) if you have any dietary restrictions/food allergies.&lt;/p&gt;
-
-&lt;h2 id=&quot;directions-and-parking-instructions&quot;&gt;Directions and Parking Instructions&lt;/h2&gt;
-
-&lt;p&gt;Meeting will be held in the offices of SmartDraw Software, 1780 Hughes Landing Blvd #1100 on the 11th floor.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 18 Sep 2025 17:30:00 +0000</pubDate>
-        <link>https://www.nhdnug.org/meetings/2025/09/18/eight-reasons-to-try-fsharp</link>
-        <guid isPermaLink="true">https://www.nhdnug.org/meetings/2025/09/18/eight-reasons-to-try-fsharp</guid>
         
         
       </item>
