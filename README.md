@@ -6,6 +6,8 @@ We allow contribution to our site... In fact, we encourage it!!!
 
 If you'd like to make a change, please, make a pull request.
 
+**Up next: September meetup — "You Should Probably Be Using IAsyncEnumerable" on Thursday, September 17!**
+
 There's a couple things you should probably read though - especially if you're developing on Windows:
 * [Run Jekyll on Windows](http://jekyll-windows.juthilo.com/) - This will get you up and running with the GitHub Pages framework. Very Helpful.
 * [Jeckyll Docs](http://jekyllrb.com/) All the info you need to get productive in jekyll
