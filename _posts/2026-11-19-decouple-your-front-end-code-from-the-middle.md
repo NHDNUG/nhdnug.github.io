@@ -1,7 +1,7 @@
 ---
 date:               "2026-11-19 17:30:00"
 speakers:           ["Lance Kind"]
-title:              "Decouple Your Front End Code from the Middle"
+title:              "Decouple Your Front End Code from the Middle with HATEOAS"
 location:           "Beach Walk Coworking"
 sponsors:           ["Petabridge"]
 description:        "HATEOAS as a practical design pattern: the server models meaning, the client owns only presentation."
