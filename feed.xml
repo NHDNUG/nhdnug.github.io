@@ -5,9 +5,29 @@
     <description>A programmers meetup</description>
     <link>https://www.nhdnug.org/</link>
     <atom:link href="https://www.nhdnug.org/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 27 Sep 2026 04:02:54 +0000</pubDate>
-    <lastBuildDate>Sun, 27 Sep 2026 04:02:54 +0000</lastBuildDate>
+    <pubDate>Sun, 04 Oct 2026 04:40:04 +0000</pubDate>
+    <lastBuildDate>Sun, 04 Oct 2026 04:40:04 +0000</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
+    
+      <item>
+        <title>Decouple Your Front End Code from the Middle with HATEOAS</title>
+        <description>&lt;p&gt;REST promised more than JSON over HTTP, but most of our APIs stop at CRUD endpoints and let the front end hardcode what happens next. This talk revisits HATEOAS — hypermedia as the engine of application state — as a practical design pattern rather than an academic footnote. We’ll start with the concept and what it actually asks of your API, then look at a real implementation: a Personal Inflation Index application where the server models meaning and the client owns only presentation. Along the way we’ll dig into why decoupling your front end from the middle tier matters — how it keeps business truth in one place, and what goes wrong when three clients each compute the same number their own way.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Level: Advanced&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;food--drinks&quot;&gt;Food / Drinks&lt;/h2&gt;
+&lt;p&gt;Food and drinks will be provided! Please contact us (on meetup) if you have any dietary restrictions/food allergies.&lt;/p&gt;
+
+&lt;h2 id=&quot;directions-and-parking-instructions&quot;&gt;Directions and Parking Instructions&lt;/h2&gt;
+
+&lt;p&gt;Meeting will be held at Beach Walk Coworking, 96 Beach Walk Blvd, Conroe, TX 77304 in the ground floor meeting room. Free parking is available on site.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 19 Nov 2026 17:30:00 +0000</pubDate>
+        <link>https://www.nhdnug.org/meetings/2026/11/19/decouple-your-front-end-code-from-the-middle</link>
+        <guid isPermaLink="true">https://www.nhdnug.org/meetings/2026/11/19/decouple-your-front-end-code-from-the-middle</guid>
+        
+        
+      </item>
     
       <item>
         <title>Bridging IEnumerable and IObservable with Dynamic Data</title>
@@ -251,45 +271,6 @@
         <pubDate>Thu, 20 Nov 2025 17:30:00 +0000</pubDate>
         <link>https://www.nhdnug.org/meetings/2025/11/20/dotnet-aspire-local-dev</link>
         <guid isPermaLink="true">https://www.nhdnug.org/meetings/2025/11/20/dotnet-aspire-local-dev</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Is Your Local Dev Environment a Mess? How .NET Aspire Can Help</title>
-        <description>&lt;p&gt;If you follow any of Microsoft’s big personalities on social media you might get the impression that .NET Aspire was curing cancer, proving P=NP, and on the verge of delivering sustainable nuclear fusion power.&lt;/p&gt;
-
-&lt;p&gt;It’s not, not even close.&lt;/p&gt;
-
-&lt;p&gt;But it &lt;em&gt;is&lt;/em&gt; a tremendous improvement in developer productivity for local development, integration testing… and maybe one day in the future, deployments.&lt;/p&gt;
-
-&lt;p&gt;In this talk we’re going to use .NET Aspire to:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;Streamline local development&lt;/strong&gt;: wire up your applications along with all of its real dependencies, so &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;F5&lt;/code&gt; ”just works” and launches a full, ready-to-debug instance of your app without any shared databases or other resources.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Integration test without mocks&lt;/strong&gt;: why use fake testing utilities when you can just run your real application and really test against it using Aspire.Hosting.Testing?&lt;/li&gt;
-  &lt;li&gt;Experiment with local deployments: the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;aspire&lt;/code&gt; CLI and the deployment model are the most experimental parts of Aspire, but we’re going to look at them and see what the future holds.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;.NET Aspire can help get rid of the awful rats’ nest of shared databases, missing functionality, and configuration hell that most production code bases settle for - and instead deliver a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git clone &amp;gt; dotnet run&lt;/code&gt; experience out of the box.&lt;/p&gt;
-
-&lt;h3 id=&quot;code-samples&quot;&gt;Code Samples&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;https://github.com/petabridge/DrawTogether.NET&lt;/li&gt;
-  &lt;li&gt;https://github.com/akkadotnet/Akka.Streams.Kafka/tree/dev/examples/Simple&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;food--drinks&quot;&gt;Food / Drinks&lt;/h2&gt;
-&lt;p&gt;Food and drinks will be provided! Please contact us (on meetup) if you have any dietary restrictions/food allergies.&lt;/p&gt;
-
-&lt;h2 id=&quot;directions-and-parking-instructions&quot;&gt;Directions and Parking Instructions&lt;/h2&gt;
-
-&lt;p&gt;Meeting will be held in the offices of SmartDraw Software, 1780 Hughes Landing Blvd #1100 on the 11th floor.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 16 Oct 2025 17:30:00 +0000</pubDate>
-        <link>https://www.nhdnug.org/meetings/2025/10/16/dotnet-aspire-local-dev</link>
-        <guid isPermaLink="true">https://www.nhdnug.org/meetings/2025/10/16/dotnet-aspire-local-dev</guid>
         
         
       </item>
